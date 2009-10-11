@@ -1,0 +1,15 @@
+/* Styl pro IE 6 a 7 */
+
+.comment-avatar {
+	float: none;
+	height: none;
+	display: none;
+}
+
+.comment-text {
+	margin-left: 0;
+}
+
+#comments-gravatar-help {
+	display:none;
+}

@@ -1,0 +1,82 @@
+html					{margin:0;padding:0}
+body					{margin:0 1em;padding:0}
+body					{color:#000;background:#FFF;text-align:center;
+						font-family:Arial,Helvetica,sans-serif;
+						font-size:13px;voice-family:"\"}\"";voice-family:inherit;
+						font-size:81.25%}
+
+a,
+#sm-update div span		{text-decoration:underline}
+a:link					{color:#00E}
+a:visited				{color:#009}
+#sm-update div span:hover,
+a:hover,
+a:focus,
+a:active				{color:#00F;text-decoration:none}
+
+.cb						{clear:both;visibility:hidden;height:1px;line-height:1px}
+
+#page					{min-width:550px;width:42em;border:2px solid #163754;
+						margin:2em auto .2em;text-align:left;background:#F4F4FF}
+body[id] #page			{border-top:none}
+#head					{background:url("http://www.mozilla.cz/wp-content/themes/mozillacz/images/header-b.png") repeat-x scroll 0 0;position:relative;min-height:50px;border-top:1px solid #000}
+body[id] #head			{border-top:2px solid #000}
+#head h1				{margin:0;padding:0;height:40px;width:320px;position:absolute;top:0;left:0;z-index:2;
+						background:transparent url("http://www.mozilla.cz/wp-content/themes/mozillacz/images/logo.png") no-repeat scroll 0 0;
+						margin-left: 10px; margin-top: 13px;}
+#head h1 span			{display:none}
+#head ul				{margin:51px 0 0 0;padding:.1em 1em .3em .5em;background:#425E72}
+body[id] #head ul		{margin-top:52px}
+#head li				{list-style-type:none;display:inline;padding-right:.5em;font-size:.85em}
+#head :link,
+#head :visited			{color:#ACCEE6}
+#head a:hover			{color:#FFF}
+
+.box					{margin:1em;border:1px solid #163754;background:#FFF}
+.box h2					{font-size:1em;font-weight:bold;margin:0 0 .1em;padding:.1em 1em;background-color:#CFE0EB;
+						border-bottom:1px solid #163754;position:relative}
+#search h2 a			{color:#000 !important;text-decoration:none}
+
+#search					{position:relative}
+form					{margin:.6em 1em;padding:0}
+input.text				{width:22em}
+body[id] input.text		{width:25em}
+#controls				{font-size:.85em;margin-top:.1em}
+#controls input			{vertical-align:middle}
+body[id] #controls input	{vertical-align:bottom}
+label					{vertical-align:text-bottom}
+#links					{position:absolute;right:1.8em;top:.2em;font-size:.85em;text-align:right;white-space:nowrap}
+body[id] #links			{right:.7em}
+
+#foot					{min-width:550px;width:42em;margin:.2em auto 2em;text-align:left;position:relative}
+#foot hr				{display:none}
+#foot p					{color:#888;font-size:.8em;margin:0;padding:0}
+#foot p a				{color:#888}
+#foot p a:hover			{text-decoration:none;color:#666}
+#webstats				{position:absolute;top:0;right:0}
+
+#news div,
+#dlp div				{width:40%;margin:.6em 1em 0 .45em}
+body[id] #news div,
+body[id] #dlp div		{width:45%;margin:.6em 1em 0 .9em}
+#dlp div				{margin-bottom:.2em !important}
+.box h3					{font-size:1em;margin:0 0 0 .1em}
+.box h3 a				{color:#000 !important}
+#news ul				{margin:.5em 0;padding:0}
+#news li				{list-style-type:none;padding:.1em .2em;margin-bottom:.4em;font-size:.85em}
+#news li:hover			{background:#FFF8DD}
+#kratce,
+#exten					{float:left}
+#mozilla,
+#forum					{float:right}
+
+#exten p,
+#forum p				{font-size:.85em;margin:.3em .1em;padding:0}
+
+#sm-update				{background:#B5E77B;border-color:#363}
+#sm-update h2			{background:#363;color:#FFF;border-color:#363}
+#sm-update h2 a			{color:#FFF !important;text-decoration:none}
+#sm-update p			{margin:.6em 1em .2em}
+#sm-update div			{text-align:right;margin:.2em 1em .5em}
+#sm-update div a		{font-weight:bold}
+#sm-update div span		{color:#00E;cursor:pointer}
