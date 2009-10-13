@@ -1,0 +1,24 @@
+<!-- IF PRIME_CAPTCHA_MODE eq prime_captcha_post -->
+<dl>
+	<dt><label for="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}">{PRIME_CAPTCHA_INSTRUCTIONS}:</label></dt>
+	<dd>{PRIME_CAPTCHA_KEY_PHRASE}</dd>
+	<dd><input type="text" name="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}" id="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}" size="30" value="" tabindex="3" class="inputbox narrow" title="{PRIME_CAPTCHA}" />{PRIME_CAPTCHA_HIDDEN_FIELDS}</dd>
+</dl>
+<!-- ELSEIF PRIME_CAPTCHA_MODE eq prime_captcha_reg -->
+	<span class="corners-bottom"><span></span></span></div>
+</div>
+
+<div class="panel">
+	<div class="inner"><span class="corners-top"><span></span></span>
+
+	<h3>{PRIME_CAPTCHA_TITLE}</h3>
+	<p>{PRIME_CAPTCHA_DESCRIPTION}</p>
+
+	<fieldset class="fields2">
+	<dl>
+		<dt><label for="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}">{PRIME_CAPTCHA_INSTRUCTIONS}:</label></dt>
+		<dd>{PRIME_CAPTCHA_KEY_PHRASE}</dd>
+		<dd><input type="text" name="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}" id="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}" size="30" value="" tabindex="10" class="inputbox narrow" title="{PRIME_CAPTCHA}" />{PRIME_CAPTCHA_HIDDEN_FIELDS}</dd>
+	</dl>
+	</fieldset>
+<!-- ENDIF -->

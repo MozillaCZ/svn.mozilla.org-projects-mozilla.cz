@@ -1,0 +1,141 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" dir="{S_CONTENT_DIRECTION}" lang="{S_USER_LANG}" xml:lang="{S_USER_LANG}">
+<head>
+
+<meta http-equiv="content-type" content="text/html; charset={S_CONTENT_ENCODING}" />
+<meta http-equiv="content-style-type" content="text/css" />
+<meta http-equiv="content-language" content="{S_USER_LANG}" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="resource-type" content="document" />
+<meta name="distribution" content="global" />
+<meta name="copyright" content="2002-2006 phpBB Group" />
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+{META}
+<title>{SITENAME} &bull; {PRIME_CAPTCHA_TITLE}</title>
+
+<link href="{T_THEME_PATH}/print.css" rel="stylesheet" type="text/css" media="print" title="printonly" />
+<link href="{T_STYLESHEET_LINK}" rel="stylesheet" type="text/css" media="screen, projection" />
+
+<!-- IF S_CONTENT_DIRECTION eq 'rtl' -->
+	<link href="{T_THEME_PATH}/bidi.css" rel="stylesheet" type="text/css" media="screen, projection" />
+<!-- ENDIF -->
+
+<style type="text/css">
+	html, body
+	{
+		height:100%;
+		margin:0;
+		padding:0;
+	}
+
+	h1
+	{
+		font-size:24pt;
+		line-height:1;
+		width:100%;
+		text-align:center;
+		padding:0;
+		margin:0;
+	}
+
+	.header
+	{
+		padding-bottom:2px;
+		background:#FFFFFF;
+	}
+
+	.headerbar p
+	{
+		padding:0;
+		margin:0;
+		display:block;
+		font-size:10pt;
+		text-align:center;
+	}
+
+	.instructions
+	{
+		font-weight:bold;
+		text-align:center;
+	}
+
+	.incorrect
+	{
+		text-align:center;
+	}
+
+	.incorrect span
+	{
+		font-weight:bold;
+		color:#900;
+		border:2px solid #900;
+		border-width:2px 0;
+	}
+
+	.text
+	{
+		display:block;
+		margin:1em auto;
+	}
+
+	.form_area
+	{
+		white-space:nowrap;
+		margin: 0 auto;
+	}
+
+	.form_area td
+	{
+		font-size: 1.2em;
+		border:3px solid #f00; 
+		border-width:3px 0;
+
+		padding:4px 1em 8px 1em;
+		text-align:center;
+	}
+</style>
+</head>
+
+<body id="phpbb" class="{S_CONTENT_DIRECTION}" style="height:100%;margin:0;padding:0;overflow:hidden;">
+
+<div id="wrapheader" style="height:100%;">
+	<a id="top" name="top" accesskey="t"></a>
+	<div id="page-body" style="height:100%;">
+		<div style="height:95%;padding: 1em 1em;">
+			<div class="bg2" id="message" style="height:100%;">
+
+				<div class="header">
+					<div class="headerbar">
+						<div class="inner"><span class="corners-top"><span></span></span>
+							<h1>{PRIME_CAPTCHA_TITLE}</h1>
+							<p>{PRIME_CAPTCHA_DESCRIPTION}</p>
+							<p style="display: none;"><a href="#start_here">{L_SKIP}</a></p>
+						<span class="corners-bottom"><span></span></span></div>
+					</div>
+				</div>
+            	
+				<div class="panel bg2"><div class="inner"><span class="corners-top"><span></span></span></div></div>
+				<!-- IF PRIME_CAPTCHA_ERROR -->
+				<p class="incorrect"><span>{PRIME_CAPTCHA_ERROR}</span></p>
+				<!-- ENDIF -->
+				<p class="instructions">{PRIME_CAPTCHA_INSTRUCTIONS}.</p>
+				<form action="{ACTION}" method="post">
+					<!--
+						I choose to use a table here because it will expand to fit the text, 
+						whereas a DIV automatically stretches horizontally to fit the entire page,
+						and a SPAN was putting the red border around the area AND the button.
+					-->
+					<table class="form_area" cellspacing="0" cellpadding="0"><tr><td>
+						<div class="key_phrase">&nbsp;{PRIME_CAPTCHA_KEY_PHRASE}&nbsp;</div>
+						<input class="text" name="{PRIME_CAPTCHA_FIELD_KEY_RESPONSE}" size="30" value="" type="text" />
+						<input value="{SUBMIT}" type="submit" class="button2" />{PRIME_CAPTCHA_HIDDEN_FIELDS}
+					</td></tr></table>
+				</form>
+			</div>
+			<div class="panel bg2"><div class="inner"><span class="corners-bottom"><span></span></span></div></div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
