@@ -8,8 +8,8 @@ require 'inc/common.php';
 $rss = new lastRSS;
 $rss->cache_dir = './cache';
 $rss->cache_time = 1200;
-$rss->cp = "UTF-8";
-$rss->default_cp = "UTF-8";
+$rss->cp = "windows-1250";
+$rss->default_cp = "windows-1250";
 
 define('RSS_HEADER_LENGTH', 60);
 define('NEWS_ITEMS', 6);
@@ -19,7 +19,7 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=windows-1250" />
 <meta http-equiv="Content-language" content="cs" />
 <title>Mozilla Start</title>
 <link rel="stylesheet" href="/start.css" type="text/css" />
@@ -44,8 +44,8 @@ function setCookie(name, value, days){
 		<h1><span>Mozilla Start</span></h1>
 		<ul>
 			<li><a href="http://www.mozilla.cz/">Mozilla.cz</a></li>
-			<li><a href="http://www.mozilla.cz/stahnout/">StÃ¡hnout</a></li>
-			<li><a href="http://forum.czilla.cz/">FÃ³rum</a></li>
+			<li><a href="http://www.mozilla.cz/stahnout/">Stáhnout</a></li>
+			<li><a href="http://forum.czilla.cz/">Fórum</a></li>
 			<li><a href="http://www.mozilla-europe.org/cs/firefox/">Firefox</a></li>
 			<li><a href="http://www.mozilla-europe.org/cs/products/thunderbird/">Thunderbird</a></li>
 		</ul>
@@ -59,11 +59,11 @@ function setCookie(name, value, days){
 
 		?>
 		<div id="links">
-			<a href="http://www.google.com/imghp?hl=cs&amp;tab=wi&amp;client=firefox-a&amp;rls=org.mozilla:cs-CZ:official_s">ObrÃ¡zky</a>
+			<a href="http://www.google.com/imghp?hl=cs&amp;tab=wi&amp;client=firefox-a&amp;rls=org.mozilla:cs-CZ:official_s">Obrázky</a>
 			&nbsp;
 			<a href="http://www.google.com/grphp?hl=cs&amp;tab=wg&amp;client=firefox-a&amp;rls=org.mozilla:cs-CZ:official_s">Skupiny</a>
 			&nbsp;
-			<a href="http://www.google.com/dirhp?hl=cs&amp;tab=wd&amp;client=firefox-a&amp;rls=org.mozilla:cs-CZ:official_s">AdresÃ¡Å™</a>&nbsp;
+			<a href="http://www.google.com/dirhp?hl=cs&amp;tab=wd&amp;client=firefox-a&amp;rls=org.mozilla:cs-CZ:official_s">Adresáø</a>&nbsp;
 		</div>
 	</div>
 <?php
@@ -72,14 +72,14 @@ function setCookie(name, value, days){
 		<div id="sm-update" class="box">
 			<h2><a href="http://www.mozilla.cz/stahnout/#seamonkey">Aktualizujte na SeaMonkey</a></h2>
 			<p>
-				VÃ½voj aplikace Mozilla Suite byl ukonÄen. DoporuÄujeme vÃ¡m aplikaci
+				Vıvoj aplikace Mozilla Suite byl ukonèen. Doporuèujeme vám aplikaci
 				<a href="http://www.seamonkey-project.org/">SeaMonkey</a>,
-				kterÃ¡ nabÃ­zÃ­ stejnÃ½ rozsah funkcÃ­, totoÅ¾nÃ© uÅ¾ivatelskÃ© rozhranÃ­,
-				vÄ›tÅ¡Ã­ rychlost a&nbsp;navÃ­c Å™adu zajÃ­mavÃ½ch novinek</a>.
+				která nabízí stejnı rozsah funkcí, totoné uivatelské rozhraní,
+				vìtší rychlost a&nbsp;navíc øadu zajímavıch novinek</a>.
 			</p>
 			<div>
-				<a href="http://www.mozilla.cz/stahnout/#seamonkey">stÃ¡nout SeaMonkey</a> &middot;
-				<span onclick="setCookie('ignoreMS17Update',1,300);document.getElementById('sm-update').style.display='none'">jiÅ¾ neupozorÅˆovat</span>
+				<a href="http://www.mozilla.cz/stahnout/#seamonkey">stáhnout SeaMonkey</a> &middot;
+				<span onclick="setCookie('ignoreMS17Update',1,300);document.getElementById('sm-update').style.display='none'">ji neupozoròovat</span>
 			</div>
 		</div>
 <?php
@@ -87,15 +87,15 @@ function setCookie(name, value, days){
 	if (isOldFirefox() && !ignoreFirefoxUpdate()) {
 ?>
 		<div id="sm-update" class="box">
-			<h2><a href="http://www.mozilla.cz/stahnout/#firefox">Aktualizujte na novÃ½ Firefox</a></h2>
+			<h2><a href="http://www.mozilla.cz/stahnout/#firefox">Aktualizujte na novı Firefox</a></h2>
 			<p>
-				PouÅ¾Ã­vÃ¡te starou verzi prohlÃ­Å¾eÄe <a href="http://www.mozilla-europe.org/cs/firefox/">Mozilla Firefox</a>.
-				NovÃ¡ verze aplikace Mozilla Firefox opravuje nÄ›kterÃ© bezpeÄnostnÃ­ chyby
-				a&nbsp;nabÃ­zÃ­ novÃ© uÅ¾ivatelskÃ© funkce.
+				Pouíváte starou verzi prohlíeèe <a href="http://www.mozilla-europe.org/cs/firefox/">Mozilla Firefox</a>.
+				Nová verze aplikace Mozilla Firefox opravuje nìkteré bezpeènostní chyby
+				a&nbsp;nabízí nové uivatelské funkce.
 			</p>
 			<div>
-				<a href="http://www.mozilla.cz/stahnout/#firefox">stÃ¡hnout Firefox</a> &middot;
-				<span onclick="setCookie('ignoreFFUpdate',1,300);document.getElementById('sm-update').style.display='none'">jiÅ¾ neupozorÅˆovat</span>
+				<a href="http://www.mozilla.cz/stahnout/#firefox">stáhnout Firefox</a> &middot;
+				<span onclick="setCookie('ignoreFFUpdate',1,300);document.getElementById('sm-update').style.display='none'">ji neupozoròovat</span>
 			</div>
 		</div>
 <?php
@@ -104,7 +104,7 @@ function setCookie(name, value, days){
 	<div id="news" class="box">
 		<h2>Novinky</h2>
 		<div id="kratce">
-			<h3><a href="http://www.ceskenoviny.cz/">ÄŒeskÃ© noviny</a></h3>
+			<h3><a href="http://www.ceskenoviny.cz/">Èeské noviny</a></h3>
 			<?php
 			getRSSHeaders('http://firefox-rss.ceskenoviny.cz/', NEWS_ITEMS);
 			?>
@@ -123,7 +123,7 @@ function setCookie(name, value, days){
 	<hr />
 	<p>
 		Copyright &copy; 2009 <a href="http://www.mozilla.cz/">Mozilla.cz</a>.
-		&nbsp;ZpravodajstvÃ­: <a href="http://www.ceskenoviny.cz/">Ceskenoviny.cz</a>
+		&nbsp;Zpravodajství: <a href="http://www.ceskenoviny.cz/">Ceskenoviny.cz</a>
 	</p>
 </div>
 
