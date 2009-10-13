@@ -1,0 +1,1 @@
+V tomto adresáøi jsou mody pro phpBB, které používáme.
