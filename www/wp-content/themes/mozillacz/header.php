@@ -5,7 +5,7 @@
 	<?php if (getIsCustomFieldValue("description")) { ?>
 		<meta name="description" content="<?php echo getCustomFieldValue("description") ?>"  />	
 	<?php } else { ?>
-		<meta name="description" content="Novinky ze světa Firefoxu, Thunderbirdu a dalších aplikací Mozilla. Řada návodů a tipů pro uživatele."  />
+		<meta name="description" content="Novinky ze světa Firefoxu, Thunderbirdu, SeaMonkey a dalších aplikací Mozilla. Ke stažení nové verze, k dispozici řada návodů a tipů pro uživatele."  />
 	<?php } ?>
 	
 	<?php if (getIsCustomFieldValue("keywords")) { ?>
@@ -23,6 +23,10 @@
 	</title>
 	
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" title="Základní styl" />
+	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/styleie.css" /><![endif]-->
+	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/styleie.css" /><![endif]-->
+
+	
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	
 	<link rel="alternate" type="application/rss+xml" title="Články (RSS 2.0)" href="<?php bloginfo('rss2_url'); ?>" />
