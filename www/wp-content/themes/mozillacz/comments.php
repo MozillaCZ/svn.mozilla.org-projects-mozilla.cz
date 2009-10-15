@@ -86,4 +86,5 @@ if ( post_password_required() ) : ?>
 </div>
 <?php else : // Comments are closed ?>
 <p><?php _e('Sorry, the comment form is closed at this time.'); ?></p>
+</div>
 <?php endif; ?>
