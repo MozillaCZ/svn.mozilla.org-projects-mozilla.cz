@@ -40,7 +40,7 @@
 		<?php the_content(); ?>
 
 		<p class="news-footer">
-			Přidáno: <?php the_time('d. m Y'); ?> | 
+			Přidáno: <?php the_time('d. m. Y'); ?> | 
 			<a href="<?php the_permalink() ?>"><?php comments_number('Komentáře (0)','Komentáře (1)','Komentáře (%)'); ?></a> |			
 			Sepsal: <a href="/o-nas/" title="Více informací o autorovi"><?php the_author(); ?></a>
 			<?php edit_post_link('Upravit', '| ', ''); ?>
