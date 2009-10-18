@@ -232,7 +232,7 @@ html>body .h-menu-item a {display: block}
 	margin: 5px 0 15px 0;
 }
 
-.sidebar-box-title,.comments-title {
+.sidebar-box-title,.comments-title, .souvisejici-prispevky {
 	font-size: 16px; /*	border-top: 1px solid Silver;*/
 	padding: 7px 3px 4px 6px;
 	background-image: url(images/sidebar-background.png);
@@ -427,4 +427,3 @@ ul.twitter {
 }
 
 }
-

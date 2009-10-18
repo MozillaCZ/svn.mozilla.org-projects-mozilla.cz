@@ -46,7 +46,11 @@
 			<?php edit_post_link('Upravit', '| ', ''); ?>
 		</p>
 		
-		<?php if (is_single()) { 
+		
+		<?php if (is_single()) { ?>
+			<div class="souvisejici-prispevky">Přečtěte si také</div>
+		<?php									
+			similar_posts();			
 			comments_template();
 		} ?>
 	<?php endwhile; ?>
