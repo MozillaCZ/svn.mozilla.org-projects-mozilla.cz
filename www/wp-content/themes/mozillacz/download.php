@@ -35,7 +35,7 @@
     <td><?php echo get_product_version('seamonkey') ?> CZ</td>
     <td><a href="<?php echo get_product_link('seamonkey', 'win') ?>" title="Stáhnout SeaMonkey pro Windows">Stáhnout</a></td>
     <td><a href="<?php echo get_product_link('seamonkey', 'lin') ?>" title="Stáhnout SeaMonkey pro Linux">Stáhnout</a></td>
-    <td>&nbsp;</td>
+    <td><a href="<?php echo get_product_link('seamonkey', 'mac') ?>" title="Stáhnout SeaMonkey pro Mac OS X">Stáhnout</a></td>
     <td><a href="http://releases.mozilla.org/pub/mozilla.org/seamonkey/releases/<?php echo get_product_version('seamonkey') ?>/" title="Stáhnout verze SeaMonkey pro jiné platformy">Ostatní</a></td>
   </tr>
 </tbody>

@@ -26,6 +26,10 @@
 					
 				</div>
 				
+				<div class="sidebar-box">
+					<?php snippets_value( 'promo-box' ); ?>
+				</div>
+				
 				<!--
 				<div class="sidebar-box">
 					<div class="sidebar-box-title">Víte, že ..</div>
@@ -38,7 +42,9 @@
 							
 				<?php  
 					if (is_front_page()) {
-						include "kdy-vyjde.php";
+						echo '<div class="sidebar-box">';
+						snippets_value( 'kdy-vyjde' );
+						echo '</div>';
 					} else {
 					
 					// Seznam podstránek zobrazíme jen tehdy, když nejsem v "/podpora".
