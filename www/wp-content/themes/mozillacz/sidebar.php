@@ -15,7 +15,7 @@
 						<div>
 					 		<input type="hidden" name="cx" value="002543687640679827628:sotud38ptmk" />
 					 		<input type="hidden" name="cof" value="FORID:0" />
-					 		<input type="hidden" name="ie" value="iso-8859-2" />
+					 		<input type="hidden" name="ie" value="utf-8" />
 					
 					 		<input name="q" type="text" size="25" style="width: 180px" />
 					 		<input type="submit" name="sa" value="Vyhledat" style="margin-top: 8px" />
