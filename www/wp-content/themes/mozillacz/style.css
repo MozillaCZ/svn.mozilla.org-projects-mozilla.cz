@@ -381,6 +381,15 @@ a[hreflang=en]	{
 	font-size: 11px;
 }
 
+#product-gallery {
+
+}
+
+.product-gallery-img {
+	margin: 5px;
+	float:left;
+}
+
 /* vzhled tabulky */
 table.nice {
 	border: 1px solid Silver;
