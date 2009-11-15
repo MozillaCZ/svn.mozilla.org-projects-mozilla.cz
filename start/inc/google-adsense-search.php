@@ -1,20 +1,20 @@
 <!-- Search Google -->
-<center>
-<form method="get" action="http://www.google.cz/custom" target="_top" name="google">
-<table bgcolor="#ffffff">
-<tr><td nowrap="nowrap" valign="top" align="left" height="32">
-<label for="sbi" style="display: none">Zadejte hledané výrazy</label>
-<input type="text" name="q" size="31" maxlength="255" value="" id="sbi"></input>
-<label for="sbb" style="display: none">Odeslat vyhledávací formuláø</label>
-<input type="submit" name="sa" value="Vyhledávání Google" id="sbb"></input>
-<input type="hidden" name="client" value="pub-5656955599344527"></input>
-<input type="hidden" name="forid" value="1"></input>
-<input type="hidden" name="channel" value="9551517014"></input>
-<input type="hidden" name="ie" value="windows-1250"></input>
-<input type="hidden" name="oe" value="windows-1250"></input>
-<input type="hidden" name="cof" value="GALT:#008000;GL:1;DIV:#336699;VLC:663399;AH:center;BGC:FFFFFF;LBGC:336699;ALC:0000FF;LC:0000FF;T:000000;GFNT:0000FF;GIMP:0000FF;LH:31;LW:88;L:http://www.mozilla.cz/images/mozilla-cz-button.png;S:http://www.mozilla.cz/;LP:1;FORID:1"></input>
-<input type="hidden" name="hl" value="cs"></input>
-</td></tr></table>
-</form>
-</center>
+<style type="text/css">
+@import url(http://www.google.com/cse/api/branding.css);
+</style>
+<div class="cse-branding-bottom" style="background-color:#FFFFFF;color:#000000;margin:1.5em 0">
+  <div class="cse-branding-logo" style="margin:0 1em">
+    <img src="http://www.google.com/images/poweredby_transparent/poweredby_FFFFFF.gif" alt="Google" />
+  </div>
+  <div class="cse-branding-form">
+    <form action="http://www.google.cz/cse" id="cse-search-box">
+      <div>
+        <input type="hidden" name="cx" value="partner-pub-5656955599344527:j8ehdg-t6pu" />
+        <input type="hidden" name="ie" value="UTF-8" />
+        <input type="text" name="q" size="31" />
+        <input type="submit" name="sa" value="Vyhledat" />
+      </div>
+    </form>
+  </div>
+</div>
 <!-- Search Google -->
