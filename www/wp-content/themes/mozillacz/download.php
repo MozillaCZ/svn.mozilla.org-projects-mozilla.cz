@@ -31,7 +31,7 @@
   </tr>
 
   <tr>
-    <th><img src="/images/seamonkey-16.png" alt="Logo SeaMonkey" />&nbsp;<a href="http://www.seamonkey-project.org/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a></th>
+    <th><img src="/images/seamonkey-16.png" alt="Logo SeaMonkey" />&nbsp;<a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a></th>
     <td><?php echo get_product_version('seamonkey') ?> CZ</td>
     <td><a href="<?php echo get_product_link('seamonkey', 'win') ?>" title="Stáhnout SeaMonkey pro Windows">Stáhnout</a></td>
     <td><a href="<?php echo get_product_link('seamonkey', 'lin') ?>" title="Stáhnout SeaMonkey pro Linux">Stáhnout</a></td>
