@@ -41,10 +41,10 @@
 </tbody>
 </table>
 
-<h3 id="fennec">Fennec</h3>
+<h3 id="mobile">Firefox Mobile (Fennec)</h3>
 
-<p><span class="alignright"><img src="/images/fennec-64.png" alt="Logo Fennecu" /></span></p>
-<p>Fennec, verze Firefoxu pro mobilní zařízení, je prozatím ve vývoji. Aktuálně jsou dostupné vývojové verze pro platformu Maemo a Windows Mobile.</p>
+<p><span class="alignright"><img src="/images/firefox-mobile.png" alt="Firefox Mobile" /></span></p>
+<p>Firefox Mobile je prozatím ve vývoji. Aktuálně jsou dostupné vývojové verze pro platformu Maemo a Windows Mobile.</p>
 
 <ul>
 	<li><a href="<?php echo get_product_link('fennec', 'win') ?>">Stáhnout Fennec pro Windows Mobile</a></li>
