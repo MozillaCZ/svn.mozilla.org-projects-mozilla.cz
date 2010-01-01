@@ -48,5 +48,5 @@
 
 <ul>
 	<li><a href="<?php echo get_product_link('fennec', 'win') ?>">Stáhnout Fennec pro Windows Mobile</a></li>
-  <li><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/mozilla-fennec.install">Stáhnout Fennec pro Maemo</a></li>
+  <li><a href="<?php echo get_product_link('fennec', 'lin') ?>">Stáhnout Fennec pro Maemo</a></li>
 </ul>
