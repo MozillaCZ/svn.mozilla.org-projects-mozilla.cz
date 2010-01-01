@@ -122,7 +122,7 @@ function setCookie(name, value, days){
 <div id="foot">
 	<hr />
 	<p>
-		Copyright &copy; 2009 <a href="http://www.mozilla.cz/">Mozilla.cz</a>.
+		Copyright &copy; 2009&ndash;2010 <a href="http://www.mozilla.cz/">Mozilla.cz</a>.
 		&nbsp;Zpravodajství: <a href="http://www.ceskenoviny.cz/">ČeskéNoviny.cz</a>
 	</p>
 </div>
