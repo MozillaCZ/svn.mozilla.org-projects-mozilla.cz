@@ -50,7 +50,7 @@
 					// Seznam podstránek zobrazíme jen tehdy, když nejsem v "/podpora".
 					// Tady by to byl hodně dlouhý seznam.
 					$currentUrl = $_SERVER['REQUEST_URI'];
-					if (ddlsp_hasSubpages() && (strpos($currentUrl, "/podpora") === false)) {
+					if (ddlsp_hasSubpages() && (strpos($currentUrl, "/podpora") === false) && (strpos($currentUrl, "/stahnout") === false)) {
         ?>					
 					<div class="sidebar-box">
 					<div class="sidebar-box-title">Podstránky</div>

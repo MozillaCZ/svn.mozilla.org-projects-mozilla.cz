@@ -423,6 +423,70 @@ ul.twitter {
 	text-align: right;
 }
 
+/* Stranky "Ke stazeni" */
+.download-box,#download-box {
+	-moz-border-radius: 1em;
+  border-radius: 1em;
+  width: 400px;
+  padding: 2px 5px 10px 0px;
+  margin: 15px 0 15px 0;
+}
+
+.download-app-logo {
+	margin: 15px 0px 0px 20px;
+}
+
+.download-box-version {
+  margin: 0 0 10px 20px;
+}
+
+.download-box-link {
+  text-align: right;
+	margin: 15px 15px 0 0;
+	font-size: 11px;
+}
+
+.download-ico-win {
+	background-image:url(/images/windows-16.png);
+}
+
+.download-ico-linux {
+	background-image:url(/images/linux-16.png);
+}
+
+.download-ico-mac {
+	background-image:url(/images/mac-os-x-16.png);
+}
+
+.download-ico-flash {
+	background-image:url(/images/flash-16.png);
+}
+
+.download-ico-reader {
+	background-image:url(/images/reader-16.png);
+}
+
+.download-ico-silverlight {
+	background-image:url(/images/silverlight-16.png);
+}
+
+.download-ico-java {
+	background-image:url(/images/java-16.png);
+}
+
+.download-ico-win,
+.download-ico-linux,
+.download-ico-mac,
+.download-ico-flash,
+.download-ico-reader,
+.download-ico-silverlight,
+.download-ico-java {
+	background-position:left center;
+	background-repeat:no-repeat;
+	display:block;
+	padding:2px 0 2px 20px;
+}
+
 /* Tiskový styl */
 @media print {
 
