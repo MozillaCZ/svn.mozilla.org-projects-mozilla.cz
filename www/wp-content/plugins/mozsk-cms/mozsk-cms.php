@@ -4,7 +4,7 @@ Plugin Name: Mozilla.sk CMS Plugin
 Plugin URI: http://www.mozilla.sk
 Description: CMS plugin pre stránky Mozilla.sk
 Author: wladow
-Version: 0.5.6
+Version: 0.5.7
 Author URI: http://www.wladow.sk
 */
 
@@ -23,6 +23,18 @@ function get_product_version($product) {
 }
 
 /**
+ * Return url to release notes for latest version of Mozilla application.
+ * 
+ * $product - product name (all characters are lowercase)
+ */ 
+function get_product_rn($product) {
+	global $wpdb;
+	
+	$result = $wpdb->get_var("SELECT changelog FROM mozsk_produkty WHERE urlid='$product' ORDER BY id DESC ");
+	return htmlspecialchars($result);
+}
+
+/**
  * Return download link for latest version of Mozilla application and operation system.
  * 
  * $product - product name (all characters are lowercase)
@@ -35,6 +47,18 @@ function get_product_link($product, $os) {
 	$result = $wpdb->get_var("SELECT download_$os FROM mozsk_produkty WHERE urlid='$product' AND verzia='$result'");
 
 	return htmlspecialchars($result);
+}
+
+function moz_download_rn_handler($atts) {
+	return get_product_rn($atts["app"]);
+}
+
+function moz_download_version_handler($atts) {
+	return get_product_version ($atts["app"]);
+}
+
+function moz_download_url_handler($atts) {
+	return get_product_link ($atts["app"], $atts["platform"]);
 }
 
 function get_newprodukt($produkt, $what) {
@@ -355,4 +379,9 @@ function mskcms_NuVer(id)
 add_action('admin_menu', 'mskcms_AddOptionsPage');
 add_action('admin_head', 'mskcms_AddAdminJS');
 add_action('plugins_loaded','mskcms_Install');
+
+add_shortcode('moz-download-rn', 'moz_download_rn_handler');
+add_shortcode('moz-download-version', 'moz_download_version_handler');
+add_shortcode('moz-download-url', 'moz_download_url_handler');
+
 ?>
