@@ -46,8 +46,9 @@ function setCookie(name, value, days){
 			<li><a href="http://www.mozilla.cz/">Mozilla.cz</a></li>
 			<li><a href="http://www.mozilla.cz/stahnout/">Stáhnout</a></li>
 			<li><a href="http://forum.mozilla.cz/">Fórum</a></li>
-			<li><a href="http://www.mozilla-europe.org/cs/firefox/">Firefox</a></li>
-			<li><a href="http://www.mozilla-europe.org/cs/products/thunderbird/">Thunderbird</a></li>
+			<li><a href="http://www.mozilla.cz/produkty/firefox/">Firefox</a></li>
+			<li><a href="http://www.mozilla.cz/produkty/thunderbird/">Thunderbird</a></li>
+			<li><a href="http://www.mozilla.cz/produkty/seamonkey/">SeaMonkey</a></li>
 		</ul>
 	</div>
 
