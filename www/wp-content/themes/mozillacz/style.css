@@ -474,13 +474,28 @@ ul.twitter {
 	background-image:url(/images/java-16.png);
 }
 
+.download-ico-ff {
+	background-image:url(/images/firefox-16.png);
+}
+
+.download-ico-tb {
+	background-image:url(/images/thunderbird-16.png);
+}
+
+.download-ico-sm {
+	background-image:url(/images/seamonkey-16.png);
+}
+
 .download-ico-win,
 .download-ico-linux,
 .download-ico-mac,
 .download-ico-flash,
 .download-ico-reader,
 .download-ico-silverlight,
-.download-ico-java {
+.download-ico-java,
+.download-ico-ff,
+.download-ico-tb,
+.download-ico-sm {
 	background-position:left center;
 	background-repeat:no-repeat;
 	display:block;
