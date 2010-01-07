@@ -9,7 +9,7 @@
   <div class="cse-branding-form">
     <form action="http://www.google.cz/cse" id="cse-search-box">
       <div>
-        <input type="hidden" name="cx" value="partner-pub-5656955599344527:j8ehdg-t6pu" />
+        <input type="hidden" name="cx" value="partner-pub-5656955599344527:fcrwrcst7jn" />
         <input type="hidden" name="ie" value="UTF-8" />
         <input type="text" name="q" size="31" />
         <input type="submit" name="sa" value="Vyhledat" />
