@@ -1,0 +1,133 @@
+.webstats,
+.wmo-invite,
+.side,
+.side-promo,
+.side-dl,
+.links,
+.path,
+.head ul,
+.head form,
+.cont hr,
+.foot hr,
+.head hr							{display:none}
+
+.foot								{clear:both;text-align:center;font-size:.8em;border-top:2px solid #000;margin-top:.7em;
+									page-break-inside:avoid;page-break-before:avoid}
+.foot:after							{content:"\Ahttp://thunderbird.czilla.cz/";text-align:center;display:block;font:normal 12px sans-serif}
+.foot p								{margin:1.1em 0}
+.head								{padding-bottom:.1em;border-bottom:2px solid #000;margin-bottom:.7em}
+.head-logo a						{font:bold 1.2em sans-serif;text-decoration:none}
+
+a									{color:#000 !important;text-decoration:none}
+hr									{clear:both;display:block;height:1px;line-height:1px;font-size:1px;
+									border:1px solid #999;border-width:1px 0 0 0;margin:.5em 0}
+
+h1,h2,h3,h4							{font-family:sans-serif;page-break-inside:avoid;page-break-after:avoid;page-break-before:auto}
+.main h1							{font-size:1.6em;text-align:center;border-bottom:3px solid #000;padding:.1em;margin:0 0 .5em}
+.main h2							{border-bottom:1px solid #666;font-size:1.2em;line-height:1.2em;margin:1em 0 .5em;clear:both}
+.main h3							{border-bottom:1px solid #CCC;font-size:1.1em;line-height:1.2em}
+.main p								{font-size:1em;margin:1em 0}
+.main kbd							{display:inline-block;padding:0 2px;margin:1px 0;
+									font:normal normal 1em/1.2em monospace;
+									background:#EEE;border:1px solid #DDD;border-bottom:2px solid #CCC;border-right:2px solid #CCC}
+body[id] .main kbd			 		{font-size:1em;padding:1px 2px;margin:0}
+.main dt							{font-weight:bold;margin-bottom:.1em}
+.main dd							{margin:.1em 0 .5em 1.3em;padding:0}
+
+/* generovany obsah */
+.main acronym,
+.main abbr							{border-bottom:none}
+.main acronym[title]:after,
+.main abbr[title]:after				{content:" (" attr(title) ")";font-size:.9em}
+.main h1 abbr[title]:after,
+.main h2 abbr[title]:after,
+.main h3 abbr[title]:after,
+.main dt abbr[title]:after,
+.dnpa abbr[title]:after,
+.main h1 acronym[title]:after,
+.main h2 acronym[title]:after,
+.main h3 acronym[title]:after,
+.main dt acronym[title]:after,
+.dnpa acronym[title]:after			{content:""}
+
+.main a[href^="http:"]				{font-weight:bold}
+.main a[href^="http:"]:after		{content:" [viz: " attr(href) "]";font:normal .9em monospace;white-space:nowrap}
+.main .note a[href^="http:"]:after	{font-size:1em}
+.main h1 a[href]:after,
+.main h2 a[href]:after,
+.main h3 a[href]:after,
+.main .tbl-1 a[href]:after			{content:"" !important}
+
+.main .intro						{margin:0 0 1.33em;position:relative;padding:1em;border:2px solid #EEE}
+.main .intro h1						{margin:0;padding:0;border-bottom:1px solid #E1E1E1;text-align:left;
+									position:relative;line-height:29px;height:29px;
+									voice-family:"\"}\"";voice-family:inherit;
+									line-height:27px;height:27px}
+#ignored							{}
+.main .intro h1 span				{position:absolute;top:0;left:0;width:186px;height:27px;display:block;text-indent:-700em;
+									background:url("/img/tb-name.gif") no-repeat 0 0}
+.main .intro h1 img					{width:158px;height:17px;position:absolute;right:0;bottom:0;color:#666;font-size:.6em}
+.main .intro ul						{font-size:.9166em;margin:1.3em 0;padding:0}
+.main .intro li						{font-weight:bold;margin:0 0 .3em;padding:0;line-height:1.5em;list-style-type:none}
+#intro-shot							{float:right;margin:1.3em .5em .5em;width:200px;height:161px;position:relative}
+
+
+#moz-upd							{margin:1.5em 0;border:1px solid #CCC;padding:1em}
+#moz-upd h2							{font-size:1em;border:0;margin:0}
+#moz-upd p							{margin:.5em 0 0}
+
+.file								{font-size:.9em}
+.sig								{font-style:italic}
+.main .note							{font-size:.9em;border-left:.5em solid #EEE;padding-left:1em}
+.main .note em						{font-weight:bold;font-style:normal}
+
+.diff-list dt						{font-weight:bold;font-size:1.1em;padding-bottom:.1em;border-bottom:1px solid #CCC}
+.diff-list dd dt					{font-size:1em;border:none}
+.diff-list dd						{margin-bottom:1.5em}
+.diff-list dd dd					{margin-bottom:.2em}
+.diff-list ol						{margin-top:0;padding-top:0}
+
+.download dl						{margin-left:1em}
+.download dt						{margin:.5em 0 .2em}
+.download dd						{margin:0 0 0 1em}
+.download em						{font-size:.85em;font-style:normal}
+
+.med-logo							{margin:.1em 0;display:block}
+.med-box .sig,
+.med-box cite						{font-style:normal;font-size:.95em}
+.med-box p.sig						{font-style:italic}
+
+.img-c								{background-color:#FFF;border:1px solid #BBB;font-size:.8em;padding:.5em;
+									text-align:center;page-break-inside:avoid}
+.img-c .comment						{line-height:1.3em;margin:.5em 0 0;text-align:left;}
+.img-c a img,
+.img-wc a img						{border:0}
+.img-c img							{padding:1px 0}
+.img-left							{float:left;margin:.5em 1em .5em 0;clear:left}
+.img-right							{float:right;margin:.5em 0 .5em 1em;clear:right}
+.img-center							{margin:1em auto;text-align:center;clear:both}
+.img-center img 					{display:inline}
+
+.tbl-1								{border:1px solid #000;margin:1em 0}
+.tbl-1 table						{border-spacing:0;border-collapse:collapse;width:100%}
+.tbl-1 caption						{font-weight:bold;font-size:1.1em;text-align:center;padding:.5em;margin:0 auto}
+.tbl-1 thead						{color:#FFF;background-color:#666}
+.tbl-1 thead :link,
+.tbl-1 thead :visited				{color:#FFF}
+.tbl-1 tbody th						{text-align:left;background-color:#EEE;font-weight:normal}
+.tbl-1 tbody td						{background:#FFF}
+.tbl-1 tbody td.r					{text-align:right}
+.tbl-1 td,
+.tbl-1 th							{padding:.2em .3em;border:1px solid #DDD;line-height:1.6em;
+									font-size:11px;voice-family:"\"}\"";voice-family:inherit;
+									font-size:.9em}
+.tbl-1 tbody tr:first-child td,
+.tbl-1 tbody tr:first-child th		{border-top-width:2px}
+
+.dn									{display:none}
+.cb									{clear:both;visibility:hidden;height:1px;line-height:1px}
+
+.pr-icon							{margin:1.3em 0}
+.pr-icon icon						{margin:.5em 0}
+.pr-icon .code						{display:block;margin:.5em 0 .5em 2em;padding:.2em .5em;
+									font-size:.85em;color:#777;border:1px solid #CCC;line-height:1em}
