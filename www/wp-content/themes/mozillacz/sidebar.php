@@ -92,6 +92,15 @@
 					</ul></div>
 				</div>
 				
+				<div class="sidebar-box">
+					<div class="sidebar-box-title">Přidání zprávičky</div>
+					<div class="sidebar-item-title">
+						<ul>
+							<li><a href="/pridat-zpravicku/" title="Přidá zprávičku na Mozilla.cz">Přidat zprávičku</a></li>
+						</ul>
+					</div>
+				</div>				
+				
 				<?php
 					}
 				?>	
