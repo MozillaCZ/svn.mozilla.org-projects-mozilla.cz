@@ -5,7 +5,7 @@ Colours and backgrounds for common.css
 
 html, body {
 	color: #536482;
-	background-color: #FFFFFF;
+	background-color: #F7FAFC;
 }
 
 h1 {
@@ -42,7 +42,7 @@ hr.dashed {
 }
 
 #search-box input {
-	border-color: #0075B0;
+	/*border-color: #0075B0;*/
 }
 
 /* Round cornered boxes and backgrounds
@@ -59,7 +59,6 @@ hr.dashed {
 
 .forabg {
 	background-color: #0076b1;
-	
 }
 
 .forumbg {
@@ -462,6 +461,10 @@ blockquote {
 	border-color:#DBDBCE;
 }
 
+.rtl blockquote {
+	background-image: url("{T_THEME_PATH}/images/quote_rtl.gif");
+}
+
 blockquote blockquote {
 	/* Nested quotes */
 	background-color:#EFEED9;
@@ -787,6 +790,11 @@ ul.cplist {
 	background-image: url("{T_THEME_PATH}/images/bg_menu.gif");
 }
 
+.rtl #navigation a {
+	background-image: url("{T_THEME_PATH}/images/bg_menu_rtl.gif");
+	background-position: 0 100%;
+}
+
 #navigation a:hover {
 	background-color: #aabac6;
 	color: #BC2A4D;
@@ -862,7 +870,13 @@ dl.mini dt {
 ----------------------------------------*/
 /* PM Message history */
 .current {
-	color: #999999 !important;
+	color: #000000 !important;
+}
+
+/* PM panel adjustments */
+.pm-panel-header,
+#cp-main .pm-message-nav {
+	border-bottom-color: #A4B3BF;
 }
 
 /* PM marking colours */

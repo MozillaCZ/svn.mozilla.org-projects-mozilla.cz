@@ -10,15 +10,14 @@
 html {
 	font-size: 100%;
 	/* Always show a scrollbar for short pages - stops the jump when the scrollbar appears. non-IE browsers */
-	height: 100%;
-	margin-bottom: 1px;
+	height: 101%;
 }
 
 body {
 	/* Text-Sizing with ems: http://www.clagnut.com/blog/348/ */
 	font-family: Verdana, Helvetica, Arial, sans-serif;
 	color: #828282;
-	background-color: #FFFFFF;
+	background-color: #F7FAFC;
 	/*font-size: 62.5%;			 This sets the default font size to be equivalent to 10px */
 	font-size: 10px;
 	margin: 0;
@@ -156,7 +155,7 @@ a#logo:hover {
 }
 
 #search-box input {
-	border: 1px solid #b0b0b0;
+	/*border: 1px solid #b0b0b0;*/
 }
 
 /* .button1 style defined later, just a few tweaks for the search button version */
@@ -614,6 +613,7 @@ p.rules {
 
 p.rules img {
 	vertical-align: middle;
+	padding-top: 5px;
 }
 
 p.rules a {
@@ -633,3 +633,4 @@ p.rules a {
 	line-height: 1px;
 	background: transparent;
 }
+
