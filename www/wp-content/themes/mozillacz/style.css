@@ -486,6 +486,10 @@ ul.twitter {
 	background-image:url(/images/seamonkey-16.png);
 }
 
+.download-ico-addon {
+	background-image:url(/images/addon-16.png);
+}
+
 .download-ico-win,
 .download-ico-linux,
 .download-ico-mac,
@@ -495,7 +499,8 @@ ul.twitter {
 .download-ico-java,
 .download-ico-ff,
 .download-ico-tb,
-.download-ico-sm {
+.download-ico-sm,
+.download-ico-addon {
 	background-position:left center;
 	background-repeat:no-repeat;
 	display:block;
