@@ -118,6 +118,47 @@ function setCookie(name, value, days){
 		</div>
 		<div class="cb"><!-- --></div>
 	</div>
+	
+		<?php
+			// Nejhorší možný kód :)			
+			include "./config.php";
+			
+			$link = mysql_connect($mysql_host, $mysql_user, $mysql_pass);
+			if ($link) {
+				$db_selected = mysql_select_db($mysql_db, $link);
+				if ($db_selected) {
+				
+					$query = mysql_query ("select count(randomtext_id) from wp_randomtext where category='SeaMonkey'");
+					if ($query) {
+					
+						$row = mysql_fetch_row($query);
+						$count = $row[0];
+						
+						if ($count > 0) {
+							$randomNumber = rand (1, $count);
+							$randomNumber--;
+							
+							$query = mysql_query ("select text from wp_randomtext where category='SeaMonkey' limit $randomNumber,1");
+							if ($query) {
+								$row = mysql_fetch_row($query);
+								
+								echo '<div id="tips" class="box">';
+								echo '<h2>Tip k SeaMonkey</h2>';
+								echo '<p>'.$row[0].'</p>';
+								echo '</div>';
+								
+							}
+						}						
+						
+					}
+				}
+			}
+			
+			mysql_close($link);
+			
+		?>
+	
+		
 </div>
 
 <div id="foot">

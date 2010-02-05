@@ -80,3 +80,8 @@ body[id] #dlp div		{width:45%;margin:.6em 1em 0 .9em}
 #sm-update div			{text-align:right;margin:.2em 1em .5em}
 #sm-update div a		{font-weight:bold}
 #sm-update div span		{color:#00E;cursor:pointer}
+
+#tips p 					{margin: 10px;}
+
+.nabidka 					{background-color: #FBEFE7; padding: 0 1px 0 1px; border: 1px solid #EBC7C7; color: Black;}
+.soubor						{background-color: #D9E6F2; border: 1px solid #BED3E4; padding: 0 1px 0 1px; color: Black;}
