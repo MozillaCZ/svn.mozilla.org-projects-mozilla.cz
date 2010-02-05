@@ -1,5 +1,5 @@
 <?php
-	// Po vyplnìní pøejmenovat na config.php
+  // Po vyplnÄ›nÃ­ pÅ™ejmenovat na config.php
   $mysql_host = "";
   $mysql_db   = "";
   $mysql_user = "";
