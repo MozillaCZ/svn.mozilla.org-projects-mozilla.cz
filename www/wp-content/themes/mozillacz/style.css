@@ -490,6 +490,14 @@ ul.twitter {
 	background-image:url(/images/addon-16.png);
 }
 
+.download-ico-nvu {
+	background-image:url(/images/nvu-16.png);
+}
+
+.download-ico-kompozer {
+	background-image:url(/images/kompozer-16.png);
+}
+
 .download-ico-win,
 .download-ico-linux,
 .download-ico-mac,
@@ -500,7 +508,9 @@ ul.twitter {
 .download-ico-ff,
 .download-ico-tb,
 .download-ico-sm,
-.download-ico-addon {
+.download-ico-addon, 
+.download-ico-nvu,
+.download-ico-kompozer {
 	background-position:left center;
 	background-repeat:no-repeat;
 	display:block;
