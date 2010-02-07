@@ -118,47 +118,45 @@ function setCookie(name, value, days){
 		</div>
 		<div class="cb"><!-- --></div>
 	</div>
-	
+
 		<?php
-			// Nejhorší možný kód :)			
 			include "./config.php";
-			
 			$link = mysql_connect($mysql_host, $mysql_user, $mysql_pass);
 			if ($link) {
 				$db_selected = mysql_select_db($mysql_db, $link);
 				if ($db_selected) {
-				
+
 					$query = mysql_query ("select count(randomtext_id) from wp_randomtext where category='SeaMonkey'");
 					if ($query) {
-					
+
 						$row = mysql_fetch_row($query);
 						$count = $row[0];
-						
+
 						if ($count > 0) {
 							$randomNumber = rand (1, $count);
 							$randomNumber--;
-							
+
 							$query = mysql_query ("select text from wp_randomtext where category='SeaMonkey' limit $randomNumber,1");
 							if ($query) {
 								$row = mysql_fetch_row($query);
-								
+
 								echo '<div id="tips" class="box">';
 								echo '<h2>Tip k SeaMonkey</h2>';
 								echo '<p>'.$row[0].'</p>';
 								echo '</div>';
-								
+
 							}
-						}						
-						
+						}
+
 					}
 				}
 			}
-			
+
 			mysql_close($link);
-			
+
 		?>
-	
-		
+
+
 </div>
 
 <div id="foot">
@@ -168,16 +166,16 @@ function setCookie(name, value, days){
 		&nbsp;Zpravodajství: <a href="http://www.ceskenoviny.cz/">ČeskéNoviny.cz</a>
 	</p>
 </div>
-
 <script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+	var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+	document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
 </script>
 <script type="text/javascript">
-try {
-var pageTracker = _gat._getTracker("UA-10350415-3");
-pageTracker._trackPageview();
-} catch(err) {}</script>
-
+	try {
+		var pageTracker = _gat._getTracker("UA-10350415-1");
+		pageTracker._trackPageview();
+		pageTracker._setDomainName(".mozilla.cz");
+	} catch(err) {}
+</script>
 </body>
 </html>
