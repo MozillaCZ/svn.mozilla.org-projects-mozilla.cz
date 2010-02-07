@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Co MSIE neumí a Firefox ano');
 	$page->setDescription('Seznam vlastností, které jsou zahrnuty v instalaci prohlížeče Mozilla Firefox a nejsou k dispozici v prohlížeči Internet Explorer.');
 	$page->setKeywords('mozilla firefox internet explorer msie ie možnosti výhody');
@@ -15,10 +15,7 @@ neumí a&nbsp;Firefox ano</h1>
 <strong>Mozilla Firefox 1.0</strong> a&nbsp;nejsou k&nbsp;dispozici
 v&nbsp;prohlížeči <strong>Internet Explorer</strong>. Nezahrnuli jsme do
 seznamu vlastnosti, které lze získat změnou klíčů v&nbsp;registru, instalací
-dalších programů či
-<a href="https://addons.mozilla.org/extensions/?application=firefox"
-	title="Mozilla Update: Firefox Extensions"
-	hreflang="en" class="l-en">rozšíření</a>.</p>
+dalších programů či <a href="https://addons.mozilla.org/cs/firefox/">rozšíření</a>.</p>
 
 <p>Tento seznam <em>není</em> seznamem důvodů, proč je Mozilla Firefox lepší
 než Internet Explorer. Pouze vyjmenovává vlastnosti, které jsou obsaženy ve
@@ -40,21 +37,12 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		&quot;Otevřít odkaz v&nbsp;novém panelu&quot;.</p>
 
 		<p class="note"><em>Poznámka:</em>
-		<a href="http://www.maxthon.com/en/index.htm"
-			hreflang="en" class="l-en">Maxthon</a>
-		či
-		<a href="http://www.crazybrowser.com/"
-			hreflang="en" class="l-en">CrazyBrowser</a>
+		<a href="http://www.maxthon.com/en/index.htm" hreflang="en" class="l-en">Maxthon</a>
+		či <a href="http://www.crazybrowser.com/" hreflang="en" class="l-en">CrazyBrowser</a>
 		jsou rozdílné produkty než Internet Explorer. Pro prohlížeč Mozilla
 		Firefox existuje několik rozšíření základních vlastností Prohlížení
 		v panelech, např.
-		<a href="http://www.extensionsmirror.nl/index.php?showtopic=2291"
-			hreflang="en" class="l-en">Tab Mix</a>
-		<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=58&amp;application=firefox&amp;version=0.9"
-			hreflang="en" class="l-en">Undoclosetab</a>
-		nebo
-		<a href="http://extensionroom.mozdev.org/more-info/sessionsaver"
-			hreflang="en" class="l-en">Session Saver</a>.</p>
+		<a href="https://addons.mozilla.org/cs/firefox/addon/1122">Tab Mix Plus</a>
 	</dd>
 
 
@@ -92,8 +80,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dd>
 		<p>Postranní lišta slouží nejen k&nbsp;zobrazení záložek
 		(<kbd>Ctrl</kbd>+<kbd>B</kbd>) a&nbsp;historie
-		(<kbd>Ctrl</kbd>+<kbd>H</kbd>). Řada
-		<a href="http://www.czilla.cz/doplnky/postranni-lista/">českých webů nabízí postranní lištu</a>,
+		(<kbd>Ctrl</kbd>+<kbd>H</kbd>). Řada českých webů nabízí postranní lištu,
 		kterou si můžete ve Firefoxu zobrazit stručný obsah webu. Stačí takovou
 		stránku přidat do záložek a&nbsp;ve vlastnostech záložky nastavit
 		&quot;Nahrát tuto záložku v&nbsp;postranní liště&quot;.</p>
@@ -153,13 +140,9 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-motiv-vzhledu">Motiv vzhledu</dt>
 	<dd>
 		<p>Prohlížeč Firefox nabízí ve výchozím nastavení základní
-		stejnojmenný motiv <em>Firefox</em>. Na stránkách
-		<a href="https://addons.mozilla.org/"
-			hreflang="en" class="l-en" lang="en">Mozilla Update</a>
-		si můžete vybrat z&nbsp;řady
-		<a href="https://addons.mozilla.org/themes/?application=firefox"
-			title="Mozilla Update: Firefox Themes"
-			hreflang="en" class="l-en">motivů vzhledu</a>.</p>
+		stejnojmenný motiv <em>Firefox</em>. Na stránkách serveru
+		<a href="https://addons.mozilla.org/cs/firefox/">Doplňky Mozilly</a>
+		si můžete vybrat z&nbsp;řady <a href="https://addons.mozilla.org/cs/firefox/browse/type:2/">motivů vzhledu</a>.</p>
 
 		<p>Vzhled můžete měnit ve Správci motivů vzhledu, který vám také
 		umožní motiv aktualizovat a&nbsp;případně i&nbsp;odinstalovat.</p>
@@ -268,9 +251,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 
 		<p class="note"><em>Poznámka:</em> Pro prohlížeč Mozilla Firefox
 		existuje rozšíření
-		<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=10&amp;application=firefox&amp;version=1.0"
-			title="Mozilla Update: Adblock"
-			hreflang="en" class="l-en" lang="en">Adblock</a>
+		<a href="https://addons.mozilla.org/cs/firefox/addon/1865">Adblock plus</a>
 		rozšiřující možnosti blokování obrázků a&nbsp;umožňující pokročilé
 		blokování reklamních proužků a&nbsp;ikon.</p>
 	</dd>
@@ -301,15 +282,9 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		<a href="http://www.google.com/intl/cs/">Google</a>
 		a&nbsp;několika dalších vyhledavačích (česká verze navíc obsahuje
 		několik národních vyhledavačů). Můžete si snadno
-		<a href="http://www.czilla.cz/doplnky/vyhledavani/">přidat další vyhledávací moduly</a>
+		<a href="http://www.mozilla.cz/doplnky/vyhledavani/">přidat další vyhledávací moduly</a>
 		nebo si
-		<a href="http://www.czilla.cz/doplnky/vyhledavani/vytvoreni.html">vytvořit vlastní</a>.
-		Moduly jsou specifikovány ve formátu
-		<a href="http://developer.apple.com/technotes/tn/tn1141.html"
-			hreflang="en" class="l-en">Sherlock</a>
-		od firmy
-		<a href="http://www.apple.com/"
-			hreflang="en" class="l-en">Apple</a>.</p>
+		<a href="https://developer.mozilla.org/cs/Vytvo%C5%99en%C3%AD_vyhled%C3%A1vac%C3%ADho_modulu_OpenSearch">vytvořit vlastní</a>.</p>
 
 		<p>Vyhledávat lze několika způsoby:</p>
 

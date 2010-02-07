@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Klávesové zkratky ve Firefoxu');
 	$page->setDescription('Seznam nejvíce používaných klávesových zkratek v prohlížeči Mozilla Firefox a porovnání s ekvivalenty Internet Exploreru.');
 	$page->setKeywords('mozilla firefox microsoft internet explorer klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice');
@@ -397,9 +397,7 @@ Internet Explorer.</p>
 	<h3 class="first">Více o&nbsp;ovládání</h3>
 
 	<dl>
-		<dt><a href="http://www.mozilla.org/support/firefox/keyboard.html"
-				title="Firefox Help: Keyboard Shortcuts"
-				hreflang="en" class="l-en" lang="en">Keyboard Shortcuts</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">Klávesové zkratky</a></dt>
 		<dd>Kompletní přehled klávesových zkratek ve Firefoxu včetně
 		porovnání s&nbsp;Internet Explorerem a&nbsp;Operou.</dd>
 

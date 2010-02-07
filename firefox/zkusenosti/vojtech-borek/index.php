@@ -27,7 +27,7 @@ jsou, podle mého názoru, to hlavní, co dělá Firefox tak přívětivým. Nes
 oceňuji, když si mohu upravit software podle svého, což mi Firefox plně
 umožňuje. Jednak svým otevřeným kódem a&nbsp;jednak nesmírným množstvím
 volně přístupných
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">rozšíření</a>,
+<a href="https://addons.mozilla.org/cs/firefox/">rozšíření</a>,
 která umožňují např. blokování reklamy, ovládání pomocí gest myši a&nbsp;čtení
 <abbr title="Really Simple Syndication" lang="en">RSS</abbr>
 kanálů. Mezi mé další velmi oblíbené vlastnosti patří možnost použití

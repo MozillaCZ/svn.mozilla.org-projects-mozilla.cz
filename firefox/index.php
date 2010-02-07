@@ -98,7 +98,7 @@ Je to snadné. Firefox to udělá za vás.<br />
 <a class="side-promo" href="/propagace/" title="Přidejte na své stránky propagační ikonky"></a>
 
 <?php
-	$page->includeTemplate('download-box');
+	$page->includeTemplate('download-box', array('type' => 'sidebar'));
 ?>
 
 <div class="side"><div class="side-in">

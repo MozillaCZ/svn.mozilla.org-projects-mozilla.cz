@@ -12,10 +12,10 @@
 <p>Pokud podobně jako většina lidí přemýšlíte o&nbsp;přechodu z&nbsp;Internet Exploreru
 na Firefox, máte hodně otázek/dotazů. Nabízíme vám odpovědi na ty nejčastější,
 máte-li další, navštivte stránku
-s&nbsp;<a href="http://www.czilla.cz/podpora/firefox/faq.html"
-	title="CZilla: Často kladené otázky o Firefoxu">často kladenými otázkami</a>
+s&nbsp;<a href="http://www.mozilla.cz/podpora/firefox/reseni-nejcastejsich-problemu/"
+	title="Mozilla.cz: Řešení nejčastějších problémů s Firefoxem">často kladenými otázkami</a>
 nebo se zeptejte ve webovém fóru
-<a href="http://forum.czilla.cz/viewforum.php?f=19">podpory uživatelů Firefoxu</a>.</p>
+<a href="http://forum.mozilla.cz/viewforum.php?f=3">podpory uživatelů Firefoxu</a>.</p>
 
 
 <h2 id="otazka-1">Jak přenesu své oblíbené položky?</h2>
@@ -54,8 +54,7 @@ znemožňují Firefoxu přístup, protože používají technologii IE zneužite
 ve škodlivých programech. Pokud jde o&nbsp;speciální stránku, kterou potřebujete
 navštívit, musíte použít Internet Explorer nebo jiný prohlížeč kompatibilní
 s&nbsp;vaším operačním systémem. Můžete využít
-i&nbsp;<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=35&amp;application=firefox&amp;version=1.0"
-	hreflang="en" class="l-en">rozšíření IE View</a>,
+i&nbsp;<a href="https://addons.mozilla.org/cs/firefox/addon/35">rozšíření IE View</a>,
 které do kontextové nabídky Firefoxu přidá možnost otevřít danou stránku
 v&nbsp;Internet Exploreru.</p>
 
@@ -64,12 +63,7 @@ v&nbsp;Internet Exploreru.</p>
 <p>S&nbsp;největší pravděpodobností ano. Firefox obsahuje vše potřebné pro
 podporu moderních internetových bankovnictví. V&nbsp;současné době podporují
 Firefox všechny bankovní ústavy u&nbsp;nás s&nbsp;výjimkou
-<a href="http://www.mojebanka.cz"
-title="MojeBanka.cz: Domovská stránka">Komerční banky</a>. Více informací
-naleznete v&nbsp;přehledovém článku
-<a href="http://www.czilla.cz/podpora/internetova-bankovnictvi-v-mozille.html"
-title="Internetová bankovnictví v Mozille">Internetová bankovnictví v&nbsp;Mozille</a>.</p>
-
+<a href="http://www.wspk.cz/">Waldviertler Sparkasse</a>.</p>
 
 <h2 id="otazka-5">Je k dispozici o&nbsp;Firefoxu kniha v češtině?</h2>
 
@@ -82,8 +76,6 @@ Václav Kadlec a&nbsp;kniha je určena převážně pro začátečníky. Bližš
 informace o&nbsp;knize se <a
 href="http://www.czilla.cz/podpora/firefox/recenze-kompletni-prirucka.html"
 title="Recenze knihy o Mozilla Firefoxu">dočtete v naší recenzi</a>.</p>
-
-
 
 <h2 id="otazka-6">Kde jsou uloženy záložky a&nbsp;nastavení?</h2>
 
@@ -122,25 +114,17 @@ and Settings\[Uživatelské jméno]\Data aplikací.</span></p>
 <a href="./klavesove-zkratky/">nejběžnějších klávesových zkratek Firefoxu</a>,
 které vám v prohlížeči pomohou zrychlit opakující se akce. Kromě toho David
 Tenser sestavil vynikající
-<a href="http://www.mozilla.org/support/firefox/keyboard.html"
-	title="Firefox Help: Keyboard Shortcuts"
-	hreflang="en" class="l-en">porovnání klávesových zkratek</a>
-Firefoxu, Internet Exploreru a&nbsp;Opery v&nbsp;angličtině.</p>
-
+<a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">porovnání klávesových zkratek</a>
+Firefoxu, Internet Exploreru a&nbsp;Opery.</p>
 
 <h2 id="otazka-8">Je Firefox dostupný v&nbsp;češtině?</h2>
 
 <p>Ano. Firefox je kompletně lokalizován do češtiny týmem
-<a href="http://www.czilla.cz/">CZilla</a> a&nbsp;je k&nbsp;dispozici i&nbsp;v&nbsp;celé řadě
-<a href="http://www.mozilla.com/firefox/all.html"
-	title="Mozilla.com: Download Firefox"
-	hreflang="en" class="l-en">dalších jazyků</a>.
-Firefox patří mezi tzv. <span lang="en">open-source</span> programy
-(programy s&nbsp;otevřeným zdrojovým kódem) a&nbsp;je nabízen zcela
-zdarma. Vybrat si můžete také z&nbsp;celé řady
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/"
-	title="CZilla: Lokalizovaná rozšíření pro Mozilla Firefox">lokalizovaných rozšíření</a>.</p>
-
+<a href="http://www.mozilla.cz/">Mozilla.cz</a> a&nbsp;je k&nbsp;dispozici i&nbsp;v&nbsp;celé řadě
+<a href="http://www.mozilla.com/en-US/firefox/all.html" title="Mozilla.com: Download Firefox" hreflang="en" class="l-en">dalších jazyků</a>.
+Firefox patří mezi tzv. <span lang="en">open-source</span> programy (programy s&nbsp;otevřeným zdrojovým kódem)
+a&nbsp;je nabízen zcela zdarma. Vybrat si můžete také z&nbsp;celé řady
+<a href="https://addons.mozilla.org/cs/firefox/">rozšíření</a>.</p>
 
 <h2 id="otazka-9">Pro jaké platformy je Firefox dostupný?</h2>
 
@@ -185,16 +169,8 @@ zdarma. Vybrat si můžete také z&nbsp;celé řady
 <p>Rozšíření je balíček, který může do Firefoxu přidat další funkce jako např.
 blokování reklamy či sledování informací o&nbsp;počasí.</p>
 <p>Rozšíření se do Firefoxu přidávají jednoduchou instalací, kterou popisuje návod
-<a href="http://www.czilla.cz/podpora/firefox/instalace-rozsireni.html"
-	title="Návod, jak instalovat rozšíření ve Firefoxu">Jak instalovat rozšíření
-ve Firefoxu</a>.</p>
-<p>Mnoho rozšíření naleznete na serveru <a
-	href="https://addons.mozilla.org/extensions/?application=firefox"
-	title="Rozšíření pro Firefox" hreflang="en" class="l-en">Mozilla Update</a>,
-vybírat také můžete z&nbsp;řady <a
-	title="Přehled rozšíření v češtině pro Firefox"
-	href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">rozšíření
-lokalizovaných do češtiny</a>.</p>
+<a href="http://support.mozilla.com/cs/kb/Upravov%C3%A1n%C3%AD+Firefoxu+pomoc%C3%AD+dopl%C5%88k%C5%AF">Upravování Firefoxu pomocí doplňků</a>.</p>
+<p>Celou řadu rozšíření pak naleznete na serveru <a href="https://addons.mozilla.org/cs/firefox/">Doplňky Mozilly</a>.</p>
 
 
 <h2 id="otazka-10">Jak nainstalovat zásuvné moduly (pluginy)?</h2>
@@ -209,12 +185,7 @@ objeví se v&nbsp;horní části prohlížeče lišta symbolizující možnost j
 doinstalování. Kliknete-li na tlačítko <em>Instalovat chybějící zásuvný
 modul...</em>, Firefox se pokusí nalézt instalaci požadovaného modulu. Pokud
 se mu to nepodaří, můžete se zkusit ruční instalaci nebo nalézt modul na
-<a href="http://www.czilla.cz/doplnky/zasuvne-moduly/"
-  title="Stránka o zásuvných modulech">stránce o&nbsp;zásuvných modulech</a>
-nebo na webu
-<a href="http://plugindoc.mozdev.org/" hreflang="en" class="l-en"
-	title="Projekt PluginDoc">Dokumentace pluginů pro Mozillu</a>.</p>
-
+<a href="http://www.mozilla.cz/doplnky/zasuvne-moduly/" title="Stránka o zásuvných modulech">stránce o&nbsp;zásuvných modulech</a>.</p>
 
 <h2 id="otazka-11">Jak používat rychlé hledání?</h2>
 
@@ -240,12 +211,9 @@ již jen nastavíte název záložky a&nbsp;vámi vybrané klíčove slovo.</p>
 
 <p>Prohlížeč Mozilla Firefox dnes přímo podporuje řada moderních download managerů
 (správců stahování). Připravili jsme pro vás
-<a href="http://www.czilla.cz/podpora/mozilla-a-download-managery.html"
-	title="CZilla: Mozilla, Firefox a download managery">podrobný přehled podporovaných download managerů</a>.
+<a href="http://www.czilla.cz/podpora/mozilla-a-download-managery.html" title="CZilla: Mozilla, Firefox a download managery">podrobný přehled podporovaných download managerů</a>.
 Managery, které Firefox nepodporují přímo, lze používat za pomoci
-<a href="http://www.czilla.cz/doplnky/rozsireni/flashgot/"
-	title="CZilla: Rozšíření FlashGot">rozšíření FlashGot</a>.</p>
-
+<a href="https://addons.mozilla.org/cs/firefox/addon/220">rozšíření FlashGot</a>.</p>
 
 <h2 id="otazka-13">Musím odinstalovat Internet Explorer?</h2>
 
@@ -290,7 +258,7 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 	<h3>Chci více odpovědí!</h3>
 
 	<dl>
-		<dt><a href="http://www.czilla.cz/podpora/firefox/faq.html">Často kladené otázky</a></dt>
+		<dt><a href="http://www.mozilla.cz/podpora/firefox/reseni-nejcastejsich-problemu/">Často kladené otázky</a></dt>
 		<dd>Kromě všeobecných otázek a&nbsp;odpovědí také na téma zásuvných
 		modulů, rozšíření a&nbsp;způsobu použití.</dd>
 
@@ -304,13 +272,6 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 
 		<dt><a href="./rozdily-terminologie/">Rozdíly v terminologii</a></dt>
 		<dd>Základní slovníček rozdílně pojmenovaných prvků a&nbsp;funkcí.</dd>
-
-		<dt><a href="http://www.mozilla.org/support/firefox/faq.html"
-				title="Firefox Help: Firefox FAQ"
-				hreflang="en" class="l-en">Firefox
-			<abbr title="Frequently Asked Questions" lang="en">FAQ</abbr></a></dt>
-		<dd>Rozsáhlé často zodpovídané otázky o&nbsp;prohlížeči Firefox
-		v&nbsp;angličtině.</dd>
 	</dl>
 
 	<h3 id="podpora">Podpora uživatelů</h3>
@@ -318,7 +279,7 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 	<p>Firefox u&nbsp;nás používají desítky tisíc uživatelů a&nbsp;řada
 	z&nbsp;nich vám bude ochotna poradit, narazíte-li na problém. Naleznete
 	je ve webovém fóru
-	<a href="http://forum.czilla.cz/viewforum.php?f=19">podpory uživatelů Firefoxu</a>.</p>
+	<a href="http://forum.mozilla.cz/viewforum.php?f=3">podpory uživatelů Firefoxu</a>.</p>
 
 	<h3 id="cervena-panda">Co znamená Firefox?</h3>
 

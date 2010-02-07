@@ -65,7 +65,7 @@ plnou podporu moderních standardů
 <abbr title="Extensible Markup Language" lang="en">XML</abbr>,
 <abbr title="Cascading Style Sheets" lang="en">CSS</abbr> atd.).
 Prohlížeč si může uživatel pomocí
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">různých rozšíření</a>
+<a href="https://addons.mozilla.org/cs/firefox/">různých rozšíření</a>
 <span lang="en">(extensions)</span> přizpůsobit, ale je fajn, že vývojáři
 uživatelům nic nenutí. Firefox (a&nbsp;rovněž skvělý poštovní klient
 Thuderbird) se k mé radosti neustále vyvíjí a&nbsp;každá nová verze mně
@@ -75,7 +75,7 @@ přinese příjemné překvapení.</p>
 vyhrál stále vylepšující se Firefox.</p>
 
 <p class="sig">
-<a href="http://www.roosei.cz/">Radek Růžička</a>
+	<a href="http://www.roosei.cz/">Radek Růžička</a>
 </p>
 
 </div>

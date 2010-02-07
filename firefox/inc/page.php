@@ -13,7 +13,7 @@ class Page
 
 	public function __construct()
 	{
-		error_reporting(0);
+		error_reporting(E_ALL);
 		$this->incPath = dirname(__FILE__);
 	}
 
@@ -68,42 +68,26 @@ class Page
 		return (bool) $this->webStat;
 	}
 
-	public function includeTemplate($name)
+	public function includeTemplate($name, $variables = null)
 	{
+		if(!empty($variables) && is_array($variables)) {
+			extract($variables);
+		}
 		require $this->incPath . '/tpl/' . $name . '.php';
 	}
 
-	public function getPlatform()
+	public function getDownload()
 	{
-		$uaString = isset($_SERVER["HTTP_USER_AGENT"]) ? $_SERVER["HTTP_USER_AGENT"] : "";
-		if(stristr($uaString, "Linux") || stristr($uaString, "X11") || stristr($uaString, "Lindows")) {
-			return "lin";
-		}
-		if(stristr($uaString, "Mac")) {
-			return "mac";
-		}
-		return "win";
-	}
+		include $this->incPath . '/config.php';
+		$mysqlConfig = array(
+			'host' => $mysql_host,
+			'user' => $mysql_user,
+			'pass' => $mysql_pass,
+			'db' => $mysql_db
+		);
 
-	public function getDownloadData()
-	{
-		require $this->incPath . '/config.php';
-
-		$link = mysql_connect($mysql_host, $mysql_user, $mysql_pass);
-		if (!$link) {
-			return false;
-		}
-
-		$row = false;
-		$db_selected = mysql_select_db($mysql_db, $link);
-		if ($db_selected) {
-			$query = mysql_query("SELECT * FROM mozsk_produkty WHERE urlid='firefox' ORDER BY datum DESC LIMIT 1");
-			if ($query) {
-				$row = mysql_fetch_assoc($query);
-			}
-		}
-		mysql_close($link);
-		return $row;
+		require $this->incPath . '/download.php';
+		return new Download($mysqlConfig, 'firefox');
 	}
 }
 

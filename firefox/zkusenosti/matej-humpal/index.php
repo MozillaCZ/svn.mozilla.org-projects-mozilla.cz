@@ -31,9 +31,7 @@ dalo přežít.</p>
 <p>Ale změna přišla. Jako pokročilejší uživatel internetu jsem začal
 navštěvovat řadu webů zabývající se tematikou webdesignu a&nbsp;na weblogu
 Pixylophone jsem se dozvěděl o&nbsp;báječné komponentě
-<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=179&amp;application=firefox&amp;version=1.0"
-	title="Mozilla Update: EditCSS"
-	hreflang="en" class="l-en">EditCSS</a>.
+<a href="https://addons.mozilla.org/cs/firefox/addon/179" lang="en">EditCSS</a>.
 Údajně se s&nbsp;ní dají editovat kaskádové styly přímo v&nbsp;okně prohlížeče
 a&nbsp;výsledek je vidět okamžitě. Ale byl tu malý háček. Tato komponenta je určena
 pouze pro Firefox. Řekl jsem si, že za zkoušku mi to stojí, a&nbsp;nový
@@ -53,8 +51,7 @@ liškou Firefoxu. Teď už Internet Explorer spouštím jen při ladění někte
 ze svých webů. A jsem za to rád.</p>
 
 <p class="sig">
-	<a href="http://finwe.info/"
-		title="Finweblog">Matěj Humpál</a>
+	<a href="http://finwe.info/" title="Finweblog">Matěj Humpál</a>
 </p>
 
 </div>

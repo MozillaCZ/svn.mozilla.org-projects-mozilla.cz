@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Ovládání Firefoxu myší');
 	$page->setDescription('Seznam nejčastěji používaných funkcí, které lze v prohlížeči Mozilla Firefox ovládat myší a jejich ekvivalenty v Internet Exploreru.');
 	$page->setKeywords('mozilla firefox internet explorer ovládání myší myš mouse shortcuts');
@@ -113,9 +113,7 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 	<h3 class="first">Více o&nbsp;ovládání</h3>
 
 	<dl>
-		<dt><a href="http://www.mozilla.org/support/firefox/mouse.html"
-				title="Firefox Help: Mouse Shortcuts"
-				hreflang="en" class="l-en" lang="en">Mouse Shortcuts</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Ovl%C3%A1d%C3%A1n%C3%AD%20Firefoxu%20my%C5%A1%C3%AD">Ovládání Firefoxu myší</a></dt>
 		<dd>Kompletní přehled funkcí, které lze ve Firefoxu ovládát myší,
 		a&nbsp;jejich obdoby v&nbsp;Internet Exploreru a&nbsp;Opeře.</dd>
 
@@ -123,9 +121,7 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 		<dd>Přehled nejběžnějších klávesových zkratek ve Firefoxu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Internet Exploreru.</dd>
 
-		<dt><a href="https://addons.mozilla.org/extensions/moreinfo.php?id=12&amp;application=firefox&amp;version=1.0"
-				title="Mozilla Update: All-in-One Gestures"
-				hreflang="en" class="l-en" lang="en">All-in-One Gestures</a></dt>
+		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/12">All-in-One Gestures</a></dt>
 		<dd>Oblíbené rozšíření pro ovládání Firefoxu pomocí gest myši.</dd>
 	</dl>
 

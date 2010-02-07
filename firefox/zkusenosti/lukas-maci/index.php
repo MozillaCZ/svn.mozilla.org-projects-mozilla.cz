@@ -13,7 +13,7 @@
 se snoubí s&nbsp;jednoduchostí při ovládání, a&nbsp;přitom vím, že se při
 troše opatrnosti nemusím obávat o&nbsp;bezpečnost při každodenním prohlížení
 webových stránek. Firefox je možné doplnit řadou
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">vynikajících rozšíření</a>,
+<a href="https://addons.mozilla.org/cs/firefox/">vynikajících rozšíření</a>,
 bez kterých si již nedokáži představit každodenní používání Internetu,
 a&nbsp;která mi usnadňují mojí práci.</p>
 

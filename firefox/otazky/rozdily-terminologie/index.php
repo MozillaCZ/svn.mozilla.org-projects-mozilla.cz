@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Rozdíly v terminologii Firefoxu a MSIE');
 	$page->setDescription('Základní slovníček rozdílně pojmenovaných prvků a funkcí ve Firefoxu a Internet Exploreru.');
 	$page->setKeywords('mozilla firefox msie internet explorer ie slovníček termíny terminologie názvy');

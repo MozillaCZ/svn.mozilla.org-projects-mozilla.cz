@@ -246,18 +246,13 @@ JavaScript a&nbsp;další)</span> i&nbsp;pomocí komplexních modulů z&nbsp;C++
 rozšířeními najdete vše od relativně jednoduchých nástrojů, až po pokročilé
 aplikace jako JavaScript Debugger nebo
 <abbr title="Document Object Model" lang="en">DOM</abbr> Inspektor.
-Kompletní seznam rozšíření je dostupný na
-<a href="https://addons.mozilla.org/extensions/?application=firefox"
-    title="Mozilla Update: Firefox Extensions"
-	lang="en" hreflang="en" class="l-en">Mozilla Update</a>,
-na CZille nabízíme
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">rozšíření lokalizovaná do češtiny</a>.
+Kompletní seznam rozšíření je dostupný na serveru
+<a href="https://addons.mozilla.org/cs/firefox/">Doplňky Mozilly</a>.
 Rozšíření lze
-<a href="http://www.czilla.cz/podpora/firefox/instalace-rozsireni.html">snadno instalovat</a>.</p>
+<a href="http://support.mozilla.com/cs/kb/Upravování+Firefoxu+pomocí+doplňků">snadno instalovat</a>.</p>
 
 <div class="img-c img-left" style="width:200px">
-	<img src="/img/ss-spravce-motivu-vzhledu.png" width="200" height="152"
-		alt="Správce motivů vzhledu" />
+	<img src="/img/ss-spravce-motivu-vzhledu.png" width="200" height="152" alt="Správce motivů vzhledu" />
 	<p class="comment">Změnit motiv vzhledu je snadné.</p>
 </div>
 
@@ -267,11 +262,9 @@ přizpůsobitelné použitím stejných standardů
 <abbr title="Extensible Markup Language" lang="en">XML</abbr>
 atd. jako u&nbsp;rozšíření. Možnosti změny vzhledu jsou nekonečné. Firefox může
 vypadat jako počítač Lcars ze StarTreku nebo dokoce připomínat Microsoft
-Internet Explorer. Kompletní seznam motivů vzhledu najdete na
-<a href="https://addons.mozilla.org/themes/?application=firefox"
-	lang="en" hreflang="en" class="l-en">Mozilla Update</a>.
+Internet Explorer. Kompletní seznam motivů vzhledu najdete na serveru
+<a href="https://addons.mozilla.org/cs/firefox/browse/type:2/">Doplňky Mozilly</a>.
 Všechny motivy lze jednoduše instalovat.</p>
-
 
 <h2 id="duvod-9">Moderní Správce stahování</h2>
 
@@ -348,11 +341,8 @@ Všechna základní nastavení byla pečlivě vybrána tak, abyste
 a&nbsp;dialogy jsou čisté a&nbsp;neobsahují zbytečné volby, které vyžívá jen minimum
 lidí. Pokud existují vlastnosti, které Mozilla nebo Opera mají, ale Firefox
 ne, máme pro to dobrý důvod. Pokud i&nbsp;přesto něco z toho potřebujete,
-využijte množství
-<a href="https://addons.mozilla.org/extensions/?application=firefox"
-	title="Mozilla Update: Firefox Extensions"
-	hreflang="en" class="l-en">užitečných rozšíření na Mozilla Update.</a></p>
-
+využijte množství užitečných rozšíření na serveru
+<a href="https://addons.mozilla.org/cs/firefox/">Doplňky Mozilly</a>.</p>
 </div>
 
 <div class="side"><div class="side-in">

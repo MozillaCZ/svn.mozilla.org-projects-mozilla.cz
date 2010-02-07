@@ -27,24 +27,12 @@ zobrazily správně.</p>
 možnosti otevírat stránky do tabů místo do oken se mi zalíbily i&nbsp;další
 funkce &ndash; jednoduchá změna velikosti textu, možnost vyhledávání
 v&nbsp;různých vyhledávačích přímo z&nbsp;horní lišty a&nbsp;hlavně
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">velké množství rozšíření</a>
+<a href="https://addons.mozilla.org/cs/firefox/">velké množství rozšíření</a>
 &ndash; třeba
-<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=60&amp;application=firefox&amp;version=1.0"
-	title="Mozilla Update: Web Developer by Chris Pederick"
-	hreflang="en" class="l-en" lang="en">Web Developer Toolbar</a>,
-<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=139&amp;application=firefox&amp;version=1.0"
-	title="Mozilla Update: Image Zoom by Jason Adams"
-	hreflang="en" class="l-en" lang="en">Image Zoom</a>
-nebo
-<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=77&amp;application=firefox&amp;version=1.0"
-	title="Mozilla Update: Sage by Peter Andrews"
-	hreflang="en" class="l-en" lang="en">
-	<abbr title="Really Simple Syndication" lang="en">RSS</abbr>
-	čtečka Sage</a>
+<a href="https://addons.mozilla.org/cs/firefox/addon/60" lang="en">Web Developer Toolbar</a> nebo
+<a href="https://addons.mozilla.org/cs/firefox/addon/139" lang="en">Image Zoom</a>
 mi denně usnadňují práci. Potěší i&nbsp;drobné vychytávky, jako je rozšíření
-<a href="https://addons.mozilla.org/extensions/moreinfo.php?id=134&amp;application=firefox&amp;version=1.0"
-	title="Mozilla Update: Copy Plain Text by Jeremy Gillick"
-	hreflang="en" class="l-en" lang="en">Copy Plain Text</a>.</p>
+<a href="https://addons.mozilla.org/cs/firefox/addon/134" lang="en">Copy Plain Text</a>.</p>
 
 <p>Zejména v&nbsp;Bugzille se mi často stane, že potvrdím bug, který nemá
 vyplněné všechny povinné položky &ndash; to znamená, že bug se neuloží

@@ -168,8 +168,7 @@ obèas hlesnú èosi o&nbsp;vypoèutí kritiky.</p>
 <p>Dovtedy si budem uíva.</p>
 
 <p class="sig">
-	<a href="http://spravodaj.madaj.net/"
-		hreflang="sk" class="l-sk">Robert Madaj</a>
+	<a href="http://spravodaj.madaj.net/" hreflang="sk" class="l-sk">Robert Madaj</a>
 </p>
 
 </div>

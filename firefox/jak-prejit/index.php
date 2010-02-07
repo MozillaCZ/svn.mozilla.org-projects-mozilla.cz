@@ -23,25 +23,13 @@ spuštění se Firefox zeptá, odkud chcete importovat data. Vyberte
 jsou v&nbsp;záložkách Firefoxu. Můžete je spravovat pomocí <strong>Správce
 záložek</strong>, který najdete v&nbsp;hlavní nabídce Záložky.</p>
 
-<p>Všechna nastavení ukládá Firefox na váš disk do adresáře s&nbsp;profilem.</p>
-
-<div class="note">
-<p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn v&nbsp;cestě
-<span class="file">
-<a href="http://www.mozilla.org/support/firefox/edit.html#appdata"
-	hreflang="en"
-	title="Firefox Help: Editing Configuration Files">%AppData%</a>\Mozilla\Firefox\Profiles\[Náhodné znaky].default\</span>.
-Stačí si prohlédnout
-<span class="file">C:\Documents and Settings\<var>[Uživatelské jméno]</var>\Data aplikací\Mozilla\Firefox\Profiles\</span>
-a&nbsp;zbytek by měl být jasný.</p>
-
-<p>Na <strong>Windows 95/98/ME</strong> je adresář obvykle umístěn
-v&nbsp;<span class="file">C:\WINDOWS\Application Data\Mozilla\Firefox\Profiles\[Náhodné znaky].default</span>.</p>
-</div>
+<p>Všechna nastavení ukládá Firefox na váš disk do adresáře s&nbsp;profilem.
+Více informací o profilech se dozvíte na serveru
+<a href="http://support.mozilla.com/cs/kb/Profily" title="Co je to profil a kde ho najdu">Podpory Firefoxu</a>.
+</p>
 
 <p><strong>Nemáte své oblíbené položky?</strong> Báječné, tím bude přechod
 ještě jednodušší! Jen nainstalujte a&nbsp;máte hotovo.</p>
-
 
 <h2>Vychutnejte si znovu prohlížení Internetu</h2>
 

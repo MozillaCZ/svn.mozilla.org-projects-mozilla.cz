@@ -19,7 +19,7 @@ nezlobil. Po několika experimentech s&nbsp;přeplácanými nadstavbami
 a&nbsp;překomplikovanou Operou jsme skončili u&nbsp;Firefoxu.</p>
 
 <p>Já na něm miluji naprostou jednoduchost a&nbsp;variabilitu ve formě
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">úžasných rozšíření</a>,
+<a href="https://addons.mozilla.org/cs/firefox/">úžasných rozšíření</a>,
 nad kterými neztrácím kontrolu, a&nbsp;navigaci pomocí
 gest myší. Má žena zase využívá ve Firefoxu možnosti desítek otevřených
 stránek v&nbsp;jednom okně a&nbsp;lahůdkových rozšíření, jako je třeba
