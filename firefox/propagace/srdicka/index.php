@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Ikonky &quot;Miluju Firefox&quot;");
-	$page_desc		= "Ikonky &quot;Miluju Firefox&quot; propagující webový prohlížeč Mozilla Firefox. Připojte se.";
-	$page_keywords	= "mozilla firefox bannery ikony tlačítka promo promotion propagace podpora miluju mám rád miluji i love";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Ikonky &quot;Miluju Firefox&quot;');
+	$page->setDescription('Ikonky &quot;Miluju Firefox&quot; propagující webový prohlížeč Mozilla Firefox. Připojte se.');
+	$page->setKeywords('mozilla firefox bannery ikony tlačítka promo promotion propagace podpora miluju mám rád miluji i love');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Ikonky &quot;Miluju Firefox&quot;</h1>
@@ -20,7 +13,7 @@
 <a href="http://www.pixelgraphix.de/"
 	title="pixelgraphix"
 	hreflang="de" class="l-de">Manuela Hoffman</a>
-připravila sadu 
+připravila sadu
 <a href="http://www.pixelgraphix.de/firefox/werbemittel/i-love-firefox/"
 	title="pixelgraphix: Spread Firefox auch lokal!"
 	hreflang="de" class="l-de">roztomilých ikonek
@@ -33,7 +26,7 @@ i&nbsp;originální anglickou verzi.</p>
 <h2 id="i-cs-gif">České verze, <abbr title="Graphic Interchange Format" lang="en">GIF</abbr> pro bílé pozadí</h2>
 
 <p>Ikonky ve formátu
-<abbr title="Graphic Interchange Format" lang="en">GIF</abbr> 
+<abbr title="Graphic Interchange Format" lang="en">GIF</abbr>
 jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 64&nbsp;x&nbsp;64, 90&nbsp;x&nbsp;90 a 125&nbsp;x&nbsp;125 pixelů.</p>
 
@@ -190,7 +183,7 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 <h2 id="i-en-gif">Anglické verze, <abbr title="Graphic Interchange Format" lang="en">GIF</abbr> pro bílé pozadí</h2>
 
 <p>Ikonky ve formátu
-<abbr title="Graphic Interchange Format" lang="en">GIF</abbr> 
+<abbr title="Graphic Interchange Format" lang="en">GIF</abbr>
 jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 64&nbsp;x&nbsp;64, 90&nbsp;x&nbsp;90 a 125&nbsp;x&nbsp;125 pixelů.</p>
 
@@ -379,7 +372,5 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

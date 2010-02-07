@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Zkušenosti lidí, kteří přešli na Firefox");
-	$page_desc		= "Přečtěte si, co si o přechodu z Internet Exploreru na Mozilla Firefox myslí lidé, kteří již přešli.";
-	$page_keywords	= "mozilla firefox přechod internet explorer osobní zkušenost názor důvod příklad proč přejít";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Zkušenosti lidí, kteří přešli na Firefox');
+	$page->setDescription('Přečtěte si, co si o přechodu z Internet Exploreru na Mozilla Firefox myslí lidé, kteří již přešli.');
+	$page->setKeywords('mozilla firefox přechod internet explorer osobní zkušenost názor důvod příklad proč přejít');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Zkušenosti</h1>
@@ -79,9 +72,7 @@ testování stránek.</p>
 	<h2>Navazující odkazy</h2>
 
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
@@ -91,9 +82,6 @@ testování stránek.</p>
 		<strong>Zkušenosti</strong>
 	</p>
 </div>
-
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('header');
 ?>

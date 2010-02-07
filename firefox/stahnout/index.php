@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Stáhnout Firefox");
-	$page_desc		= "Stažení prohlížeče Mozilla Firefox pro Windows, Linux a Mac OS X, zásuvných modulů, oblíbených rozšíření a motivů vzhledu.";
-	$page_keywords	= "mozilla firefox download stažení stahování stáhnutí zásuvný modul plugin rozšíření extenze téma motiv vzhledu";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Stáhnout Firefox');
+	$page->setDescription('Stažení prohlížeče Mozilla Firefox pro Windows, Linux a Mac OS X, zásuvných modulů, oblíbených rozšíření a motivů vzhledu.');
+	$page->setKeywords('mozilla firefox download stažení stahování stáhnutí zásuvný modul plugin rozšíření extenze téma motiv vzhledu');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main download">
 
 <h1>Stáhněte si Firefox</h1>
@@ -41,15 +34,15 @@
 	<h3>Oblíbená rozšíření</h3>
 
 	<dl>
-		<dt><a 
+		<dt><a
     href="http://www.czilla.cz/doplnky/rozsireni/adblock-plus/">Adblock Plus</a></dt>
-		<dd>Snadné blokování reklam ve stránkách.</dd>	
-	
-		<dt><a 
+		<dd>Snadné blokování reklam ve stránkách.</dd>
+
+		<dt><a
     href="http://www.czilla.cz/doplnky/rozsireni/forecastfox/">ForecastFox</a></dt>
-		<dd>Předpověď počasí přímo ve stavovém řádku.</dd>	
-	
-		<dt><a 
+		<dd>Předpověď počasí přímo ve stavovém řádku.</dd>
+
+		<dt><a
     href="http://www.czilla.cz/doplnky/rozsireni/mouse-gestures/">Mouse Gestures</a></dt>
 		<dd>Ovládání prohlížeče pomocí gest myši.</dd>
 
@@ -73,7 +66,7 @@
 		<li><a href="https://addons.mozilla.org/extensions/?application=firefox"
 				title="Velký katalog rozšíření serveru Mozilla Update"
 				hreflang="en" class="l-en" lang="en">Mozilla Update</a></li>
-	
+
 		<li><a href="http://www.czilla.cz/podpora/firefox/instalace-rozsireni.html"
 				title="Návod, jak nainstalovat rozšíření pro Firefox">Instalace rozšíření do Firefoxu</a></li>
 	</ul>
@@ -84,25 +77,25 @@
 	<dl>
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1070&amp;application=firefox"
 			hreflang="en" class="l-en" lang="en">Aquatint</a></dt>
-		<dd>Hezký motiv kombinující šedivou barvu s&nbsp;modrou.</dd>	
-		
+		<dd>Hezký motiv kombinující šedivou barvu s&nbsp;modrou.</dd>
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1106&amp;application=firefox"
 			hreflang="en" class="l-en" lang="en">iFox</a></dt>
-		<dd>Elegantní styl v&nbsp;šedých barvách.</dd>	
-	
+		<dd>Elegantní styl v&nbsp;šedých barvách.</dd>
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=72&amp;application=firefox"
 			hreflang="en" class="l-en" lang="en">Noia 2.0 (eXtreme)</a></dt>
-		<dd>Pestrý motiv založený na ikonách Noia.</dd>	
+		<dd>Pestrý motiv založený na ikonách Noia.</dd>
 
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=890&amp;application=firefox"
 			hreflang="en" class="l-en" lang="en">Outlook 2003 Blue</a></dt>
-		<dd>Motiv ve stylu Outlook 2003.</dd>	
-		
+		<dd>Motiv ve stylu Outlook 2003.</dd>
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1406&amp;application=firefox"
 			hreflang="en" class="l-en" lang="en">Phoenity</a></dt>
-		<dd>Hezky barevný motiv s&nbsp;možností nastavování.</dd>			
+		<dd>Hezky barevný motiv s&nbsp;možností nastavování.</dd>
 	</dl>
-	
+
 	<p><strong>Další zdroje motivů:</strong></p>
 
 	<ul>
@@ -112,11 +105,11 @@
     <li><a href="http://www.extensionsmirror.nl/index.php?showforum=24"
     title="Přehled motivů vzhledu pro Firefox na serveru Extensions Mirror"
 		hreflang="en" class="l-en">The Extensions Mirror</a></li>
-	
+
  		<li><a href="http://www.czilla.cz/podpora/firefox/instalace-motivu-vzhledu.html"
-				title="Návod, jak nainstalovat motiv vzhledu do Firefoxu">Instalace 
-        motivu vzhledu do Firefoxu</a></li>	
-		
+				title="Návod, jak nainstalovat motiv vzhledu do Firefoxu">Instalace
+        motivu vzhledu do Firefoxu</a></li>
+
   </ul>
 
 	<h3>Další aplikace</h3>
@@ -150,7 +143,5 @@
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

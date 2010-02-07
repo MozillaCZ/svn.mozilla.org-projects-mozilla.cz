@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Propagujte Firefox");
-	$page_desc		= "Ikonky a proužky propagující webový prohlížeč Mozilla Firefox. Připojte se.";
-	$page_keywords	= "mozilla firefox bannery ikony tlačítka promo promotion propagace podpora";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Propagujte Firefox');
+	$page->setDescription('Ikonky a proužky propagující webový prohlížeč Mozilla Firefox. Připojte se.');
+	$page->setKeywords('mozilla firefox bannery ikony tlačítka promo promotion propagace podpora');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Propagujte Firefox</h1>
@@ -616,7 +609,7 @@ proužek propagující Firefox. Děkujeme!</p>
 	</ul>
 
 	<h3>Ikonky &quot;Miluju Firefox&quot;</h3>
-	
+
 	<img src="/img/p/cz-jaff-48x48.gif" alt="Miluju Firefox" id="jaff" />
 
 	<p>Roztomilými ikonkami
@@ -627,7 +620,7 @@ proužek propagující Firefox. Děkujeme!</p>
 	<h3>Tapety s Firefoxem</h3>
 
 	<p><img src="/img/w/w-1-tbtw-prev.jpg" id="wallpromo" alt="" />
-	Přátelům můžete nastavit 
+	Přátelům můžete nastavit
 	<a href="/stahnout/tapety/">tapetu s&nbsp;logem Firefoxu</a>
 	- ale pozor, jen těm, kteří změnu své plochy ocení.</p>
 
@@ -648,7 +641,5 @@ proužek propagující Firefox. Děkujeme!</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "./inc/";
-	include($inc_path . "config.inc");
-
-	$page_title		= $web_name." &ndash; rychlý a bezpečný webový prohlížeč";
-	$page_desc		= "Představení webového prohlížeče Mozilla.org, důvody, proč jej zvolit, otázky a odpovědi o přechodu, zkušenosti lidí a názory médií. Samozřejmě stažení.";
-	$page_keywords	= "mozilla firefox firebird phoenix fire fox prohlížeč browser webový internetový standardní jednoduchý přechod moderní internet explorer";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once './inc/page.php';
+	$page->setTitle($page->getWebName() . ' - rychlý a bezpečný webový prohlížeč', false);
+	$page->setDescription('Představení webového prohlížeče Mozilla.org, důvody, proč jej zvolit, otázky a odpovědi o přechodu, zkušenosti lidí a názory médií. Samozřejmě stažení.');
+	$page->setKeywords('mozilla firefox firebird phoenix fire fox prohlížeč browser webový internetový standardní jednoduchý přechod moderní internet explorer');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <div class="intro-1 intro"><div class="intro-2"><div class="intro-3"><div class="intro-4">
@@ -96,7 +89,7 @@ Je to snadné. Firefox to udělá za vás.<br />
 	<h2><a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">Snadné přidání funkcí do Firefoxu</a></h2>
 	<p>Hledejte a&nbsp;vyberte si lokalizovaná rozšíření Firefoxu na
 	<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">CZille</a>
-	či anglická na 
+	či anglická na
 	<a href="https://addons.mozilla.org/?application=firefox"
 		lang="en" hreflang="en" class="l-en">Mozilla Update</a>
 	a&nbsp;získejte neomezený vliv na své zkušenosti s&nbsp;Internetem.</p>
@@ -104,15 +97,10 @@ Je to snadné. Firefox to udělá za vás.<br />
 
 </div>
 
-<div class="side-promo"
-	onclick="window.location='<?php echo $web_url; ?>propagace/'"
-	title="Přidejte na své stránky propagační ikonky, odkazy a proužky">&nbsp;</div>
+<a class="side-promo" href="/propagace/" title="Přidejte na své stránky propagační ikonky"></a>
 
 <?php
-  // include("../cas/includes-fcc.inc.php");
-  // $template = new Templates('web/');
-  // $module = new FCCModule();
-  // $module->writeDownloadSidebox();
+	$page->includeTemplate('download-box');
 ?>
 
 <div class="side"><div class="side-in">
@@ -141,15 +129,12 @@ Je to snadné. Firefox to udělá za vás.<br />
 	<p>Přidejte na své stránky propagační
 	<a href="/propagace/">ikonky, odkazy a&nbsp;proužky</a>.</p>
 
-	<p><a href="mailto:AdresyPratel">Řekněte přátelům</a> o&nbsp;tomto webu</p>
-
-
 	<h3 lang="en">For English visitors</h3>
 
 	<p lang="en">To learn all about <strong>Mozilla Firefox</strong>,
 	award-winning web browser, visit
-	<a href="http://www.getfirefox.com/"
-		lang="en" hreflang="en" class="l-en">GetFirefox.com</a>
+	<a href="http://www.mozilla.com/en-US/firefox/"
+		lang="en" hreflang="en" class="l-en">Mozilla.com</a>
 	website.</p>
 
 </div></div>
@@ -161,11 +146,8 @@ Je to snadné. Firefox to udělá za vás.<br />
 
 	<p>Jako skvělý doplněk Firefoxu vám doporučujeme kvalitní poštovní
 	klient
-	<a href="http://thunderbird.czilla.cz/">Mozilla Thunderbird</a>.</p>
+	<a href="http://thunderbird.mozilla.cz/">Mozilla Thunderbird</a>.</p>
 </div></div>
-
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Co říkají na Firefox média?");
-	$page_desc		= "Recenzenti a komentátoři chválí Firefox nejen v zahraničí, ale i v Čechách a na Slovensku.";
-	$page_keywords	= "mozilla firefox pochvala recenze review názory časopisy e-ziny média recenzenti komentáře";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Co říkají na Firefox média?');
+	$page->setDescription('Recenzenti a komentátoři chválí Firefox nejen v zahraničí, ale i v Čechách a na Slovensku.');
+	$page->setKeywords('mozilla firefox pochvala recenze review názory časopisy e-ziny média recenzenti komentáře');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Co o&nbsp;Firefoxu říkají média?</h1>
@@ -54,7 +47,7 @@ důvod ho opustit.<br />
 <div class="med-logo" style="width:60px"><img
 	src="/img/m-ctk.gif" alt="ČTK" width="60" height="42" /></div>
 
-<p>Uživatelům však (Firefox) poskytuje různé výhody, které 
+<p>Uživatelům však (Firefox) poskytuje různé výhody, které
 <abbr title="Microsoft Internet Explorer" lang="en">MSIE</abbr>
 nemá - například brouzdání po internetu pomocí záložek. Nové stránky se
 totiž mohou otevírat v&nbsp;jednom &quot;okně&quot; seřazené do záložek
@@ -78,7 +71,7 @@ který stránky otevírá buď přes sebe nebo do zvláštních oken.</p>
 	src="/img/m-mad-penguin.gif" alt="Mad Penguin" height="22" width="100" /></div>
 
 <p>Firefox je ve srovnání s&nbsp;prohlížečem Internet Explorer světelné roky
-napřed. Microsoft bude muset tvrdě máknout, aby dohonil použitelnost 
+napřed. Microsoft bude muset tvrdě máknout, aby dohonil použitelnost
 a&nbsp;funkčnost tohoto prohlížeče.<br />
 (<a href="http://www.madpenguin.org/cms/html/47/1695.html"
 	hreflang="en" class="l-en">Čtěte dále...</a>)</p>
@@ -112,7 +105,7 @@ rovná nule a&nbsp;veľké množstvo zaujímavých rozšírení.<br />
 <h3>Závan čerstvého vzduchu</h3>
 
 <div class="med-logo" style="width:60px"><img
-	src="/img/m-forbes.gif" alt="Forbes" height="21" width="60" /></div> 
+	src="/img/m-forbes.gif" alt="Forbes" height="21" width="60" /></div>
 
 <p>Používáme Firebird současně na Windows&nbsp;XP a&nbsp;na Mac OS&nbsp;X od
 Apple již několik týdnů. Čím více jej používáme, tím více se nám líbí a&nbsp;tím
@@ -159,7 +152,7 @@ prehliadač pre ľudí, pre ktorých je Internet pracovným nástrojom.<br />
 <div class="med-logo" style="width:60px"><img
 	src="/img/m-computer.gif" alt="Computer" width="60" height="19" /></div>
 
-<p>Kromě velkých prohlížečů typu Opera, Netscape a&nbsp;Mozilla se spolehlivou 
+<p>Kromě velkých prohlížečů typu Opera, Netscape a&nbsp;Mozilla se spolehlivou
 a&nbsp;bezpečnou alternativou k&nbsp;Internet Exploreru stávají i&nbsp;některé mnohem
 štíhlejší programy, jako je například Firefox. Pokud pro elektronickou poštu
 používáte Outlook a&nbsp;některé doplňkové funkce, jako je chatování, můžete
@@ -173,7 +166,7 @@ postrádat, je pro vás tahle &quot;ohnivá liška&quot; přímo ideální.</p>
 <h3>Jak Mozilla Firefox trumfnul Internet Explorer</h3>
 
 <div class="med-logo" style="width:60px"><img
-	src="/img/m-msn.gif" alt="MSN" height="24" width="60" /></div> 
+	src="/img/m-msn.gif" alt="MSN" height="24" width="60" /></div>
 
 <p>Obvykle se o&nbsp;počítačové viry nestarám, avšak útok Scobu minulý týden
 mě probral. Scob mne nedostal, ale bylo to dost na to, abych dal do starého
@@ -244,12 +237,6 @@ skrytým instalačním programem.<br />
 		hreflang="en" class="l-en" lang="en"><abbr title="Internet Explorer" lang="en">IE</abbr> considered Harmful</a>
 		- <abbr title="Internet Explorer" lang="en">IE</abbr> Report</p>
 
-
-	<h3>Firefox na webu</h3>
-
-	<p>Sledujeme česká internetová média a&nbsp;nabízíme vám
-		<a href="http://www.czilla.cz/media/firefox/">živý přehled článků o&nbsp;Firefoxu</a>.</p>
-
 </div></div>
 <div class="path">
 	<hr />
@@ -259,7 +246,5 @@ skrytým instalačním programem.<br />
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

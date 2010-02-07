@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Nejčastější otázky o přechodu na Firefox");
-	$page_desc		= "Pokud přemýšlíte o přechodu z Internet Exploreru na Mozilla Firefox, máte určite řadu otázek. Nabízíme odpovědi na ty nejčastější.";
-	$page_keywords	= "mozilla firefox přechod msie otázka odpověď faq oblíbené položky import záložek povolení vyskakovacích popup oken funkčnost stránek varování varovné dialogy nastavení čeština platformy pluginy zásuvný modul flash java shockwave acrobat";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Nejčastější otázky o přechodu na Firefox');
+	$page->setDescription('Pokud přemýšlíte o přechodu z Internet Exploreru na Mozilla Firefox, máte určite řadu otázek. Nabízíme odpovědi na ty nejčastější.');
+	$page->setKeywords('mozilla firefox přechod msie otázka odpověď faq oblíbené položky import záložek povolení vyskakovacích popup oken funkčnost stránek varování varovné dialogy nastavení čeština platformy pluginy zásuvný modul flash java shockwave acrobat');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Nejčastější otázky</h1>
@@ -68,26 +61,26 @@ v&nbsp;Internet Exploreru.</p>
 
 <h2 id="otazka-4">Budu moci provozovat své internetové bankovnictví?</h2>
 
-<p>S&nbsp;největší pravděpodobností ano. Firefox obsahuje vše potřebné pro 
-podporu moderních internetových bankovnictví. V&nbsp;současné době podporují 
-Firefox všechny bankovní ústavy u&nbsp;nás s&nbsp;výjimkou 
-<a href="http://www.mojebanka.cz" 
-title="MojeBanka.cz: Domovská stránka">Komerční banky</a>. Více informací 
-naleznete v&nbsp;přehledovém článku 
-<a href="http://www.czilla.cz/podpora/internetova-bankovnictvi-v-mozille.html" 
+<p>S&nbsp;největší pravděpodobností ano. Firefox obsahuje vše potřebné pro
+podporu moderních internetových bankovnictví. V&nbsp;současné době podporují
+Firefox všechny bankovní ústavy u&nbsp;nás s&nbsp;výjimkou
+<a href="http://www.mojebanka.cz"
+title="MojeBanka.cz: Domovská stránka">Komerční banky</a>. Více informací
+naleznete v&nbsp;přehledovém článku
+<a href="http://www.czilla.cz/podpora/internetova-bankovnictvi-v-mozille.html"
 title="Internetová bankovnictví v Mozille">Internetová bankovnictví v&nbsp;Mozille</a>.</p>
 
 
 <h2 id="otazka-5">Je k dispozici o&nbsp;Firefoxu kniha v češtině?</h2>
 
-<p>Ano. Nakladatelství <a href="http://knihy.cpress.cz/" 
-title="CP Books: Domovská stránka">CP Books</a> vydalo knihu 
-<a href="http://knihy.cpress.cz/pocitac/Book.asp?ID=1759" 
-title="Mozilla Firefox: Kompletní uživatelská příručka">Mozilla 
-Firefox: Kompletní uživatelská příručka</a>. Autorem knihy je 
-Václav Kadlec a&nbsp;kniha je určena převážně pro začátečníky. Bližší 
-informace o&nbsp;knize se <a 
-href="http://www.czilla.cz/podpora/firefox/recenze-kompletni-prirucka.html" 
+<p>Ano. Nakladatelství <a href="http://knihy.cpress.cz/"
+title="CP Books: Domovská stránka">CP Books</a> vydalo knihu
+<a href="http://knihy.cpress.cz/pocitac/Book.asp?ID=1759"
+title="Mozilla Firefox: Kompletní uživatelská příručka">Mozilla
+Firefox: Kompletní uživatelská příručka</a>. Autorem knihy je
+Václav Kadlec a&nbsp;kniha je určena převážně pro začátečníky. Bližší
+informace o&nbsp;knize se <a
+href="http://www.czilla.cz/podpora/firefox/recenze-kompletni-prirucka.html"
 title="Recenze knihy o Mozilla Firefoxu">dočtete v naší recenzi</a>.</p>
 
 
@@ -102,7 +95,7 @@ class="file">C:\Users\[Uživatelské jméno]\AppData\Roaming\Mozilla\Firefox\Pro
 <p>Ve <strong>Windows XP/2000</strong> je složka umístěna v&nbsp;<span
 class="file">%AppData%\Mozilla\Firefox\Profiles\<em>[Náhodné znaky]</em>.default\</span>.
 Prohlédněte si <span class="file">C:\Documents and Settings\
-<em>[Uživatelské jméno]</em>\Data aplikací\Mozilla\Firefox\Profiles\</span> 
+<em>[Uživatelské jméno]</em>\Data aplikací\Mozilla\Firefox\Profiles\</span>
 a&nbsp;zbytek by vám měl být jasný.</p>
 
 <p>Ve <strong>Windows 95/98/ME</strong> je složka umístěna v&nbsp;<span
@@ -262,10 +255,10 @@ současně.</p>
 
 <h2 id="otazka-15">Existuje pro Firefox překladač webových stránek?</h2>
 
-<p>Ano. Pro Firefox jsou k&nbsp;dispozici překladače <a 
-href="http://www.langsoft.cz/translat.htm" 
-title="PC Translator: Domovská stránka">PC Translator</a> 
-a&nbsp;<a href="http://www.eurotran.cz/" 
+<p>Ano. Pro Firefox jsou k&nbsp;dispozici překladače <a
+href="http://www.langsoft.cz/translat.htm"
+title="PC Translator: Domovská stránka">PC Translator</a>
+a&nbsp;<a href="http://www.eurotran.cz/"
 title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 
 </div>
@@ -291,7 +284,7 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 		<li><a href="#otazka-11">Jak používat rychlé hledání?</a></li>
 		<li><a href="#otazka-12">Mohu používat své oblíbené download managery?</a></li>
 		<li><a href="#otazka-13">Musím odinstalovat Internet Explorer?</a></li>
-		<li><a href="#otazka-15">Existuje pro Firefox překladač webových stránek?</a></li>		
+		<li><a href="#otazka-15">Existuje pro Firefox překladač webových stránek?</a></li>
 	</ol>
 
 	<h3>Chci více odpovědí!</h3>
@@ -353,7 +346,5 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

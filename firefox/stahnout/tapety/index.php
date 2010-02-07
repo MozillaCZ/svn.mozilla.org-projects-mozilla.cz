@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Tapety s Firefoxem");
-	$page_desc		= "Tapety s logem Mozilla Firefox ke stažení a několik odkazů na stránky s dalšími tapetami.";
-	$page_keywords	= "mozilla firefox wallpaper tapeta tapety pozadí monitor desktop wallpapery";
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Tapety s Firefoxem');
+	$page->setDescription('Tapety s logem Mozilla Firefox ke stažení a několik odkazů na stránky s dalšími tapetami.');
+	$page->setKeywords('mozilla firefox wallpaper tapeta tapety pozadí monitor desktop wallpapery');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Tapety s Firefoxem</h1>
@@ -260,7 +252,7 @@ Na jeho stránkách naleznete
 				title="Evolutionx: Firefox Wallpaper"
 				hreflang="en" lang="en"><img
 				src="/img/w/wep-8.jpg" alt="Firefox Wallpaper" />
-				<span>Michael</span>				
+				<span>Michael</span>
 		</a></li></ul>
 
 </div></div>
@@ -273,7 +265,5 @@ Na jeho stránkách naleznete
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

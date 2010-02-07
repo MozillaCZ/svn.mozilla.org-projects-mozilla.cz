@@ -1,5 +1,4 @@
 	<h3 class="first">Zkušenosti</h3>
-
 	<dl>
 		<dt><a href="/zkusenosti/martin-kopta/">Proč prohlížím web ve Firefoxu</a></dt>
 		<dd>Martin Kopta: Mám pocit, že někdo Firefox napsal přímo mně na míru.</dd>

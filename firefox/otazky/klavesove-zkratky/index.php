@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Klávesové zkratky ve Firefoxu");
-	$page_desc		= "Seznam nejvíce používaných klávesových zkratek v prohlížeči Mozilla Firefox a porovnání s ekvivalenty Internet Exploreru.";
-	$page_keywords	= "mozilla firefox microsoft internet explorer klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Klávesové zkratky ve Firefoxu');
+	$page->setDescription('Seznam nejvíce používaných klávesových zkratek v prohlížeči Mozilla Firefox a porovnání s ekvivalenty Internet Exploreru.');
+	$page->setKeywords('mozilla firefox microsoft internet explorer klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Klávesové zkratky ve Firefoxu</h1>
@@ -105,22 +98,22 @@ Internet Explorer.</p>
 		<th>Přesun panel doleva</th>
 		<td><kbd>Ctrl</kbd>+<kbd>šipka doleva</kbd></td>
 		<td>&nbsp;</td>
-	</tr>	
+	</tr>
 	<tr>
 		<th>Přesun panel doprava</th>
 		<td><kbd>Ctrl</kbd>+<kbd>šipka doprava</kbd></td>
 		<td>&nbsp;</td>
-	</tr>	
+	</tr>
 	<tr>
 		<th>Přesun panelu na začátek lišty</th>
 		<td><kbd>Ctrl</kbd>+<kbd>Home</kbd></td>
 		<td>&nbsp;</td>
-	</tr>	
+	</tr>
 	<tr>
 		<th>Přesun panelu na konec lišty</th>
 		<td><kbd>Ctrl</kbd>+<kbd>End</kbd></td>
 		<td>&nbsp;</td>
-	</tr>		  	
+	</tr>
 	<tr>
 		<th>Nové okno</th>
 		<td><kbd>Ctrl</kbd>+<kbd>N</kbd></td>
@@ -181,12 +174,12 @@ Internet Explorer.</p>
 		<th>Přejít na konec stránky</th>
 		<td><kbd>End</kbd></td>
 		<td><kbd>End</kbd></td>
-	</tr>		
+	</tr>
 	<tr>
 		<th>Přejít na začátek stránky</th>
 		<td><kbd>Home</kbd></td>
 		<td><kbd>Home</kbd></td>
-	</tr>		
+	</tr>
 	<tr>
 		<th>Přesun na následující rám</th>
 		<td><kbd>F6</kbd></td>
@@ -241,7 +234,7 @@ Internet Explorer.</p>
 		<th>Výběr předchozího vyhledávacího modulu</th>
 		<td><kbd>Ctrl</kbd>+<kbd>šipka nahoru</kbd></td>
 		<td>&nbsp;</td>
-	</tr>	
+	</tr>
 </tbody>
 <tbody>
 	<tr>
@@ -314,7 +307,7 @@ Internet Explorer.</p>
 		<th>Přidat všechny panely do záložek</th>
 		<td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>D</kbd></td>
 		<td></td>
-	</tr>	
+	</tr>
 	<tr>
 		<th>Postranní lišta záložek</th>
 		<td><kbd>Ctrl</kbd>+<kbd>B</kbd><br />
@@ -369,12 +362,12 @@ Internet Explorer.</p>
 		<th>Vymazat důvěrná data</th>
 		<td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Del</kbd></td>
 		<td>&nbsp;</td>
-	</tr>		
+	</tr>
 	<tr>
 		<th>Nápověda</th>
 		<td><kbd>F1</kbd></td>
 		<td><kbd>F1</kbd></td>
-	</tr>	
+	</tr>
 </tbody>
 </table>
 </div>
@@ -415,7 +408,7 @@ Internet Explorer.</p>
 		Firefox ovládat myší, a&nbsp;jejich ekvivalenty v&nbsp;Internet
 		Exploreru.</dd>
 	</dl>
-	
+
 </div></div>
 <div class="path">
 	<hr />
@@ -426,7 +419,5 @@ Internet Explorer.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

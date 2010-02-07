@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Rozdíly v terminologii Firefoxu a MSIE");
-	$page_desc		= "Základní slovníček rozdílně pojmenovaných prvků a funkcí ve Firefoxu a Internet Exploreru.";
-	$page_keywords	= "mozilla firefox msie internet explorer ie slovníček termíny terminologie názvy";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Rozdíly v terminologii Firefoxu a MSIE');
+	$page->setDescription('Základní slovníček rozdílně pojmenovaných prvků a funkcí ve Firefoxu a Internet Exploreru.');
+	$page->setKeywords('mozilla firefox msie internet explorer ie slovníček termíny terminologie názvy');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Rozdíly v&nbsp;terminologii Firefoxu
@@ -101,7 +94,7 @@ slovníček těchto rozdílů.</p>
 		Firefox ovládat myší, a&nbsp;jejich ekvivalenty v&nbsp;Internet
 		Exploreru.</dd>
 	</dl>
-	
+
 </div></div>
 <div class="path">
 	<hr />
@@ -112,7 +105,5 @@ slovníček těchto rozdílů.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

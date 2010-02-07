@@ -1,20 +1,13 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Co MSIE neumí a Firefox ano");
-	$page_desc		= "Seznam vlastností, které jsou zahrnuty v instalaci prohlížeče Mozilla Firefox a nejsou k dispozici v prohlížeči Internet Explorer.";
-	$page_keywords	= "mozilla firefox internet explorer msie ie možnosti výhody";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Co MSIE neumí a Firefox ano');
+	$page->setDescription('Seznam vlastností, které jsou zahrnuty v instalaci prohlížeče Mozilla Firefox a nejsou k dispozici v prohlížeči Internet Explorer.');
+	$page->setKeywords('mozilla firefox internet explorer msie ie možnosti výhody');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
-<h1>Co 
+<h1>Co
 <abbr title="Microsoft Internet Explorer" lang="en">MSIE</abbr>
 neumí a&nbsp;Firefox ano</h1>
 
@@ -68,7 +61,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-kontrola-skriptu">Rozšířená kontrola skriptování</dt>
 	<dd>
 		<p>Můžete zabránit skriptům, aby automaticky pohybovaly
-		okny a&nbsp;měnily jejich velikost nebo skrývaly stavovou lištu 
+		okny a&nbsp;měnily jejich velikost nebo skrývaly stavovou lištu
 		a&nbsp;měnily její text, zakazovaly kontextové nabídky nebo měnily obrázky.
 		Pro změnu nastavení zvolte v&nbsp;Možnostech kategorii &quot;Webové
         stránky&quot; a&nbsp;nastavte odpovídající zatržení v&nbsp;dialogu
@@ -99,7 +92,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dd>
 		<p>Postranní lišta slouží nejen k&nbsp;zobrazení záložek
 		(<kbd>Ctrl</kbd>+<kbd>B</kbd>) a&nbsp;historie
-		(<kbd>Ctrl</kbd>+<kbd>H</kbd>). Řada 
+		(<kbd>Ctrl</kbd>+<kbd>H</kbd>). Řada
 		<a href="http://www.czilla.cz/doplnky/postranni-lista/">českých webů nabízí postranní lištu</a>,
 		kterou si můžete ve Firefoxu zobrazit stručný obsah webu. Stačí takovou
 		stránku přidat do záložek a&nbsp;ve vlastnostech záložky nastavit
@@ -173,8 +166,8 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 
 		<p class="note"><em>Poznámka:</em> U&nbsp;IE ve Windows&nbsp;XP existuje
 		možnost volby motivu vzhledu. Tato funkce však není podporována
-		přímo firmou Microsoft a&nbsp;je součástí pouze jedné verze jejich 
-		<abbr title="Operační systém" lang="cs">OS</abbr>. 
+		přímo firmou Microsoft a&nbsp;je součástí pouze jedné verze jejich
+		<abbr title="Operační systém" lang="cs">OS</abbr>.
 		Volba motivu vzhledu funguje ve Firefoxu na všech podporovaných
 		platformách bez rozdílu.</p>
 	</dd>
@@ -188,22 +181,22 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 
 		<p>Záložce můžete přiřadit <strong>klíčové slovo</strong>. Pro přechod
 		na stránku, pak stačí zadat toto klíčové slovo do adresního řádku.
-		Výhodou tohoto postupu je možnost použití řetězce '<tt>%s</tt>' 
+		Výhodou tohoto postupu je možnost použití řetězce '<tt>%s</tt>'
 		v&nbsp;adrese stránky, který je automaticky nahrazen řetězcem zadaným
 		v&nbsp;adresním řádku klíčovým slovem. Pokud si takto označíte stránku
-		svého oblíbeného vyhledávače, můžete vyhledávat přímo z&nbsp;adresního 
-		řádku 
+		svého oblíbeného vyhledávače, můžete vyhledávat přímo z&nbsp;adresního
+		řádku
 		(<a href="http://www.chomat.net/weboviny/internet-keywords"
 			title="Chomat.net: Internet keywords a&nbsp;vyhledávání v&nbsp;Mozille">více
 		informací</a>).</p>
 
-		<p>Správce záložek vám umožňuje snadné <strong>vyhledání 
+		<p>Správce záložek vám umožňuje snadné <strong>vyhledání
 		v&nbsp;záložkách</strong>. Při větším množství záložek vám tak odpadá
 		starost pamatovat si, do jaké složky jste danou záložku
 		uložili.</p>
 
 		<p>Mezi záložky si můžete uložit celou skupinu právě otevřených
-		panelů (volba &quot;Přidat všechny panely ve složce 
+		panelů (volba &quot;Přidat všechny panely ve složce
 		k&nbsp;záložkám&quot; při přidávání záložky).</p>
 	</dd>
 
@@ -212,7 +205,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		<abbr title="Really Simple Syndication" lang="en">RSS</abbr>
 		zdrojů</dt>
 	<dd>
-		<p>Firefox umí formou aktuálních záložek načítat 
+		<p>Firefox umí formou aktuálních záložek načítat
 		<abbr title="Really Simple Syndication" lang="en">RSS</abbr>
 		soubory, pomocí kterých můžete snadno zjistit, co je na vašem
 		oblíbeném serveru nového.</p>
@@ -250,8 +243,8 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		klepnutím na tlačítko &quot;Správce cookies...&quot;.</p>
 
 		<p class="note"><em>Poznámka:</em> V Internet Exploreru máte možnost
-		přejít na disku do adresáře se soubory cookie a&nbsp;zde hledat manuálně. 
-		Které soubory cookie máte uloženy na disku můžete rovněž najít 
+		přejít na disku do adresáře se soubory cookie a&nbsp;zde hledat manuálně.
+		Které soubory cookie máte uloženy na disku můžete rovněž najít
 		v jednom z&nbsp;dialogů &quot;Možnosti Internetu&quot;, ale už se o&nbsp;nich
 		nic víc nedozvíte.</p>
 	</dd>
@@ -260,7 +253,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-blokovani-obrazku">Blokování obrázků</dt>
 	<dd>
 		<p>Firefox vám umožní blokovat obrázky z&nbsp;vybraných serverů. To
-		znamená, že můžete např. blokovat všechny obrázky přicházející 
+		znamená, že můžete např. blokovat všechny obrázky přicházející
 		z&nbsp;reklamních serverů.</p>
 
 		<p>Obrázky ze serveru zablokujete, klepnete-li pravým tlačítkem myši
@@ -270,7 +263,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		přicházejících mimo rodičovský server.</p>
 
 		<p>Ve Firefoxu je k&nbsp;dispozici i&nbsp;opačná možnost: místo definice
-		blokovaných serverů můžete zablokovat natahování obrazků zcela 
+		blokovaných serverů můžete zablokovat natahování obrazků zcela
 		a&nbsp;následně nadefinovat výjimky.</p>
 
 		<p class="note"><em>Poznámka:</em> Pro prohlížeč Mozilla Firefox
@@ -307,7 +300,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		vyhledávání na vyhledávači
 		<a href="http://www.google.com/intl/cs/">Google</a>
 		a&nbsp;několika dalších vyhledavačích (česká verze navíc obsahuje
-		několik národních vyhledavačů). Můžete si snadno 
+		několik národních vyhledavačů). Můžete si snadno
 		<a href="http://www.czilla.cz/doplnky/vyhledavani/">přidat další vyhledávací moduly</a>
 		nebo si
 		<a href="http://www.czilla.cz/doplnky/vyhledavani/vytvoreni.html">vytvořit vlastní</a>.
@@ -362,7 +355,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		myší</a>...</p>
 
 		<p class="note"><em>Poznámka:</em> Funkce není totožná s&nbsp;nastavením
-		atributu <code>contenteditable=&quot;true&quot;</code> pro všechny elementy 
+		atributu <code>contenteditable=&quot;true&quot;</code> pro všechny elementy
 		v&nbsp;Internet Exploreru, který rovněž zobrazí kurzor, ale narozdíl od
 		navigace pomocí klávesnice slouží k&nbsp;editování textu.</p>
 	</dd>
@@ -375,7 +368,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		<kbd>/</kbd>). Hned během psaní hledaného textu se jej Firefox
 		snaží na stránce najít a&nbsp;označit.</p>
 
-		<p>Více informací nabízí dokument 
+		<p>Více informací nabízí dokument
 		<a href="http://www.mozilla.org/access/type-ahead/"
 			title="Mozilla.org: Keyboard Feature &ndash; Find As You Type"
 			hreflang="en" class="l-en" lang="en">Find As You Type</a>.</p>
@@ -418,8 +411,8 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-favicon">Rozšířená podpora ikonek webů (favicon)</dt>
 	<dd>
 		<p>Prohlížeč Firefox podporuje ikonky webů v&nbsp;řadě
-		grafických formátů &ndash; 
-		<abbr title="Graphic Interchange Format" lang="en">GIF</abbr>, 
+		grafických formátů &ndash;
+		<abbr title="Graphic Interchange Format" lang="en">GIF</abbr>,
 		<abbr title="Joint Photographic Experts Group" lang="en">JPEG</abbr>,
 		<abbr title="Portable Network Graphics" lang="en">PNG</abbr>,
 		<abbr title="X BitMap" lang="en">XBM</abbr>,
@@ -462,7 +455,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 
 	<dt id="vl-platformy">Podpora více platforem</dt>
 	<dd>
-		<p>Program Mozilla Firefox je dostupný pro řadu platforem. 
+		<p>Program Mozilla Firefox je dostupný pro řadu platforem.
 		Na všech těchto platformách se používá stejně.</p>
 
 		<p class="note"><em>Poznámka:</em> Internet Explorer podporuje pouze
@@ -471,7 +464,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		<a href="http://news.com.com/2100-1045_3-1017126.html"
 			title="CNET News: Microsoft: No new versions of IE for Mac"
 			hreflang="en" class="l-en">vydání žádné nové verze IE</a>
-		pro Apple Macintosh. Verze pro komerční UNIXy už 
+		pro Apple Macintosh. Verze pro komerční UNIXy už
 		<a href="http://www.microsoft.com/unix/ie/default.asp"
 			title="Microsoft.com: Internet Explorer for UNIX"
 			hreflang="en" class="l-en">není podporována</a>.</p>
@@ -498,7 +491,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		účelu označené. Více se o&nbsp;předstahování odkazů dozvíte v&nbsp;dokumentu
 		Darina Fishera
 		<a href="http://www.mozilla.org/projects/netlib/Link_Prefetching_FAQ.html"
-			hreflang="en" class="l-en">Link Prefetching 
+			hreflang="en" class="l-en">Link Prefetching
 			<abbr title="Frequently Asked Questions" lang="en">FAQ</abbr></a>.</p>
 	</dd>
 
@@ -519,7 +512,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		<span lang="en">Macromedia Flash</span> či
 		<span lang="en">QuickTime Movie</span>.
 		V&nbsp;Možnostech v&nbsp;části &quot;Stahování&quot; si můžete pro každý typ
-		dat nastavit, zda budou otevírána přímo v&nbsp;prohlížeči, 
+		dat nastavit, zda budou otevírána přímo v&nbsp;prohlížeči,
 		v&nbsp;asociované aplikaci či uložena na disk.</p>
 	</dd>
 
@@ -528,7 +521,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dd>
 		<p>Mozilla Firefox plně podporuje doménová jména s&nbsp;národními znaky
 		<span class="dnpa">
-		(Internationalizing Domain Names &ndash; 
+		(Internationalizing Domain Names &ndash;
 		<abbr title="Internationalizing Domain Names" lang="en">IDN</abbr>)
 		</span>
 		a&nbsp;tak vám umožňuje prohlížet webové stránky i&nbsp;z domén jako
@@ -544,11 +537,11 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-alpha-png">Podpora alpha průhlednosti
 		u&nbsp;<abbr title="Portable Network Graphics" lang="en">PNG</abbr></dt>
 	<dd>
-		<p>Mozilla Firefox plně podporuje alpha průhlednost u&nbsp;formátu 
+		<p>Mozilla Firefox plně podporuje alpha průhlednost u&nbsp;formátu
 		<abbr title="Portable Network Graphics" lang="en">PNG</abbr>
 		&ndash; ukázku můžete vidět v&nbsp;
 		<a href="http://www.libpng.org/pub/png/png-rgba32.html"
-			title="libpng.org: 32-bit RGBA PNGs" 
+			title="libpng.org: 32-bit RGBA PNGs"
 			hreflang="en" class="l-en">jednoduché demonstraci</a>.</p>
 	</dd>
 
@@ -583,8 +576,8 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dd>
 		<p>Vyberete-li část textu na stránce a&nbsp;z kontextové nabídky zvolíte
 		&quot;Zobrazit zdrojový kód výběru&quot;, otevře se vám okno se
-		zdrojovým kódem vybraného textu. Zobrazený kód není identický 
-		s&nbsp;kódem obdrženým od webového serveru, ale je kódem po provedení 
+		zdrojovým kódem vybraného textu. Zobrazený kód není identický
+		s&nbsp;kódem obdrženým od webového serveru, ale je kódem po provedení
 		transformací pomocí
 		<abbr title="eXtensible Stylesheet Language Transformation" lang="en">XSLT</abbr>
 		a skriptovacích jazyků.</p>
@@ -624,7 +617,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 
 	<dt id="vl-mime-xhtml">Podpora typů
 		<abbr title="Multipurpose Internet Mail Extension" lang="en">MIME</abbr>
-		pro dokumenty 
+		pro dokumenty
 		<abbr title="Xtensible HyperText Markup Language" lang="en">XHTML</abbr></dt>
 	<dd>
 		<p>Mozilla Firefox podporuje jeden z&nbsp;navrhovaných typů
@@ -734,14 +727,14 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 			<dt>user-focus, user-select, border-radius</dt>
 			<dd>... a&nbsp;mnoho dalších
 			<a href="http://www.xulplanet.com/references/elemref/ref_StyleProperties.html"
-				title="XULPlanet: Style Properties"  
+				title="XULPlanet: Style Properties"
 				hreflang="en" class="l-en">rozšiřujících vlastností</a>
 				používaných především v&nbsp;motivech vzhledu.</dd>
 		</dl>
 	</dd>
 
 
-	<dt id="vl-selektory">Podpora selektorů 
+	<dt id="vl-selektory">Podpora selektorů
 		<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>&nbsp;2 a
 		<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>&nbsp;3</dt>
 	<dd>
@@ -761,7 +754,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	</dd>
 
 
-	<dt id="vl-xml">Podpora standardů pro zobrazování a&nbsp;práci 
+	<dt id="vl-xml">Podpora standardů pro zobrazování a&nbsp;práci
 		s&nbsp;<abbr title="Extensible Makup Language" lang="en">XML</abbr>
 		dokumenty</dt>
 	<dd>
@@ -784,11 +777,11 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		a&nbsp;<a href="http://www.w3.org/TR/xlink/"
 			title="W3C: XML Linking Language Version 1.0"
 			hreflang="en" class="l-en">XLink</a>
-		pro odkazování na jednotlivé části 
+		pro odkazování na jednotlivé části
 		<abbr title="eXtensible Markup Language" lang="en">XML</abbr>
 		dokumentu a&nbsp;mezi
 		<abbr title="eXtensible Markup Language" lang="en">XML</abbr>
-		dokumenty. Firefox má i&nbsp;podporu jednoduchého 
+		dokumenty. Firefox má i&nbsp;podporu jednoduchého
 		<abbr title="Application Program Interface" lang="en">API</abbr>
 		pro protokol
 		<a href="http://www.xmlrpc.com/spec"
@@ -858,7 +851,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	<dt id="vl-data-url">Podpora vkládání dat do
 		<abbr title="Uniform Resource Locator" lang="en">URL</abbr></dt>
 	<dd>
-		<p>Firefox podporuje nový typ 
+		<p>Firefox podporuje nový typ
 		<abbr title="Uniform Resource Locator" lang="en">URL</abbr>
 		&ndash; <code>data</code>, umožňující vkládání malých částí dat přímo do
 		dokumentu stejným způsobem, jako by byly vkládány z&nbsp;externího
@@ -922,7 +915,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 			souborů</a></li>
 		<li><a href="#vl-mime-xhtml">Podpora typů
 			<abbr title="Multipurpose Internet Mail Extension" lang="en">MIME</abbr>
-			pro dokumenty 
+			pro dokumenty
 			<abbr title="Xtensible HyperText Markup Language" lang="en">XHTML</abbr></a></li>
 		<li><a href="#vl-proudove-http">Proudové zpracování
 			<abbr title="HyperText Transfer Protocol" lang="en">HTTP</abbr></a></li>
@@ -970,7 +963,5 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

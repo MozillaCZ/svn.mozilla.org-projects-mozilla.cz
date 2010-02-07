@@ -1,22 +1,15 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Jak přejít?");
-	$page_desc		= "Průvodce nahrazením Internet Exploreru prohlížečem Mozilla Firefox.";
-	$page_keywords	= "msie internet explorer mozilla firefox přechod import převod záložky oblíbené adresy zachování návod";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Jak přejít?');
+	$page->setDescription('Průvodce nahrazením Internet Exploreru prohlížečem Mozilla Firefox.');
+	$page->setKeywords('msie internet explorer mozilla firefox přechod import převod záložky oblíbené adresy zachování návod');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Jak přejít?</h1>
 
-<p>Vyměnit Internet Explorer za Firefox je jednoduché. Stačí 
+<p>Vyměnit Internet Explorer za Firefox je jednoduché. Stačí
 <a href="/stahnout/">stáhnout</a> a&nbsp;nainstalovat Firefox. Pak už jen
 zbývá přenést vaše oblíbené položky z&nbsp;Internet Exploreru. Následujte
 našeho jednoduchého průvodce.</p>
@@ -65,7 +58,7 @@ Firefoxem.</p>
 
 	<h3 class="first">Seznámení pro nováčky</h3>
 
-	<p>Pokud chcete lépe poznat svůj nový prohlížeč, můžete si na 
+	<p>Pokud chcete lépe poznat svůj nový prohlížeč, můžete si na
 	<a href="http://www.czilla.cz/">CZille</a> přečíst průvodce
 	<a href="http://www.czilla.cz/podpora/firefox/tutorial/">Začínáme používat
 	prohlížeč Firefox</a>. Jeho obsah tvoří:</p>
@@ -105,7 +98,5 @@ Firefoxem.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

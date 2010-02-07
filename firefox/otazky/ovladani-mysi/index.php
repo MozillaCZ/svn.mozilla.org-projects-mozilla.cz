@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Ovládání Firefoxu myší");
-	$page_desc		= "Seznam nejčastěji používaných funkcí, které lze v prohlížeči Mozilla Firefox ovládat myší a jejich ekvivalenty v Internet Exploreru.";
-	$page_keywords	= "mozilla firefox internet explorer ovládání myší myš mouse shortcuts";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Ovládání Firefoxu myší');
+	$page->setDescription('Seznam nejčastěji používaných funkcí, které lze v prohlížeči Mozilla Firefox ovládat myší a jejich ekvivalenty v Internet Exploreru.');
+	$page->setKeywords('mozilla firefox internet explorer ovládání myší myš mouse shortcuts');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Ovládání Firefoxu myší</h1>
@@ -123,11 +116,11 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 		<dt><a href="http://www.mozilla.org/support/firefox/mouse.html"
 				title="Firefox Help: Mouse Shortcuts"
 				hreflang="en" class="l-en" lang="en">Mouse Shortcuts</a></dt>
-		<dd>Kompletní přehled funkcí, které lze ve Firefoxu ovládát myší, 
+		<dd>Kompletní přehled funkcí, které lze ve Firefoxu ovládát myší,
 		a&nbsp;jejich obdoby v&nbsp;Internet Exploreru a&nbsp;Opeře.</dd>
 
 		<dt><a href="../klavesove-zkratky/">Klávesové zkratky</a></dt>
-		<dd>Přehled nejběžnějších klávesových zkratek ve Firefoxu 
+		<dd>Přehled nejběžnějších klávesových zkratek ve Firefoxu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Internet Exploreru.</dd>
 
 		<dt><a href="https://addons.mozilla.org/extensions/moreinfo.php?id=12&amp;application=firefox&amp;version=1.0"
@@ -135,7 +128,7 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 				hreflang="en" class="l-en" lang="en">All-in-One Gestures</a></dt>
 		<dd>Oblíbené rozšíření pro ovládání Firefoxu pomocí gest myši.</dd>
 	</dl>
-	
+
 </div></div>
 <div class="path">
 	<hr />
@@ -146,7 +139,5 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

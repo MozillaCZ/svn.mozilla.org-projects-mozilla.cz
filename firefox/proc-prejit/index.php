@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Proč přejít na Mozilla Firefox");
-	$page_desc		= "Několik dobrých důvodů, proč vyměnit starý prohlížeč za moderní Mozilla Firefox.";
-	$page_keywords	= "panely taby blokování popupů vyskakovací okna rychlé vyhledávání soukromí bezpečnost záložky historie rychlý správce stahování download standardy jednoduchý srozumitelný prohlížeč";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Proč přejít na Mozilla Firefox');
+	$page->setDescription('Několik dobrých důvodů, proč vyměnit starý prohlížeč za moderní Mozilla Firefox.');
+	$page->setKeywords('panely taby blokování popupů vyskakovací okna rychlé vyhledávání soukromí bezpečnost záložky historie rychlý správce stahování download standardy jednoduchý srozumitelný prohlížeč');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč přejít na Firefox?</h1>
@@ -32,7 +25,7 @@ novým.</p>
 
 <p>Prohlížení v&nbsp;panelech změní způsob, jakým používáte Internet.
 Dovolí vám nahrávat nové stránky na pozadí a&nbsp;přečíst si je, až budete
-chtít. Tím, že vidíte zobrazené stránky v&nbsp;jednom okně, vám prohlížení 
+chtít. Tím, že vidíte zobrazené stránky v&nbsp;jednom okně, vám prohlížení
 v&nbsp;panelech usnadní orientaci ve velkém množství stránek. Procházet mezi panely
 je jednoduché, stačí jedno kliknutí na požadovaný panel. Stránky se
 v&nbsp;panelech nahrávají na pozadí a&nbsp;vaše prohlížení je proto
@@ -55,7 +48,7 @@ připraveni je přečíst, jejich nahrávání je dokončeno a&nbsp;nemusíte
 
 <p>I&nbsp;když to vypadá jednoduše, prohlížení v&nbsp;panelech je skutečně
 revoluční myšlenka. Firefox vám přináší ten nejjednodušší
-a&nbsp;nejintuitivnější způsob panelového prohlížení, jaký dnes 
+a&nbsp;nejintuitivnější způsob panelového prohlížení, jaký dnes
 můžete&nbsp;nalézt.</p>
 
 
@@ -93,13 +86,13 @@ vyskakovacích oken povolit natrvalo.</p>
 proč má Firefox ze všech prohlížečů nejlepší vyhledávání. Stisk
 <kbd>Ctrl</kbd>+<kbd>K</kbd> vás přenese přímo do pole hledání. Vložte, co
 hledáte a&nbsp;stiskněte <kbd>Enter</kbd>. Zobrazí se výsledky nalezené
-vyhledávačem 
+vyhledávačem
 <a href="http://www.google.com/intl/cs/">Google</a>.
 Nemusíte hledat jen na Google &ndash; český Firefox
 obsahuje i&nbsp;vyhledávání na portálech
 <a href="http://www.seznam.cz/">Seznam</a>
-a&nbsp;<a href="http://www.centrum.cz/">Centrum</a>, 
-vyhledávači <a href="http://jyxo.cz/">Jyxo</a>, 
+a&nbsp;<a href="http://www.centrum.cz/">Centrum</a>,
+vyhledávači <a href="http://jyxo.cz/">Jyxo</a>,
 v obchodech <a href="http://www.mall.cz/">Internet Mall</a>
 a&nbsp;softwarovém katalogu
 <a href="http://www.slunecnice.cz/">Slunečnice.cz</a>.</p>
@@ -197,7 +190,7 @@ a&nbsp;přistupovat k&nbsp;nim tak rychleji. Stačí stisknout
 
 <p><strong>Vše hned po ruce.</strong> Firefox nabízí nejlepší sadu
 klávesových zkratek. Díky nim máte všechny důležité funkce hned po ruce.
-<kbd>Alt</kbd>+<kbd>D</kbd> nebo 
+<kbd>Alt</kbd>+<kbd>D</kbd> nebo
 <kbd>Ctrl</kbd>+<kbd>L</kbd> pro rychlý přístup k&nbsp;adresnímu řádku,
 <kbd>Ctrl</kbd>+<kbd>K</kbd> pro pole hledání. <kbd>Ctrl</kbd>+<kbd>T</kbd>
 otvírá nový panel a&nbsp;<kbd>Ctrl</kbd>+<kbd>S</kbd> dělá to, co asi čekáte
@@ -246,20 +239,20 @@ přetáhněte vše tam, kde to chcete mít. Firefox vám dovolí i&nbsp;vytvář
 Další lišty můžete získat instalací rozmanitých rozšíření.</p>
 
 <p><strong>Nejrozšířitelnější.</strong> Uživatelské rozhranní Firefoxu můžou
-vývojáři rozšířit pomocí průmyslových standardů 
+vývojáři rozšířit pomocí průmyslových standardů
 <span class="dnpa">(<abbr title="Extensible Markup Language" lang="en">XML</abbr>,
-<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>, 
+<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>,
 JavaScript a&nbsp;další)</span> i&nbsp;pomocí komplexních modulů z&nbsp;C++. Mezi takovými
 rozšířeními najdete vše od relativně jednoduchých nástrojů, až po pokročilé
-aplikace jako JavaScript Debugger nebo 
+aplikace jako JavaScript Debugger nebo
 <abbr title="Document Object Model" lang="en">DOM</abbr> Inspektor.
-Kompletní seznam rozšíření je dostupný na 
+Kompletní seznam rozšíření je dostupný na
 <a href="https://addons.mozilla.org/extensions/?application=firefox"
     title="Mozilla Update: Firefox Extensions"
 	lang="en" hreflang="en" class="l-en">Mozilla Update</a>,
 na CZille nabízíme
 <a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">rozšíření lokalizovaná do češtiny</a>.
-Rozšíření lze 
+Rozšíření lze
 <a href="http://www.czilla.cz/podpora/firefox/instalace-rozsireni.html">snadno instalovat</a>.</p>
 
 <div class="img-c img-left" style="width:200px">
@@ -269,8 +262,8 @@ Rozšíření lze
 </div>
 
 <p><strong>Změna vzhledu.</strong> Uživatelské rozhranní Firefoxu je plně
-přizpůsobitelné použitím stejných standardů 
-<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>, 
+přizpůsobitelné použitím stejných standardů
+<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>,
 <abbr title="Extensible Markup Language" lang="en">XML</abbr>
 atd. jako u&nbsp;rozšíření. Možnosti změny vzhledu jsou nekonečné. Firefox může
 vypadat jako počítač Lcars ze StarTreku nebo dokoce připomínat Microsoft
@@ -317,9 +310,9 @@ v&nbsp;případě, že ještě existují nedokončené procesy stahování.</p>
 	pokud jde o&nbsp;podporu standardů.</p>
 </div>
 
-<p>Firefox má světově nejlepší podporu 
+<p>Firefox má světově nejlepší podporu
 <abbr title="The World Wide Web Consortium" lang="en">W3C</abbr>
-standardů 
+standardů
 <span class="dnpa">
 (<abbr title="Cascading Style Sheets" lang="en">CSS</abbr>,
 <abbr title="Document Object Model" lang="en">DOM</abbr>,
@@ -386,7 +379,7 @@ využijte množství
 
 	<dl>
 		<dt><a href="./co-msie-neumi-a-firefox-ano/">Co MSIE neumí a&nbsp;Firefox ano</a></dt>
-		<dd>Přehled funkcí a&nbsp;vlastností Firefoxu, které 
+		<dd>Přehled funkcí a&nbsp;vlastností Firefoxu, které
 		v&nbsp;<abbr title="Microsoft Internet Explorer" lang="en">MSIE</abbr>
 		nenaleznete.</dd>
 
@@ -408,7 +401,5 @@ využijte množství
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>
