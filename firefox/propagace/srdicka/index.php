@@ -366,7 +366,7 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Propagujte Firefox</a> &gt;
 		<strong>Ikonky &quot;Miluju Firefox&quot;</strong>
 	</p>

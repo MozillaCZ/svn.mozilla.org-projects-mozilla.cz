@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Zuzana Humlová: Proč používám Firefox?");
-	$page_desc		= "Zuzana trávila v práci hodiny obcházením chyb Internet Exploreru. Nakonec se tento ztracený čas stal jedním z důvodů, proč vyzkoušela Firefox. Dnes by jej doporučila všem uživatelům.";
-	$page_keywords	= "mozilla firefox zkušenost msie přechod formulář vyhledávání rozšíření změna designu";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zuzana Humlová: Proč používám Firefox?');
+	$page->setDescription('Zuzana trávila v práci hodiny obcházením chyb Internet Exploreru. Nakonec se tento ztracený čas stal jedním z důvodů, proč vyzkoušela Firefox. Dnes by jej doporučila všem uživatelům.');
+	$page->setKeywords('mozilla firefox zkušenost msie přechod formulář vyhledávání rozšíření změna designu');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč používám Firefox?</h1>
@@ -71,7 +63,7 @@ jednodušeji a&nbsp;příjemněji a&nbsp;s&nbsp;klidným svědomím bych ho vše
 uživatelům doporučila.</p>
 
 <p class="sig">
-	<a href="http://morfeo.centrum.cz/">Zuzana Humlová</a>
+	<a href="http://cz.linkedin.com/pub/zuzana-humlova/4/539/43">Zuzana Humlová</a>
 </p>
 
 </div>
@@ -79,24 +71,18 @@ uživatelům doporučila.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Zuzana Humlová</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

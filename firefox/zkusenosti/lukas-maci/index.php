@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Lukáš Mačí: Firefox mi poskytuje maximální pohodlí");
-	$page_desc		= "Firefox s řadou vynikajících rozšíření si Lukáše Mačího naprosto získal. Používání Internetu si bez něj nedokáže představit.";
-	$page_keywords	= "mozilla firefox zkušenost vývoj prohlížeč aktualizace opravy čeština usnadnění práce";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Lukáš Mačí: Firefox mi poskytuje maximální pohodlí');
+	$page->setDescription('Firefox s řadou vynikajících rozšíření si Lukáše Mačího naprosto získal. Používání Internetu si bez něj nedokáže představit.');
+	$page->setKeywords('mozilla firefox zkušenost vývoj prohlížeč aktualizace opravy čeština usnadnění práce');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Maximální pohodlí</h1>
@@ -48,21 +40,17 @@ synonymem k&nbsp;pohodlnému brouzdání na Internetu.</p>
 	<hr />
 	<h2>Navazující odkazy</h2>
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Lukáš Mačí</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

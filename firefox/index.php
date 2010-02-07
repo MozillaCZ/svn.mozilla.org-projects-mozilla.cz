@@ -14,8 +14,7 @@
 	<span>Mozilla Firefox</span>
 	<img src="/img/ff-motto.gif" alt="web pod vaší kontrolou" />
 </h1>
-<a href="http://www.czilla.cz/produkty/firefox/nahledy.html"
-title="Klepnutím získáte další obrázky Mozilla Firefoxu">
+<a href="http://www.mozilla.cz/produkty/firefox/" title="Klepnutím získáte další obrázky Mozilla Firefoxu">
 <img src="/img/ff-shot-4.png" alt="Hlavní okno Mozilla Firefoxu" id="intro-shot" />
 </a>
 <ul>
@@ -48,7 +47,7 @@ Firefox&nbsp;nabízí.</p>
 <p>Ve Firefoxu můžete snadno dělat věci, o&nbsp;kterých uživatelé Internet
 Exploreru jen sní a&nbsp;přitom nepřijdete o&nbsp;kompatibilitu, kterou
 potřebujete.<br />
-<a href="/proc-prejit/">Důvody pro změnu prohlížeče...</a></p>
+<a href="/proc-prejit/">Důvody pro změnu prohlížeče…</a></p>
 
 
 <h2><a href="/otazky/">Nebojte se zeptat, poradíme vám</a></h2>
@@ -57,14 +56,14 @@ potřebujete.<br />
 Mohu používat Firefox současně s&nbsp;Internet Explorerem? Můžu měnit vzhled
 programu? Potřebuji programy na blokaci nevyžádaných oken? Jak bude Firefox
 spolupracovat s&nbsp;mým poštovním klientem?<br />
-<a href="/otazky/">Nejčastější otázky...</a></p>
+<a href="/otazky/">Nejčastější otázky…</a></p>
 
 
 <h2><a href="/zkusenosti/">Zkušenosti uživatelů: Proč si vybrali Firefox</a></h2>
 
 <p>Dostáváme e-maily od lidí, kteří úspěšně přešli z&nbsp;Internet Explorer
 na Firefox! Přečtěte si některé příběhy.<br />
-<a href="/zkusenosti/">Přechod na Firefox: Zkušenosti...</a></p>
+<a href="/zkusenosti/">Přechod na Firefox: Zkušenosti…</a></p>
 
 
 <h2><a href="/media/">Jak média hodnotí Firefox?</a></h2>
@@ -73,7 +72,7 @@ na Firefox! Přečtěte si některé příběhy.<br />
 z&nbsp;<abbr title="Internet Explorer" lang="en">IE</abbr>
 na Firefox, jak oceňují stabilitu Firefoxu,
 jeho bezpečnost a&nbsp;použitelnost.<br />
-<a href="/media/">Firefox je prostě skvělý...</a></p>
+<a href="/media/">Firefox je prostě skvělý…</a></p>
 
 
 <h2><a href="/jak-prejit/">Jak přejít?</a></h2>
@@ -81,18 +80,17 @@ jeho bezpečnost a&nbsp;použitelnost.<br />
 <p>Praktický průvodce pro bezpečný přenos vašich důležitých souborů
 a&nbsp;oblíbených položek ze starého Internet Exploreru do nového Firefoxu.
 Je to snadné. Firefox to udělá za vás.<br />
-<a href="/jak-prejit/">Začínáme se změnou...</a></p>
+<a href="/jak-prejit/">Začínáme se změnou…</a></p>
 
 </div>
 
 <div id="moz-upd">
-	<h2><a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">Snadné přidání funkcí do Firefoxu</a></h2>
-	<p>Hledejte a&nbsp;vyberte si lokalizovaná rozšíření Firefoxu na
-	<a href="http://www.czilla.cz/doplnky/rozsireni/p/firefox/">CZille</a>
-	či anglická na
-	<a href="https://addons.mozilla.org/?application=firefox"
-		lang="en" hreflang="en" class="l-en">Mozilla Update</a>
-	a&nbsp;získejte neomezený vliv na své zkušenosti s&nbsp;Internetem.</p>
+	<h2><a href="http://www.mozilla.cz/doplnky/">Snadné přidání funkcí do Firefoxu</a></h2>
+	<p>
+		Přizpůsobte si svůj Firefox pomocí některého <a href="http://www.mozilla.cz/doplnky/rozsireni/">rozšíření</a>,
+		či <a href="http://www.mozilla.cz/doplnky/vyhledavani/">integrovaného vyhledávače</a>
+		a&nbsp;získejte neomezený vliv na své zkušenosti s&nbsp;Internetem.
+	</p>
 </div>
 
 </div>
@@ -121,7 +119,7 @@ Je to snadné. Firefox to udělá za vás.<br />
 		<p><cite>Anna Bernáthová, Živě.cz</cite></p>
 	</div>
 
-	<p><a href="/media/">Další recenze...</a></p>
+	<p><a href="/media/">Další recenze…</a></p>
 
 
 	<h3>Zapojte se!</h3>

@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Naďa Malkovská: Spokojená uživatelka Firefoxu");
-	$page_desc		= "Nejdříve Naďa zjistila, že není jediný prohlížeč, pak zkusila Mozillu a nakonec je spokojená s Firefoxem.";
-	$page_keywords	= "uživatel internet prohlížeč firefox bezpečnost ie explorer změna vzhledu rychlost spuštění panely filtrování reklam adblock";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Naďa Malkovská: Spokojená uživatelka Firefoxu');
+	$page->setDescription('Nejdříve Naďa zjistila, že není jediný prohlížeč, pak zkusila Mozillu a nakonec je spokojená s Firefoxem.');
+	$page->setKeywords('uživatel internet prohlížeč firefox bezpečnost ie explorer změna vzhledu rychlost spuštění panely filtrování reklam adblock');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Spokojená uživatelka Firefoxu</h1>
@@ -55,24 +47,18 @@ toho nic nevleze, tak jej budu používat spokojeně i&nbsp;nadále :o)</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Naďa Malkovská</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -413,7 +413,7 @@ Internet Explorer.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Nejčastější otázky</a> &gt;
 		<strong>Klávesové zkratky</strong>
 	</p>

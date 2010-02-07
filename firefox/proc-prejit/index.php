@@ -396,7 +396,7 @@ využijte množství
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Proč přejít?</strong>
 	</p>
 </div>

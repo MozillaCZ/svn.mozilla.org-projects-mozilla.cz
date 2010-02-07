@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Patrick Zandl: Co rozhodlo? Hromada maličkostí");
-	$page_desc		= "Patricka Zandla k přechodu na Firefox přesvědčila vychytanost, odstraněná těžkopádnost a nalezená stabilita";
-	$page_keywords	= "mozilla firefox zkušenost drobnosti maličkosti adblock vychytanost stabilita";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Patrick Zandl: Co rozhodlo? Hromada maličkostí');
+	$page->setDescription('Patricka Zandla k přechodu na Firefox přesvědčila vychytanost, odstraněná těžkopádnost a nalezená stabilita.');
+	$page->setKeywords('mozilla firefox zkušenost drobnosti maličkosti adblock vychytanost stabilita');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Co rozhodlo? Hromada maličkostí</h1>
@@ -113,24 +105,18 @@ spadlo s&nbsp;rozdělanou prací v&nbsp;něm.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Patrick Zandl</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

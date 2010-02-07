@@ -341,7 +341,7 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Nejčastější otázky</strong>
 	</p>
 </div>

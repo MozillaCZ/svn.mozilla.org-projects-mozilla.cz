@@ -133,7 +133,7 @@ z&nbsp;nich je funkční i&nbsp;pod Linuxem.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Nejčastější otázky</a> &gt;
 		<strong>Ovládání Firefoxu myší</strong>
 	</p>

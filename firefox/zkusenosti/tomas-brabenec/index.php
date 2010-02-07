@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Tomáš Brabenec: Směji se nad problémy ostatních ");
-	$page_desc		= "Tomáš Brabenec se přes Mozilla Suite dostal k Firefoxu a je s ním spokojený.";
-	$page_keywords	= "mozilla firefox standardy webové stránky tvorba spokojenost";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Tomáš Brabenec: Směji se nad problémy ostatních');
+	$page->setDescription('Tomáš Brabenec se přes Mozilla Suite dostal k Firefoxu a je s ním spokojený.');
+	$page->setKeywords('mozilla firefox standardy webové stránky tvorba spokojenost');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Směji se nad problémy ostatních</h1>
@@ -77,21 +69,17 @@ zkusil Firefox?&quot;</em></p>
 	<hr />
 	<h2>Navazující odkazy</h2>
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Tomáš Brabenec</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

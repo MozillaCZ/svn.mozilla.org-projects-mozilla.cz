@@ -99,7 +99,7 @@ slovníček těchto rozdílů.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Nejčastější otázky</a> &gt;
 		<strong>Rozdíly v terminologii Firefoxu a&nbsp;MSIE</strong>
 	</p>

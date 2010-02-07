@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Radek Růžička: Chci pracovat zejména efektivně");
-	$page_desc		= "Přečtěte si, jak Firefox vyhrál pomyslný konkurz na internetový prohlížeč u Radka Růžičky.";
-	$page_keywords	= "mozilla firefox prohlížeč přechod student webový vývojář uživatel zkoušení";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Radek Růžička: Chci pracovat zejména efektivně');
+	$page->setDescription('Přečtěte si, jak Firefox vyhrál pomyslný konkurz na internetový prohlížeč u Radka Růžičky.');
+	$page->setKeywords('mozilla firefox prohlížeč přechod student webový vývojář uživatel zkoušení');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Chci pracovat zejména efektivně</h1>
@@ -91,24 +83,18 @@ vyhrál stále vylepšující se Firefox.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Radek Růžička</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

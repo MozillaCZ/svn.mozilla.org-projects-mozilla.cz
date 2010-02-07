@@ -70,7 +70,6 @@ testování stránek.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
 	$page->includeTemplate('stories');
 ?>
@@ -78,7 +77,7 @@ testování stránek.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Zkušenosti</strong>
 	</p>
 </div>

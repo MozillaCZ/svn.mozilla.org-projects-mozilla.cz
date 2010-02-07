@@ -957,7 +957,7 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Proč přejít?</a> &gt;
 		<strong>Co MSIE neumí a&nbsp;Firefox ano</strong>
 	</p>

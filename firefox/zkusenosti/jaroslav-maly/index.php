@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Jaroslav Malý: Láska na první pohled");
-	$page_desc		= "Cesta Jardy Malého od MS Internet Exploreru k Mozilla Firefoxu.";
-	$page_keywords	= "mozilla firefox přechod msie jednoduchost prohlížeč přehlednost";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Jaroslav Malý: Láska na první pohled');
+	$page->setDescription('Cesta Jardy Malého od MS Internet Exploreru k Mozilla Firefoxu.');
+	$page->setKeywords('mozilla firefox přechod msie jednoduchost prohlížeč přehlednost');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Láska na první pohled</h1>
@@ -121,24 +113,18 @@ moje brouzdání po síti zcela jiný rozměr.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Jaroslav Malý</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

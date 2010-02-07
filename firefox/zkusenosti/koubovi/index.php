@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Koubovi: Čtvrtý člen rodiny");
-	$page_desc		= "Mozilla Firefox si u Koubů oblíbila celá rodina.";
-	$page_keywords	= "mozilla firefox zkušenost msie přechod jednoduchost variabilita rozšíření gesta myší panely slovník červená panda";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Koubovi: Čtvrtý člen rodiny');
+	$page->setDescription('Mozilla Firefox si u Koubů oblíbila celá rodina.');
+	$page->setKeywords('mozilla firefox zkušenost msie přechod jednoduchost variabilita rozšíření gesta myší panely slovník červená panda');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Čtvrtý člen rodiny</h1>
@@ -49,24 +41,18 @@ displeje...</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Jirka Kouba</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

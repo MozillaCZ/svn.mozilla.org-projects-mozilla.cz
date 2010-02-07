@@ -259,7 +259,7 @@ Na jeho stránkách naleznete
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Stáhnout</a> &gt;
 		<strong>Tapety s Firefoxem</strong>
 	</p>

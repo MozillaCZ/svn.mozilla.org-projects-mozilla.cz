@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Anna Hausenblasová: Lehkonohý prohlížeč");
-	$page_desc		= "Anna si oblíbila Firefox pro jeho rychlost a tím i pro svůj ušetřený čas.";
-	$page_keywords	= "mozilla firefox prohlížeč rychlé otevření jednoduchý šetčí čas běžný uživatel";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Anna Hausenblasová: Lehkonohý prohlížeč');
+	$page->setDescription('Anna si oblíbila Firefox pro jeho rychlost a tím i pro svůj ušetřený čas.');
+	$page->setKeywords('mozilla firefox prohlížeč rychlé otevření jednoduchý šetčí čas běžný uživatel');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Lehkonohý prohlížeč</h1>
@@ -80,24 +72,18 @@ uživatelů &ndash; vítězí Firefoxova lehkonohost.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Anna Hausenblasová</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

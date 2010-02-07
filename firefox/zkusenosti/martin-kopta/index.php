@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Martin Kopta: Proč prohlížím web ve Firefoxu");
-	$page_desc		= "Martin Kopta zkusil Mozilla Firefox pro jednu vlastnost a objevil celou řadu dalších. Dnes má pocit, že Firefox byl napsán jemu na míru.";
-	$page_keywords	= "mozilla firefox zkušenost msie přechod formulář zvětšování písma blokování vyskakovací okna RSS rozšíření hledání";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Martin Kopta: Proč prohlížím web ve Firefoxu');
+	$page->setDescription('Martin Kopta zkusil Mozilla Firefox pro jednu vlastnost a objevil celou řadu dalších. Dnes má pocit, že Firefox byl napsán jemu na míru.');
+	$page->setKeywords('mozilla firefox zkušenost msie přechod formulář zvětšování písma blokování vyskakovací okna RSS rozšíření hledání');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč prohlížím web ve Firefoxu</h1>
@@ -69,24 +61,18 @@ přímo mně na míru.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Martin Kopta</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -241,7 +241,7 @@ skrytým instalačním programem.<br />
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Co o&nbsp;Firefoxu říkají média?</strong>
 	</p>
 </div>

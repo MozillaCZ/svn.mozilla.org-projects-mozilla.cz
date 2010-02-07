@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Matěj Humpál: Proč používám Mozilla Firefox?");
-	$page_desc		= "Webdesigner Matěj Humpál vyměnil Internet Explorer za Firefox kvůli rozšíření EditCSS.";
-	$page_keywords	= "mozilla firefox přechod msie internet explorer css editcss rozšíření extenze komponenta kaskádové styly";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Matěj Humpál: Proč používám Mozilla Firefox?');
+	$page->setDescription('Webdesigner Matěj Humpál vyměnil Internet Explorer za Firefox kvůli rozšíření EditCSS.');
+	$page->setKeywords('mozilla firefox přechod msie internet explorer css editcss rozšíření extenze komponenta kaskádové styly');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč používám Mozilla Firefox?</h1>
@@ -70,24 +62,18 @@ ze svých webů. A jsem za to rád.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Matěj Humpál</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

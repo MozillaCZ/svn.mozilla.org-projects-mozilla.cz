@@ -1,173 +1,171 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Robert Madaj: Pred Mozillou a s Firefoxom");
-	$page_desc		= "UĹživatel a vĂ˝vojĂĄĹ. Dva rĹŻznĂ­ lidĂŠ uvnitĹ Roberta Madaje. Firefox nakonec vyhrĂĄl u obou.";
-	$page_keywords	= "mozilla firefox internet explorer pĹechod rony netscape html css uĹživatel vĂ˝vojĂĄĹ";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Robert Madaj: Pred Mozillou a s Firefoxom');
+	$page->setDescription('U�ivatel a v�voj��. Dva r�zn� lid� uvnit� Roberta Madaje. Firefox nakonec vyhr�l u obou.');
+	$page->setKeywords('mozilla firefox internet explorer p�echod rony netscape html css u�ivatel v�voj��');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main" lang="sk">
 
 <h1>Pred Mozillou a s Firefoxom</h1>
 
-<p>Moja prvĂĄ hodina s&nbsp;internetom bola spĂ¤tĂĄ s&nbsp;prehliadaÄom
-Netscape s&nbsp;priloĹženĂ˝m prvĂ˝m editorom
+<p>Moja prv� hodina s&nbsp;internetom bola sp�t� s&nbsp;prehliada�om
+Netscape s&nbsp;prilo�en�m prv�m editorom
+
 <abbr title="HyperText MarkUp Language" lang="en">HTML</abbr>,
-ktorĂ˝ som bez vĂ˝strahy pouĹžil. O&nbsp;Ĺžiadnom inom prehliadaÄi som eĹĄte
-nepoÄul a&nbsp;samotnĂŠ &quot;vmontovanie&quot; nieÄoho &quot;na ten
-internet&quot; voĹalo Äarom diaÄžok. Na ÄalĹĄom vtedajĹĄom hegemĂłne som
-altavisticky vyhÄžadal strĂĄnky s mojim menom a&nbsp;Ĺžil nenĂştene Äalej.
-SoftwarovĂ­ giganti si internet nevĹĄĂ­mali.</p>
+ktor� som bez v�strahy pou�il. O&nbsp;�iadnom inom prehliada�i som e�te
+nepo�ul a&nbsp;samotn� &quot;vmontovanie&quot; nie�oho &quot;na ten
+internet&quot; vo�alo �arom dia�ok. Na �al�om vtedaj�om hegem�ne som
+altavisticky vyh�adal str�nky s mojim menom a&nbsp;�il nen�tene �alej.
+Softwarov� giganti si internet nev��mali.</p>
 
-<p>Po dlhĹĄom Äase sa mi do rĂşk priplietlo
+<p>Po dlh�om �ase sa mi do r�k priplietlo
 <abbr title="Compact Disk">CD</abbr>
-s natlaÄenĂ˝m malĂ˝m <em>e</em> a&nbsp;naozaj ma niÄĂ­m neupĂştalo. ZaÄala vojna
-prehliadaÄov so znĂĄmymi vĂ˝sledkami a&nbsp;dĂ´sledkami.</p>
+s natla�en�m mal�m <em>e</em> a&nbsp;naozaj ma ni��m neup�talo. Za�ala vojna
+prehliada�ov so zn�mymi v�sledkami a&nbsp;d�sledkami.</p>
 
-<p>Hviezda Netscape poklesla a&nbsp;poÄĂ­taÄe mali <em>to Äosi</em> na
-prehliadanie webu v sebe. ÄĂ­m Äalej viac som okrem zĂĄmeru internet len
-pouĹžĂ­vaĹĽ, robil na druhej strane barikĂĄdy ako autor webstrĂĄnok. Internet
-Explorer dospel do svojho najvĂ˝konnejĹĄieho obdobia a&nbsp;zĂĄroveĹ s&nbsp;nĂ­m
-nadĹĄenĂĄ doba snaĹžiaca sa nasilu previesĹĽ internet na akĂŠsi DOT COM.</p>
+<p>Hviezda Netscape poklesla a&nbsp;po��ta�e mali <em>to �osi</em> na
+prehliadanie webu v sebe. ��m �alej viac som okrem z�meru internet len
+pou��va�, robil na druhej strane barik�dy ako autor webstr�nok. Internet
+Explorer dospel do svojho najv�konnej�ieho obdobia a&nbsp;z�rove� s&nbsp;n�m
+nad�en� doba sna�iaca sa nasilu previes� internet na ak�si DOT COM.</p>
 
-<p>Kto vedel len troĹĄku zobĂĄÄiky a&nbsp;rĂ˝chlo obracal zĂĄvereÄnĂŠ strĂĄnky
-projektov, zĂ­skaval stĂĄle viac obeĹživa a&nbsp;prispieval k ĹživelnĂŠmu
-rozmachu poÄtu dokumentov na internete.</p>
+<p>Kto vedel len tro�ku zob��iky a&nbsp;r�chlo obracal z�vere�n� str�nky
+projektov, z�skaval st�le viac obe�iva a&nbsp;prispieval k �iveln�mu
+rozmachu po�tu dokumentov na internete.</p>
 
-<p>PrĂĄve voÄžnosĹĽ &quot;akademickĂŠho&quot; Internetu prinĂĄĹĄala aj voÄžnosĹĽ
-vĂ˝kladu nekonkrĂŠtnych dohĂ´d o&nbsp;vzĂĄjomnej komunikĂĄciĂ­ a&nbsp;toleranciĂ­.
-MĂ´j prĂ­stup k&nbsp;internetu mĂĄ dve roviny. Som pouĹžĂ­vateÄž z pracovnĂ˝ch
-dĂ´vodov, alebo len tak pre relax, a&nbsp;som aj vĂ˝vojĂĄr. Som nĂ­m profesionĂĄlne,
-ale aj vo voÄžnom Äase mi nedĂĄ pohraĹĽ sa prĂĄve nad vĂ˝vojom.</p>
+<p>Pr�ve vo�nos� &quot;akademick�ho&quot; Internetu prin�ala aj vo�nos�
+v�kladu nekonkr�tnych doh�d o&nbsp;vz�jomnej komunik�ci� a&nbsp;toleranci�.
+M�j pr�stup k&nbsp;internetu m� dve roviny. Som pou��vate� z pracovn�ch
+d�vodov, alebo len tak pre relax, a&nbsp;som aj v�voj�r. Som n�m profesion�lne,
+ale aj vo vo�nom �ase mi ned� pohra� sa pr�ve nad v�vojom.</p>
 
-<p>MĂ´j <em>pouĹžĂ­vateÄž</em> je pohodlnĂ˝ Älovek. KĂ˝m v&nbsp;krĂşĹžku vĂ˝vojĂĄrov
-hlasite nadĂĄvam na monopolnĂŠ praktiky, prĂ­zvukujem na moĹžnosĹĽ voÄžby
-a&nbsp;existenciu porovnateÄžnĂ˝ch moĹžnostĂ­, mĂ´j pouĹžĂ­vateÄž si hneÄ po
-ukonÄenĂ­ hlasitej debaty ĹĄtartuje opÄžuvanĂ˝ monopolistickĂ˝ produkt
-a&nbsp;ÄĂ­ta si dennĂş tlaÄ pred tĂ˝m, neĹž sa zahÄşbi do vĂ˝voja.</p>
+<p>M�j <em>pou��vate�</em> je pohodln� �lovek. K�m v&nbsp;kr��ku v�voj�rov
+hlasite nad�vam na monopoln� praktiky, pr�zvukujem na mo�nos� vo�by
+a&nbsp;existenciu porovnate�n�ch mo�nost�, m�j pou��vate� si hne� po
+ukon�en� hlasitej debaty �tartuje op�uvan� monopolistick� produkt
+a&nbsp;��ta si denn� tla� pred t�m, ne� sa zah�bi do v�voja.</p>
 
-<p>MĂ´j <em>vĂ˝vojĂĄr</em> je nekompromisnĂ˝ Älovek. KaĹždĂş strĂĄnku prezerĂĄ
-najmenej v&nbsp;troch rĂ´znych prehliadaÄoch. Na ploche mĂĄ vĹĄetky ich ikonky.
-Je doba tabuÄžkovĂĄ a&nbsp;poĹžiadavky na strĂĄnky sĂş &quot;ani pixel
-inak&quot;. BrodĂ­m sa hromadami tagov povypÄşĹanĂ˝ch konĹĄtrukciami
-dosahujĂşcimi nevĂ­danĂŠ efekty pre danĂ˝ prehliadaÄ aĹž do dokonalosti. Okolo
-mĹa prebiehajĂş diskusie okolo akĂŠhosi
+<p>M�j <em>v�voj�r</em> je nekompromisn� �lovek. Ka�d� str�nku prezer�
+najmenej v&nbsp;troch r�znych prehliada�och. Na ploche m� v�etky ich ikonky.
+Je doba tabu�kov� a&nbsp;po�iadavky na str�nky s� &quot;ani pixel
+inak&quot;. Brod�m sa hromadami tagov povyp��an�ch kon�trukciami
+dosahuj�cimi nev�dan� efekty pre dan� prehliada� a� do dokonalosti. Okolo
+m�a prebiehaj� diskusie okolo ak�hosi
+
 <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>,
-ktorĂŠ ma nechĂĄvajĂş chladnĂ˝m.
+ktor� ma nech�vaj� chladn�m.
 <abbr title="HyperText MarkUp Language" lang="en">HTML</abbr>
-zatiaÄž staÄĂ­. PrvĂŠ pochybnosti o&nbsp;sprĂĄvnosti zaÄĂ­nam tuĹĄiĹĽ pri prerĂĄbanĂ­
-toho, Äo som spĂĄchal.</p>
+zatia� sta��. Prv� pochybnosti o&nbsp;spr�vnosti za��nam tu�i� pri prer�ban�
+toho, �o som sp�chal.</p>
 
-<p>Vo voÄžnom Äase som sledoval nekonÄiace sĂşboje ÄžudĂ­ za
+<p>Vo vo�nom �ase som sledoval nekon�iace s�boje �ud� za
 <abbr title="Microsoft" lang="en">MS</abbr>
 <abbr title="Internet Explorer" lang="en">IE</abbr>
 a proti
 <abbr title="Microsoft" lang="en">MS</abbr>
 <abbr title="Internet Explorer" lang="en">IE</abbr>.
-ZapĂĄjam sa do nich ako vĂ˝vojĂĄr a&nbsp;hĂĄjim stanovisko vlastnej cti vytvĂĄraĹĽ
-produkt, ktorĂ˝ poÄĂ­ta s&nbsp;alternatĂ­vami, a&nbsp;roky v&nbsp;diskusiĂĄch
-Ĺžnem Ăşspech v&nbsp;podobe percentuĂĄlneho pomeru majoritnĂŠho prehliadaÄa. Vraj na
-to vĹĄetko nie je Äas. UĹž v&nbsp;tej dobe mne neznĂĄma technolĂłgia
+Zap�jam sa do nich ako v�voj�r a&nbsp;h�jim stanovisko vlastnej cti vytv�ra�
+produkt, ktor� po��ta s&nbsp;alternat�vami, a&nbsp;roky v&nbsp;diskusi�ch
+�nem �spech v&nbsp;podobe percentu�lneho pomeru majoritn�ho prehliada�a. Vraj na
+to v�etko nie je �as. U� v&nbsp;tej dobe mne nezn�ma technol�gia
+
 
 <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>
-dospela a&nbsp;ja som si ju eĹĄte stĂĄle nevĹĄimol. Len obÄas mi do kĂłdu
-zablĂşdila z&nbsp;internetu odchytenĂĄ konĹĄtrukcia s&nbsp;inou syntaxou.</p>
+dospela a&nbsp;ja som si ju e�te st�le nev�imol. Len ob�as mi do k�du
+zabl�dila z&nbsp;internetu odchyten� kon�trukcia s&nbsp;inou syntaxou.</p>
 
-<p>Netscape ohlĂĄsil zĂĄnik a&nbsp;tĂ˝m defakto potvrdil svoju prehru
-a&nbsp;tak vystĂşpila do popredia iniciatĂ­va Mozilla so svojim jadrom Gecko a
-proklamovala lepĹĄiu kvalitu ako umrlec s&nbsp;verziou ĹĄtyri bodka Äosi.
-S&nbsp;chladnou hlavou pouĹžĂ­vateÄža som naÄalej klepal po modrom <em>e</em>
-a&nbsp;vĂ˝vojĂĄr sa obĂĄval najhorĹĄieho &ndash; novĂ˝ Netscape bude od zĂĄkladu Äosi
-inĂŠ?</p>
+<p>Netscape ohl�sil z�nik a&nbsp;t�m defakto potvrdil svoju prehru
+a&nbsp;tak vyst�pila do popredia iniciat�va Mozilla so svojim jadrom Gecko a
+proklamovala lep�iu kvalitu ako umrlec s&nbsp;verziou �tyri bodka �osi.
+S&nbsp;chladnou hlavou pou��vate�a som na�alej klepal po modrom <em>e</em>
+a&nbsp;v�voj�r sa ob�val najhor�ieho &ndash; nov� Netscape bude od z�kladu �osi
+in�?</p>
 
-<p>Veru bol. Kdesi som si stiahol &quot;Netscape viac ako ĹĄtyri&quot; a
-nechcel som veriĹĽ vlastnĂ˝m oÄiam &ndash; pouĹžĂ­vateÄž vo mne zanadĂĄval na pomalĂ˝
-ĹĄtart &ndash; vĂ˝vojĂĄr sa pousmial, veÄ sa to blĂ­Ĺži Internet Exploreru. A vzĂĄpĂ¤tĂ­
-mi do vĂ˝poÄtu prehliadaÄov pribudol ÄalĹĄĂ­, pre ktorĂ˝ sa strĂĄnka opĂ¤ĹĽ
+<p>Veru bol. Kdesi som si stiahol &quot;Netscape viac ako �tyri&quot; a
+nechcel som veri� vlastn�m o�iam &ndash; pou��vate� vo mne zanad�val na pomal�
+�tart &ndash; v�voj�r sa pousmial, ve� sa to bl�i Internet Exploreru. A vz�p�t�
+mi do v�po�tu prehliada�ov pribudol �al��, pre ktor� sa str�nka op�
 zobrazuje inak.</p>
 
-<p>NasledujĂşce roky prebiehali v&nbsp;neustĂĄlych prestrelkĂĄch nadĹĄencov
-oboch tĂĄborov v&nbsp;tichom pouĹžĂ­vanĂ­
+<p>Nasleduj�ce roky prebiehali v&nbsp;neust�lych prestrelk�ch nad�encov
+oboch t�borov v&nbsp;tichom pou��van�
 <abbr title="Internet Explorer" lang="en">IE</abbr>
-a&nbsp;pĂ­sanĂ­ strĂĄnok v&nbsp;prakticky Äistom
+a&nbsp;p�san� str�nok v&nbsp;prakticky �istom
+
 <abbr title="HyperText MarkUp Language" lang="en">HTML</abbr>
-s&nbsp;drobnĂ˝m preĹĄtĂ˝lovanĂ­m v&nbsp;
+s&nbsp;drobn�m pre�t�lovan�m v&nbsp;
 <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>.</p>
 
-<p>SkvalitnenĂ­m mĂ´jho prĂ­stupu k internetu som na Ĺom ako pouĹžĂ­vateÄž trĂĄvil
-ÄĂ­m Äalej viacej Äasu a&nbsp;na povrch vystupovali neduhy pomaliÄky
-niekoÄžkoroÄnĂŠho prehliadaÄa. Pravidelne jeho oknĂĄ zmizli v&nbsp;nenĂĄvratne.
-AkĂŠsi divnosti sa diali v&nbsp;operaÄnom systĂŠme a&nbsp;nepomĂĄhalo ani raz
-za hodinu odvĹĄivovaĹĽ systĂŠm od doinĹĄtalovanĂ˝ch ĹĄpiĂłnov. Rokmi zĂ­skanĂŠ nĂĄvyky
-a klĂĄvesovĂŠ skratky mi kaĹždĂ˝ pokus &quot;skĂşsim Ă­sĹĽ do Opery&quot;,
-&quot;Mozilla nehryzie&quot; stroskotali na ich odliĹĄnosti.</p>
+<p>Skvalitnen�m m�jho pr�stupu k internetu som na �om ako pou��vate� tr�vil
+��m �alej viacej �asu a&nbsp;na povrch vystupovali neduhy pomali�ky
+nieko�koro�n�ho prehliada�a. Pravidelne jeho okn� zmizli v&nbsp;nen�vratne.
+Ak�si divnosti sa diali v&nbsp;opera�nom syst�me a&nbsp;nepom�halo ani raz
+za hodinu odv�ivova� syst�m od doin�talovan�ch �pi�nov. Rokmi z�skan� n�vyky
+a kl�vesov� skratky mi ka�d� pokus &quot;sk�sim �s� do Opery&quot;,
+&quot;Mozilla nehryzie&quot; stroskotali na ich odli�nosti.</p>
 
-<p>VĂ˝vojĂĄr popri tom objavil a&nbsp;pochopil Äaro
+<p>V�voj�r popri tom objavil a&nbsp;pochopil �aro
 <abbr title="Cascading Style Sheets" lang="en">CSS</abbr>
-a&nbsp;ktosi ho postrÄil k&nbsp;strĂĄnkam ÄžudĂ­ spomĂ­najĂşcich akĂŠsi
+a&nbsp;ktosi ho postr�il k&nbsp;str�nkam �ud� spom�naj�cich ak�si
 <abbr title="Extensible Hypertext Markup Language" lang="en">XHTML</abbr>.
-PreÄĂ­tal som si Äosi o&nbsp;beztabuÄžkovom layoute a&nbsp;konzervatĂ­vnosĹĽ
-drĹžiaca sa ma rokmi padla takmer zo dĹa na deĹ. VidieĹĽ svetlo po rokoch
-zatemnelĂŠho poÄĂ­tania TD TR TD TR bolo veÄžmi prijemnĂŠ.</p>
+Pre��tal som si �osi o&nbsp;beztabu�kovom layoute a&nbsp;konzervat�vnos�
+dr�iaca sa ma rokmi padla takmer zo d�a na de�. Vidie� svetlo po rokoch
+zatemnel�ho po��tania TD TR TD TR bolo ve�mi prijemn�.</p>
 
-<p>MoĹžno vtedy pretiekla aj moja trpezlivosĹĽ nad stĂĄle sa kaziacim
-prehliadaÄom. PrvĂ˝krĂĄt som poÄul akĂŠsi slovo Phoenix a&nbsp;neregistroval
-som ho prĂ­liĹĄ, videl som totiĹž niekoÄžko pokusov o&nbsp;alternatĂ­vy nad
-jadrom Gecko, Ĺže to aĹž takĂĄ bomba nebola. PrĂ­chod projektu s&nbsp;nĂĄzvom
-Firebird ma uĹž zasiahol viac. Sprvu som si povedal, Ĺže nebudem v&nbsp;kuse
-sĹĽahovaĹĽ celĂş Mozillu, keÄ je vo Firebirde to istĂŠ jadro a&nbsp;to mi na
-testovanie staÄĂ­.</p>
+<p>Mo�no vtedy pretiekla aj moja trpezlivos� nad st�le sa kaziacim
+prehliada�om. Prv�kr�t som po�ul ak�si slovo Phoenix a&nbsp;neregistroval
+som ho pr�li�, videl som toti� nieko�ko pokusov o&nbsp;alternat�vy nad
+jadrom Gecko, �e to a� tak� bomba nebola. Pr�chod projektu s&nbsp;n�zvom
+Firebird ma u� zasiahol viac. Sprvu som si povedal, �e nebudem v&nbsp;kuse
+s�ahova� cel� Mozillu, ke� je vo Firebirde to ist� jadro a&nbsp;to mi na
+testovanie sta��.</p>
 
-<p>V momente ako som zistil, Ĺže <kbd>Alt</kbd>-<kbd>D</kbd> je vo Firebirde
-to istĂŠ ako v
+<p>V momente ako som zistil, �e <kbd>Alt</kbd>-<kbd>D</kbd> je vo Firebirde
+to ist� ako v
 <abbr title="Internet Explorer" lang="en">IE</abbr>,
-Ĺže ĹĄtartuje naozaj rĂ˝chlejĹĄie ako
+�e �tartuje naozaj r�chlej�ie ako
 &quot;<abbr title="Internet Explorer" lang="en">IE</abbr>
-ĹĄtartuje rĂ˝chlo pretoĹže je zadrĂĄtovanĂ˝ v&nbsp;systĂŠme&quot;, Ĺže zobrazuje
-strĂĄnky fakt bleskovo &quot;ako Opera&quot; a&nbsp;netrpĂ­ niektorĂ˝mi neduhmi
-Opery &quot;sedmiÄky eĹĄte neboli a&nbsp;vĹĄetko pod nimi bolo veÄžmi
-svojskĂŠ&quot;.</p>
+�tartuje r�chlo preto�e je zadr�tovan� v&nbsp;syst�me&quot;, �e zobrazuje
+str�nky fakt bleskovo &quot;ako Opera&quot; a&nbsp;netrp� niektor�mi neduhmi
+Opery &quot;sedmi�ky e�te neboli a&nbsp;v�etko pod nimi bolo ve�mi
+svojsk�&quot;.</p>
 
-<p>Povedal som si, Ĺže doma to skĂşsim pĂĄr dnĂ­ s&nbsp;Firebirdom. Äasom som sa
-presvedÄil, Ĺže naozaj ide aj cudzĂ­m prehliadaÄom pozeraĹĽ strĂĄnky. Dokonca
-som zistil, Ĺže existujĂş Äžudia, ktorĂ­ nerobia strĂĄnky ĹĄpecificky pre
-konkrĂŠtne prehliadaÄe &ndash; nie pre jeden, dva, tri. Proste akceptujĂş nejakĂŠ
-pravidlĂĄ, ktorĂ˝ch dodrĹžovanie zabezpeÄĂ­ ÄžahĹĄĂ­ vĂ˝voj a&nbsp;zĂĄroveĹ obracia
-naruby vĹĄetky postupy. Moje strĂĄnky postupnĂ˝m odlaÄovanĂ­m priberali na vĂĄhe
-a&nbsp;oni chceli vĹĄetko zjednoduĹĄovaĹĽ.</p>
+<p>Povedal som si, �e doma to sk�sim p�r dn� s&nbsp;Firebirdom. �asom som sa
+presved�il, �e naozaj ide aj cudz�m prehliada�om pozera� str�nky. Dokonca
+som zistil, �e existuj� �udia, ktor� nerobia str�nky �pecificky pre
+konkr�tne prehliada�e &ndash; nie pre jeden, dva, tri. Proste akceptuj� nejak�
+pravidl�, ktor�ch dodr�ovanie zabezpe�� �ah�� v�voj a&nbsp;z�rove� obracia
+naruby v�etky postupy. Moje str�nky postupn�m odla�ovan�m priberali na v�he
+a&nbsp;oni chceli v�etko zjednodu�ova�.</p>
 
-<p>Dnes uĹž Ĺžijem s&nbsp;prehliadaÄom, ktorĂ˝ mi vyhovuje a&nbsp;ktorĂ˝ sa ma
-hlavne nesnaĹžil &quot;prerobiĹĽ&quot; na svoj obraz. Postupom Äasu som ho
-prestal chĂĄpaĹĽ ako konkurenta
+<p>Dnes u� �ijem s&nbsp;prehliada�om, ktor� mi vyhovuje a&nbsp;ktor� sa ma
+hlavne nesna�il &quot;prerobi�&quot; na svoj obraz. Postupom �asu som ho
+prestal ch�pa� ako konkurenta
 <abbr title="Internet Explorer" lang="en">IE</abbr>
-ale ako lepĹĄiu voÄžbu. Aj napriek mnoĹžstevnej prevahe som presvedÄil
-pouĹžĂ­vateÄža internetu v&nbsp;sebe, Ĺže mĂ´Ĺžem postĂşpiĹĽ o&nbsp;krok
-a&nbsp;objavĂ­m veci, ktorĂŠ aĹž po objave zachutili.</p>
 
-<p>Koncepcia Firefoxu je snĂĄÄ najbliĹžĹĄie mojim predstavĂĄm o&nbsp;rĂ´znosti
-potrieb pouĹžĂ­vateÄža internetu. NesnaĹžĂ­ sa mi prĂ­liĹĄ pomĂĄhaĹĽ ale zĂĄroveĹ ma
-pred samĂ˝m sebou chrĂĄni. Vie mi ponĂşknuĹĽ inĂş tvĂĄr a&nbsp;podvolĂ­ sa pokusom
-si ju ohnĂşĹĽ sprĂĄvnym smerom.</p>
+ale ako lep�iu vo�bu. Aj napriek mno�stevnej prevahe som presved�il
+pou��vate�a internetu v&nbsp;sebe, �e m��em post�pi� o&nbsp;krok
+a&nbsp;objav�m veci, ktor� a� po objave zachutili.</p>
 
-<p>NebojĂ­m sa s&nbsp;Ĺou preĹžiĹĽ ÄalĹĄĂ­ch pĂĄr rokov a&nbsp;avĂ­zovanĂş novĂş
+<p>Koncepcia Firefoxu je sn�� najbli��ie mojim predstav�m o&nbsp;r�znosti
+potrieb pou��vate�a internetu. Nesna�� sa mi pr�li� pom�ha� ale z�rove� ma
+pred sam�m sebou chr�ni. Vie mi pon�knu� in� tv�r a&nbsp;podvol� sa pokusom
+si ju ohn�� spr�vnym smerom.</p>
+
+<p>Neboj�m sa s&nbsp;�ou pre�i� �al��ch p�r rokov a&nbsp;av�zovan� nov�
 verziu
 <abbr title="Internet Explorer" lang="en">IE</abbr>,
-uĹž dokonca posunutĂş do budĂşcnosti, oÄakĂĄvam menej dramaticky. BojĂ­m sa iba
-jedinĂŠho, Ĺže novĂ˝ produkt sa bude prĂ­liĹĄ vzpieraĹĽ stĂşpajĂşcej obÄžube
-alternatĂ­v a&nbsp;pouĹžije tradiÄnĂŠ nĂĄstroje &ndash; zĂĄmernĂş nekompatibilitu,
-zavĂĄdzanie novĂ˝ch prvkov, ktorĂŠ vylĂşÄia konkurenciu. To ale uvidĂ­me, veÄ aj
-samotnĂ­ vĂ˝vojĂĄri
-<abbr title="Internet Explorer" lang="en">IE</abbr>
-obÄas hlesnĂş Äosi o&nbsp;vypoÄutĂ­ kritiky.</p>
+u� dokonca posunut� do bud�cnosti, o�ak�vam menej dramaticky. Boj�m sa iba
+jedin�ho, �e nov� produkt sa bude pr�li� vzpiera� st�paj�cej ob�ube
+alternat�v a&nbsp;pou�ije tradi�n� n�stroje &ndash; z�mern� nekompatibilitu,
+zav�dzanie nov�ch prvkov, ktor� vyl��ia konkurenciu. To ale uvid�me, ve� aj
+samotn� v�voj�ri
 
-<p>Dovtedy si budem uĹžĂ­vaĹĽ.</p>
+<abbr title="Internet Explorer" lang="en">IE</abbr>
+ob�as hlesn� �osi o&nbsp;vypo�ut� kritiky.</p>
+
+<p>Dovtedy si budem u��va�.</p>
 
 <p class="sig">
 	<a href="http://spravodaj.madaj.net/"
@@ -178,25 +176,19 @@ obÄas hlesnĂş Äosi o&nbsp;vypoÄutĂ­ kritiky.</p>
 
 <div class="side"><div class="side-in">
 	<hr />
-	<h2>NavazujĂ­cĂ­ odkazy</h2>
-
+	<h2>Navazuj�c� odkazy</h2>
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
-		<a href="../">ZkuĹĄenosti</a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
+		<a href="../">Zku�enosti</a> &gt;
 		<strong>Robert Madaj</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

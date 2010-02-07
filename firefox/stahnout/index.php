@@ -138,7 +138,7 @@
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Stáhnout</strong>
 	</p>
 </div>

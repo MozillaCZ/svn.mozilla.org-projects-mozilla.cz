@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Otakar Prokeš: Odteď jsem novým uživatelem Firefoxu");
-	$page_desc		= "Otakar Prokeš se s Firefoxem zkamarádil až na druhý pokus, když si dokázal přizpůsobit Firefox natolik, že v ovládání nepoznal rozdíl oproti předchozímu MyIE.";
-	$page_keywords	= "mozilla firefox instalace přizpůsobení myie myie2 maxthon plugin zásuvný modul instalace";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Otakar Prokeš: Odteď jsem novým uživatelem Firefoxu');
+	$page->setDescription('Otakar Prokeš se s Firefoxem zkamarádil až na druhý pokus, když si dokázal přizpůsobit Firefox natolik, že v ovládání nepoznal rozdíl oproti předchozímu MyIE.');
+	$page->setKeywords('mozilla firefox instalace přizpůsobení myie myie2 maxthon plugin zásuvný modul instalace');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Od teď jsem novým uživatelem Firefoxu</h1>
@@ -53,21 +45,17 @@ novým uživatelem Firefoxu.</p>
 	<hr />
 	<h2>Navazující odkazy</h2>
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Otakar Prokeš</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

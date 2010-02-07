@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Další zkušenosti lidí, kteří již používají Firefox");
-	$page_desc		= "Přicházejí nám e-maily od lidí, kteří popisují svoji zkušenost s výměnou starého internetového prohlížeče za moderní Firefox. Přečtěte si, co je zaujalo, čím je Firefox potěšil a co si o Firefoxu myslí.";
-	$page_keywords	= "zkušenost zážitek mozilla firefox msie ie explorer změna";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Další zkušenosti lidí, kteří již používají Firefox');
+	$page->setDescription('Přicházejí nám e-maily od lidí, kteří popisují svoji zkušenost s výměnou starého internetového prohlížeče za moderní Firefox. Přečtěte si, co je zaujalo, čím je Firefox potěšil a co si o Firefoxu myslí.');
+	$page->setKeywords('zkušenost zážitek mozilla firefox msie ie explorer změna');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main exp-short">
 
 <h1>Zkušenosti</h1>
@@ -182,21 +175,17 @@ se mi líbil a&nbsp;přinášel změnu.</p>
 	<hr />
 	<h2>Navazující odkazy</h2>
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Další zkušenosti</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

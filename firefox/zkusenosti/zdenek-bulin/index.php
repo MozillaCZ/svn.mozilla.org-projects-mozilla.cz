@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Zdeněk Bulín: Naprosto bez problémů...");
-	$page_desc		= "Stáhl Firefox a už u něj zůstal. Taková byla cesta Zdeňka Bulína k modernímu prohlížeči.";
-	$page_keywords	= "mozilla firefox přechod použitelný prohlížení stránek";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zdeněk Bulín: Naprosto bez problémů…');
+	$page->setDescription('Stáhl Firefox a už u něj zůstal. Taková byla cesta Zdeňka Bulína k modernímu prohlížeči.');
+	$page->setKeywords('mozilla firefox přechod použitelný prohlížení stránek');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Naprosto bez problémů...</h1>
@@ -51,24 +43,18 @@ děláte.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Zdeněk Bulín</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>
