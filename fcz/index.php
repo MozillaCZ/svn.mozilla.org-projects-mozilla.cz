@@ -41,6 +41,8 @@
 	<a href="http://www.mozilla.com/" title="Domovská stránka Mozilly" hreflang="en">Mozilla.com</a>
 	&middot;
 	<a href="http://www.mozilla-europe.org/cs/" title="Evropská pobočka Mozilla Foundation">Mozilla Europe</a>
+	&middot;
+	Hostuje: <a href="http://www.winstrom.eu/">WinStrom s.r.o.</a>
 </div>
 <div class="webstats">
 	<script type="text/javascript">
