@@ -24,7 +24,7 @@
 	<dd>Oficiální stránky podpory uživatelů Mozilla Firefoxu. Web obsahuje
 	řadu tipů a&nbsp;návodů, které vám mohou pomoci.</dd>
 
-	<dt><a href="http://forum.czilla.cz/viewforum.php?f=19">Diskusní fórum</a></dt>
+	<dt><a href="http://forum.mozilla.cz/viewforum.php?f=3">Diskusní fórum</a></dt>
 	<dd>Webové fórum české komunity Mozilla Firefoxu pro podporu uživatelů. Máte-li
 	 problém, je to místo určené právě vám.</dd>
 
