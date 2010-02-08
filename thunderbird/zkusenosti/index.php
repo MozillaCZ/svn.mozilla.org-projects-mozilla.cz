@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Zkušenosti lidí, kteří používají Thunderbird");
-	$page_desc		= "Přečtěte si, co si o přechodu z jiných poštovních klientů na Mozilla Thunderbird myslí lidé, kteří již přešli.";
-	$page_keywords	= "mozilla thunderbird přechod outlook express osobní zkušenost názor důvod příklad proč přejít";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Zkušenosti lidí, kteří používají Thunderbird');
+	$page->setDescription('Přečtěte si, co si o přechodu z jiných poštovních klientů na Mozilla Thunderbird myslí lidé, kteří již přešli.');
+	$page->setKeywords('mozilla thunderbird přechod outlook express osobní zkušenost názor důvod příklad proč přejít');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Zkušenosti</h1>
@@ -85,8 +78,8 @@ známým ho vždy vřele doporučuji.</p>
 <h2 id="dalsi">Další zkušenosti</h2>
 
 <p>
-Přečtěte si <a href="/zkusenosti/dalsi/" 
-title="Další zkušenosti uživatelů">další zkušenosti uživatelů</a> 
+Přečtěte si <a href="/zkusenosti/dalsi/"
+title="Další zkušenosti uživatelů">další zkušenosti uživatelů</a>
 s&nbsp;tímto poštovním klientem.
 </p>
 
@@ -96,22 +89,17 @@ s&nbsp;tímto poštovním klientem.
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Zkušenosti</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

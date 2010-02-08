@@ -1,5 +1,4 @@
 	<h3 class="first">Zkušenosti</h3>
-
 	<dl>
 		<dt><a href="/zkusenosti/martin-kopta/">E-mailovou adresu měnit nechci, Thunderbird také ne</a></dt>
 		<dd>Martin Kopta: Neobtěžují mě spamy a&nbsp;můj počítač se ještě nenakazil virem.</dd>
@@ -11,7 +10,7 @@
 	<dl>
 		<dt><a href="/zkusenosti/klara-rozkova/">Můj důležitý pomocník</a></dt>
 		<dd>Klára Rožková: Thunderbird je pro mne velmi důležitým pomocníkem, protože mi ušetří spoustu času.</dd>
-	</dl>		
+	</dl>
 	<dl>
 		<dt><a href="/zkusenosti/jiri-zahradil/">Nejpraktičtější e-mailový program</a></dt>
 		<dd>Jiří Zahradil: Zaujala mě jednoduchá instalace, střízlivé a&nbsp;praktické uživatelské prostředí.</dd>
@@ -34,7 +33,6 @@
 	</dl>
 
 	<h3>Přidejte se také!</h3>
-
 	<p>
 		Používáte Thunderbird a&nbsp;jste spokojení?
 		<a href="mailto:info@czilla.cz">Napište nám svou zkušenost</a>.

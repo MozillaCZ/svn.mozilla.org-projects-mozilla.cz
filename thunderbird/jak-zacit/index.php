@@ -1,27 +1,20 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Jak začít?");
-	$page_desc		= "Průvodce přechodem z vašeho stávajícího poštovního klientu na Thunderbird";
-	$page_keywords	= "outlook express thunderbird přechod převod import migrace návod";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Jak začít?');
+	$page->setDescription('Průvodce přechodem z vašeho stávajícího poštovního klientu na Thunderbird.');
+	$page->setKeywords('outlook express thunderbird přechod převod import migrace návod');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Jak začít?</h1>
 
-<p>Přejít na Mozilla Thunderbird je jednoduché. Stačí 
-<a href="/stahnout/">stáhnout</a> a&nbsp;<a 
-href="http://www.czilla.cz/podpora/thunderbird/tutorial/index.html" 
-title="Návod na instalaci Mozilla Thunderbirdu">nainstalovat</a>. 
-Při prvním spuštění si můžete <a 
-href="http://www.czilla.cz/podpora/thunderbird/tutorial/index.html#konfigurace">vytvořit nový účet</a> nebo 
+<p>Přejít na Mozilla Thunderbird je jednoduché. Stačí
+<a href="/stahnout/">stáhnout</a> a&nbsp;<a
+href="http://www.czilla.cz/podpora/thunderbird/tutorial/index.html"
+title="Návod na instalaci Mozilla Thunderbirdu">nainstalovat</a>.
+Při prvním spuštění si můžete <a
+href="http://www.czilla.cz/podpora/thunderbird/tutorial/index.html#konfigurace">vytvořit nový účet</a> nebo
 převést poštu z&nbsp;vašeho stávajícího klientu. Převod pošty je snadný.
 Po instalaci jen projdete jednoduchého průvodce převodem vaší pošty ze stávajícího klientu.
 </p>
@@ -44,7 +37,7 @@ importovalo a&nbsp;vy můžete začít Thunderbird naplno používat.</p>
 adresáře s&nbsp;profilem.</p>
 
 <div class="note">
-<p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn 
+<p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn
 v&nbsp;<span class="file"><a href="http://www.czilla.cz/podpora/thunderbird/konfigurace.html#profile"
 	title="Nápověda programu Mozilla Thunderbird: Editace konfiguračních souborů"
 	hreflang="cs">%AppData%</a>\Thunderbird\Profiles\[Náhodné znaky].default\</span>. Stačí si prohlédnout
@@ -73,7 +66,7 @@ zalíbí.</p>
 
 	<h3 class="first">Seznámení pro nováčky</h3>
 
-	<p>Pokud chcete lépe poznat svého nového pošťáka, můžete si na 
+	<p>Pokud chcete lépe poznat svého nového pošťáka, můžete si na
 	<a href="http://www.czilla.cz/">CZille</a> přečíst seznámení s&nbsp;Thunderbirdem
 	pro nováčky:</p>
 
@@ -104,12 +97,10 @@ zalíbí.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Jak začít?</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

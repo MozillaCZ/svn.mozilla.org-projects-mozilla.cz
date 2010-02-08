@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Zdeněk Koch: Dejte šanci Thunderbirdu");
-	$page_desc  = "Zdeněk Koch o svém přechodu z Outlook Express na Thunderbird";
-	$page_keywords	= "mozilla thunderbird přechod poštovní klient legálně zdarma";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zdeněk Koch: Dejte šanci Thunderbirdu');
+	$page->setDescription('Zdeněk Koch o svém přechodu z Outlook Express na Thunderbird');
+	$page->setKeywords('mozilla thunderbird přechod poštovní klient legálně zdarma');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Dejte šanci Thunderbirdu</h1>
@@ -53,24 +45,18 @@ Zkrátka super!</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Zdeněk Koch</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

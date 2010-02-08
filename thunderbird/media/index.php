@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Co říkají o&nbsp;Thunderbirdu média?");
-	$page_desc		= "Recenzenti si pochvalují Thunderbird v Čechách i v zahraničí.";
-	$page_keywords	= "mozilla thunderbird pochvala recenze review hodnocení názor časopis e-ziny média recenzent komentář";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Co říkají o&nbsp;Thunderbirdu média?');
+	$page->setDescription('Recenzenti si pochvalují Thunderbird v Česku i v zahraničí.');
+	$page->setKeywords('mozilla thunderbird pochvala recenze review hodnocení názor časopis e-ziny média recenzent komentář');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Co o&nbsp;Thunderbirdu říkají média?</h1>
@@ -28,11 +21,11 @@ napsali řadu pochvalných recenzí. Vybíráme některé z&nbsp;nich.</p>
 
 <h3 class="first">Jednoduché ovládání</h3>
 
-<div class="med-logo" style="width:108px"><img 
+<div class="med-logo" style="width:108px"><img
   src="/img/m-ppk.gif" alt="Počítač pro každého" width="108" height="50" /></div>
 
-<p>Mozilla Thunderbird je velmi zajímavý e-mailový klient s&nbsp;jednoduchým 
-ovládáním i&nbsp;nastavením. Autoři kladou velký důraz na jednoduchost, 
+<p>Mozilla Thunderbird je velmi zajímavý e-mailový klient s&nbsp;jednoduchým
+ovládáním i&nbsp;nastavením. Autoři kladou velký důraz na jednoduchost,
 rychlost a&nbsp;bezpečnost a&nbsp;je to na jejich práci vidět.</p>
 
 <p class="sig"><cite>
@@ -60,7 +53,7 @@ s&nbsp;Thunderbirdem zaostalé a&nbsp;nedostatečné.<br />
 
 <h3 class="first">Perfektní náhrada za Outlook Express</h3>
 
-<div class="med-logo" style="width:80px"><img 
+<div class="med-logo" style="width:80px"><img
 	src="/img/m-technet.gif" alt="Technet" width="80" height="30" /></div>
 
 <p>Mezi jeho hlavní přednosti patří příjemné uživatelské rozhraní,
@@ -81,7 +74,7 @@ i&nbsp;vyřešené nastavení programu.<br />
 
 <h3>Velká řada funkcí</h3>
 
-<div class="med-logo" style="width:100px"><img 
+<div class="med-logo" style="width:100px"><img
   src="/img/m-abclinuxu.gif" alt="ABC Linuxu" width="100" height="40" /></div>
 
 <p>Velice užitečným shledávám integrovaný spamový filtr &ndash; kolik reklamy se
@@ -101,7 +94,7 @@ je až děsivé. Po zaučení vám s&nbsp;tím Thunderbird velice pomůže.<br /
 
 <h3 class="first">Vyzkoušejte ho</h3>
 
-<div class="med-logo" style="width:60px"><img 
+<div class="med-logo" style="width:60px"><img
 	src="/img/m-forbes.gif" alt="Forbes" width="60" height="21" /></div>
 
 <p>Pokud jste se někdy nedávno uchýlili k&nbsp;proklínání svého stávajícího
@@ -120,7 +113,7 @@ co se okolo pošty v&nbsp;poslední době udála.<br />
 
 <h3>Výkonný klient</h3>
 
-<div class="med-logo" style="width:66px"><img 
+<div class="med-logo" style="width:66px"><img
   src="/img/m-pcmag.gif" alt="PC Mag" width="66" height="78" /></div>
 
 <p>Thunderbird je bohatý poštovní klient s&nbsp;čistým uživatelským
@@ -144,7 +137,7 @@ vyzkoušejte ho.<br />
 
 <h3>Snadné vyhledávání</h3>
 
-<div class="med-logo" style="width:100px"><img 
+<div class="med-logo" style="width:100px"><img
 	src="/img/m-pcworld.gif" alt="PC World" width="100" height="24" /></div>
 
 <p>Podobně jako řada lidí jsem silně zaneprázdněn a&nbsp;nemám čas vytvářet
@@ -165,7 +158,7 @@ v&nbsp;doručené poště na základě snadno vytvořitelných pravidel.<br />
 
 <h3 class="first">Snadné vyhledávání</h3>
 
-<div class="med-logo" style="width:80px"><img 
+<div class="med-logo" style="width:80px"><img
 	src="/img/m-eweek.gif" alt="eWEEK" width="80" height="23" /></div>
 
 <p>Filtr na nevyžádanou poštu pracoval v&nbsp;našich testech velmi dobře.
@@ -193,10 +186,10 @@ efektivně na náročnou nevyžádanou poštu z&nbsp;marketingových zpráv.<br 
 	<p><a href="http://www.lupa.cz/clanek.php3?show=3829"
 			hreflang="cs">Mozilla Thunderbird &ndash; nové pojetí emailu, nebo výkřik do prázdna?</a>
 		&ndash; Lupa.cz</p>
-		
+
 	<p><a href="http://www.linuxzone.cz/index.phtml?ids=6&amp;idc=1022"
 	    hreflang="cs">Mozilla Thunderbird - pošta na úrovni</a>
-    &ndash; Linuxzone.cz</p>		
+    &ndash; Linuxzone.cz</p>
 
 	<p><a href="http://www.techtree.com/techtree/jsp/article.jsp?article_id=56760"
 			hreflang="en" class="l-en">Thunderbird 1.0</a>
@@ -211,12 +204,10 @@ efektivně na náročnou nevyžádanou poštu z&nbsp;marketingových zpráv.<br 
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Co o&nbsp;Thunderbirdu říkají média?</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

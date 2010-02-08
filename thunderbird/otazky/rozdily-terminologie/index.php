@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Rozdíly v terminologii Thunderbirdu a Outlook Expressu");
-	$page_desc		= "Základní slovníček rozdílně pojmenovaných prvků a funkcí v Thunderbirdu a Outlook Expressu.";
-	$page_keywords	= "mozilla Thunderbird Outlook Express slovník slovníček rozdíly funkce pojmenování terminologie";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Rozdíly v terminologii Thunderbirdu a Outlook Expressu');
+	$page->setDescription('Základní slovníček rozdílně pojmenovaných prvků a funkcí v Thunderbirdu a Outlook Expressu.');
+	$page->setKeywords('mozilla Thunderbird Outlook Express slovník slovníček rozdíly funkce pojmenování terminologie');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Rozdíly v&nbsp;terminologii Thunderbirdu a&nbsp;Outlook Expressu</h1>
@@ -87,13 +80,11 @@ základní slovníček těchto rozdílů.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Nejčastější otázky</a> &gt;
 		<strong>Rozdíly v&nbsp;terminologii</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

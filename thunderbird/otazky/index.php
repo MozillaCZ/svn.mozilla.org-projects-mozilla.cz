@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Nejčastější otázky spojené s přechodem");
-	$page_desc		= "Pokud přemýšlíte o přechodu ze svého stávajícího poštovního klienta na Mozilla Thunderbird, máte určitě řadu otázek. Nabízíme odpovědi na ty nejčastější.";
-	$page_keywords	= "mozilla thunderbird přechod outlook express import převod funkčnost čeština";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Nejčastější otázky spojené s přechodem');
+	$page->setDescription('Pokud přemýšlíte o přechodu ze svého stávajícího poštovního klienta na Mozilla Thunderbird, máte určitě řadu otázek. Nabízíme odpovědi na ty nejčastější.');
+	$page->setKeywords('mozilla thunderbird přechod outlook express import převod funkčnost čeština');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Nejčastější otázky</h1>
@@ -316,12 +309,10 @@ které můžete kdykoliv snadno obnovit.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Nejčastější otázky</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -1,17 +1,10 @@
 <?php
-	$inc_path	= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Tapety s Thunderbirdem");
-	$page_desc		= "Tapety s logem Mozilla Thunderbird ke stažení a několik odkazů na stránky s dalšími tapetami.";
-	$page_keywords	= "mozilla thunderbird wallpaper tapeta tapety pozadí monitor desktop wallpapery";
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Tapety s Thunderbirdem');
+	$page->setDescription('Tapety s logem Mozilla Thunderbird ke stažení a několik odkazů na stránky s dalšími tapetami.');
+	$page->setKeywords('mozilla thunderbird wallpaper tapeta tapety pozadí monitor desktop wallpapery');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Tapety s&nbsp;Thunderbirdem</h1>
@@ -45,12 +38,9 @@ pro vás připravil tuto nádhernou čistě modrou tapetu.</p>
 
 <h2 id="w-2-aqua" lang="en">Aqua</h2>
 
-<p>Tuto tapetu
-s&nbsp;<a href="http://www.deviantart.com/deviation/2938367/"
-	hreflang="en" class="l-en">originálním logem</a>
+<p>Tuto tapetu s&nbsp;<a href="http://www.deviantart.com/deviation/2938367/" hreflang="en" class="l-en">originálním logem</a>
 vytvořil grafik
-<a href="http://weboso.deviantart.com/"
-	hreflang="en" class="l-en">Jairo Boudewyn</a>.</p>
+<a href="http://weboso.deviantart.com/" hreflang="en" class="l-en">Jairo Boudewyn</a>.</p>
 
 <div class="img-center"><div class="img-c" style="width:280px">
 	<img src="/img/w/w-2-aqua.jpg"
@@ -241,13 +231,11 @@ s&nbsp;motivy Firefoxu.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Stáhnout</a> &gt;
 		<strong>Tapety s&nbsp;Thunderbirdem</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

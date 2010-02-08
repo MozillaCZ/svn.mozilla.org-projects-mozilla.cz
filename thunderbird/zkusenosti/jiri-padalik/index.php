@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Jiří Padalík: Proč Thunderbird?");
-	$page_desc  = "Jiří Padalík opustil Outlook a začal používat Thunderbird. Objevil jeho bezpečnost, rozšiřitelnost a uživatelskou podporu";
-	$page_keywords  = "mozilla thunderbird přechod poštovní klient legálně zdarma";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Jiří Padalík: Proč Thunderbird?');
+	$page->setDescription('Jiří Padalík opustil Outlook a začal používat Thunderbird. Objevil jeho bezpečnost, rozšiřitelnost a uživatelskou podporu');
+	$page->setKeywords('mozilla thunderbird přechod poštovní klient legálně zdarma');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč Thunderbird?</h1>
@@ -58,24 +50,18 @@ provedu, pro mě bude nová, lepší verze Thunderbirdu.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Jiří Padalík</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

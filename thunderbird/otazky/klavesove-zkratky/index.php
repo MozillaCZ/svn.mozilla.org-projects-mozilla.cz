@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Klávesové zkratky v Thunderbirdu");
-	$page_desc		= "Seznam nejvíce používaných klávesových zkratek v poštovním klientu Mozilla Thunderbird a porovnání s ekvivalenty v Outlook Express";
-	$page_keywords	= "mozilla thunderbird microsoft outlook express klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Klávesové zkratky v Thunderbirdu');
+	$page->setDescription('Seznam nejvíce používaných klávesových zkratek v poštovním klientu Mozilla Thunderbird a porovnání s ekvivalenty v Outlook Express.');
+	$page->setKeywords('mozilla thunderbird microsoft outlook express klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Klávesové zkratky v&nbsp;Thunderbirdu</h1>
@@ -233,12 +226,12 @@ s&nbsp;ekvivalentními akcemi v&nbsp;klientu Outlook Express.</p>
 		<th>Zastavit</th>
 		<td><kbd>Esc</kbd></td>
 		<td><kbd>Esc</kbd></td>
-	</tr>	 
+	</tr>
 	<tr>
 		<th>Ukončit</th>
 		<td><kbd>Ctrl</kbd>+<kbd>Q</kbd></td>
 		<td></td>
-	</tr>	 
+	</tr>
 	<tr>
 		<th>Tisk</th>
 		<td><kbd>Ctrl</kbd>+<kbd>P</kbd></td>
@@ -311,7 +304,7 @@ s&nbsp;ekvivalentními akcemi v&nbsp;klientu Outlook Express.</p>
 		<th>Odeslat později</th>
 		<td><kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>Enter</kbd></td>
 		<td></td>
-	</tr>	 
+	</tr>
 </tbody>
 <tbody>
 	<tr>
@@ -394,13 +387,11 @@ opačný význam.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Nejčastější otázky</a> &gt;
 		<strong>Klávesové zkratky</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Jan Bína: Thunderbird na Linuxu i Windows");
-	$page_desc  = "Jan Bína o své zkušenosti se snadnou přenositelnosti pošty Thunderbirdu mezi více PC";
-	$page_keywords  = "mozilla thunderbird přechod poštovní klient legálně zdarma";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Jan Bína: Thunderbird na Linuxu i Windows');
+	$page->setDescription('Jan Bína o své zkušenosti se snadnou přenositelnosti pošty Thunderbirdu mezi více PC');
+	$page->setKeywords('mozilla thunderbird přechod poštovní klient legálně zdarma');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Thunderbird na Linuxu i&nbsp;Windows</h1>
@@ -49,23 +41,18 @@ Jan Bína
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Jan Bína</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

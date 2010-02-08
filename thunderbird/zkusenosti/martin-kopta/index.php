@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Martin Kopta: E-mailovou adresu měnit nechci, Thunderbird také ne");
-	$page_desc		= "Martin Kopta o tom, jak začal používat Thunderbird a zbavil se problému se spamem";
-	$page_keywords	= "mozilla thunderbird přechod poštovní klient legálně zdarma";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Martin Kopta: E-mailovou adresu měnit nechci, Thunderbird také ne');
+	$page->setDescription('Martin Kopta o tom, jak začal používat Thunderbird a zbavil se problému se spamem');
+	$page->setKeywords('mozilla thunderbird přechod poštovní klient legálně zdarma');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>E-mailovou adresu měnit nechci, Thunderbird také ne</h1>
@@ -53,24 +45,18 @@ stále mám zdarma k&nbsp;dispozici nové verze a&nbsp;doplňky.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Martin Kopta</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

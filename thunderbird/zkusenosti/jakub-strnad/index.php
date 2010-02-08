@@ -1,18 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-
-	include($inc_path . "config.inc");
-
-	setTitle("Jakub Strnad: Thunderbird mě překvapil");
-	$page_desc		= "Jakub Strnad přešel na Linux a začal používat Thunderbird jako svůj výchozí poštovní program";
-	$page_keywords	= "mozilla thunderbird přechod poštovní klient legálně zdarma";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Jakub Strnad: Thunderbird mě překvapil');
+	$page->setDescription('Jakub Strnad přešel na Linux a začal používat Thunderbird jako svůj výchozí poštovní program');
+	$page->setKeywords('mozilla thunderbird přechod poštovní klient legálně zdarma');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Thunderbird mě překvapil</h1>
@@ -45,24 +37,18 @@ dalších užitečných rozšíření.</p>
 <div class="side"><div class="side-in">
 	<hr />
 	<h2>Navazující odkazy</h2>
-
 <?php
-
-	include($inc_path . "x_more_stories.inc");
-
+	$page->includeTemplate('stories');
 ?>
-
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Zkušenosti</a> &gt;
 		<strong>Jakub Strnad</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

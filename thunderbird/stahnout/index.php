@@ -1,19 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Stáhnout Thunderbird");
-
-	$page_desc		= "Stažení pošťáka Mozilla Thunderbird pro Windows, Linux a Mac OS X, oblíbených rozšíření a motivů vzhledu.";
-	$page_keywords	= "mozilla thunderbird download stažení stahování stáhnutí zásuvný modul plugin rozšíření extenze téma motiv vzhledu";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Stáhnout Thunderbird');
+	$page->setDescription('Stažení pošťáka Mozilla Thunderbird pro Windows, Linux a Mac OS X, oblíbených rozšíření a motivů vzhledu.');
+	$page->setKeywords('mozilla thunderbird download stažení stahování stáhnutí zásuvný modul plugin rozšíření extenze téma motiv vzhledu');
+	$page->includeTemplate('header');
 ?>
-
-
 <div class="main download">
 
 <h1>Stáhněte si Thunderbird</h1>
@@ -46,18 +37,18 @@
 	<h3 class="first">Oblíbená rozšíření</h3>
 
 	<dl>
-	
+
 		<dt><a href="http://www.czilla.cz/doplnky/rozsireni/enigmail/">Enigmail</a></dt>
-		<dd>Šifrování a&nbsp;dešifrování zpráv pomocí <a 
-    href="http://www.gnupg.org/" title="GnuPG: Domovská stránka" 
-    hreflang="en" class="l-en" lang="en">GnuPG</a>.</dd>	
+		<dd>Šifrování a&nbsp;dešifrování zpráv pomocí <a
+    href="http://www.gnupg.org/" title="GnuPG: Domovská stránka"
+    hreflang="en" class="l-en" lang="en">GnuPG</a>.</dd>
 
 		<dt><a href="http://www.czilla.cz/doplnky/rozsireni/minimizetotray/">MinimizeToTray</a></dt>
 		<dd>Minimalizace Thunderbirdu do systémového panelu.</dd>
-		
+
 		<dt><a href="http://www.czilla.cz/doplnky/rozsireni/mouse-gestures/"
 			>Mouse Gestures</a></dt>
-		<dd>Ovládání pošťáka pomocí gest myši.</dd>		
+		<dd>Ovládání pošťáka pomocí gest myši.</dd>
 
 		<dt><a href="http://www.czilla.cz/doplnky/rozsireni/profilepassword-tb/"
 			>ProfilePassword</a></dt>
@@ -86,32 +77,31 @@
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1241&amp;application=thunderbird"
 			hreflang="en" class="l-en" lang="en">Aquabird</a></dt>
 		<dd>Hezký motiv kombinující šedivou barvu s&nbsp;modrou.</dd>
-    
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=891&amp;application=thunderbird"
 			hreflang="en" class="l-en" lang="en">Outlook 2003 BlueTB </a></dt>
 		<dd>Motiv ve stylu Microsoft Outlook 2003.</dd>
-    
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1344&amp;application=thunderbird"
 			hreflang="en" class="l-en" lang="en">Phoenity</a></dt>
 		<dd>Hezky barevný motiv s&nbsp;možností nastavování.</dd>
-    
+
 		<dt><a href="https://addons.mozilla.org/themes/moreinfo.php?id=1425&amp;application=thunderbird"
 			hreflang="en" class="l-en" lang="en">Walnut</a></dt>
-		<dd>Hezký motiv založený na ikonkách z Gnome.</dd>            		
-		
+		<dd>Hezký motiv založený na ikonkách z Gnome.</dd>
+
 	</dl>
-	
+
 	<p><strong>Další zdroje motivů:</strong></p>
 
   <ul>
 	  <li><a href="https://addons.mozilla.org/cs/thunderbird/browse/type:2/cat:all?sort=popular"
 			title="Přehled dostupných motivů vzhledu pro Thunderbird">Mozilla Doplňky</a></li>
-			
- 		<li><a href="http://www.czilla.cz/podpora/thunderbird/tutorial/motivy-vzhledu.html"
-				title="Návod, jak nainstalovat motiv vzhledu do Thunderbirdu">Instalace 
-        motivu vzhledu do Thunderbirdu</a></li>				
-	</ul>
 
+ 		<li><a href="http://www.czilla.cz/podpora/thunderbird/tutorial/motivy-vzhledu.html"
+				title="Návod, jak nainstalovat motiv vzhledu do Thunderbirdu">Instalace
+        motivu vzhledu do Thunderbirdu</a></li>
+	</ul>
 
 	<h3>Další aplikace</h3>
 
@@ -140,12 +130,10 @@
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Stáhnout</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

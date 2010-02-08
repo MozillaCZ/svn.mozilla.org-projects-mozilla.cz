@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Proč používat Mozilla Thunderbird");
-	$page_desc		= "Několik dobrých důvodů, proč je dobré přejít na Mozilla Thunderbird.";
-	$page_keywords	= "nevyžádaná pošta spam bezpečnost účty identity podpora";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Proč používat Mozilla Thunderbird');
+	$page->setDescription('Několik dobrých důvodů, proč je dobré přejít na Mozilla Thunderbird.');
+	$page->setKeywords('nevyžádaná pošta spam bezpečnost účty identity podpora');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Proč používat Thunderbird</h1>
@@ -400,12 +393,10 @@ kde vám řada stávajících uživatelů Thunderbirdu ochotně poradí.</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Proč používat?</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

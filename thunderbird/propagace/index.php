@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Propagujte Thunderbird");
-	$page_desc		= "Ikonky a proužky propagující poštovní klient Mozilla Thunderbird. Připojte se.";
-	$page_keywords	= "Mozilla Thunderbird propagace ikonky bannery banery proužky propagace reklama";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Propagujte Thunderbird');
+	$page->setDescription('Ikonky a proužky propagující poštovní klient Mozilla Thunderbird. Připojte se.');
+	$page->setKeywords('Mozilla Thunderbird propagace ikonky bannery banery proužky propagace reklama');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Propagujte Thunderbird</h1>
@@ -341,12 +334,10 @@ proužek propagující Thunderbird. Děkujeme!</p>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<strong>Propagujte Thunderbird</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

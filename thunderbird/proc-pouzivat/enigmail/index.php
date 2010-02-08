@@ -1,28 +1,21 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Enigmail &ndash; podpora pro práci s šifrovanou poštou");
-	$page_desc		= "Enigmail &ndash; šifrování pošty v Thunderbirdu";
-	$page_keywords	= "Enigmail šifrování šifrovat podepisování openpgp klíče";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Enigmail &ndash; podpora pro práci s šifrovanou poštou');
+	$page->setDescription('Enigmail &ndash; šifrování pošty v Thunderbirdu');
+	$page->setKeywords('Enigmail šifrování šifrovat podepisování openpgp klíče');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Enigmail</h1>
 
 <div class="img-c img-right" style="width:300px">
-	<img src="/img/r-enigmail.png" width="300" height="122" alt="" />	
+	<img src="/img/r-enigmail.png" width="300" height="122" alt="" />
 	<p class="comment">Zašifrovaná poštovní zpráva.</p>
 </div>
 
 <p>Enigmail je rozšíření, které <strong>do Thunderbirdu přidá podporu
-pro práci s&nbsp;šifrovanou poštu</strong> pomocí standardu 
+pro práci s&nbsp;šifrovanou poštu</strong> pomocí standardu
 <abbr title="Open Pretty Good Privacy">OpenPGP</abbr>.</p>
 
 <p>Díky této podpoře budete moci posílat poštu v&nbsp;šifrované podobě, což
@@ -71,7 +64,7 @@ je dobře konfigurovatelné a&nbsp;spolupracuje s&nbsp;produktem
 z&nbsp;<a href="http://enigmail.mozdev.org/download.html"
 	title="Enigmail: Stránka ke stažení"
 	hreflang="en" class="l-en">domovské stránky</a>
-či ze 
+či ze
 <strong><a href="http://www.czilla.cz/doplnky/rozsireni/enigmail/"
 	title="Enigmail: Stránka o lokalizovaném rozšíření">stránky s&nbsp;lokalizovanou verzí</a></strong>
 a&nbsp;rozšíření si nainstalujte. Pokud nevíte, jak se rozšíření instaluje,
@@ -100,9 +93,9 @@ jaké jsou s&nbsp;tím spojené pojmy apod. Kompletní nápovědu naleznete na
 <a href="http://enigmail.mozdev.org/help.html"
 	title="Enigmail: Stránka s nápovědou"
 	class="l-en" hreflang="en">domovské stránce Enigmailu</a>.
-Obecný článek o&nbsp;šifrování v&nbsp;češtině naleznete na webu 
+Obecný článek o&nbsp;šifrování v&nbsp;češtině naleznete na webu
 <a href="http://sorry.vse.cz/~xkecm01/message.php?t=sifry">Michala Kece</a>.
-Základní informace jsou též k&nbsp;dispozici na 
+Základní informace jsou též k&nbsp;dispozici na
 <a href="http://enigmail.spi.cz/index.html"
 	title="Enigmail: Domovská stránka s lokalizovaným rozšířením">domovské stránce lokalizace</a>.</p>
 
@@ -118,41 +111,39 @@ Základní informace jsou též k&nbsp;dispozici na
 		<li><a href="#co-enigmail-umi">Co umí?</a></li>
 		<li><a href="#proc-enigmail-pouzivat">Proč používat?</a></li>
 		<li><a href="#jak-enigmail-ziskat">Jak získat?</a></li>
-		<li><a href="#jak-enigmail-pouzivat">Jak používat?</a></li>		
+		<li><a href="#jak-enigmail-pouzivat">Jak používat?</a></li>
 	</ul>
 
 	<h3>Důležité odkazy</h3>
 	<dl>
 		<dt><a href="http://enigmail.mozdev.org/"
 				class="l-en" hreflang="en">Stránka projektu</a></dt>
-		<dd>Oficiální stránka projektu Enigmail.</dd>	
+		<dd>Oficiální stránka projektu Enigmail.</dd>
 
 		<dt><a href="http://enigmail.spi.cz/">Stránky lokalizace</a></dt>
-		<dd>Oficiální stránky české lokalizace.</dd>	
+		<dd>Oficiální stránky české lokalizace.</dd>
 
 		<dt><a href="http://www.gnupg.org/"
 				class="l-en" hreflang="en">GnuPG</a></dt>
-		<dd>Stránky projektu GnuPG.</dd>	
+		<dd>Stránky projektu GnuPG.</dd>
 
 		<dt><a href="http://www.gpg.cz/">Česká
 			<abbr title="Pretty Good Privacy" lang="en">PGP</abbr>
 			klíčenka</a></dt>
 		<dd>Český server zprostředkovávající výměnu
 			<abbr title="Pretty Good Privacy" lang="en">PGP</abbr>
-			klíčů.</dd>	
-	</dl> 
+			klíčů.</dd>
+	</dl>
 
 </div></div>
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Proč používat?</a> &gt;
 		<strong>Enigmail</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>

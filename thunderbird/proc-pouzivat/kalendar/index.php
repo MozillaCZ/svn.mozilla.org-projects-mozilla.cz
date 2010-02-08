@@ -1,17 +1,10 @@
 <?php
-
-	$inc_path		= "../../inc/";
-	include($inc_path . "config.inc");
-
-	setTitle("Lightning &ndash; jednoduchá organizace vašeho času");
-	$page_desc		= "Lightning &ndash; jednoduchý organizátor vašeho času pro Mozilla Thunderbird.";
-	$page_keywords	= "mozilla calendar kalendář lightning úkoly správa čas organizace";
-
-	include($inc_path . "h_head.inc");
-	include($inc_path . "x_header.inc");
-
+	require_once '../inc/page.php';
+	$page->setTitle('Lightning &ndash; jednoduchá organizace vašeho času');
+	$page->setDescription('Lightning &ndash; jednoduchý organizátor vašeho času pro Mozilla Thunderbird.');
+	$page->setKeywords('mozilla calendar kalendář lightning úkoly správa čas organizace');
+	$page->includeTemplate('header');
 ?>
-
 <div class="main">
 
 <h1>Lightning</h1>
@@ -71,7 +64,7 @@ do souborů
 firmou
 <a href="http://www.apple.com/"
 	title="Apple: Stránka o formátu iCalendar"
-	hreflang="en" class="l-en">Apple</a>), databáze <a 
+	hreflang="en" class="l-en">Apple</a>), databáze <a
 	href="http://www.sqlite.org/"
 	title="Apache: Domovská stránka databáze SQLite"
 	hreflang="en" class="l-en">SQLite</a>
@@ -152,13 +145,11 @@ nevíte, jak se rozšíření instaluje, přečtěte si náš
 <div class="path">
 	<hr />
 	<p>
-		<a href="/"><?php echo $web_name; ?></a> &gt;
+		<a href="/"><?php echo $page->getWebName()?></a> &gt;
 		<a href="../">Proč používat?</a> &gt;
 		<strong>Lightning</strong>
 	</p>
 </div>
 <?php
-
-	include($inc_path . "x_footer.inc");
-
+	$page->includeTemplate('footer');
 ?>
