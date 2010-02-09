@@ -26,8 +26,8 @@
 <script type="text/javascript">
 	try {
 		var pageTracker = _gat._getTracker("UA-10350415-1");
-		pageTracker._trackPageview();
 		pageTracker._setDomainName(".mozilla.cz");
+		pageTracker._trackPageview();
 	} catch(err) {}
 </script>
 <?php
