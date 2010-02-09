@@ -121,7 +121,6 @@ Je to snadné. Firefox to udělá za vás.<br />
 
 	<p><a href="/media/">Další recenze…</a></p>
 
-
 	<h3>Zapojte se!</h3>
 
 	<p>Přidejte na své stránky propagační
@@ -131,19 +130,15 @@ Je to snadné. Firefox to udělá za vás.<br />
 
 	<p lang="en">To learn all about <strong>Mozilla Firefox</strong>,
 	award-winning web browser, visit
-	<a href="http://www.mozilla.com/en-US/firefox/"
-		lang="en" hreflang="en" class="l-en">Mozilla.com</a>
+	<a href="http://www.mozilla.com/en-US/firefox/" lang="en" hreflang="en" class="l-en">Mozilla.com</a>
 	website.</p>
 
 </div></div>
 
 <div class="side"><div class="side-in-thb">
 	<h3 class="first">Thunderbird</h3>
-
 	<img src="/img/thunderbird.png" alt="" id="thb"/>
-
-	<p>Jako skvělý doplněk Firefoxu vám doporučujeme kvalitní poštovní
-	klient
+	<p>Jako skvělý doplněk Firefoxu vám doporučujeme kvalitní poštovní klient
 	<a href="http://thunderbird.mozilla.cz/">Mozilla Thunderbird</a>.</p>
 </div></div>
 <?php
