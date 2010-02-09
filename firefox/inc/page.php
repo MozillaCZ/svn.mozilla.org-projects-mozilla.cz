@@ -76,7 +76,7 @@ class Page
 		require $this->incPath . '/tpl/' . $name . '.php';
 	}
 
-	public function getDownload()
+	public function getDownload($product)
 	{
 		include $this->incPath . '/config.php';
 		$mysqlConfig = array(
@@ -87,7 +87,7 @@ class Page
 		);
 
 		require $this->incPath . '/download.php';
-		return new Download($mysqlConfig, 'firefox');
+		return new Download($mysqlConfig, $product);
 	}
 }
 

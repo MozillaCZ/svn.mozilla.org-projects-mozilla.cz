@@ -1,5 +1,5 @@
 <?php
-	$download = $this->getDownload();
+	$download = $this->getDownload('firefox');
 	switch($type):
 		case 'page':
 ?>
@@ -23,7 +23,7 @@
 <p>Pro případ, kdy potřebujete počeštit anglickou verzi Firefoxu, si můžete stáhnout samostatný lokalizační balíček. Pro snadné přepínání lokalizací si nainstalujte rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/356">Locale Switcher</a>.</p>
 <div id="download-box">
 <ul>
-	<li class="download-ico-addon"><a href="<?php echo $download->getDownloadLink('port')?>">Stáhnout lokalizační balíček pro Firefox 3.6</a></li>
+	<li class="download-ico-addon"><a href="<?php echo $download->getDownloadLink('port')?>">Stáhnout lokalizační balíček pro Firefox <?php echo $download->getVersion()?></a></li>
 </ul>
 </div>
 

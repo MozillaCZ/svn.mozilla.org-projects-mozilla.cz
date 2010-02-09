@@ -81,9 +81,9 @@ class Download
 
 	public function getVersion()
 	{
-		if (empty($this->data['versia'])) {
+		if (empty($this->data['verzia'])) {
 			return '';
 		}
-		return $this->data['versia'];
+		return $this->data['verzia'];
 	}
 }
