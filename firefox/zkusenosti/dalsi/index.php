@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Další zkušenosti lidí, kteří již používají Firefox');
 	$page->setDescription('Přicházejí nám e-maily od lidí, kteří popisují svoji zkušenost s výměnou starého internetového prohlížeče za moderní Firefox. Přečtěte si, co je zaujalo, čím je Firefox potěšil a co si o Firefoxu myslí.');
 	$page->setKeywords('zkušenost zážitek mozilla firefox msie ie explorer změna');
