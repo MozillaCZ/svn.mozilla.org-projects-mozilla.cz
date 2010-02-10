@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Rozdíly v terminologii Thunderbirdu a Outlook Expressu');
 	$page->setDescription('Základní slovníček rozdílně pojmenovaných prvků a funkcí v Thunderbirdu a Outlook Expressu.');
 	$page->setKeywords('mozilla Thunderbird Outlook Express slovník slovníček rozdíly funkce pojmenování terminologie');

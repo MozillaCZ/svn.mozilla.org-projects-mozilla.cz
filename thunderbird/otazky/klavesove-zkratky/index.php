@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Klávesové zkratky v Thunderbirdu');
 	$page->setDescription('Seznam nejvíce používaných klávesových zkratek v poštovním klientu Mozilla Thunderbird a porovnání s ekvivalenty v Outlook Express.');
 	$page->setKeywords('mozilla thunderbird microsoft outlook express klávesové zkratky keyboard shortcuts horké klávesy hot keys ovládání klávesnice');

@@ -1,13 +1,15 @@
 <?php
 class Download
 {
-	private $mysqlConfig;
-	private $platform;
-	private $data = array();
+	protected $mysqlConfig;
+	protected $platform;
+	protected $data = array();
+	protected $linkPlaceholder;
 
-	public function __construct($mysqlConfig, $product)
+	public function __construct($mysqlConfig, $product, $linkPlaceholder = '')
 	{
 		$this->mysqlConfig = $mysqlConfig;
+		$this->linkPlaceholder = $linkPlaceholder;
 		$this->loadData($product);
 	}
 
@@ -66,7 +68,7 @@ class Download
 		}
 		$key = 'download_' . $platform;
 		if (empty($this->data[$key])) {
-			return 'http://www.mozilla-europe.org/cs/firefox/';
+			return $this->linkPlaceholder;
 		}
 		return $this->data[$key];
 	}
@@ -74,7 +76,7 @@ class Download
 	public function getChangelogLink()
 	{
 		if (empty($this->data['changelog'])) {
-			return 'http://www.mozilla-europe.org/cs/firefox/';
+			return $this->linkPlaceholder;
 		}
 		return $this->data['changelog'];
 	}

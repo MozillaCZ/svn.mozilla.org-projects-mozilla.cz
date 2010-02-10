@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Lightning &ndash; jednoduchá organizace vašeho času');
 	$page->setDescription('Lightning &ndash; jednoduchý organizátor vašeho času pro Mozilla Thunderbird.');
 	$page->setKeywords('mozilla calendar kalendář lightning úkoly správa čas organizace');

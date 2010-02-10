@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Další zkušenosti lidí, kteří již používají Thunderbird');
 	$page->setDescription('Přicházejí nám e-maily od lidí, kteří popisují svoji zkušenost s přechodem na klient Mozilla Thunderbird. Přečtěte si, co je zaujalo, čím je Thunderbird potěšil a co si o Thunderbirdu myslí.');
 	$page->setKeywords('zkušenost zážitek mozilla thunderbird outlook express změna');

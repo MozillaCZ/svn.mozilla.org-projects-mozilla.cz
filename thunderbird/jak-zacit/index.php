@@ -23,8 +23,7 @@ Po instalaci jen projdete jednoduchého průvodce převodem vaší pošty ze st�
 
 <div class="img-c img-right" style="width:250px">
 	<img src="/img/ss-import.png" width="250" height="203" alt="" />
-	<p class="comment">Dialog, který vás provede importem pošty
-	z&nbsp;vašeho stávajícího poštovního klienta.</p>
+	<p class="comment">Dialog, který vás provede importem pošty z&nbsp;vašeho stávajícího poštovního klienta.</p>
 </div>
 
 <p>Import vaší stávající pošty do Thunderbirdu je velmi snadný. Při prvním
@@ -33,8 +32,7 @@ a&nbsp;nastavení z&nbsp;vašeho stávajícího poštovního klientu. Zvolte ze
 seznamu vámi používaný klient a&nbsp;potvrďte. A&nbsp;je to! Vše potřebné se
 importovalo a&nbsp;vy můžete začít Thunderbird naplno používat.</p>
 
-<p>Všechna vaše nastavení a&nbsp;data ukládá Thunderbird na váš disk do
-adresáře s&nbsp;profilem.</p>
+<p>Všechna vaše nastavení a&nbsp;data ukládá Thunderbird na váš disk do adresáře s&nbsp;profilem.</p>
 
 <div class="note">
 <p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn

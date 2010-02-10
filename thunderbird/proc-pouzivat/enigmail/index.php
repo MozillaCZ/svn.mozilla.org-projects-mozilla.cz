@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Enigmail &ndash; podpora pro práci s šifrovanou poštou');
 	$page->setDescription('Enigmail &ndash; šifrování pošty v Thunderbirdu');
 	$page->setKeywords('Enigmail šifrování šifrovat podepisování openpgp klíče');

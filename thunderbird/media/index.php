@@ -195,11 +195,6 @@ efektivně na náročnou nevyžádanou poštu z&nbsp;marketingových zpráv.<br 
 			hreflang="en" class="l-en">Thunderbird 1.0</a>
 		&ndash; Techtree</p>
 
-	<h3>Thunderbird na webu</h3>
-
-	<p>Sledujeme česká internetová média a&nbsp;nabízíme vám
-		<a href="http://www.czilla.cz/media/thunderbird/">živý přehled článků o&nbsp;Thunderbirdu</a>.</p>
-
 </div></div>
 <div class="path">
 	<hr />

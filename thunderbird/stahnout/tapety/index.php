@@ -1,5 +1,5 @@
 <?php
-	require_once '../inc/page.php';
+	require_once '../../inc/page.php';
 	$page->setTitle('Tapety s Thunderbirdem');
 	$page->setDescription('Tapety s logem Mozilla Thunderbird ke stažení a několik odkazů na stránky s dalšími tapetami.');
 	$page->setKeywords('mozilla thunderbird wallpaper tapeta tapety pozadí monitor desktop wallpapery');

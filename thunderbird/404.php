@@ -38,14 +38,9 @@
 
 	<ul>
 		<li><a href="http://www.mozilla.cz/">Mozilla.cz</a></li>
-		<li><a href="http://www.mozilla-europe.org/cs/"
-			hreflang="cs" lang="en">Mozilla Europe</a></li>
-		<li><a href="http://www.mozilla.org/"
-			hreflang="en" class="l-en" lang="en">Mozilla.org</a></li>
-		<li><a href="http://www.mozillazine.org/"
-			hreflang="en" class="l-en" lang="en">MozillaZine</a></li>
-		<li><a href="http://planet.mozilla.org/"
-			hreflang="en" class="l-en" lang="en">Planet Mozilla</a></li>
+		<li><a href="http://www.mozilla-europe.org/cs/" hreflang="cs" lang="en">Mozilla Europe</a></li>
+		<li><a href="http://cs.www.mozillamessaging.com/cs/" hreflang="cs" lang="en">Mozilla Messaging</a></li>
+		<li><a href="http://www.mozilla.org/" hreflang="en" class="l-en" lang="en">Mozilla.org</a></li>
 	</ul>
 
 </div></div>

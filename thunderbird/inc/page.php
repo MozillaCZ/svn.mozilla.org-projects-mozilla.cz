@@ -1,15 +1,16 @@
 <?php
 class Page
 {
-	private $webUrl = 'http://firefox.mozilla.cz/';
-	private $webName = 'Přejděte na Firefox';
-	private $webStat = true;
+	protected $webUrl = 'http://thunderbird.mozilla.cz/';
+	protected $webName = 'Používejte Thunderbird';
+	protected $webStat = true;
+	protected $linkPlaceholder = 'http://cs.www.mozillamessaging.com/cs/thunderbird/';
 
-	private $title = 'Mozilla Firefox';
-	private $description;
-	private $keywords;
+	protected $title = 'Mozilla Thunderbird';
+	protected $description;
+	protected $keywords;
 
-	private $incPath;
+	protected $incPath;
 
 	public function __construct()
 	{
@@ -87,7 +88,7 @@ class Page
 		);
 
 		require $this->incPath . '/download.php';
-		return new Download($mysqlConfig, $product);
+		return new Download($mysqlConfig, $product, $this->linkPlaceholder);
 	}
 }
 
