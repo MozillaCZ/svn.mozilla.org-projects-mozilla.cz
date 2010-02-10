@@ -61,14 +61,8 @@ je dobře konfigurovatelné a&nbsp;spolupracuje s&nbsp;produktem
 <h2 id="jak-enigmail-ziska">Jak získat?</h2>
 
 <p>Rozhodli jste se začít Enigmail používat? Výborně! Stáhněte si Enigmail
-z&nbsp;<a href="http://enigmail.mozdev.org/download.html"
-	title="Enigmail: Stránka ke stažení"
-	hreflang="en" class="l-en">domovské stránky</a>
-či ze
-<strong><a href="http://www.czilla.cz/doplnky/rozsireni/enigmail/"
-	title="Enigmail: Stránka o lokalizovaném rozšíření">stránky s&nbsp;lokalizovanou verzí</a></strong>
-a&nbsp;rozšíření si nainstalujte. Pokud nevíte, jak se rozšíření instaluje,
-přečtěte si
+ze serveru <a href="https://addons.mozilla.org/cs/thunderbird/addon/71">Doplňky Mozilly</a>.
+Pokud nevíte, jak se rozšíření instaluje, přečtěte si
 <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html">návod na instalaci</a>.</p>
 
 <p>Aby rozšíření Enigmail správně pracovalo, je potřeba, aby na vašem
@@ -78,12 +72,11 @@ počítači byl nainstalován program
 	class="l-en" hreflang="en">GnuPG</a>,
 který umožní práci se standardem OpenPGP. Program je ke stažení pro řadu
 platforem na
-<a href="http://www.gnupg.org/(en)/download/index.html"
-	title="GnuPG: Stránka ke stažení"
-	hreflang="en" class="l-en">domovské stránce</a>.
+<a href="http://www.gnupg.org/download/index.en.html"
+	title="GnuPG: Stránka ke stažení" hreflang="en" class="l-en">domovské stránce</a>.
 Pro uživatele Windows je k&nbsp;dispozici
-<a href="http://akira.cz/modules.php?name=News&amp;file=article&amp;sid=30">návod na konfiguraci GnuPG</a>
-v&nbsp;češtině.</p>
+<a href="http://www.root.cz/clanky/sifrujeme-v-ms-outlook-ve-windows-s-gnupg/">návod na konfiguraci GnuPG</a>
+nejen pro potřeby šifrování v Thunderbirdu.</p>
 
 
 <h2 id="jak-enigmail-pouzivat">Jak používat?</h2>

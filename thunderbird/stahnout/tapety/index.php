@@ -120,8 +120,7 @@ s&nbsp;motivy Firefoxu.</p>
 
 <h2 id="w-6-bluefragments" lang="en">Blue fragments</h2>
 <p>Autorem této i zbývajících tapet je
-<a href="http://www.czilla.cz/czilla/lide.html#kdo-je-AHA">Adam Hauner</a>,
-člen projektu <a href="http://www.czilla.cz/">CZilla</a>.</p>
+<a href="http://cs.wikipedia.org/wiki/Adam_Hauner">Adam Hauner</a>.</p>
 
 
 <div class="img-center"><div class="img-c" style="width:280px">

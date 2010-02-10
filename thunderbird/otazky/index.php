@@ -11,11 +11,9 @@
 
 <p>Pokud podobně jako většina lidí přemýšlíte o&nbsp;používání Thunderbirdu,
 máte jistě hodně otázek. Nabízíme vám odpovědi na ty nejčastější, máte-li
-další, navštivte stránku
-s&nbsp;<a href="http://www.czilla.cz/podpora/thunderbird/faq.html">často kladenými otázkami</a>
+další, navštivte <a href="http://www.mozilla.cz/podpora/thunderbird/">stránku podpory</a>
 nebo se zeptejte ve webovém fóru
-<a href="http://forum.czilla.cz/viewforum.php?f=21">podpory uživatelů Thunderbirdu</a>.</p>
-
+<a href="http://forum.mozilla.cz/viewforum.php?f=4">podpory uživatelů Thunderbirdu</a>.</p>
 
 <h2 id="otazka-prechod-prevod-posty">Budu moci převést poštu ze svého stávajícího klientu?</h2>
 
@@ -25,32 +23,25 @@ import lze provést z&nbsp;klientů Outlook, Outlook Express, Mozilla
 Suite&nbsp;1.x, Netscape&nbsp;7.x, Eudora či Netscape Communicator.
 Pokud používáte jiný klient, není nic ztraceno.
 <a href="http://mozillanews.org/?article_date=2004-12-07+16-19-25#migrate-other-mail"
-	title="Návod na import pošty z dalších klientů"
-	hreflang="en" class="l-en">Vyzkoušejte manuální postup</a>
+	title="Návod na import pošty z dalších klientů" hreflang="en" class="l-en">Vyzkoušejte manuální postup</a>
 nebo se zeptejte ve webovém fóru
-<a href="http://forum.czilla.cz/viewforum.php?f=21">podpory uživatelů Thunderbirdu</a>.</p>
-
+<a href="http://forum.mozilla.cz/viewforum.php?f=4">podpory uživatelů Thunderbirdu</a>.</p>
 
 <h2 id="otazka-prechod-cestina">Je Thunderbird dostupný v&nbsp;češtině?</h2>
 
 <p>Ano. Thunderbird je kompletně lokalizován do češtiny týmem
-<a href="http://www.czilla.cz/">CZilla</a> a&nbsp;je k&nbsp;dispozici
+<a href="http://www.mozilla.cz/">Mozilla.cz</a> a&nbsp;je k&nbsp;dispozici
 i&nbsp;v&nbsp;<a href="http://www.mozilla.com/thunderbird/all.html"
-	title="Mozilla.com: Download Thunderbird"
-	hreflang="en" class="l-en">celé řadě dalších jazyků</a>.
+	title="Mozilla.com: Download Thunderbird" hreflang="en" class="l-en">celé řadě dalších jazyků</a>.
 Thunderbird patří mezi tzv. <span lang="en">open-source</span> programy
 (programy s&nbsp;otevřeným zdrojovým kódem) a&nbsp;<strong>je nabízen zcela
 zdarma</strong> jak pro domácí, tak firemní uživatele. Vybrat si můžete také
-z&nbsp;celé řady
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/thunderbird/"
-	title="CZilla: Lokalizovaná rozšíření pro Mozilla Thunderbird">lokalizovaných rozšíření</a>.</p>
-
+z&nbsp;celé řady <a href="https://addons.mozilla.org/cs/thunderbird/">rozšíření</a>.</p>
 
 <h2 id="otazka-prechod-odinstalace-programu">Musím odinstalovat svůj původní poštovní program?</h2>
 
 <p>Ne, nemusíte. Svůj původní poštovní program můžete ponechat nainstalovaný
 a&nbsp;bez problémů začít používat Thunderbird.</p>
-
 
 <h2 id="otazka-sireni-pocitacovych-viru">Šíří se skrze Thunderbird počítačové viry?</h2>
 
@@ -62,7 +53,6 @@ elektronické pošty.</p>
 <p><strong>Důležité:</strong> Thunderbird nenahrazuje funkci
 kvalitního antivirového programu!</p>
 
-
 <h2 id="rozsireni-a-jak-instalovat">Co jsou rozšíření a&nbsp;jak je nainstalovat?</h2>
 
 <p>Rozšíření je balíček, který přidává do Thunderbirdu další funkce
@@ -72,33 +62,21 @@ jako např.&nbsp;kalendář či sledování informací o&nbsp;počasí.</p>
 kterou popisuje návod
 <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html"
 	title="Návod, jak instalovat rozšíření v Thunderbirdu">Jak instalovat rozšíření v&nbsp;Thunderbirdu</a>.</p>
-
-<p>Mnoho rozšíření naleznete na serveru
-<a href="https://addons.mozilla.org/extensions/?application=thunderbird"
-	title="Rozšíření pro Thunderbird"
-	lang="en" hreflang="en" class="l-en">Mozilla Update</a>,
-vybírat také můžete z&nbsp;řady
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/thunderbird/"
-	title="Přehled rozšíření v češtině pro Thunderbird">rozšíření lokalizovaných do češtiny</a>.</p>
-
+Na serveru <a href="https://addons.mozilla.org/cs/thunderbird/" title="Rozšíření pro Thunderbird">Doplňky Mozilly</a>
+si můžete vybrat z&nbsp;celé řady rozšíření.
 
 <h2 id="otazka-prechod-minimalizace-do-systray">Jde Thunderbird minimalizovat do systémové lišty?</h2>
 
 <p>Ano. Nejsnazším způsobem, jak toho docílit, je <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html"
 	title="Návod, jak instalovat rozšíření v Thunderbirdu">nainstalovat</a> rozšíření
-<a href="http://www.czilla.cz/doplnky/rozsireni/minimizetotray/"
-	title="MinimizeToTray: Stránka s lokalizovaným rozšířením"
-	lang="en">MinimizeToTray</a>,
+<a href="https://addons.mozilla.org/cs/thunderbird/addon/2831" title="MinimizeToTray Plus: Stránka s rozšířením" lang="en">MinimizeToTray Plus</a>,
 které vám tuto funkci přidá. Po instalaci nezapomeňte tuto funkci aktivovat
 v&nbsp;<strong>Možnostech</strong> rozšíření.</p>
 
-
 <h2 id="otazka-prechod-zaheslovani-posty">Lze zaheslovat poštu jako v&nbsp;Outlook Express?</h2>
 
-<p>Ano. <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html"
-	title="Návod, jak instalovat rozšíření v Thunderbirdu">Nainstalujte</a> si rozšíření
-<a href="http://www.czilla.cz/doplnky/rozsireni/profilepassword-tb/"
-	lang="en">Profile Password</a>,
+<p>Ano. <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html" title="Návod, jak instalovat rozšíření v Thunderbirdu">Nainstalujte</a> si
+rozšíření <a href="http://nic-nac-project.de/~kaosmos/profilepassword-en.html" lang="en">Profile Password</a>,
 které vám tuto funkci přidá. Je to dobrá funkce, pokud například počítač
 používá více členů domácnosti.</p>
 
@@ -108,31 +86,24 @@ heslem, zvolte řešení na úrovni svého operačního systému. Ve
 Windows&nbsp;2000/XP je vhodné, aby měl každý člen domácnosti své vlastní
 přihlašovací údaje.</p>
 
-
 <h2 id="otazka-prechod-planovani-ukol">Mohu s&nbsp;Thunderbirdem plánovat úkoly a události?</h2>
 
 <p>Ne, Mozilla Thunderbird je poštovní klient, a&nbsp;proto nenabízí funkce
 na plánování času, úkolů či poznámek. Pokud tyto funkce používáte,
 a&nbsp;zároveň se nechcete vzdát používání Thunderbirdu, doporučujeme
 vyzkoušet rozšíření
-<a href="/proc-pouzivat/kalendar/"
-	title="Mozilla Kalendář: Informace o rozšíření">Mozilla Kalendář</a>,
+<a href="/proc-pouzivat/kalendar/" title="Mozilla Kalendář: Informace o rozšíření">Mozilla Kalendář</a>,
 které základní funkce poskytuje.</p>
 
+<h2 id="otazka-prechod-kontakty-jako-v-oe">Je možné mít kontakty na stejném místě jako v&nbsp;<abbr title="Outlook Express" lang="en">OE</abbr>?</h2>
 
-<h2 id="otazka-prechod-kontakty-jako-v-oe">Je možné mít kontakty na stejném místě jako
-	v&nbsp;<abbr title="Outlook Express" lang="en">OE</abbr>?</h2>
-
-<p>Ano. Outlook Express zobrazuje kontakty v&nbsp;levém dolní části hlavního
-okna klientu. Pokud jste si na tuto možnost zvykl(a),
+<p>Ano. Outlook Express zobrazuje kontakty v&nbsp;levé dolní části hlavního
+okna klientu. Pokud také preferujete tuto možnost,
 <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html"
 	title="Návod na instalaci rozšíření do Mozilla Thunderbirdu">nainstalujte</a> si
 rozšíření
-<a href="http://www.czilla.cz/doplnky/rozsireni/contacts-sidebar/"
-	title="Contacts Sidebar: Stránka s lokalizovaným rozšířením"
-	lang="en">Contacts Sidebar</a>,
+<a href="https://addons.mozilla.org/cs/thunderbird/addon/70" title="Contacts Sidebar: Stránka s rozšířením" lang="en">Contacts Sidebar</a>,
 které stejnou možnost doinstalujte i&nbsp;do Thunderbirdu.</p>
-
 
 <h2 id="otazka-prechod-klavesove-zkratky">Jaké jsou klávesové zkratky?</h2>
 
@@ -140,14 +111,12 @@ které stejnou možnost doinstalujte i&nbsp;do Thunderbirdu.</p>
 <a href="./klavesove-zkratky/">nejběžnějších klávesových zkratek Thunderbirdu</a>,
 které vám pomohou zrychlit opakující se akce.</p>
 
-
 <h2 id="otazka-prechod-kontrola-pravopisu">Umožňuje Thunderbird kontrolu pravopisu ve zprávách?</h2>
 
 <p>Ano. Thunderbird je v české verzi distribuován s&nbsp;českým slovníkem na kontrolu pravopisu.
 Pokud dáváte přednost psaní zpráv bez diakritiky, máte možnost si
-<a href="http://www.czilla.cz/doplnky/kontrola-pravopisu/">stáhnout slovník</a>
+<a href="http://www.mozilla.cz/doplnky/kontrola-pravopisu/">stáhnout slovník</a>
 pro kontrolu textu ve zprávách psaných bez diakritiky.</p>
-
 
 <h2 id="otazka-trideni-posty-dle-uctu">Mohu roztřídit poštu podle jednotlivých účtů?</h2>
 
@@ -237,11 +206,9 @@ and Settings\[Uživatelské jméno]\Data aplikací.</span></p>
 <p>Všechna vaše pošta a&nbsp;kontakty jsou uloženy
 v&nbsp;<a href="#otazka-prechod-kde-jsou-ulozena-data">uživatelském profilu</a>.
 Pokud jste uživateli Windows, můžete na zálohování použít program
-<a href="http://www.slunecnice.cz/product/MozBackup/"
-	title="MozBackup: Ke stažení">MozBackup</a>.
+<a href="http://www.slunecnice.cz/product/MozBackup/" title="MozBackup: Ke stažení">MozBackup</a>.
 Další možností je manuální zálohování
-<a href="http://www.czilla.cz/podpora/soubory-v-profilu.html"
-	title="Soubory v profilu aplikací Mozilla">důležitých souborů</a>,
+<a href="http://jasnapaka.bloguje.cz/navody-tipy/mozilla-prehled-souboru-profil.html" title="Soubory v profilu aplikací Mozilla">důležitých souborů</a>,
 které můžete kdykoliv snadno obnovit.</p>
 
 </div>
@@ -282,10 +249,8 @@ které můžete kdykoliv snadno obnovit.</p>
 		<dt><a href="./rozdily-terminologie/">Rozdíly v&nbsp;terminologii</a></dt>
 		<dd>Základní slovníček rozdílně pojmenovaných prvků a&nbsp;funkcí.</dd>
 
-		<dt><a href="http://www.czilla.cz/podpora/thunderbird/faq.html"
-				title="Nápověda k Thunderbirdu: FAQ">Thunderbird
-			<abbr title="Frequently Asked Questions" lang="cs">FAQ</abbr></a></dt>
-		<dd>Rozsáhlé často zodpovídané otázky o&nbsp;pošťáku Thunderbird.</dd>
+		<dt><a href="http://www.mozilla.cz/podpora/thunderbird/">Podpora Thunderbirdu</a></dt>
+		<dd>Stránka s radami a tipy jak používat pošťáka Thunderbird.</dd>
 	</dl>
 
 	<h3 id="podpora">Podpora uživatelů</h3>
@@ -293,7 +258,7 @@ které můžete kdykoliv snadno obnovit.</p>
 	<p>Thunderbird u&nbsp;nás používají desítky tisíc uživatelů a&nbsp;řada
 	z&nbsp;nich vám bude ochotna poradit, narazíte-li na problém. Naleznete
 	je ve webovém fóru
-	<a href="http://forum.czilla.cz/viewforum.php?f=21">podpory uživatelů Thunderbirdu</a>.</p>
+	<a href="http://forum.mozilla.cz/viewforum.php?f=4">podpory uživatelů Thunderbirdu</a>.</p>
 
 	<h3 id="thunderbird">Co znamená Thunderbird?</h3>
 

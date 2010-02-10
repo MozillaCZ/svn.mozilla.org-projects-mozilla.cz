@@ -262,15 +262,10 @@ Můžete tak uzpůsobit vzhled více vašemu operačnímu systému.</p>
 <p><strong>Přídavné funkce.</strong> Mozilla Thunderbird je snadno rozšiřitelný
 o&nbsp;další funkce. Máte tak možnost si jednoduše doinstalovat ty funkce, které
 chcete využívat a&nbsp;které Thunderbird standardně nenabízí. Vyberte si některé
-z&nbsp;nabízených rozšíření. Kompletní seznam rozšíření je dostupný na
-<a href="https://addons.mozilla.org/extensions/?application=thunderbird"
-	title="Mozilla Update: Thunderbird Extensions"
-	lang="en" hreflang="en" class="l-en">Mozilla Update</a>,
-na CZille nabízíme
-<a href="http://www.czilla.cz/doplnky/rozsireni/p/thunderbird/">rozšíření lokalizovaná do češtiny</a>.
+z&nbsp;nabízených rozšíření. Kompletní seznam rozšíření je dostupný na serveru
+<a href="https://addons.mozilla.org/cs/thunderbird/">Doplňky Mozilly</a>.
 Rozšíření lze
 <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html">snadno instalovat</a>.</p>
-
 
 <h2 id="snadny-prechod">Snadný přechod z&nbsp;jiných poštovních klientů</h2>
 
@@ -343,12 +338,10 @@ operační systém snadno převedete a&nbsp;můžete Thunderbird používat dál
 
 <h2 id="uzivatelska-podpora">Uživatelská podpora</h2>
 
-<p>Ač je poštovní klient Thunderbird
-<a href="http://www.czilla.cz/vyvojari/aplikace/shrnuti-mpl.html"
-	title="Souhrn obsahu licence MPL">distribuován zdarma</a>,
+<p>Ač je poštovní klient Thunderbird distribuován zdarma,
 <strong>máte na koho se obrátit</strong>. Chcete se na něco zeptat? Nevíte
 si s&nbsp;něčím rady? Navštivte
-<a href="http://forum.czilla.cz/viewforum.php?f=21">fórum na podporu uživatelů</a>,
+<a href="http://forum.mozilla.cz/viewforum.php?f=4">fórum na podporu uživatelů</a>,
 kde vám řada stávajících uživatelů Thunderbirdu ochotně poradí.</p>
 
 </div>

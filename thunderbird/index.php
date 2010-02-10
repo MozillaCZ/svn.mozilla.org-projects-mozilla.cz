@@ -123,9 +123,6 @@ klient nepoužíváte, pomůže vám Thunderbird jednoduše vytvořit nový úč
 	<p>Přidejte na své stránky propagační
 	<a href="/propagace/" title="Propagujte s námi Thunderbird">ikonky, odkazy a&nbsp;proužky</a>.</p>
 
-	<p><a href="mailto:info@czilla.cz">Napište nám o&nbsp;své zkušenosti</a>
-	s&nbsp;používání Thunderbirdu.</p>
-
 	<h3 lang="en">For English visitors</h3>
 
 	<p lang="en">To learn all about <strong>Mozilla Thunderbird</strong>,

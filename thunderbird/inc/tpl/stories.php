@@ -35,5 +35,5 @@
 	<h3>Přidejte se také!</h3>
 	<p>
 		Používáte Thunderbird a&nbsp;jste spokojení?
-		<a href="mailto:info@czilla.cz">Napište nám svou zkušenost</a>.
+		<a href="mailto:info@mozilla.cz">Napište nám svou zkušenost</a>.
 	</p>

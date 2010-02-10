@@ -108,11 +108,8 @@ zeleně pak české
 
 <h2 id="jak-ziskat">Jak získat?</h2>
 
-<p>Lokalizovanou verzi Lightningu si můžete
-<a href="http://ftp.czilla.cz/other/addons/lightning/">stáhnout z&nbsp;našeho
-<abbr title="File Transfer Protocol" lang="en">FTP</abbr></a>.
-Pokud nevíte, kterou verzi si máte stáhnout, nahlédněte do souboru
-<a href="http://ftp.czilla.cz/other/addons/lightning/VERSION">version</a>.
+<p>Lightning si můžete stáhnout ze serveru
+<a href="https://addons.mozilla.org/cs/thunderbird/addon/2313">Doplňky Mozilly</a>.
 Instalaci provedete obdobně, jako u&nbsp;jakékoliv jiného rozšíření. Pokud
 nevíte, jak se rozšíření instaluje, přečtěte si náš
 <a href="http://www.czilla.cz/podpora/thunderbird/instalace-rozsireni.html">návod na instalaci</a>.</p>
@@ -136,7 +133,7 @@ nevíte, jak se rozšíření instaluje, přečtěte si náš
 		<dt><a href="http://www.mozilla.org/projects/calendar/lightning/"
 				hreflang="en" class="l-en">Stránka projektu</a></dt>
 		<dd>Oficiální stránka projektu <span lang="en">Lightning</span>.</dd>
-		<dt><a href="http://forum.czilla.cz/viewforum.php?f=24"
+		<dt><a href="http://forum.mozilla.cz/viewforum.php?f=4"
 				hreflang="cs">Diskusní fórum</a></dt>
 		<dd>Fórum, kam se můžete obracet se svými dotazy.</dd>
 	</dl>
