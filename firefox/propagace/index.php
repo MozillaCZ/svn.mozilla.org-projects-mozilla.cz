@@ -555,19 +555,6 @@ proužek propagující Firefox. Děkujeme!</p>
 	</code>
 </div>
 
-<h2 id="i-email">Posílání e-mailu</h2>
-
-<div id="b-email-objevte" class="pr-icon">
-	<div class="icon">
-	<iframe src="firefox-email.php" width="120" height="350" frameborder="0" scrolling="off" name="firefox_email"></iframe>
-	</div>
-	<code class="code">
-	&lt;iframe src=&quot;http://firefox.czilla.cz/propagace/firefox-email.php&quot; width=&quot;120&quot; height=&quot;350&quot; frameborder=&quot;0&quot; scrolling=&quot;off&quot;&gt;
-	&lt;/iframe&gt;
-	</code>
-</div>
-
-
 <h2 id="i-text">Textový odkaz</h2>
 
 <div id="b-text" class="pr-icon">
