@@ -23,10 +23,7 @@
 <div id="czilla-navigation-toolbar"></div>
 <div id="obalka-bg">
 <div id="top-bg">
-	<a href="/">
-		<div id="logo-cz"></div>
-		<div id="logo-illa"></div>
-	</a>
+	<a href="/"><span id="logo-illa"></span><span id="logo-cz"></span></a>
 </div>
 <?php if (!$this->isPanelHidden()):?>
 <div id="lmenu-bg">

@@ -18,12 +18,13 @@ img			{border:0}
 #top-bg,
 #ltop-bg,
 #logo-cz,
-#logo-illa		{height:60px;color:inherit;}
+#logo-illa,
+#top-bg a		{display:block;height:60px;color:inherit;}
 #obalka-bg		{color:inherit;background-color:#deceae;padding:0;margin-left:8px}
 #top-bg			{width:100%;background-color:#000}
-#ltop-bg		{float:left;width:135px;background-color:#ee9e22}
-#logo-cz		{float:right;width:50px;cursor:pointer;background:#ee9e22 url(/img/cz.png) no-repeat right}
-#logo-illa		{float:left;width:75px;background:#000 url(/img/illa.png) no-repeat left;cursor:pointer}
+#top-bg a 		{float:left;width:210px;background-color:#ee9e22;outline:none}
+#logo-cz		{float:right;width:50px;background:#ee9e22 url(/img/cz.png) no-repeat right}
+#logo-illa		{float:right;width:75px;background:#000 url(/img/illa.png) no-repeat left}
 
 #pata-bg		{height:1.5em;min-height:17px;width:100%;color:#dbdbdb;background-color:#000;clear:both}
 #pata1			{float:left;height:15px;width:135px}
