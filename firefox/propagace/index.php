@@ -22,14 +22,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:36px;height:13px"
-		src="/img/p/sfx-ff-36x13-white.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-ff-36x13-white.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:36px;height:13px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-ff-36x13-white.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-ff-36x13-white.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -39,14 +39,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:36px;height:13px"
-		src="/img/p/sfx-ff-36x13-blue.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-ff-36x13-blue.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:36px;height:13px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-ff-36x13-blue.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-ff-36x13-blue.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -59,14 +59,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:80px;height:15px"
-		src="/img/p/sfx-ff-80x15-white.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-ff-80x15-white.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:80px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-ff-80x15-white.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-ff-80x15-white.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -76,14 +76,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:80px;height:15px"
-		src="/img/p/sfx-ff-80x15-blue.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-ff-80x15-blue.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:80px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-ff-80x15-blue.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-ff-80x15-blue.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -94,14 +94,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:80px;height:15px"
-		src="/img/p/cz-ff-80x15-box.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-80x15-box.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:80px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-80x15-box.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-80x15-box.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -114,14 +114,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:88px;height:15px"
-		src="/img/p/cz-ff-88x15-box.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x15-box.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:88px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x15-box.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x15-box.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -134,14 +134,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -151,14 +151,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Zkuste Firefox!"
 		title="Zkuste Firefox!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31-zkuste.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31-zkuste.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Zkuste Firefox!&quot;
 		title=&quot;Zkuste Firefox!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31-zkuste.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31-zkuste.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -168,14 +168,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Objevte znovu web."
 		title="Firefox - Objevte znovu web."
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31-objevte.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31-objevte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Objevte znovu web.&quot;
 		title=&quot;Firefox - Objevte znovu web.&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31-objevte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31-objevte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -185,14 +185,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Web pod kontrolou!"
 		title="Firefox - Web pod kontrolou!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31-kontrola.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31-kontrola.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Web pod kontrolou!&quot;
 		title=&quot;Firefox - Web pod kontrolou!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31-kontrola.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31-kontrola.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -202,14 +202,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Zpátky na web"
 		title="Firefox: Zpátky na web"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31-zpatky.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31-zpatky.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Zpátky na web&quot;
 		title=&quot;Firefox: Zpátky na web&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31-zpatky.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31-zpatky.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -219,14 +219,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Získejte Firefox!"
 		title="Získejte Firefox!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-ff-88x31-trans.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-88x31-trans.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Firefox!&quot;
 		title=&quot;Získejte Firefox!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-88x31-trans.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-88x31-trans.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -239,14 +239,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Objevte znovu web"
 		title="Firefox: Objevte znovu web"
 		style="border:none;width:120px;height:60px"
-		src="/img/p/cz-ff-120x60-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-120x60-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Objevte znovu web&quot;
 		title=&quot;Firefox: Objevte znovu web&quot;
 		style=&quot;border:none; width:120px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-120x60-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-120x60-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -256,14 +256,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Znovuzrozený prohlížeč"
 		title="Mozilla Firefox: Znovuzrozený prohlížeč"
 		style="border:none;width:120px;height:60px"
-		src="/img/p/cz-ff-120x60-znovuzrozeny.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-120x60-znovuzrozeny.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Znovuzrozený prohlížeč&quot;
 		title=&quot;Firefox: Znovuzrozený prohlížeč&quot;
 		style=&quot;border:none; width:120px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-120x60-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-120x60-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -276,14 +276,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Objevte znovu web."
 		title="Firefox - Objevte znovu web."
 		style="border:none;width:125px;height:125px"
-		src="/img/p/cz-ff-125x125-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-125x125-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Objevte znovu web.&quot;
 		title=&quot;Firefox - Objevte znovu web.&quot;
 		style=&quot;border:none; width:125px;height:125px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-125x125-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-125x125-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -297,14 +297,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Objevte znovu web."
 		title="Firefox - Objevte znovu web."
 		style="border:none;width:174px;height:72px"
-		src="/img/p/cz-ff-174x72-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-174x72-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Objevte znovu web.&quot;
 		title=&quot;Firefox - Objevte znovu web.&quot;
 		style=&quot;border:none; width:174px;height:72px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-174x72-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-174x72-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -317,14 +317,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Objevte znovu web."
 		title="Firefox - Objevte znovu web."
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-ff-180x60-objevte.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-180x60-objevte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Objevte znovu web.&quot;
 		title=&quot;Firefox - Objevte znovu web.&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-180x60-objevte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-180x60-objevte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -334,14 +334,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Zpátky na web"
 		title="Firefox: Zpátky na web"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-ff-180x60-zpatky.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-180x60-zpatky.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Zpátky na web&quot;
 		title=&quot;Firefox: Zpátky na web&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-180x60-zpatky.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-180x60-zpatky.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -351,14 +351,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Rychlejší, lepší"
 		title="Firefox: Rychlejší, lepší"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-ff-180x60-rychlejsi.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-180x60-rychlejsi.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Rychlejší, lepší&quot;
 		title=&quot;Firefox: Rychlejší, lepší&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-180x60-rychlejsi.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-180x60-rychlejsi.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -368,14 +368,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Prohlížeč, kterému můžete věřit"
 		title="Firefox - Prohlížeč, kterému můžete věřit"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-ff-180x60-verit.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-180x60-verit.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Prohlížeč, kterému můžete věřit&quot;
 		title=&quot;Firefox - Prohlížeč, kterému můžete věřit&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-180x60-verit.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-180x60-verit.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -388,14 +388,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Prohlížeč, kterému můžete věřit"
 		title="Mozilla Firefox: Prohlížeč, kterému můžete věřit"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-w-verit.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-w-verit.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Mozilla Firefox: Prohlížeč, kterému můžete věřit&quot;
 		title=&quot;Mozilla Firefox: Prohlížeč, kterému můžete věřit&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-w-verit.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-w-verit.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -405,14 +405,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Bezpečnější, rychlejší, lepší"
 		title="Mozilla Firefox: Bezpečnější, rychlejší, lepší"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-w-lepsi.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-w-lepsi.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Mozilla Firefox: Bezpečnější, rychlejší, lepší&quot;
 		title=&quot;Mozilla Firefox: Bezpečnější, rychlejší, lepší&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
- 		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-w-lepsi.png&quot; /&gt;&lt;/a&gt;
+ 		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-w-lepsi.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -422,14 +422,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Objevte znovu web"
 		title="Mozilla Firefox: Objevte znovu web"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-w-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-w-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Mozilla Firefox: Objevte znovu web&quot;
 		title=&quot;Mozilla Firefox: Objevte znovu web&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-w-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-w-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -439,14 +439,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Znovuzrozený prohlížeč"
 		title="Mozilla Firefox: Znovuzrozený prohlížeč"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-w-znovuzrozeny.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-w-znovuzrozeny.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Mozilla Firefox: Znovuzrozený prohlížeč&quot;
 		title=&quot;Mozilla Firefox: Znovuzrozený prohlížeč&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-w-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-w-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -456,14 +456,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Mozilla Firefox: Lepší prohlížení webu"
 		title="Mozilla Firefox: Lepší prohlížení webu"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-w-prohlizeni.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-w-prohlizeni.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Mozilla Firefox: Lepší prohlížení webu&quot;
 		title=&quot;Mozilla Firefox: Lepší prohlížení webu&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-w-prohlizeni.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-w-prohlizeni.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -473,14 +473,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Prohlížeč, kterému můžete věřit"
 		title="Firefox: Prohlížeč, kterému můžete věřit"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-verit.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-verit.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Prohlížeč, kterému můžete věřit&quot;
 		title=&quot;Firefox: Prohlížeč, kterému můžete věřit&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-verit.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-verit.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -490,14 +490,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Bezpečnější, rychlejší, lepší"
 		title="Firefox: Bezpečnější, rychlejší, lepší"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-lepsi.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-lepsi.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Bezpečnější, rychlejší, lepší&quot;
 		title=&quot;Firefox: Bezpečnější, rychlejší, lepší&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
- 		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-lepsi.png&quot; /&gt;&lt;/a&gt;
+ 		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-lepsi.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -507,14 +507,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Objevte znovu web"
 		title="Firefox: Objevte znovu web"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Objevte znovu web&quot;
 		title=&quot;Firefox: Objevte znovu web&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -524,14 +524,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox: Znovuzrozený prohlížeč"
 		title="Firefox: Znovuzrozený prohlížeč"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-ff-468x60-znovuzrozeny.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-468x60-znovuzrozeny.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox: Znovuzrozený prohlížeč&quot;
 		title=&quot;Firefox: Znovuzrozený prohlížeč&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-468x60-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-468x60-znovuzrozeny.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -544,14 +544,14 @@ proužek propagující Firefox. Děkujeme!</p>
 		alt="Firefox - Objevte znovu web."
 		title="Firefox - Objevte znovu web."
 		style="border:none;width:120px;height:240px"
-		src="/img/p/cz-ff-120x240-objevte.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-ff-120x240-objevte.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Firefox - Objevte znovu web.&quot;
 		title=&quot;Firefox - Objevte znovu web.&quot;
 		style=&quot;border:none; width:120px;height:240px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-ff-120x240-objevte.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-ff-120x240-objevte.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -597,7 +597,7 @@ proužek propagující Firefox. Děkujeme!</p>
 
 	<h3>Ikonky &quot;Miluju Firefox&quot;</h3>
 
-	<img src="/img/p/cz-jaff-48x48.gif" alt="Miluju Firefox" id="jaff" />
+	<img src="http://firefox.czilla.cz/img/p/cz-jaff-48x48.gif" alt="Miluju Firefox" id="jaff" />
 
 	<p>Roztomilými ikonkami
 	&quot;<a href="./srdicka/">Miluju Firefox</a>&quot;

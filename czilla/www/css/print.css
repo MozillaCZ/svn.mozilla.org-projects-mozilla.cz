@@ -1,0 +1,37 @@
+h1 {font-size:2em}
+h2 {font-size:1.5em}
+h3 {font-size:1.17em}
+h4 {font-size:1em}
+h5 {font-size:.83em}
+h6 {font-size:.67em}
+
+h1,h2,h3,h4,h5,h6 {page-break-after:avoid;page-break-inside:avoid}
+blockquote,
+pre {page-break-inside:avoid}
+ul,ol,dl {page-break-before:avoid}
+
+body,
+table {font-size:11px}
+body {font-family:Verdana,Arial,Helvetica,sans-serif}
+
+/* zobrazovani odkazu */
+a[href^="http://"]:after,
+a[href^="https://"]:after,
+a[href^="ftp://"]:after {content:" ["attr(href)"]"}
+
+abbr[title]:after,
+acronym[title]:after {content:" ("attr(title)")"}
+
+/* schovani menu a vsech veci okolo */
+#top-bg,
+#lmenu2-bg,
+#pmenu-bg,
+#navigation-menu {display:none}
+
+#v2 {font-style:italic;margin-bottom:1em}
+
+/* paticka */
+#pata-bg {text-align:center}
+
+#iinfo,
+.rss {display:none}

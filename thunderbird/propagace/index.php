@@ -22,14 +22,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Získejte Thunderbird!"
 		title="Získejte Thunderbird!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-tb-88x31-trans.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-88x31-trans.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Thunderbird!&quot;
 		title=&quot;Získejte Thunderbird!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-88x31-trans.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-88x31-trans.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -39,14 +39,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Vyzkoušejte Thunderbird!"
 		title="Vyzkoušejte Thunderbird!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-tb-88x31-vyzkousejte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-88x31-vyzkousejte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Vyzkoušejte Thunderbird!&quot;
 		title=&quot;Vyzkoušejte Thunderbird!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-88x31-vyzkousejte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-88x31-vyzkousejte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -56,14 +56,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-tb-88x31-zkrotte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-88x31-zkrotte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-88x31-zkrotte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-88x31-zkrotte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -73,14 +73,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Pošta pod kontrolou."
 		title="Thunderbird: Pošta pod kontrolou."
 		style="border:none;width:88px;height:31px"
-		src="/img/p/cz-tb-88x31-kontrola.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-88x31-kontrola.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		title=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		style=&quot;border:none; width:88px;height:31px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-88x31-kontrola.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-88x31-kontrola.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -92,14 +92,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Získejte Thunderbird!"
 		title="Získejte Thunderbird!"
 		style="border:none;width:88px;height:15px"
-		src="/img/p/mo-tb-88-15-white.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/mo-tb-88-15-white.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Thunderbird!&quot;
 		title=&quot;Získejte Thunderbird!&quot;
 		style=&quot;border:none; width:88px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/mo-tb-88-15-white.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/mo-tb-88-15-white.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -111,14 +111,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Získejte Thunderbird!"
 		title="Získejte Thunderbird!"
 		style="border:none;width:94px;height:15px"
-		src="/img/p/mo-tb-94-15-grey.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/mo-tb-94-15-grey.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Thunderbird!&quot;
 		title=&quot;Získejte Thunderbird!&quot;
 		style=&quot;border:none; width:94px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/mo-tb-94-15-grey.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/mo-tb-94-15-grey.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -128,14 +128,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Získejte Thunderbird!"
 		title="Získejte Thunderbird!"
 		style="border:none;width:94px;height:15px"
-		src="/img/p/mo-tb-94-15-white.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/mo-tb-94-15-white.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Thunderbird!&quot;
 		title=&quot;Získejte Thunderbird!&quot;
 		style=&quot;border:none; width:94px;height:15px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/mo-tb-94-15-white.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/mo-tb-94-15-white.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -147,14 +147,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:120px;height:60px"
-		src="/img/p/cz-tb-120x60-zkrotte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-120x60-zkrotte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:120px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-120x60-zkrotte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-120x60-zkrotte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -164,14 +164,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Pošta pod kontrolou."
 		title="Thunderbird: Pošta pod kontrolou."
 		style="border:none;width:120px;height:60px"
-		src="/img/p/cz-tb-120x60-kontrola.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-120x60-kontrola.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		title=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		style=&quot;border:none; width:120px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-120x60-kontrola.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-120x60-kontrola.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -183,14 +183,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:125px;height:80px"
-		src="/img/p/cz-tb-125x80-zkrotte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-125x80-zkrotte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:125px;height:80px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-125x80-zkrotte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-125x80-zkrotte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -202,14 +202,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-tb-180x60-zkrotte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-180x60-zkrotte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-180x60-zkrotte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-180x60-zkrotte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -219,14 +219,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Pošta pod kontrolou."
 		title="Thunderbird: Pošta pod kontrolou.!"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-tb-180x60-kontrola.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-180x60-kontrola.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		title=&quot;Thunderbird: Pošta pod kontrolou.&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-180x60-kontrola.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-180x60-kontrola.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -236,14 +236,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:180px;height:60px"
-		src="/img/p/cz-tb-180x60-trans.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-180x60-trans.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:180px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-180x60-trans.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-180x60-trans.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -255,14 +255,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Thunderbird: Zkroťte svoji poštu!"
 		title="Thunderbird: Zkroťte svoji poštu!"
 		style="border:none;width:185px;height:105px"
-		src="/img/p/cz-tb-185x105-zkrotte.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-185x105-zkrotte.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		title=&quot;Thunderbird: Zkroťte svoji poštu!&quot;
 		style=&quot;border:none; width:185px;height:105px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-185x105-zkrotte.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-185x105-zkrotte.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -274,14 +274,14 @@ proužek propagující Thunderbird. Děkujeme!</p>
 		alt="Získejte Thunderbird!"
 		title="Získejte Thunderbird!"
 		style="border:none;width:468px;height:60px"
-		src="/img/p/cz-tb-468x60-ovladnete.gif" /></a>
+		src="http://thunderbird.czilla.cz/img/p/cz-tb-468x60-ovladnete.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Získejte Thunderbird!&quot;
 		title=&quot;Získejte Thunderbird!&quot;
 		style=&quot;border:none; width:468px;height:60px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-tb-468x60-ovladnete.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://thunderbird.czilla.cz/img/p/cz-tb-468x60-ovladnete.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 

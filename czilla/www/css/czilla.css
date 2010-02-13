@@ -1,0 +1,428 @@
+h1 {font-size:2em}
+h2 {font-size:1.4em}
+h3 {font-size:1.17em}
+h4 {font-size:1em}
+h5 {font-size:.83em}
+h6 {font-size:.67em}
+h1,h2,h3	{line-height:120%}
+
+body {float:left;width:100%;margin:0;padding:0;min-width:600px;
+	color:#000;background-color:#ee9e22;line-height:145%;
+	text-align:left;font-family:Verdana,Arial,Helvetica,sans-serif}
+
+body,table	{font-size:11px}
+img			{border:0}
+.oldstyle	{display:none}
+
+#pmenu-bg form	{padding:5px;margin:0}
+#top-bg,
+#ltop-bg,
+#logo-cz,
+#logo-illa		{height:60px;color:inherit;}
+#obalka-bg		{color:inherit;background-color:#deceae;padding:0;margin-left:8px}
+#top-bg			{width:100%;background-color:#000}
+#ltop-bg		{float:left;width:135px;background-color:#ee9e22}
+#logo-cz		{float:right;width:50px;cursor:pointer;background:#ee9e22 url(/img/cz.png) no-repeat right}
+#logo-illa		{float:left;width:75px;background:#000 url(/img/illa.png) no-repeat left;cursor:pointer}
+
+#pata-bg		{height:1.5em;min-height:17px;width:100%;color:#dbdbdb;background-color:#000;clear:both}
+#pata1			{float:left;height:15px;width:135px}
+.pata2			{float:left;height:15px;margin-left:10px}
+#iinfo			{float:right;height:15px;margin-right:10px}
+#lmenu-bg		{float:left;width:135px;margin:0;padding:0}
+#lmenu2-bg		{margin-top:8px;padding:0;color:#000;background-color:#deceae}
+
+#m-mozilla,
+#m-html,
+#m-czilla,
+#m-cara			{height:23px;width:111px;color:inherit}
+#m-mozilla		{background:#deceae url(/img/m_mozilla.png) no-repeat left}
+#m-html			{background:#deceae url(/img/m_html.png) no-repeat left}
+#m-czilla		{background:#deceae url(/img/m_czilla.png) no-repeat left}
+#m-cara			{background:#deceae url(/img/m_cara.png) no-repeat left}
+
+#m-vyhledavani,
+#m-anketa		{margin:0 0 0 auto;height:28px;width:120px;color:inherit}
+#m-vyhledavani	{background:#deceae url(/img/m_vyhledavani.png) no-repeat right}
+#m-anketa		{background:#deceae url(/img/m_anketa.png) no-repeat right}
+
+#pmenu-bg		{float:right;width:135px;margin:0;padding:0}
+#anketa-bg,
+#pmenu2-bg,
+#anketa-bg
+#vyhledavani-bg	{margin:0;padding:0;color:#000;background-color:#deceae;text-align:right}
+#anketa-bg,
+#vyhledavani-bg {margin:0 0 0 auto;padding:10px 0}
+#vyhledavani	{text-align:center;margin:0 auto}
+
+#anketa,
+.anketa			{margin-left:auto;margin-right:auto;padding:0 8px;
+				color:#000;text-align:center;font-family:Verdana,Arial,Helvetica,sans-serif}
+.anketa			{padding-bottom:30px}
+#anketa-otazka,
+.anketa-otazka,
+#anketa td		{text-align:left}
+#otazky,
+.otazky			{margin-left:auto;margin-right:auto;text-align:left;padding:0;margin:1em 0}
+
+#stred-bg		{color:inherit;background-color:#fefefe;margin:0 135px;min-height:536px;position:relative}
+
+#obsah {padding:10px;color:inherit;background-color:#fefefe;}
+#obsah-bg	{position:relative;float:right;padding:0 10px;color:inherit;background-color:#fefefe;}
+#obsah-bg[id]	{width:100%;padding:0}
+
+#obsah-bg,
+#obsah-bg table	{font-size:12px}
+#obsah-bg hr	{display:block;height:1px;line-height:1px;font-size:1px;border:1px solid #D29E56;border-width:1px 0 0;margin:.5em 0}
+
+.in-download	{margin-bottom:.5em;padding-bottom:.5em;text-align:center;border-bottom:1px solid #EEE}
+.bezpecnost-uvod	{margin-bottom:.5em;padding-bottom:1em;border-bottom:1px solid #EEE}
+.codearea		{margin:1em;padding:0}
+.codearea code	{font-family:monospace;display:block;white-space:pre;margin:0;padding:.5em;overflow:auto;
+				border:1px solid #FC6;background:#FFFAF5}
+
+.menu a			{color:#000;background-color:inherit;text-decoration:none}
+.menu a:hover	{color:#00004f;background-color:#dbc190}
+ul.menu			{padding:0;margin:3px}
+li.selected a	{font-weight:bold}
+li.menu,
+li.submenu		{padding-left:10px;margin:4px;list-style-type:none;line-height:1;
+				font-family:Verdana,Arial,Helvetica,sans-serif;font-size:11px}
+ul.submenu		{padding:0;margin:3px}
+li.submenu		{background:transparent url(/img/subitem.gif) no-repeat 0 50%}
+li.submenu a	{color:#425e72;font-weight:normal}
+
+#pata-bg a		{color:#dbdbdb;background-color:inherit;text-decoration:none}
+#pata-bg a:hover	{color:#fff;background-color:inherit;text-decoration:underline}
+
+#vitejte		{min-width:350px;padding:5px 115px 5px 5px;color:inherit;
+				background:#425e72 url(/img/moz_back_s2.png) no-repeat top right}
+
+#v1				{color:#fff;background-color:inherit;font-size:22px;font-weight:bold;
+				padding:0;margin:0 0 3px 10px}
+#v2				{color:#c2cad2;background-color:inherit;margin-left:20px;font-weight:bold}
+
+.zp				{padding-bottom:10px;padding-top:5px;margin:0}
+acronym,
+abbr			{cursor:help}
+a abbr			{cursor:pointer}
+
+/* novinky */
+.zp-l			{font-weight:bold;font-size:12px;padding-bottom:5px;padding-top:0;margin:0}
+.zp-d,
+.zp-d a			{color:#c2821a;background-color:inherit}
+.zp-d:after		{content:" >>"}
+.zp-h			{color:#000;background-color:inherit}
+.zp-m			{color:#000;background-color:inherit;padding:0}
+.zp-a			{text-align:right;font-size:9px;color:#000;background-color:inherit;
+				padding-top:0;padding-bottom:0;margin-top:0;margin-bottom:0}
+
+/* z tisku */
+.prispevek		{padding-bottom:10px;padding-top:5px;margin:0}
+.pr-nadpis		{color:#000;background-color:inherit;font-weight:bold}
+.pr-param		{font-size:12px;padding-bottom:5px;padding-top:0;margin:0}
+.pr-datum		{color:#c2821a;background-color:inherit}
+.pr-medium		{font-style:italic}
+.pr-koment		{color:#000;background-color:inherit;padding:0}
+
+/* tables in release notes */
+td.deftable-item	{text-align:right;vertical-align:top;font-weight:bold}
+td.deftable-def		{text-align:left;vertical-align:top}
+td.deftable-head	{text-align:left;font-size:larger;vertical-align:top;font-weight:bold;padding-top:2em}
+
+.TODO			{color:red;background-color:yellow}
+
+/* list img for download page */
+li.download,
+li.directory,
+li.relnotes,
+li.suite,
+li.ff,
+li.tb,
+li.cdrom		{list-style-position:inside;margin:4px}
+li.download		{list-style-image:url(/img/download.png)}
+li.directory	{list-style-image:url(/img/adresar.png)}
+li.relnotes		{list-style-image:url(/img/mozilla-16.png)}
+li.cdrom		{list-style-image:url(/img/cdrom.gif)}
+
+
+h2.nice			{background-color:#f8f1de;padding:.3em .6em}
+
+h2.mozilla,
+h2.firefox,
+h2.ff,
+h2.thunderbird,
+h2.tb,
+h2.nvu,
+h2.kmeleon,
+h2.galeon,
+h2.netscape,
+h2.czilla,
+h2.abook,
+h2.addon,
+h2.sb			{background:#f8f1de no-repeat 8px 50%;padding-left:30px}
+
+h2.mozilla		{background-image:url(/img/mzl.gif)}
+h2.firefox,
+h2.ff			{background-image:url(/img/ff.png)}
+h2.thunderbird,
+h2.tb			{background-image:url(/img/tb.png)}
+h2.nvu			{background-image:url(/img/nvu.png)}
+h2.kmeleon		{background-image:url(/img/kmeleon.png)}
+h2.galeon		{background-image:url(/img/galeon.png)}
+h2.netscape		{background-image:url(/img/netscape.png)}
+h2.czilla		{background-image:url(/img/cz-favicon.gif)}
+h2.abook		{background-image:url(/img/abook.png)}
+h2.addon		{background-image:url(/img/mozdev-icon.png)}
+h2.sb			{background-image:url(/img/sb.png)}
+
+li.sec			{padding:0;margin-bottom:3px;margin-left:-10px;list-style-type:square}
+
+/* mozcestnik */
+.mozcst-sects		{padding-bottom:5px}
+.mozcst-sect		{font-size:1.17em}
+.mozcst-sect-desc	{font-style:italic}
+.mozcst-desc		{font-style:italic}
+.mozcst-status		{font-weight:bold}
+ul.mozcst-sects li,
+ul.mozcst-links li	{list-style-position:inside;margin:4px}
+ul.mozcst-sects li	{list-style-image:url(/img/adresar.png)}
+ul.mozcst-links li	{list-style-image:url(/img/cz-favicon.gif)}
+.mozcst-panel		{padding:5px;margin:10px;border-style:solid;border-width:2px;text-align:center}
+.mozcst-nav			{font-size:11px;font-weight:bold}
+.mozcst-label		{text-align:center;font-weight:bold;background-color:#deceae;padding:5px;margin-bottom:5px}
+form.mozcst-inline	{display:inline}
+
+dl.faq dt,
+dl.description dt	{font-weight:bold}
+
+img.rfloat			{float:right;margin-left:5px}
+.mainsplash			{text-align:center}
+
+.alert				{text-align:center;background-color:#f8f1de;border-style:solid;border-width:2px;padding:5px}
+#navigation			{font-size:9px;text-align:center;background-color:#f8f1de;border-top:solid 1px;border-bottom:solid 1px;padding:2px;margin-bottom:25px}
+#navigation a		{text-decoration:none}
+#navigation a:hover {color:#ee9e22}
+
+#nav-context		{font-size:9px;padding:2px}
+#nav-context .prev	{float:left}
+#nav-context .next	{float:right}
+#nav-context + p	{margin-top:2em}
+
+#anglicky			{text-align:left;padding-left:10px;padding-top:10px}
+
+#nv					{text-align:center;margin:.5em 0}
+#nv div				{text-align:left;margin:0 auto;width:80px}
+
+.submenu_mo			{border:.5mm solid #CCC;margin-left:20mm;margin-right:20mm;padding-left:2mm;padding-right:2mm}
+.submenu_mo ul		{padding-left:40px;margin-left:0;list-style-type:square}
+.submenu_mo ol,
+.submenu_mo h3,
+.submenu_mo h4,
+.submenu_mo p,
+.submenu_mo table,
+.submenu_mo caption	{margin-left:0;list-style-type:square}
+.submenu_mo li		{padding-bottom:.5em}
+.sect				{margin-left:20mm}
+.podtrzeno,
+.podtrzeno2			{border-bottom:.3mm solid #D9E2EF;color:#447DB8}
+.podtrzeno2			{margin-left:20mm}
+
+caption				{text-align:left;padding-bottom:1mm;padding-top:1mm;font-weight:bold}
+
+.example {margin:1em}
+.quote{margin:2em 0;text-align:center;font-style:italic}
+.separated-items li {margin-top:.5em;margin-bottom:.5em;}
+
+/* barevne tabulky */
+.tbl-1				{text-align:center}
+.tbl-1 table		{border-spacing:0;border-collapse:collapse;width:90%;margin:0 0 1em;text-align:left;margin:0 auto}
+.tbl-1 caption		{font-weight:bold;font-size:1.1em;text-align:center;padding:.5em;margin:0 auto}
+.tbl-1 thead		{color:#FFF;background-color:#EE9E22}
+.tbl-1 thead :link	{color:#FFF}
+.tbl-1 thead :visited	{color:#EEE}
+.tbl-1 thead th.c	{text-align:center}
+.tbl-1 thead th.r	{text-align:right}
+.tbl-1 tbody th		{text-align:left;background-color:#EBE3D3}
+.tbl-1 tbody td.r	{text-align:right}
+.tbl-1 td,
+.tbl-1 th			{padding:.15em .3em;border:1px solid #B3905A}
+
+.tbl-1.tbl-sp table		{width:98%}
+.tbl-1.tbl-sp .th-head	{font-size:1.4em;padding:.5em .2em;background-color:#EBE3D3}
+.tbl-sp tbody th		{background-color:#FFFAF8}
+.tbl-1.tbl-sp th+td+td	{text-align:center}
+.tbl-1.autowidth table		{width:auto}
+
+dl					{margin:1em 0 1em 1em}
+dt					{font-weight:bold;margin-bottom:.2em}
+dd					{padding:0;margin:0 0 .5em 1.5em}
+
+/* hledani na netu */
+#s-net-f fieldset	{border:solid 2px #425e72}
+#s-net-f legend		{font-size:1.17em}
+#s-net-f p			{text-align:center;padding:10px}
+#s-net-f #s-net		{width:80%}
+
+/* features.html */
+.listheader			{font-weight:bold}
+
+.ipn-top ul,
+.ipn-top li,
+.ipn-bottom li,
+.ipn-bottom	ul		{padding:0;margin:0;line-height:1.25em}
+.ipn-top			{margin:.7em 0;border:1px solid #CCC;border-width:1px 0;padding:.2em .5em;position:relative;font-size:.95em}
+.ipn-bottom 		{margin:1em 0;border-top:1px solid #CCC;padding:.5em 0 0;font-size:.95em}
+.ipn-top li			{list-style:none;margin-right:5em}
+.ipn-top .ipn-index	{position:absolute;right:.5em;top:.2em;margin:0;display:block}
+.ipn-bottom li		{list-style:none;text-align:right}
+
+.pnf				{margin:1.5em 0;text-align:center}
+.pnf img			{display:inline;vertical-align:bottom;width:110px;height:26px}
+
+.img-center			{text-align:center;margin:1em 0}
+.img-left			{float:left;margin:.5em 1em .5em 0;position:relative}
+.img-right			{float:right;margin:.5em 0 .5em 1em;position:relative}
+.img-center, .img-left, .img-right			{font-size:.8em}
+.img-center .img-c,.img-left .img-c, .img-right .img-c	{text-align:left;margin:0 auto}
+.img-center a.zoom, .img-left a.zoom, .img-right a.zoom	{padding-bottom:12px;background:#FFF url("/img/zoom.gif") no-repeat 100% 100%;display:block}
+.img-center a img, .img-left a img, .img-right a img	{border:none}
+
+.soubor				{font:normal 1em monospace;color:#333;background-color:#FED;padding:0 .2em;border:1px solid #EDC}
+.nabidka			{font:normal 1em sans-serif;background:#DDD8D0;padding:0 .2em;border:1px solid #CCC}
+div.cleaner	{clear:both;background:transparent;border:none;font-size:1px;margin:0;padding:0;width:100%;height:1px;}
+.clear	{clear:both;}
+
+/* help - b#1137 */
+.noWin,
+.mac,
+.unix {display:none}
+
+.pr-icon	{margin:1.3em 0}
+.pr-icon .code	{display:block;font-size:.75em;color:#777;border:1px solid #ccc;margin:.5em 0 .5em 2em;padding:.2em .5em}
+
+.ext-list				{margin:1em 0;padding:0}
+.ext-list dt			{border-left:.7em solid #FFF;padding:.15em 0 .15em .5em}
+.ext-list dt.new-xpi	{border-color:#393}
+.ext-list dt.new-xpi:after	{content:"NOV�";margin-left:1em;font-size:9px;
+							background:#393;color:#FFF;padding:1px 4px}
+.ext-list dt img		{padding-left:.2em;vertical-align:bottom}
+.ext-list dd			{margin-left:2em}
+
+.fotozilla			{margin-left:auto;margin-right:auto}
+.fotozilla td		{width:50%;text-align:center}
+.fotozilla imgl		{width:200px;height:150px}
+.fotozilla imgp		{width:150px;height:200px}
+
+.relink				{margin:1.3em 0;border-top:1px solid #CCC}
+.relink h2			{font-size:1.2em;margin:.5em 0 .3em}
+.relink ul li small	{font-size:1em;color:#666;padding-left:.2em}
+
+/* Vyvojari */
+img.vyvojari			{margin-right:1.5em;margin-top:-5px}
+dl.vyvojari	dd			{margin:.7em 0 1em 5px;padding-left:70px;background-repeat:no-repeat}
+dl.vyvojari	dd#web		{background-image:url(/vyvojari/img/web.gif);min-height:55px}
+dl.vyvojari	dd#aplikace {background-image:url(/vyvojari/img/aplikace.gif);min-height:48px}
+dl.vyvojari	dd#bugzilla {background-image:url(/vyvojari/img/bugzilla.gif);min-height:65px;margin-top:0;padding-top:15px}
+h3.javascript-console	{background-repeat:no-repeat;height:32px;margin:0;padding:8px 0 0 40px}
+h3.javascript-console#errors {background-image:url(/vyvojari/web/img/javascript-console-error.png)}
+h3.javascript-console#warnings {background-image:url(/vyvojari/web/img/javascript-console-warning.png)}
+h3.javascript-console#messages {background-image:url(/vyvojari/web/img/javascript-console-message.png)}
+.ecma-compatibility {padding: .5em .5em .5em 70px;background:#eee url(/vyvojari/aplikace/javascript/img/ecma.gif) no-repeat .5em .6em}
+
+/* hreflang - drzet synchronizovane s CVSROOT/cas/templates/admin/blank-preview.tpl.php */
+a[hreflang]				{padding-right:12px;background:transparent none no-repeat 100% 0%}
+a[hreflang=en]			{background-image:url("/img/l-enf.gif")}
+a[hreflang=de]			{background-image:url("/img/l-def.gif")}
+a[hreflang=fr]			{background-image:url("/img/l-frf.gif")}
+a[hreflang=sk]			{background-image:url("/img/l-skf.gif")}
+a[hreflang=jp]			{background-image:url("/img/l-jpf.gif")}
+a[hreflang=cn]			{background-image:url("/img/l-cnf.gif")}
+a[hreflang=en]:hover	{background-image:url("/img/l-en.gif")}
+a[hreflang=de]:hover	{background-image:url("/img/l-de.gif")}
+a[hreflang=fr]:hover	{background-image:url("/img/l-fr.gif")}
+a[hreflang=sk]:hover	{background-image:url("/img/l-sk.gif")}
+a[hreflang=jp]:hover	{background-image:url("/img/l-jp.gif")}
+a[hreflang=cn]:hover	{background-image:url("/img/l-cn.gif")}
+
+/* new design for /produkty */
+.in-prod-one, .in-prod-last	{border-bottom:1px solid #DDD;border-top:1px solid #FFF;padding:.9em 0;margin:1px;position:relative;}
+.in-prod-last	{border-bottom:1px solid #FFF}
+.in-prod-desc {padding-left:85px;}
+.in-prod-desc h3		{font-size:1.3em; margin: .6em 0;}
+.in-prod-desc img		{position:absolute;top:1.5em;left:8px}
+.in-prod-desc div		{font-size:.9em}
+.in-prod-desc p			{margin:.3em 0}
+
+.in-prod-oth			{position:relative;padding:.4em 0}
+.in-prod-oth .in-prod-desc {padding-left:66px;}
+.in-prod-oth img		{position:absolute;top:.4em; left:8px}
+.in-prod-oth h3			{font-size:1em;}
+.in-prod-oth p			{margin:.6em 0 .4em}
+
+/* Stahnout */
+.download	table	{width:auto}
+.download table th * {vertical-align: middle}
+dd.download-windows,
+dd.download-linux,
+dd.download-mac-os,
+dd.download-package,
+dd.download-flash,
+dd.download-java,
+dd.download-shockwave	{display:list-item;list-style-position:inside;margin:4px}
+dd.download-windows {list-style-image:url(/img/windows.gif)}
+dd.download-linux {list-style-image:url(/img/linux.gif)}
+dd.download-mac-os {list-style-image:url(/img/mac-os.gif)}
+dd.download-package {list-style-image:url(/img/rozsireni.gif)}
+dd.download-flash {list-style-image:url(/img/flash.gif)}
+dd.download-java {list-style-image:url(/img/java.gif)}
+dd.download-shockwave {list-style-image:url(/img/shockwave.gif)}
+
+/* Rozsireni */
+dd.xpi,
+dd.readme,
+dd.download,
+dd.firefox,
+dd.thunderbird,
+dd.update,
+dd.seamonkey,
+dd.nvu,
+dd.flock,
+dd.sunbird,
+dd.netscape,
+dd.suite	{display:list-item;list-style-position:inside;margin:4px}
+dd.xpi		{list-style-image:url(/img/rozsireni.gif)}
+dd.readme	{list-style-image:url(/img/dokument.png)}
+dd.download		{list-style-image:url(/img/download.png)}
+dd.firefox		{list-style-image:url(/img/icon-firefox.gif)}
+dd.thunderbird		{list-style-image:url(/img/icon-thunderbird.gif)}
+dd.suite			{list-style-image:url(/img/icon-suite.gif)}
+dd.seamonkey			{list-style-image:url(/img/icon-seamonkey.gif)}
+dd.nvu			{list-style-image:url(/img/icon-nvu.gif)}
+dd.flock			{list-style-image:url(/img/icon-flock.gif)}
+dd.sunbird			{list-style-image:url(/img/icon-sunbird.gif)}
+dd.netscape			{list-style-image:url(/img/icon-netscape.gif)}
+dd.update			{list-style-image:url(/img/aktualizace.png)}
+
+/* levy a pravy sloupec na /doplnky/rozsireni/ */
+dl.fl {float:left;width:50%}
+dl.fr {float:right;width:50%}
+
+
+
+/* nove tridy z bety */
+.cb						{clear:both;visibility:hidden;height:1px;line-height:1px;display:block;font-size:1px}
+.cbc					{clear:both}
+.dn						{display:none}
+.next					{text-align:right;word-spacing:.3em}
+.next a				{word-spacing:0}
+.c						{text-align:center}
+.l						{text-align:left}
+.r						{text-align:right}
+
+/* novinky */
+.news h3 {font-size:1.1em;line-height:130%;margin:0.2em 0}
+.news .ft {float:right;text-align:right;width:20em;font-size:.95em;margin:0;padding:0;}
+
+ul.news {padding:0 1.5em;margin:1em 0}
+dl.news {margin-left:0}

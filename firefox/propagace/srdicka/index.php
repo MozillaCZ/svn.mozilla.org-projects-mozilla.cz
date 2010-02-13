@@ -36,14 +36,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:48px;height:48px"
-		src="/img/p/cz-jaff-48x48.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-48x48.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:48px;height:48px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-48x48.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-48x48.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -53,14 +53,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:64px;height:64px"
-		src="/img/p/cz-jaff-64x64.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-64x64.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:64px;height:64px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-64x64.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-64x64.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -70,14 +70,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:90px;height:90px"
-		src="/img/p/cz-jaff-90x90.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-90x90.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:90px;height:90px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-90x90.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-90x90.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -87,14 +87,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:125px;height:125px"
-		src="/img/p/cz-jaff-125x125.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-125x125.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:125px;height:125px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-125x125.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-125x125.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -117,14 +117,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:48px;height:48px"
-		src="/img/p/cz-jaff-48x48.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-48x48.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:48px;height:48px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-48x48.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-48x48.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -134,14 +134,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:64px;height:64px"
-		src="/img/p/cz-jaff-64x64.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-64x64.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:64px;height:64px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-64x64.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-64x64.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -151,14 +151,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:90px;height:90px"
-		src="/img/p/cz-jaff-90x90.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-90x90.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:90px;height:90px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-90x90.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-90x90.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -168,14 +168,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="Miluju Firefox"
 		title="Miluju Firefox"
 		style="border:none;width:125px;height:125px"
-		src="/img/p/cz-jaff-125x125.png" /></a>
+		src="http://firefox.czilla.cz/img/p/cz-jaff-125x125.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;Miluju Firefox&quot;
 		title=&quot;Miluju Firefox&quot;
 		style=&quot;border:none; width:125px;height:125px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/cz-jaff-125x125.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/cz-jaff-125x125.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -193,14 +193,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:48px;height:48px"
-		src="/img/p/sfx-iff-48x48.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-48x48.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:48px;height:48px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-48x48.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-48x48.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -210,14 +210,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:64px;height:64px"
-		src="/img/p/sfx-iff-64x64.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-64x64.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:64px;height:64px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-64x64.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-64x64.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -227,14 +227,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:90px;height:90px"
-		src="/img/p/sfx-iff-90x90.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-90x90.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:90px;height:90px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-90x90.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-90x90.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -244,14 +244,14 @@ jsou určené pro bílý podklad. Vyberte si z&nbsp;rozměrů 48&nbsp;x&nbsp;48,
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:125px;height:125px"
-		src="/img/p/sfx-iff-125x125.gif" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-125x125.gif" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:125px;height:125px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-125x125.gif&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-125x125.gif&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -274,14 +274,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:48px;height:48px"
-		src="/img/p/sfx-iff-48x48.png" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-48x48.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:48px;height:48px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-48x48.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-48x48.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -291,14 +291,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:64px;height:64px"
-		src="/img/p/sfx-iff-64x64.png" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-64x64.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:64px;height:64px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-64x64.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-64x64.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -308,14 +308,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:90px;height:90px"
-		src="/img/p/sfx-iff-90x90.png" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-90x90.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:90px;height:90px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-90x90.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-90x90.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 
@@ -325,14 +325,14 @@ v&nbsp;porovnání s&nbsp;formátem <abbr>GIF</abbr> větší datový objem.</p>
 		alt="I Love Firefox"
 		title="I Love Firefox"
 		style="border:none;width:125px;height:125px"
-		src="/img/p/sfx-iff-125x125.png" /></a>
+		src="http://firefox.czilla.cz/img/p/sfx-iff-125x125.png" /></a>
 	</div>
 	<code class="code">
 	&lt;a href=&quot;<?php echo $page->getWebUrl()?>&quot;&gt;&lt;img
 		alt=&quot;I Love Firefox&quot;
 		title=&quot;I Love Firefox&quot;
 		style=&quot;border:none; width:125px;height:125px&quot;
-		src=&quot;<?php echo $page->getWebUrl()?>img/p/sfx-iff-125x125.png&quot; /&gt;&lt;/a&gt;
+		src=&quot;http://firefox.czilla.cz/img/p/sfx-iff-125x125.png&quot; /&gt;&lt;/a&gt;
 	</code>
 </div>
 

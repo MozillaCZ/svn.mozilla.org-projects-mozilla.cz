@@ -1,0 +1,55 @@
+div.nahled-h, div.nahled-v {
+	text-align: left;
+	margin-top: 0.5em;
+	float: left;
+	position: relative;
+}
+
+div.nahled-h p {
+	float: left;
+	width: 225px;
+	height: 190px;
+	text-align: center;
+	padding: 0.2em;
+	overflow: auto;
+}
+
+div.nahled-h p a img, div.nahled-v p a img {
+	border: 1px solid rgb(66,94,114);
+	padding: 2px;
+}
+
+div.nahled-h p a:hover img, div.nahled-v p a:hover img {
+	border-color: rgb(219,193,144);
+}
+
+div.nahled-h p span {
+	display: block;
+	font-size: 0.9em;
+	margin-top: 0.3em;
+}
+
+div.nahled-v p {
+	padding: 1em 0.5em;
+	clear: both;
+}
+
+div.nahled-v img {
+	margin-right: 1em;
+	float: left;
+}
+
+div.nahled-v span {
+	padding-right: 1em;
+}
+
+div.cleaner {
+	clear: both;
+	background: transparent;
+	border: none;
+	font-size: 1px;
+	margin: 0;
+	padding:0;
+	width: 100%;
+	height: 1px;
+}

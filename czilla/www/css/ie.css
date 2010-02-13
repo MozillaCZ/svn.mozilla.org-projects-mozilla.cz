@@ -1,0 +1,15 @@
+.tbl-1 table { width: expression((body.clientWidth - 350) + "px");} /* bug 1309 */
+
+a.hreflang	        {padding-right:12px;background:transparent none no-repeat 100% 0%}
+a.hreflang-en	      {background-image:url("/images/l-enf.gif")}
+a.hreflang-de	      {background-image:url("/images/l-def.gif")}
+a.hreflang-fr	      {background-image:url("/images/l-frf.gif")}
+a.hreflang-sk	      {background-image:url("/images/l-skf.gif")}
+a.hreflang-jp	      {background-image:url("/images/l-jpf.gif")}
+a.hreflang-cn	      {background-image:url("/images/l-cnf.gif")}
+a.hreflang-en:hover	{background-image:url("/images/l-en.gif")}
+a.hreflang-de:hover	{background-image:url("/images/l-de.gif")}
+a.hreflang-fr:hover	{background-image:url("/images/l-fr.gif")}
+a.hreflang-sk:hover	{background-image:url("/images/l-sk.gif")}
+a.hreflang-jp:hover	{background-image:url("/images/l-jp.gif")}
+a.hreflang-cn:hover	{background-image:url("/images/l-cn.gif")}
