@@ -36,6 +36,9 @@ o&nbsp;historii Mozilly a&nbsp;CZilly vám poskytnou články
 	<dt><a href="adopce.php">ZOO adopce</a></dt>
 	<dd>Adopce pandy červené v pražské ZOO.</dd>
 
+	<dt><a href="anketa.php">Ankety projektu CZilla</a></dt>
+	<dd>Archiv historických anket z počátku projektu CZilla.</dd>
+
 	<dt lang="en"><a href="about.php" hreflang="en">For English visitors</a></dt>
 	<dd lang="en">To get information about our CZilla project in English.</dd>
 </dl>

@@ -19,7 +19,7 @@
 </script>
 <script type="text/javascript">
 	try {
-		var pageTracker = _gat._getTracker("UA-1300626-1");
+		var pageTracker = _gat._getTracker("UA-10350415-7");
 		pageTracker._setDomainName(".czilla.cz");
 		pageTracker._trackPageview();
 	} catch(err) {}

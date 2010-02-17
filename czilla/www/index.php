@@ -78,7 +78,7 @@ if (!empty($resource['items'])): ?>
 	</ul>
 <?php endif; ?>
 	<span class="cb"></span>
-	<div class="next"><a href="/zpravicky/">Starší CZilla zprávičky</a></div>
+	<div class="next"><a href="/zpravicky/">Archiv CZilla zpráviček</a></div>
 </div>
 <?php
 	$page->includeTemplate('footer');
