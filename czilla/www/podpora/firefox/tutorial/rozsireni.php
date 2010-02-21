@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Rozšíření pro Firefox';
-	$page->headline = array('Rozšíření','Začínáme používat prohlížeč Firefox, 4. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Rozšíření pro Firefox');
+	$page->setHeadline('Rozšíření','Začínáme používat prohlížeč Firefox, 4. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, rozšíření, extensions');
 	$page->setDescription ('Návod jak nainstalovat rozšíření do Firefoxu.');		
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./historie.html">Procházení historií</a></li>
+		<a href="./historie.php">Procházení historií</a></li>
 	<li>Předchozí:
-		<a href="./ovladani.html">Základní ovládání Firefoxu</a></li>
+		<a href="./ovladani.php">Základní ovládání Firefoxu</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -111,13 +111,13 @@ snímků.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./historie.html">Procházení historií</a></li>
+		<a href="./historie.php">Procházení historií</a></li>
 	<li>Předchozí:
-		<a href="./ovladani.html">Základní ovládání Firefoxu</a></li>
+		<a href="./ovladani.php">Základní ovládání Firefoxu</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

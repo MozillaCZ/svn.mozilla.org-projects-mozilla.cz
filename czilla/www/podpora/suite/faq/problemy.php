@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 10. Odstraňování problémů');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 10. Odstraňování problémů');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 
@@ -125,7 +124,7 @@ autorovi.
 10.6. Když ze připojuji k server na port jiný než 80, dostávám zprávu, že přístup na port byl z bezpečnostních důvodů zakázán. Jak se mohu připojit k tomuto serveru?
 </a></dt>
 <dd id="answer-10.6">
-<p>Otevřete <a href="obecne.html#1.5"><tt>user.js</tt></a> a vložte místo <tt>1,3,7</tt>
+<p>Otevřete <a href="obecne.php#1.5"><tt>user.js</tt></a> a vložte místo <tt>1,3,7</tt>
 seznam čísel portů, které chcete používat:</p>
 
 <pre>
@@ -180,7 +179,7 @@ Ovšem pokud budete např. přeinstalovávat Mozillu, můžete XPI odebrat ručn
 
 <ol>
 <li>
-<p>Správně <a href="obecne.html#1.2">odinstalujte Mozillu</a> a pak se ji pokuste znovu nainstalovat.</p>
+<p>Správně <a href="obecne.php#1.2">odinstalujte Mozillu</a> a pak se ji pokuste znovu nainstalovat.</p>
 </li>
 
 <li>
@@ -191,7 +190,7 @@ jděte do složky profilů</a> a smažte <tt>localstore.rdf</tt>.
 </li>
 </ol>
 
-<p>Jestliže ani to nepomůže, můžete mít <a href="profil.html#7.5">poškozený profil</a> a bude tedy potřeba
+<p>Jestliže ani to nepomůže, můžete mít <a href="profil.php#7.5">poškozený profil</a> a bude tedy potřeba
 obnovit obsah, nebo vytvořit nový.</p>
 <p><small><a href="#top">Na začátek</a> <a href="./">Na obsah</a></small></p>
 </dd>
@@ -200,7 +199,7 @@ obnovit obsah, nebo vytvořit nový.</p>
 </a></dt>
 <dd id="answer-10.11">
 <p>Zkuste zavřit a znovu otevřít postranní lištu pomocí klávesy F9. Pokud dojde k chybě
-můžete mít poškozen <a href="profil.html#7.5">profil</a> &#8211;
+můžete mít poškozen <a href="profil.php#7.5">profil</a> &#8211;
 zkuste založit nový a sledujte zda zde postranní lišta funguje správně.</p>
 <p><small><a href="#top">Na začátek</a> <a href="./">Na obsah</a></small></p>
 </dd>
@@ -239,7 +238,7 @@ Po restartu by Mozilla měla vygenerovat automaticky nové seznamy pošty.</p>
 10.13. Používám jak Mozillu tak Netscape 6.x, a mám strašně velký soubor se záložkami! Co se děje?
 </a></dt>
 <dd id="answer-10.13">
-<p>To je první příznak poškození profilu jeho <a href="profil.html#7.6">sdílením</a> mezí Mozillou a
+<p>To je první příznak poškození profilu jeho <a href="profil.php#7.6">sdílením</a> mezí Mozillou a
 Netscape. (Jeden z pisatelů těchto odpovědí měl soubor záložek velký 497MB.)
 Jediným řešením je bohužel smazat poškozený soubor. Pokud jste však začaly používat Mozillu
 mělo by stále být jěště možné pouze překopírováním souboru do samostaného profilu Mozilly záložky zachovat.
@@ -258,7 +257,7 @@ binární distribuce Mozilly prímo z mozilla.org, může způsobit konflikt.
 Proto byste měli používat pouze balíky dodané vaším dodavatelem Unixu nebo GNU/Linuxu, protože jejich
 verze by měli pracovat správně.</p>
 
-<p>Jestliže chcete nainstalovat <a href="jak-se-zapojit.html">testovací verze</a> Mozilly,
+<p>Jestliže chcete nainstalovat <a href="jak-se-zapojit.php">testovací verze</a> Mozilly,
 nainstalujte je do jiných míst (<i>např.</i> do domovského adresáře) a
 nechte normálě používat systém starší verzi.</p>
 
@@ -288,7 +287,7 @@ antiviru &#8216;paranoidní&#8217; mód pokud se v něm nachází.</p>
 </a></dt>
 <dd id="answer-10.16">
 <p>
-Podívejte se do <a href="profil.html#location">adresáře se svým profilem</a> a najděte soubor
+Podívejte se do <a href="profil.php#location">adresáře se svým profilem</a> a najděte soubor
 <tt>parent.lock</tt>, <tt>lock</tt> nebo <tt>.parentlock</tt> a smažte jej.
 Tento soubor Mozilla vytváří při startu, aby zabránila více aplikacím přistupovat k profilu najednou.
 Soubor je při ukončení Mozilly odstraněn. Pokud však dojde např. k násilnému ukončení
@@ -332,7 +331,7 @@ Otevřte menu View a zvolte Set as Personal Toolbar Folder.
 </p>
 <p>
 Pokud to nepomůže, ukončete všechny části Mozilly a poté smažte soubor
-<tt>localstore.rdf</tt> v <a href="profil.html#location">adresáři se svým profilem</a>.
+<tt>localstore.rdf</tt> v <a href="profil.php#location">adresáři se svým profilem</a>.
 (Upozornění: pravděpodobně přijdete o některá nastavení uživatelského rozhraní
 jako je umístění tlačítek nebo viditelnost postranních lišt. To ale můžete snadno napravit.)
 </p>
@@ -371,7 +370,7 @@ Je tedy záhodno historii pročistit, což uděláte přímo v Download Manageru
 <dd id="answer-10.22">
 <p>
 Soubor s vaším nastavením byl poškozen a proto byl nastaven na původní hodnoty.
-Pokud máte <a href="profil.html#backup">zálohu</a> vašeho profilu, nejsnazší je obnovit z ní
+Pokud máte <a href="profil.php#backup">zálohu</a> vašeho profilu, nejsnazší je obnovit z ní
 soubor <tt>prefs.js</tt>.
 </p>
 <p>Pokud nemáte zálohu profilu, postupujte následovně:</p>
@@ -444,5 +443,5 @@ není důvod. Upozorněte na danou situaci svou banku a poproste ji o nápravu.
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

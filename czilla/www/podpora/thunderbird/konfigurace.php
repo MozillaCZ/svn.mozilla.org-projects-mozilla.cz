@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Konfigurační soubory Thunderbirdu';
-	$page->headline = array('Konfigurační soubory','Návod kde najít konfigurační soubory Thunderbirdu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Konfigurační soubory Thunderbirdu');
+	$page->setHeadline('Konfigurační soubory','Návod kde najít konfigurační soubory Thunderbirdu');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod kde najít konfigurační soubory pošťáka Mozilla Thunderbird');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p id="top">Mnoho uvedených tipů a triků po vás vyžaduje editaci konfiguračních souborů
 Thunderbirdu. Měli byste proto vědět o následujících třech souborech:</p>
@@ -61,7 +57,7 @@ Data\Thunderbird\Profiles\default\xxxxxxxx.slt\</span>.</p>
 uživatelem, a tedy i více než jedním profilem. Příklady cest uvedených
 výše odkazují na <strong>výchozí profil</strong>, který je automaticky vytvořen,
 když poprvé spustíte Thunderbird. Větší počet profilů můžete spravovat
-použitím <a href="faq.html#profilemanager">Správce profilů</a>.</p>
+použitím <a href="faq.php#profilemanager">Správce profilů</a>.</p>
 
 <p id="appdata"><strong><var>%AppData%</var></strong> je zkratka pro cestu
 do Application Data ve Windows 2000/XP. Použijete ji tak, že klepnete na <span
@@ -109,5 +105,5 @@ jej musíte vytvořit.</p>
 <p><a href="#top">Na začátek stránky</a></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

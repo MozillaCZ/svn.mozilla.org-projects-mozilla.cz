@@ -1,12 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = ' Povolení práce se systémovou schránkou v HTML editoru';
-	$page->headline = array('Povolení práce se systémovou schránkou v HTML editoru','');
-	$page->addCss($rootPath . 'css/jedit.css');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Povolení práce se systémovou schránkou v HTML editoru');
+	$page->setHeadline('Povolení práce se systémovou schránkou v HTML editoru','');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p><a href="/produkty/firefox">Mozilla Firefox</a> a&nbsp;<a
 href="/produkty/suite/">Mozilla Suite</a> od verze 1.3b umožňují vytvoření vizuálního
@@ -20,7 +20,7 @@ kopírovat, vyjmout a&nbsp;vložit. Tyto operace je možné důvěryhodným
 serverům povolit &ndash; buďto pomocí rozšíření
 <a href="http://allowclipboard.foxinux.cz/">AllowClipboard</a>,
 nebo ruční
-<a href="/podpora/firefox/konfigurace.html">editací konfiguračního souboru</a>.</p>
+<a href="/podpora/firefox/konfigurace.php">editací konfiguračního souboru</a>.</p>
 
 <div id="navigation">
 	<a href="#pomoci-allowclipboard">Pomocí AllowClipboard</a> &middot;
@@ -61,7 +61,7 @@ povolit, a&nbsp;klikněte na Povolit.</p>
 <h2 class="nice" id="rucni-editaci">Ruční editace konfiguračního souboru</h2>
 
 <p>Do souboru
-<a href="/podpora/firefox/konfigurace.html#user">user.js</a>
+<a href="/podpora/firefox/konfigurace.php#user">user.js</a>
 je nutné přidat následující předvolby (zaměňte "http://www.mozilla.org" za
 server, jemuž chcete práci se schránkou povolit):</p>
 
@@ -104,8 +104,8 @@ zobrazeny (pro zvídavé viz
 
 <hr />
 <p><small>26. 6. 2005,
-	<a href="/czilla/lide.html#kdo-je-JM">Jan Matoušek</a></small></p>
+	<a href="/czilla/prispevatele.php#kdo-je-JM">Jan Matoušek</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

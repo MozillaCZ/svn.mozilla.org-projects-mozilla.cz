@@ -81,7 +81,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/ukladani-stranek-podle-title/">Ukládaní stránek podle &lt;title&gt;</a></h3>
 
-	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/lide.html#kdo-je-PC">CZilla týmu</a> :-)</div>
+	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/prispevatele.php#kdo-je-PC">CZilla týmu</a> :-)</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/08/06/">6. 8. 03</a>

@@ -1,12 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Bezpečnost Mozilly a odvozených prohlížečů';
-	$page->headline = array('Bezpečnost Mozilly a odvozených prohlížečů','Představení bezpečnostní politiky Mozilla.org');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Bezpečnost Mozilly a odvozených prohlížečů');
+	$page->setHeadline('Bezpečnost Mozilly a odvozených prohlížečů','Představení bezpečnostní politiky Mozilla.org');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/">Mozilla.cz</a>.</div>
 
 <h2 class="nice">Na prohlížeči záleží</h2>
 
@@ -208,11 +208,11 @@ na:<br />
 <p><small>Dokument je překladem
 <a href="http://www.mozilla.org/security/security-announcement.html">Security and Mozilla browsers</a>
 (Mozilla.org, verze z 8. srpna 2004). Dokument do češtiny přeložil
-<a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> a je na tomto serveru uveden se souhlasem autorů.
+<a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> a je na tomto serveru uveden se souhlasem autorů.
 </small></p>
 
 <p><small>17. 8. 2004</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

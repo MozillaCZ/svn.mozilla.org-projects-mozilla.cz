@@ -8,7 +8,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/mozbackup-1.4.1/">MozBackup 1.4.1</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> vydal novou verzi 1.4.1 svého programu <a href="http://mozbackup.jasnapaka.com/index_cz.php">MozBackup</a>, který slouží k zálohování uživatelských profilů. Nová verze neobsahuje žádné nové funkce, pouze opravuje zálohování rozšíření/motivů a obnovu hesel.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> vydal novou verzi 1.4.1 svého programu <a href="http://mozbackup.jasnapaka.com/index_cz.php">MozBackup</a>, který slouží k zálohování uživatelských profilů. Nová verze neobsahuje žádné nové funkce, pouze opravuje zálohování rozšíření/motivů a obnovu hesel.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/07/14/">14. 7. 05</a>

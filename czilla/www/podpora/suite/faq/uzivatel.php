@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 11. Podpora koncových uživatelů');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 11. Podpora koncových uživatelů');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul>
@@ -106,5 +105,5 @@ dotazy uživatelů jsou přesměrovávány do diskusních skupin uvedených vý�
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

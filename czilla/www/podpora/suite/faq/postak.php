@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 3. Pošta/Diskuse');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 3. Pošta/Diskuse');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul>
@@ -83,7 +82,7 @@ a jděte do Network | Email. V Preferred Email Client, vložte:</p>
 Abyste donutili Mozillu používat jiný poštovní program, můžete buď <i>(a)</i>
 odinstalovat Mozillu a nainstalovat pouze prohlížeč, nebo <i>(b)</i>
 přidat tento řádek do
-<a href="obecne.html#1.5"><tt>user.js</tt></a>:</p>
+<a href="obecne.php#1.5"><tt>user.js</tt></a>:</p>
 
 <pre class="screen">
 user_pref(&quot;network.protocol-handler.external.mailto&quot;, true);
@@ -157,7 +156,7 @@ import z programu Eudora, který ovšem používá také formát &#8216;mbox&#82
 proto je možné použít tuto funkci i pro přečtení mailů z Mozilly.
 </p>
 
-<p>Vaše soubory s poštou jsou ve vašem profilu (podívejte se do <a href="profil.html">uživatelských profilů</a>), a do adresáře <tt>Mail</tt> a (jestliže používáte IMAP) do <tt>ImapMail</tt>.
+<p>Vaše soubory s poštou jsou ve vašem profilu (podívejte se do <a href="profil.php">uživatelských profilů</a>), a do adresáře <tt>Mail</tt> a (jestliže používáte IMAP) do <tt>ImapMail</tt>.
 Každá složka pošty (Inbox, Sent, <i>atd.</i>) je uložen ve dvou soubrech. Jeden je bez přípony
 (např. <tt>INBOX</tt>), který je přímo soubor, který obsahuje poštu (ve formátu &#8216;mbox&#8217;) a
 druhý s příponou <tt>.msf</tt> (<i>např.</i>
@@ -181,7 +180,7 @@ jednoduše přesuňte soubory do adresáře <tt>Mail</tt> příslušného profil
 dolní části (předvoleno je &#8216;Download More&#8217;).</p>
 
 <p>Jestliže kontrola neukládá váš uživatelský slovník, přidejte tento řádek do
-<a href="obecne.html#1.5"><tt>user.js</tt></a>:</p>
+<a href="obecne.php#1.5"><tt>user.js</tt></a>:</p>
 
 <pre class="screen">
 user_pref (&quot;spellchecker.savePDEverySession&quot;, true);
@@ -225,7 +224,7 @@ elektronický podpis a/nebo kryptování.
 </dd>
 <dt id="question-3.14"><a name="3.14">3.14. Jak donutím jména diskusních skupin zobrazovat se celá?</a></dt>
 <dd id="answer-3.14">
-<p>V <a href="obecne.html#1.5"><tt>user.js</tt></a>, přidejte:</p>
+<p>V <a href="obecne.php#1.5"><tt>user.js</tt></a>, přidejte:</p>
 
 <pre class="screen">
 user_pref(&quot;mail.server.default.abbreviate&quot;, false);
@@ -241,5 +240,5 @@ user_pref(&quot;mail.server.default.abbreviate&quot;, false);
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

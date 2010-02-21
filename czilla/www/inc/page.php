@@ -129,6 +129,12 @@ class Page
 		require $this->incPath . '/download.php';
 		return new Download($mysqlConfig, $product);
 	}
+
+	public function getTipBuilder($category = null, $faq = false)
+	{
+		include $this->incPath . '/tipBuilder.php';
+		return new TipBuilder($category, $faq);
+	}
 }
 
 $page = new Page();

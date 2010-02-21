@@ -1,22 +1,14 @@
 <?php
-
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla na každý pád';
-	$page->headline = array('Mozilla na každý pád','Skloňování názvů produktů Mozilla.org');
-
+	require_once '../inc/page.php';
+	$page->setTitle('Mozilla na každý pád');
+	$page->setHeadline('Mozilla na každý pád','Skloňování názvů produktů Mozilla.org');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, firefox, thunderbird, suite, nvu, skloňování');
 	$page->setDescription('Jak skloňovat názvy produktů Mozilla.org');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('tips');
-	$page->addSideBox('links');
-
-	$page->includeHeader();
-
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<p>XXX work in progress</p>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="tbl-1">
 <table border="1">
@@ -299,9 +291,6 @@
 </table>
 </div>
 
-<hr />
-<p><small>XXX. XXX. 2004, Tým CZilla</small></p>
-
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Historie aneb navštívené stránky ve Firefoxu';
-	$page->headline = array('Procházení historií','Začínáme používat prohlížeč Firefox, 5. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Historie aneb navštívené stránky ve Firefoxu');
+	$page->setHeadline('Procházení historií','Začínáme používat prohlížeč Firefox, 5. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, tutorial, historie');
 	$page->setDescription ('Návod jak ve Firefoxu pracovat s historií');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./stahovani-souboru.html">Stahování souborů</a></li>
+		<a href="./stahovani-souboru.php">Stahování souborů</a></li>
 	<li>Předchozí:
-		<a href="./rozsireni.html">Rozšíření</a></li>
+		<a href="./rozsireni.php">Rozšíření</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -64,13 +64,13 @@ zkratek programu Mozilla Firefox. Příště budeme pokračovat s&nbsp;dalšími
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./stahovani-souboru.html">Stahování souborů</a></li>
+		<a href="./stahovani-souboru.php">Stahování souborů</a></li>
 	<li>Předchozí:
-		<a href="./rozsireni.html">Rozšíření</a></li>
+		<a href="./rozsireni.php">Rozšíření</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

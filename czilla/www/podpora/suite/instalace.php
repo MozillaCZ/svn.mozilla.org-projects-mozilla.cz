@@ -1,17 +1,11 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Instalace Mozilla Suite';
-	$page->headline = array('Instalace Mozilla Suite','Návod k instalaci Mozilla Suite');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Instalace Mozilla Suite');
+	$page->setHeadline('Instalace Mozilla Suite','Návod k instalaci Mozilla Suite');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, suite');
 	$page->setDescription('Návod k instalaci balíku internetových aplikací Mozilla Suite');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','suite');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <p>
@@ -20,32 +14,26 @@ title="Mozilla - balík Internetových aplikací">Mozilla</a></strong> je
 balík webových aplikací zaměřených na Internet. Obsahuje zejména
 moderní webový prohlížeč, pokročilý e-mailový klient, editor webových
 stránek a IRC klienta. Vyznačuje se též velkým důrazem na <strong>
-<a href="/podpora/bezpecnost-mozilly-a-odvozenych-prohlizecu.html"
+<a href="/podpora/bezpecnost-mozilly-a-odvozenych-prohlizecu.php"
 title="Bezpečnost Mozilly a odvozených prohlížečů">
 bezpečnost uživatele</a></strong>. Celý balík je k dispozici
-<strong><a href="/vyvojari/aplikace/shrnuti-mpl.html" title="Licence Mozilly">
+<strong><a href="/podpora/shrnuti-mpl.php" title="Licence Mozilly">
 zdarma</a></strong> a v <strong>češtině</strong>.
 </p>
 
 <h3>Získání Mozilly</h3>
 <p>
 Mozillu můžete získat několika způsoby. Nejsnazší způsob je její
-stažení ze stránek CZilly. Na adrese <a href="/produkty/suite/stahnout.html"
-title="Stažení Mozilly">http://www.czilla.cz/download</a>
-je vystavena poslední lokalizovaná verze. Ta je k dispozici pro
+stažení ze stránek CZilly. Lokalizovaná verze je k dispozici pro
 operační systémy Windows a Linux. V mém případě volím instalační
 program pro Windows, který dále popíšu. Jeho velikost je přibližně 13
-MB. 
+MB.
 </p>
 
 <p>
 Další způsob získání Mozilly jsou <strong>CD přílohy časopisů</strong>. Tato možnost
 je výhodná pro ty, kteří mají pomalé připojení k Internetu a nechce
-se jim proto Mozillu stahovat. Pro vás připravujeme <a
-href="/produkty/mozilla-na-cd.html"
-title="Přehled CD příloh časopisů, kde naleznete Mozillu">přehled CD příloh</a>
-časopisů, kde můžete instalaci Mozilly nalézt. Tento časopis si pak
-můžete zakoupit i s CD v trafice či půjčit od známého.
+se jim proto Mozillu stahovat.
 </p>
 
 <h3>Instalace</h3>
@@ -119,19 +107,7 @@ klepněte na tlačítko Ne. Mozillu můžete nastavit jako výchozí i
 kdykoliv později.
 </p>
 
-<hr />
-
-<p>
-Máte-li nějaký problém s instalací, zeptejte se v našem <a
-href="http://forum.czilla.cz/"
-title="Forum.czilla.cz: Diskusní fórum">fóru na podporu uživatelů</a>.
-</p>
-
-<p>
-Tento článek je též k dispozici ke stažení v
-<a href="http://ftp.czilla.cz/other/user-doc/Mozilla_Suite_-_Navod_na_instalaci.pdf">PDF verzi</a>.
-</p>
-
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+

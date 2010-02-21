@@ -10,18 +10,17 @@
 
 <table>
 <tr>
-
 	<td style="width:230px">
-	<img src="/img/mozilla.png" alt="Náhled SeaMonkey" width="200" height="112" />
+		<img src="/img/mozilla.png" alt="Náhled SeaMonkey" width="200" height="112" />
 	</td>
-
 	<td style="vertical-align: top">
-	<p>
-	<strong>SeaMonkey</strong> je balík webových aplikací, které poskytují
-  prvotřídní komfort pro práci na Internetu. Balík obsahuje webový prohlížeč,
-  e-mailový klient, editor webových stránek a&nbsp;IRC klient. Všechny
-  aplikace kladou velký <strong>důraz na bezpečnost</strong>.
-  </p>
+	<div class="obsolete">Některé informace na stránkách produktu mohou být zastaralé. Aktuální informace naleznete na serveru
+	<a href="http://www.mozilla.cz/produkty/seamonkey/">Mozilla.cz</a>.</div>
+
+	<p><strong>SeaMonkey</strong> je balík webových aplikací, které poskytují
+	prvotřídní komfort pro práci na Internetu. Balík obsahuje webový prohlížeč,
+	e-mailový klient, editor webových stránek a&nbsp;IRC klient. Všechny
+	aplikace kladou velký <strong>důraz na bezpečnost</strong>.</p>
 
 	<p><img src="/img/download.png" width="16" height="16" alt="" />
 	<strong><a href="http://www.mozilla.cz/stahnout/seamonkey/" title="Stáhnout nejnovější verzi SeaMonkey v češtině">Stáhnout nejnovější verzi</a></strong></p>

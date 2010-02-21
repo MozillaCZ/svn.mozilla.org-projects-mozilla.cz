@@ -127,7 +127,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/ohlasy-medii-dostupne-pres-rss/">Ohlasy médií dostupné přes RSS</a></h3>
 
-	<div>Sekci <a href="/media/">Ohlasy médií</a> (dříve sekce <a href="/media/">Z tisku</a>), ve které odkazujeme na zajímavé články týkající se produktů Mozilla.org, nyní můžete <a href="/rss/">sledovat i přes <abbr title="Really Simple Syndication" lang="en">RSS</abbr></a>. Pokud objevíte článek, který neodkazujeme, pošlete tip <a href="/czilla/lide.html#kdo-je-LP">Lukáši Petrovickému</a>. Sledovat můžete <a href="/rss/media/">společný kanál</a>, nebo specializované kanály <a href="/rss/media/firefox/">Firefox</a>, <a href="/rss/media/thunderbird/">Thunderbird</a>, <a href="/rss/media/mozilla/">Mozilla</a> a <a href="/rss/">další</a>.</div>
+	<div>Sekci <a href="/media/">Ohlasy médií</a> (dříve sekce <a href="/media/">Z tisku</a>), ve které odkazujeme na zajímavé články týkající se produktů Mozilla.org, nyní můžete <a href="/rss/">sledovat i přes <abbr title="Really Simple Syndication" lang="en">RSS</abbr></a>. Pokud objevíte článek, který neodkazujeme, pošlete tip <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáši Petrovickému</a>. Sledovat můžete <a href="/rss/media/">společný kanál</a>, nebo specializované kanály <a href="/rss/media/firefox/">Firefox</a>, <a href="/rss/media/thunderbird/">Thunderbird</a>, <a href="/rss/media/mozilla/">Mozilla</a> a <a href="/rss/">další</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/02/22/">22. 2. 05</a>
@@ -147,7 +147,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/czilla-se-rozrusta-o-dva-nove-cleny/">CZilla se rozrůstá o dva nové členy</a></h3>
 
-	<div>Těší nás, že <a href="/czilla/lide.html#kdo-je-DM">David Majda</a>, který již nějaký čas sbírá a píše <a href="/archiv-2005.html">novinky</a> ze světa Mozilly, a <a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a>, který se stará o lokalizace <a href="/doplnky/rozsireni/">rozšíření</a> (máme jich už 35), přijali naše pozvání a stali se členy <a href="/czilla/">týmu CZilla</a>.</div>
+	<div>Těší nás, že <a href="/czilla/prispevatele.php#kdo-je-DM">David Majda</a>, který již nějaký čas sbírá a píše <a href="/archiv-2005.html">novinky</a> ze světa Mozilly, a <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a>, který se stará o lokalizace <a href="/doplnky/rozsireni/">rozšíření</a> (máme jich už 35), přijali naše pozvání a stali se členy <a href="/czilla/">týmu CZilla</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/02/11/">11. 2. 05</a>
@@ -177,7 +177,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/prehled-lokalizovanych-rozsireni/">Přehled lokalizovaných rozšíření</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a> na <a href="/archiv.html#news:61a6ea47a8dea9166bd7e7d474f03293">Mozparty2</a> přislíbil organizovat lokalizace rozšíření a zřídit novou sekci s jejich přehledem. <strong><a href="/doplnky/rozsireni/">Přehled lokalizovaných rozšíření</a></strong> je hotov. Najdete v něm 26 lokalizovaných rozšíření pro <a href="/produkty/suite/">Mozilla Suite</a>, <a href="/produkty/firefox/">Firefox</a> a <a href="/produkty/thunderbird/">Thundebird</a> (a jsou připravena další, která čekají na otestování). Je vhodným místem pro všechny, kdo se na anglickém <a href="https://addons.mozilla.org/">Mozilla Update</a> nevyznají a pro ty, kdo rádi používají programy v češtině. Nezbývá než poděkovat všem, kdo se na <a href="/czilla/lide.html#ostatni">lokalizaci rozšíření podílejí</a> (k překladu dalších rozšíření můžete <a href="/clanky/prekladame-rozsireni.html">přispět i vy</a>).</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a> na <a href="/archiv.html#news:61a6ea47a8dea9166bd7e7d474f03293">Mozparty2</a> přislíbil organizovat lokalizace rozšíření a zřídit novou sekci s jejich přehledem. <strong><a href="/doplnky/rozsireni/">Přehled lokalizovaných rozšíření</a></strong> je hotov. Najdete v něm 26 lokalizovaných rozšíření pro <a href="/produkty/suite/">Mozilla Suite</a>, <a href="/produkty/firefox/">Firefox</a> a <a href="/produkty/thunderbird/">Thundebird</a> (a jsou připravena další, která čekají na otestování). Je vhodným místem pro všechny, kdo se na anglickém <a href="https://addons.mozilla.org/">Mozilla Update</a> nevyznají a pro ty, kdo rádi používají programy v češtině. Nezbývá než poděkovat všem, kdo se na <a href="/czilla/prispevatele.php#ostatni">lokalizaci rozšíření podílejí</a> (k překladu dalších rozšíření můžete <a href="/clanky/prekladame-rozsireni.html">přispět i vy</a>).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/01/29/">29. 1. 05</a>
@@ -227,7 +227,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/jak-spoustet-mozillu-s-parametry/">Jak spouštět Mozillu s parametry</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/01/03/">3. 1. 05</a>
@@ -257,7 +257,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/o-projektu-czilla/">O projektu CZilla</a></h3>
 
-	<div>Setkáváme se často s dotazy "Co je projekt CZilla a kdo za ním stojí?", jako odpověď jsme rozšířili sekci <a href="/czilla/">O projektu CZilla</a>. Najdete v ní <a href="/czilla/kontakt.html" title="Kontaktní informace projektu CZilla">kontaktní informace</a>, seznam <a href="/czilla/lide.html" title="Členové týmu CZilla">členů CZilly</a> a lidí, kteří <a href="/czilla/lide.html#pratele" title="Přátelé CZilly a dalši lidé zapojení do projektu">nám pomáhají</a>, přehled <a href="/czilla/web.html" title="Webové stránky projektu CZilla">webových stránek</a> projektu a jeho <a href="/czilla/prezentace.html" title="Prezentace projektu CZilla">prezentací</a>, seznam těch, kdo nás <a href="/czilla/podpora.html" title="Podpora projektu CZilla">podporují</a>, návod jak <a href="/czilla/propagace.html" title="Propagace projektu CZilla">propagovat projekt CZilla</a> a jak nám <a href="/czilla/jak-pomoci/" title="Jak pomoci projektu CZilla">můžete pomoci</a>.</div>
+	<div>Setkáváme se často s dotazy "Co je projekt CZilla a kdo za ním stojí?", jako odpověď jsme rozšířili sekci <a href="/czilla/">O projektu CZilla</a>. Najdete v ní <a href="/czilla/kontakt.html" title="Kontaktní informace projektu CZilla">kontaktní informace</a>, seznam <a href="/czilla/prispevatele.php" title="Členové týmu CZilla">členů CZilly</a> a lidí, kteří <a href="/czilla/prispevatele.php#pratele" title="Přátelé CZilly a dalši lidé zapojení do projektu">nám pomáhají</a>, přehled <a href="/czilla/web.html" title="Webové stránky projektu CZilla">webových stránek</a> projektu a jeho <a href="/czilla/prezentace.html" title="Prezentace projektu CZilla">prezentací</a>, seznam těch, kdo nás <a href="/czilla/podpora.html" title="Podpora projektu CZilla">podporují</a>, návod jak <a href="/czilla/propagace.html" title="Propagace projektu CZilla">propagovat projekt CZilla</a> a jak nám <a href="/czilla/jak-pomoci/" title="Jak pomoci projektu CZilla">můžete pomoci</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/12/23/">23. 12. 04</a>
@@ -337,7 +337,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/rozhovor-o-firefoxu-s-jirim-burdou/">Rozhovor o Firefoxu s Jiřím Burdou</a></h3>
 
-	<div><a href="/archiv.html#news:6119e0f806dcdd07d70a0a3a72909055">Minulý týden</a> prohěhl na <a href="http://www.radioakropolis.cz/">rádiu Akropolis</a> rozhovor s členem CZilly <a href="/czilla/lide.html#kdo-je-JB">Jiřím "Gebu" Burdou</a> na téma Firefox. Pokud jste rozhovor neslyšeli, můžete si dodatečně poslechnout jeho sestřihanou podobu ve <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.mp3">formátu MP3</a> (3.8&nbsp;MB) nebo <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.ogg">formátu OGG</a> (4.2&nbsp;MB).</div>
+	<div><a href="/archiv.html#news:6119e0f806dcdd07d70a0a3a72909055">Minulý týden</a> prohěhl na <a href="http://www.radioakropolis.cz/">rádiu Akropolis</a> rozhovor s členem CZilly <a href="/czilla/prispevatele.php#kdo-je-JB">Jiřím "Gebu" Burdou</a> na téma Firefox. Pokud jste rozhovor neslyšeli, můžete si dodatečně poslechnout jeho sestřihanou podobu ve <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.mp3">formátu MP3</a> (3.8&nbsp;MB) nebo <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.ogg">formátu OGG</a> (4.2&nbsp;MB).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/11/29/">29. 11. 04</a>
@@ -667,7 +667,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/firefox-0.9.3-cz-pro-linux/">Firefox 0.9.3 CZ pro Linux</a></h3>
 
-	<div>Máme tu linuxovou verzi <a href="/produkty/firefox/stahnout.html">Firefoxu 0.9.3 CZ</a>. Najdete ji na <a href="http://ftp.czilla.cz/mozilla.org/firefox/0.9.3/">ftp.czilla.cz</a>. Verze vznikla díky <a href="/czilla/lide.html#kdo-je-OK">Ondrovi Kudlíkovi</a>.</div>
+	<div>Máme tu linuxovou verzi <a href="/produkty/firefox/stahnout.html">Firefoxu 0.9.3 CZ</a>. Najdete ji na <a href="http://ftp.czilla.cz/mozilla.org/firefox/0.9.3/">ftp.czilla.cz</a>. Verze vznikla díky <a href="/czilla/prispevatele.php#kdo-je-OK">Ondrovi Kudlíkovi</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/09/02/">2. 9. 04</a>
@@ -1227,7 +1227,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/mozilla-v-radiu/">Mozilla v rádiu</a></h3>
 
-	<div>Dnes od 18:00h bude v pořadu <a href="http://www.radioakropolis.cz/main.php?id=program_detail&amp;file=terabajt">Terabajt</a> na rádiu <a href="http://www.radioakropolis.cz/">Akropolis</a> rozhovor o Mozille s naším <a href="/czilla/lide.html#kdo-je-AP">Adamem Přibylem</a> (vlastní rozhovor zřejmě začne okolo 18:30h). <b>Update:</b> záznam rozhovoru naleznete v <a href="http://ftp.sh.cvut.cz/Archiv-Radio_Strahov/Archiv%20Radia%20Akropolis/Terabajt%20-%202004-05-25%20-%20Mozilla.ogg">archivu</a> (začíná cca na 30. minutě záznamu).</div>
+	<div>Dnes od 18:00h bude v pořadu <a href="http://www.radioakropolis.cz/main.php?id=program_detail&amp;file=terabajt">Terabajt</a> na rádiu <a href="http://www.radioakropolis.cz/">Akropolis</a> rozhovor o Mozille s naším <a href="/czilla/prispevatele.php#kdo-je-AP">Adamem Přibylem</a> (vlastní rozhovor zřejmě začne okolo 18:30h). <b>Update:</b> záznam rozhovoru naleznete v <a href="http://ftp.sh.cvut.cz/Archiv-Radio_Strahov/Archiv%20Radia%20Akropolis/Terabajt%20-%202004-05-25%20-%20Mozilla.ogg">archivu</a> (začíná cca na 30. minutě záznamu).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/05/25/">25. 5. 04</a>
@@ -1587,7 +1587,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links-15/">Překlad zpravodaje Mozilla Links 15</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou a Tomášem Markem přeložili <a href="/podpora/zpravodaj/mln-015.html">15. číslo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou a Tomášem Markem přeložili <a href="/podpora/zpravodaj/mln-015.html">15. číslo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/03/30/">30. 3. 04</a>
@@ -1597,7 +1597,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links-14/">Překlad zpravodaje Mozilla Links 14</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou a Tomášem Markem přeložili <a href="/podpora/zpravodaj/mln-014.html">14. číslo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>. Tímto tempem by se české překlady mohly v brzké době zařadit do <a href="http://newsletter.mozdev.org/">seznamu oficiálních překladů</a> zpravodaje.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou a Tomášem Markem přeložili <a href="/podpora/zpravodaj/mln-014.html">14. číslo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>. Tímto tempem by se české překlady mohly v brzké době zařadit do <a href="http://newsletter.mozdev.org/">seznamu oficiálních překladů</a> zpravodaje.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/03/12/">12. 3. 04</a>
@@ -1617,7 +1617,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links-13/">Překlad zpravodaje Mozilla Links 13</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou přeložili <a href="/podpora/zpravodaj/mln-013.html">13. čislo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>. Petr a Pavel chtějí pokračovat v překladech dalších čísel zpravodaje a snaží se, aby se české překlady zařadily do <a href="http://newsletter.mozdev.org/">seznamu oficiálních překladů</a> zpravodaje, za což jim patří náš velký dík.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> spolu s Pavlem Káchou přeložili <a href="/podpora/zpravodaj/mln-013.html">13. čislo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>. Petr a Pavel chtějí pokračovat v překladech dalších čísel zpravodaje a snaží se, aby se české překlady zařadily do <a href="http://newsletter.mozdev.org/">seznamu oficiálních překladů</a> zpravodaje, za což jim patří náš velký dík.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/03/03/">3. 3. 04</a>
@@ -1967,7 +1967,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links-7/">Překlad zpravodaje Mozilla Links 7</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-007.html">7. čislo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-007.html">7. čislo zpravodaje Mozilla Links</a> do češtiny. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/01/03/">3. 1. 04</a>
@@ -2247,7 +2247,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links/">Překlad zpravodaje Mozilla Links</a></h3>
 
-	<div>A je to tady. <a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-006.html">6. číslo zpravodaje Mozilla Links</a> a přislíbil i překlad dalších čísel. Čeština se tak stává 6. jazykem, do kterého je zpravodaj Mozilla Links překládán. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
+	<div>A je to tady. <a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-006.html">6. číslo zpravodaje Mozilla Links</a> a přislíbil i překlad dalších čísel. Čeština se tak stává 6. jazykem, do kterého je zpravodaj Mozilla Links překládán. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/12/03/">3. 12. 03</a>
@@ -2997,7 +2997,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/ukladani-stranek-podle-title/">Ukládaní stránek podle &lt;title&gt;</a></h3>
 
-	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/lide.html#kdo-je-PC">CZilla týmu</a> :-)</div>
+	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/prispevatele.php#kdo-je-PC">CZilla týmu</a> :-)</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/08/06/">6. 8. 03</a>
@@ -3437,7 +3437,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/ptak-ohnivak-v-cestine/">Pták Ohnivák v češtině</a></h3>
 
-	<div>Pták Ohnivák (<a href="http://www.mozilla.org/projects/firebird/">Firebird</a>) 0.6 dříve Phoenix se díky <a href="/czilla/lide.html#kdo-je-RV">Radkovi Vybíralovi</a> dočkal lokalizace do češtiny. Můžete si přečíst <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/README">oficiální oznámení</a>. Pokud máte nainstalovanou Mozillu, není třeba ji mazat. <a href="http://www.gnuarts.com/firebird/">Pták Ohnivák</a> se s <a href="http://home.snafu.de/tilman/mozilla/pal.html">Mozillou</a> dobře snáší :-). Pro Windows je k dispozici <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/MozillaFirebird-0.6-win32-csCZ-installer.exe">instalátor</a>, pro Linux <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/MozillaFirebird-0.6-i686-pc-linux-gnu-csCZ.tar.gz">tarball</a>.</div>
+	<div>Pták Ohnivák (<a href="http://www.mozilla.org/projects/firebird/">Firebird</a>) 0.6 dříve Phoenix se díky <a href="/czilla/prispevatele.php#kdo-je-RV">Radkovi Vybíralovi</a> dočkal lokalizace do češtiny. Můžete si přečíst <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/README">oficiální oznámení</a>. Pokud máte nainstalovanou Mozillu, není třeba ji mazat. <a href="http://www.gnuarts.com/firebird/">Pták Ohnivák</a> se s <a href="http://home.snafu.de/tilman/mozilla/pal.html">Mozillou</a> dobře snáší :-). Pro Windows je k dispozici <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/MozillaFirebird-0.6-win32-csCZ-installer.exe">instalátor</a>, pro Linux <a href="ftp://ftp.czilla.cz/mozilla.org/firefox/0.6/MozillaFirebird-0.6-i686-pc-linux-gnu-csCZ.tar.gz">tarball</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/05/28/">28. 5. 03</a>

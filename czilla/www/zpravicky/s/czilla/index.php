@@ -145,7 +145,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/czilla-obhajuje-uspech-v-ankete-czech-open-source/">CZilla obhajuje úspěch v anketě CZECH OPEN SOURCE</a></h3>
 
-	<div>CZilla byla <a href="/zpravicky/czilla-vitezem-ankety-czech-open-source-2006/" title="CZilla: CZilla vítězem ankety Czech Open Source 2006">opět</a> nominována jako jeden z projektů do ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2007 - Root.cz">CZECH OPEN SOURCE 2007</a>, pořádané serverem <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a>. Tato akce se podílí na rozvoji české open source scény, představuje její projekty veřejnosti a odměňuje jejich autory. Pokud si myslíte, že CZilla i letos mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2007 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobností nominován její bývalý člen <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> za svůj projekt <a href="http://jasnapaka.bloguje.cz/" title="JasnaPaka Blog">JasnaPaka Blog</a> a popularizaci produktů Mozilla.
+	<div>CZilla byla <a href="/zpravicky/czilla-vitezem-ankety-czech-open-source-2006/" title="CZilla: CZilla vítězem ankety Czech Open Source 2006">opět</a> nominována jako jeden z projektů do ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2007 - Root.cz">CZECH OPEN SOURCE 2007</a>, pořádané serverem <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a>. Tato akce se podílí na rozvoji české open source scény, představuje její projekty veřejnosti a odměňuje jejich autory. Pokud si myslíte, že CZilla i letos mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2007 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobností nominován její bývalý člen <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> za svůj projekt <a href="http://jasnapaka.bloguje.cz/" title="JasnaPaka Blog">JasnaPaka Blog</a> a popularizaci produktů Mozilla.
 
 </div>
 	<div class="ft">
@@ -210,7 +210,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/firefox-na-konferenci-openchange-v-olomouci/">Firefox na konferenci Openchange v Olomouci</a></h3>
 
-	<div>V rámci konference o Linuxu a svobodném software <a href="http://www.openchange.cz/">Openchange</a> (dříve LinuXchange) proběhne v sobotu 25.&nbsp;11.&nbsp;2006 na <a href="http://www.spseol.cz/">VOŠ a SPŠE Olomouc</a> přednáška <i>Vymoženosti prohlížeče Firefox 2.0</i>, kterou pro vás připravil <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-JB">Jiří Burda</a> z CZilly.</div>
+	<div>V rámci konference o Linuxu a svobodném software <a href="http://www.openchange.cz/">Openchange</a> (dříve LinuXchange) proběhne v sobotu 25.&nbsp;11.&nbsp;2006 na <a href="http://www.spseol.cz/">VOŠ a SPŠE Olomouc</a> přednáška <i>Vymoženosti prohlížeče Firefox 2.0</i>, kterou pro vás připravil <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-JB">Jiří Burda</a> z CZilly.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/burda/">Jiří Burda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/11/23/">23. 11. 06</a>
@@ -244,7 +244,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/jan-matousek-z-czilly-se-ucastni-summer-of-code/">Jan Matoušek z CZilly se účastní Summer of Code</a></h3>
 
-	<div>S potěšením oznamujeme, že projekt <a href="http://plathel.iglu.cz/czt/" title="CZilla Translator">CZilla Translator</a> od <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-JM">Jana Matouška</a> z CZilly byl <a href="http://code.google.com/soc/mofo/about.html" hreflang="en">akceptován</a> do programu <a href="http://code.google.com/soc/" hreflang="en" title="Google Code - Summer of Code - Summer of Code">Summer of Code</a>. Tento program je aktivitou společnosti Google, která jeho prostřednictvím financuje příspěvky studentů do různých open source projektů, včetně Mozilly. Projekt CZilla Translator si klade za cíl ulehčit lokalizaci aplikací Mozilly a jejich rozšíření. Jelikož víme, kolik mají lokalizátoři s lokalizací Mozilly práce, držíme Honzovi palce, ať se mu projekt povede.</div>
+	<div>S potěšením oznamujeme, že projekt <a href="http://plathel.iglu.cz/czt/" title="CZilla Translator">CZilla Translator</a> od <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-JM">Jana Matouška</a> z CZilly byl <a href="http://code.google.com/soc/mofo/about.html" hreflang="en">akceptován</a> do programu <a href="http://code.google.com/soc/" hreflang="en" title="Google Code - Summer of Code - Summer of Code">Summer of Code</a>. Tento program je aktivitou společnosti Google, která jeho prostřednictvím financuje příspěvky studentů do různých open source projektů, včetně Mozilly. Projekt CZilla Translator si klade za cíl ulehčit lokalizaci aplikací Mozilly a jejich rozšíření. Jelikož víme, kolik mají lokalizátoři s lokalizací Mozilly práce, držíme Honzovi palce, ať se mu projekt povede.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/05/25/">25. 5. 06</a>
@@ -329,7 +329,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/anketa-czech-open-source-konci-v-patek/">Anketa CZECH OPEN SOURCE končí v pátek</a></h3>
 
-	<div>Do uzávěrky prvního ročníku ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, kterou vyhlásil server <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a> a v které byla CZilla nominována v kategorii projekt, zbývá už jen několik dnů. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobnost nominován její člen <a href="/czilla/lide.html#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
+	<div>Do uzávěrky prvního ročníku ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, kterou vyhlásil server <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a> a v které byla CZilla nominována v kategorii projekt, zbývá už jen několik dnů. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobnost nominován její člen <a href="/czilla/prispevatele.php#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/03/28/">28. 3. 06</a>
@@ -339,7 +339,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-na-linuxexpu-2006/">CZilla na LinuxExpu 2006</a></h3>
 
-	<div>Ve dnech 10.-12. 4. 2006 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2006</a>. Projekt <a href="/czilla/">CZilla</a>  bude mít opět na výstavě v rámci <strong>sekce Free &amp; Open Zone vlastní stánek</strong>. Kromě toho se ve středu 12. 4. v 14:00 uskuteční <a href="http://linuxexpo.cz/index.php?kategorie=283&amp;lang=CZ">přednáška</a> <a href="/czilla/lide.html#kdo-je-DM">Davida Majdy</a> na téma "Vývojová platforma Mozilla", která nabídne pohled na Mozillu jako na platformu pro vývoj aplikací, včetně informací o současnosti a budoucnosti XULRunneru. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://linuxexpo.netsektor.net/">včasné registraci</a> je vstup na výstavu zdarma.</div>
+	<div>Ve dnech 10.-12. 4. 2006 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2006</a>. Projekt <a href="/czilla/">CZilla</a>  bude mít opět na výstavě v rámci <strong>sekce Free &amp; Open Zone vlastní stánek</strong>. Kromě toho se ve středu 12. 4. v 14:00 uskuteční <a href="http://linuxexpo.cz/index.php?kategorie=283&amp;lang=CZ">přednáška</a> <a href="/czilla/prispevatele.php#kdo-je-DM">Davida Majdy</a> na téma "Vývojová platforma Mozilla", která nabídne pohled na Mozillu jako na platformu pro vývoj aplikací, včetně informací o současnosti a budoucnosti XULRunneru. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://linuxexpo.netsektor.net/">včasné registraci</a> je vstup na výstavu zdarma.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/03/28/">28. 3. 06</a>
@@ -359,7 +359,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-nominovana-do-ankety-czech-open-source-2006/">CZilla nominována do ankety CZECH OPEN SOURCE 2006</a></h3>
 
-	<div>CZilla byla nominována jako jeden z projektů do ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, pořádané serverem <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a>. Tato akce má za cíl podpořit rozvoj české open source scény, představit její projekty veřejnosti a odměnit jejich autory. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobností nominován její člen <a href="/czilla/lide.html#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
+	<div>CZilla byla nominována jako jeden z projektů do ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, pořádané serverem <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a>. Tato akce má za cíl podpořit rozvoj české open source scény, představit její projekty veřejnosti a odměnit jejich autory. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobností nominován její člen <a href="/czilla/prispevatele.php#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/03/01/">1. 3. 06</a>
@@ -379,7 +379,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/zazitky-z-fosdemu/">Zážitky z FOSDEMu</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/26/">26. 2. 06</a>
@@ -389,7 +389,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/fosdem-2006/">FOSDEM 2006</a></h3>
 
-	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/lide.html#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/lide.html#kdo-je-lp">Lukáš Petrovický</a>.</div>
+	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/prispevatele.php#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/prispevatele.php#kdo-je-lp">Lukáš Petrovický</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/25/">25. 2. 06</a>
@@ -419,7 +419,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/tyden-open-source/">Týden Open Source</a></h3>
 
-	<div>V týdnu od 20. do 23. února bude probíhat v prostorách Přírodovědecké Fakulty Univerzity Palackého v Olomouci <a href="http://www.geoinformatics.upol.cz/tydenos/">Týden Open Source</a>. V rámci něj bude <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-JB">Jiří Burda</a> prezentovat i <a href="http://www.geoinformatics.upol.cz/tydenos/program.html">Firefox a Thunderbird</a>.</div>
+	<div>V týdnu od 20. do 23. února bude probíhat v prostorách Přírodovědecké Fakulty Univerzity Palackého v Olomouci <a href="http://www.geoinformatics.upol.cz/tydenos/">Týden Open Source</a>. V rámci něj bude <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-JB">Jiří Burda</a> prezentovat i <a href="http://www.geoinformatics.upol.cz/tydenos/program.html">Firefox a Thunderbird</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/pribyl/">Adam Přibyl</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/06/">6. 2. 06</a>
@@ -509,7 +509,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/jak-pomoci-projektu-czilla/">Jak pomoci projektu CZilla</a></h3>
 
-	<div>Fungování <a href="/czilla/" title="O projektu CZilla">projektu CZilla</a> ve svém volném čase zajišťuje <a href="/czilla/lide.html">celá řada dobrovolníků</a>, kteří se více či méně angažují v tomto projektu. Díky nim máte k dispozici lokalizované produkty aplikací <a href="http://www.mozilla.org" title="Mozilla.org: Domovská stránka" hreflang="en">Mozilla.org</a>, řadu návodů a vždy vám ve <a href="http://forum.czilla.cz" title="Fórum na podporu uživatelů">fóru na podporu uživatelů</a> rádi pomohou s vaším problémem. Pokud se i vy chcete do tohoto projektu zapojit a pomoci jej dále vylepšovat, přečtěte si novou podobu stránky <a href="/czilla/jak-pomoci/" title="Jak pomoci">Jak pomoci</a> a neváhejte nás <a href="/czilla/kontakt.html" title="Kontaktní informace">kontaktovat</a>.</div>
+	<div>Fungování <a href="/czilla/" title="O projektu CZilla">projektu CZilla</a> ve svém volném čase zajišťuje <a href="/czilla/prispevatele.php">celá řada dobrovolníků</a>, kteří se více či méně angažují v tomto projektu. Díky nim máte k dispozici lokalizované produkty aplikací <a href="http://www.mozilla.org" title="Mozilla.org: Domovská stránka" hreflang="en">Mozilla.org</a>, řadu návodů a vždy vám ve <a href="http://forum.czilla.cz" title="Fórum na podporu uživatelů">fóru na podporu uživatelů</a> rádi pomohou s vaším problémem. Pokud se i vy chcete do tohoto projektu zapojit a pomoci jej dále vylepšovat, přečtěte si novou podobu stránky <a href="/czilla/jak-pomoci/" title="Jak pomoci">Jak pomoci</a> a neváhejte nás <a href="/czilla/kontakt.html" title="Kontaktní informace">kontaktovat</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/cvrcek/">Pavel Cvrček</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/09/28/">28. 9. 05</a>
@@ -539,7 +539,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/aktualizace-clanku-mozilla-na-cd-uvitame-pomoc/">Aktualizace článku Mozilla na CD - uvítáme pomoc</a></h3>
 
-	<div>Významně jsme aktualizovali článek <a href="/produkty/mozilla-na-cd.html">Mozilla na CD</a>, který obsahuje seznam CD a DVD přiložených k počítačovým časopisům, na kterých najdete jednotlivé programy z dílny <a href="http://www.mozilla.org/" hreflang="en">Mozilla.org</a>. Tento přehled je určen zejména uživatelům, co nemají dobré připojení k Internetu a nemohou tak stahovat produkty <a href="http://www.mozilla.org/" hreflang="en">Mozilla.org</a> přímo. Aby byl článek co nejužitečnější, je potřeba ho aktualizovat častěji. Proto hledáme dobrovolníka, který by si vzal průběžné aktualizace na starost. Jedná se o jednoduchou a časově nenáročnou činnost, která pomůže mnoha uživatelům. Pokud máte zájem pomoci, kontaktujte <a href="/czilla/lide.html#kdo-je-PC">Pavla Cvrčka</a>.</div>
+	<div>Významně jsme aktualizovali článek <a href="/produkty/mozilla-na-cd.html">Mozilla na CD</a>, který obsahuje seznam CD a DVD přiložených k počítačovým časopisům, na kterých najdete jednotlivé programy z dílny <a href="http://www.mozilla.org/" hreflang="en">Mozilla.org</a>. Tento přehled je určen zejména uživatelům, co nemají dobré připojení k Internetu a nemohou tak stahovat produkty <a href="http://www.mozilla.org/" hreflang="en">Mozilla.org</a> přímo. Aby byl článek co nejužitečnější, je potřeba ho aktualizovat častěji. Proto hledáme dobrovolníka, který by si vzal průběžné aktualizace na starost. Jedná se o jednoduchou a časově nenáročnou činnost, která pomůže mnoha uživatelům. Pokud máte zájem pomoci, kontaktujte <a href="/czilla/prispevatele.php#kdo-je-PC">Pavla Cvrčka</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/09/09/">9. 9. 05</a>
@@ -579,7 +579,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-nabizi-100-lokalizovanych-rozsireni/">CZilla nabízí 100 lokalizovaných rozšíření!</a></h3>
 
-	<div>Připadla mi milá povinnost informovat, že dnešního dne se počet <a href="/doplnky/rozsireni/">lokalizovaných rozšíření</a> na CZille dočkal třetí cifry! Díky usilovné práci desítek dobrovolných lokalizátorů jsme konečně tuto magickou hranici překročili a můžete mi věřit, když říkám, že lokalizátoři ještě neřekli poslední slovo :) Za CZillu tímto <strong>děkuji všem lokalizátorům rozšíření</strong> za práci, kterou odvedli a nadále odvádějí a přeji hodně elánu do další stovky. Pro ty, kteří by rádi přiložili ruku k dílu, máme návod <a href="/clanky/prekladame-rozsireni.html">Překládáme rozšíření</a> spolu s doporučením <a href="http://www.jasnapaka.com/clanky/jak-spravne-lokalizovat.html">Jak správně lokalizovat</a> a připomínám, že před započetím prací je dobré poslat e-mail na <a href="/czilla/lide.html#kdo-je-LP">mou adresu</a> a dát nám tak vědět, jakou lokalizaci chystáte.</div>
+	<div>Připadla mi milá povinnost informovat, že dnešního dne se počet <a href="/doplnky/rozsireni/">lokalizovaných rozšíření</a> na CZille dočkal třetí cifry! Díky usilovné práci desítek dobrovolných lokalizátorů jsme konečně tuto magickou hranici překročili a můžete mi věřit, když říkám, že lokalizátoři ještě neřekli poslední slovo :) Za CZillu tímto <strong>děkuji všem lokalizátorům rozšíření</strong> za práci, kterou odvedli a nadále odvádějí a přeji hodně elánu do další stovky. Pro ty, kteří by rádi přiložili ruku k dílu, máme návod <a href="/clanky/prekladame-rozsireni.html">Překládáme rozšíření</a> spolu s doporučením <a href="http://www.jasnapaka.com/clanky/jak-spravne-lokalizovat.html">Jak správně lokalizovat</a> a připomínám, že před započetím prací je dobré poslat e-mail na <a href="/czilla/prispevatele.php#kdo-je-LP">mou adresu</a> a dát nám tak vědět, jakou lokalizaci chystáte.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/petrovicky/">Lukáš Petrovický</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/07/25/">25. 7. 05</a>
@@ -649,7 +649,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/lokalizovana-rozsireni-stale-pribyvaji-pomozte-nam-at-je-jich-jeste-vic/">Lokalizovaná rozšíření stále přibývají - pomozte nám, ať je jich ještě víc</a></h3>
 
-	<div>Jak jste si možná v posledních týdnech všimli, s novými <a href="/doplnky/rozsireni/">lokalizovanými rozšířeními</a> se na CZille doslova roztrhl pytel - máme jich už celkem 81. Podobně hojně se objevují i články o rozšířeních - třeba dnešní <a href="http://www.abclinuxu.cz/clanky/show/86421">Rozšířte si Firefox!</a> nebo <a href="http://interval.cz/serial.asp?serial=222">seriál na Intervalu</a>. Pokud máte chvilku a chtěli byste nám s překladem rozšíření pomoci, přečtěte si náš článek <a href="/clanky/prekladame-rozsireni.html">Překládáme rozšíření</a> a neváhejte kontaktovat <a href="/czilla/lide.html#kdo-je-LP">Lukáše Petrovického</a>, který má lokalizovaná rozšíření na starost. Třeba právě s vaší pomocí brzo dosáhneme symbolické stovky.</div>
+	<div>Jak jste si možná v posledních týdnech všimli, s novými <a href="/doplnky/rozsireni/">lokalizovanými rozšířeními</a> se na CZille doslova roztrhl pytel - máme jich už celkem 81. Podobně hojně se objevují i články o rozšířeních - třeba dnešní <a href="http://www.abclinuxu.cz/clanky/show/86421">Rozšířte si Firefox!</a> nebo <a href="http://interval.cz/serial.asp?serial=222">seriál na Intervalu</a>. Pokud máte chvilku a chtěli byste nám s překladem rozšíření pomoci, přečtěte si náš článek <a href="/clanky/prekladame-rozsireni.html">Překládáme rozšíření</a> a neváhejte kontaktovat <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáše Petrovického</a>, který má lokalizovaná rozšíření na starost. Třeba právě s vaší pomocí brzo dosáhneme symbolické stovky.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/05/09/">9. 5. 05</a>
@@ -689,7 +689,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/rozhovor-s-martinem-hassmanem-na-linuxexpresu/">Rozhovor s Martinem Hassmanem na LinuxEXPRESu</a></h3>
 
-	<div>Na stránkách portálu <a href="http://linuxexpres.cz">LinuxEXPRES</a> vyšel <a href="http://linuxexpres.cz/index.php?show=001053008001">zajímavý rozhovor</a> s <a href="/czilla/lide.html#kdo-je-MH">Martinem Hassmanem</a>, členem týmu CZilla. Martin odpovídá na otázky o historii CZilly, našem <a href="http://forum.czilla.cz/">fóru</a> či technickém zázemí serveru, ale řeč přijde i na <a href="/produkty/firefox/">Firefox</a> a <abbr title="XML User Interface Language" lang="en">XUL</abbr>.</div>
+	<div>Na stránkách portálu <a href="http://linuxexpres.cz">LinuxEXPRES</a> vyšel <a href="http://linuxexpres.cz/index.php?show=001053008001">zajímavý rozhovor</a> s <a href="/czilla/prispevatele.php#kdo-je-MH">Martinem Hassmanem</a>, členem týmu CZilla. Martin odpovídá na otázky o historii CZilly, našem <a href="http://forum.czilla.cz/">fóru</a> či technickém zázemí serveru, ale řeč přijde i na <a href="/produkty/firefox/">Firefox</a> a <abbr title="XML User Interface Language" lang="en">XUL</abbr>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/05/02/">2. 5. 05</a>
@@ -709,7 +709,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/clanek-mozilla-vcera-dnes-a-zitra/">Článek Mozilla včera, dnes a zítra</a></h3>
 
-	<div>Do sekce <a href="/clanky/">Články</a> jsme přidali článek <a href="/clanky/mozilla-vcera-dnes-zitra.html">Mozilla včera, dnes a zítra</a> od <a href="/czilla/lide.html#kdo-je-PC">Pavla Cvrčka</a>, který vyšel na podzim 2004 v magazínu <a href="http://www.linuxexpres.cz/">LinuxEXPRES</a>. Jak už název článku napovídá, dozvíte se v něm především něco z historie projektů <a href="http://www.mozilla.org/" hreflang="en">Mozilla</a> a <a href="/czilla/">CZilla</a>, jejich náplni a dalším směřování.</div>
+	<div>Do sekce <a href="/clanky/">Články</a> jsme přidali článek <a href="/clanky/mozilla-vcera-dnes-zitra.html">Mozilla včera, dnes a zítra</a> od <a href="/czilla/prispevatele.php#kdo-je-PC">Pavla Cvrčka</a>, který vyšel na podzim 2004 v magazínu <a href="http://www.linuxexpres.cz/">LinuxEXPRES</a>. Jak už název článku napovídá, dozvíte se v něm především něco z historie projektů <a href="http://www.mozilla.org/" hreflang="en">Mozilla</a> a <a href="/czilla/">CZilla</a>, jejich náplni a dalším směřování.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/04/23/">23. 4. 05</a>
@@ -769,7 +769,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/abclinuxu-pripravuje-on-line-rozhovor-s-pavlem-cvrckem/">AbcLinuxu připravuje on-line rozhovor s Pavlem Cvrčkem</a></h3>
 
-	<div>Pokud máte spoustu zvědavých otázek na věci okolo CZilly či <a href="http://www.mozilla.org/" hreflang="en">Mozilly</a>, zamiřte v pondělí 11.4. mezi 10. a 11. hodinou na server <a href="http://www.abclinuxu.cz/">AbcLinuxu</a>, kde <a href="http://www.abclinuxu.cz/blog/Robert/2005/4/8/82874" title="CZilla: rozhovor">proběhne živý rozhovor</a> s naším členem <a href="/czilla/lide.html#kdo-je-PC">Pavlem Cvrčkem</a>. Jeho součástí budou i předem připravené odpovědi na otázky redakce, nicméně těžiště bude v dotazech čtenářů. Takže neváhejte a rozmýšlejte, na co se Pavla zeptat.</div>
+	<div>Pokud máte spoustu zvědavých otázek na věci okolo CZilly či <a href="http://www.mozilla.org/" hreflang="en">Mozilly</a>, zamiřte v pondělí 11.4. mezi 10. a 11. hodinou na server <a href="http://www.abclinuxu.cz/">AbcLinuxu</a>, kde <a href="http://www.abclinuxu.cz/blog/Robert/2005/4/8/82874" title="CZilla: rozhovor">proběhne živý rozhovor</a> s naším členem <a href="/czilla/prispevatele.php#kdo-je-PC">Pavlem Cvrčkem</a>. Jeho součástí budou i předem připravené odpovědi na otázky redakce, nicméně těžiště bude v dotazech čtenářů. Takže neváhejte a rozmýšlejte, na co se Pavla zeptat.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/04/08/">8. 4. 05</a>
@@ -789,7 +789,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-pripravila-pruvodce-ktery-resi-nejcastejsi-chyby-webmasteru/">CZilla připravila průvodce, který řeší nejčastější chyby webmasterů</a></h3>
 
-	<div>Protože stále mnoho webdesignerů píše stránky bez ohledu na webové standardy a alternativní prohlížeče, připravili jsme rozsáhlý materiál <a href="/vyvojari/web/opravy-chyb/">Opravy nejčastějších chyb webmasterů</a>, kde jsou vysvětleny nejčastější problémy autorů při tvorbě skutečně fungujících a technicky korektních stránek a samozřejmě i jejich řešení. Jde pravděpodobně o nejobsáhlejší materiál na toto téma na českém internetu. Autorem je <a href="/czilla/lide.html#kdo-je-JK">Josef Kotva</a>, který při přípravě zužitkoval své dlouhodobé působení v projektu <a href="/vyvojari/web/technicka-evangelizace.html">technické evangelizace</a>.</div>
+	<div>Protože stále mnoho webdesignerů píše stránky bez ohledu na webové standardy a alternativní prohlížeče, připravili jsme rozsáhlý materiál <a href="/vyvojari/web/opravy-chyb/">Opravy nejčastějších chyb webmasterů</a>, kde jsou vysvětleny nejčastější problémy autorů při tvorbě skutečně fungujících a technicky korektních stránek a samozřejmě i jejich řešení. Jde pravděpodobně o nejobsáhlejší materiál na toto téma na českém internetu. Autorem je <a href="/czilla/prispevatele.php#kdo-je-JK">Josef Kotva</a>, který při přípravě zužitkoval své dlouhodobé působení v projektu <a href="/vyvojari/web/technicka-evangelizace.html">technické evangelizace</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/04/06/">6. 4. 05</a>
@@ -809,7 +809,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-na-linuxexpo/">CZilla na LinuxExpo</a></h3>
 
-	<div>Ve dnech 12.-14. 4. 2005 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2005</a>. <a href="/">CZilla</a>, jakožto české zastoupení jednoho z nejdůležitějších open-source projektů, <strong>bude mít na výstavě vlastní stánek</strong>. Kromě toho se ve čtvrtek 14. 4. v 15:30 uskuteční v rámci <a href="http://linuxexpo.cz/index.php?kategorie=35">konferenční části</a> <strong>přednáška <a href="/czilla/lide.html#kdo-je-DM">Davida Majdy</a> na téma &quot;Mozilla pro vývojáře&quot;</strong>, která nabídne pohled na technologie Mozilly jako na platformu pro vývoj aplikací. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://work.netsektor.net/linuxexpo/">včasné registraci</a> je vstup na výstavu zdarma.</div>
+	<div>Ve dnech 12.-14. 4. 2005 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2005</a>. <a href="/">CZilla</a>, jakožto české zastoupení jednoho z nejdůležitějších open-source projektů, <strong>bude mít na výstavě vlastní stánek</strong>. Kromě toho se ve čtvrtek 14. 4. v 15:30 uskuteční v rámci <a href="http://linuxexpo.cz/index.php?kategorie=35">konferenční části</a> <strong>přednáška <a href="/czilla/prispevatele.php#kdo-je-DM">Davida Majdy</a> na téma &quot;Mozilla pro vývojáře&quot;</strong>, která nabídne pohled na technologie Mozilly jako na platformu pro vývoj aplikací. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://work.netsektor.net/linuxexpo/">včasné registraci</a> je vstup na výstavu zdarma.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/03/22/">22. 3. 05</a>
@@ -819,7 +819,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/ohlasy-medii-dostupne-pres-rss/">Ohlasy médií dostupné přes RSS</a></h3>
 
-	<div>Sekci <a href="/media/">Ohlasy médií</a> (dříve sekce <a href="/media/">Z tisku</a>), ve které odkazujeme na zajímavé články týkající se produktů Mozilla.org, nyní můžete <a href="/rss/">sledovat i přes <abbr title="Really Simple Syndication" lang="en">RSS</abbr></a>. Pokud objevíte článek, který neodkazujeme, pošlete tip <a href="/czilla/lide.html#kdo-je-LP">Lukáši Petrovickému</a>. Sledovat můžete <a href="/rss/media/">společný kanál</a>, nebo specializované kanály <a href="/rss/media/firefox/">Firefox</a>, <a href="/rss/media/thunderbird/">Thunderbird</a>, <a href="/rss/media/mozilla/">Mozilla</a> a <a href="/rss/">další</a>.</div>
+	<div>Sekci <a href="/media/">Ohlasy médií</a> (dříve sekce <a href="/media/">Z tisku</a>), ve které odkazujeme na zajímavé články týkající se produktů Mozilla.org, nyní můžete <a href="/rss/">sledovat i přes <abbr title="Really Simple Syndication" lang="en">RSS</abbr></a>. Pokud objevíte článek, který neodkazujeme, pošlete tip <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáši Petrovickému</a>. Sledovat můžete <a href="/rss/media/">společný kanál</a>, nebo specializované kanály <a href="/rss/media/firefox/">Firefox</a>, <a href="/rss/media/thunderbird/">Thunderbird</a>, <a href="/rss/media/mozilla/">Mozilla</a> a <a href="/rss/">další</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/02/22/">22. 2. 05</a>
@@ -829,7 +829,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-se-rozrusta-o-dva-nove-cleny/">CZilla se rozrůstá o dva nové členy</a></h3>
 
-	<div>Těší nás, že <a href="/czilla/lide.html#kdo-je-DM">David Majda</a>, který již nějaký čas sbírá a píše <a href="/archiv-2005.html">novinky</a> ze světa Mozilly, a <a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a>, který se stará o lokalizace <a href="/doplnky/rozsireni/">rozšíření</a> (máme jich už 35), přijali naše pozvání a stali se členy <a href="/czilla/">týmu CZilla</a>.</div>
+	<div>Těší nás, že <a href="/czilla/prispevatele.php#kdo-je-DM">David Majda</a>, který již nějaký čas sbírá a píše <a href="/archiv-2005.html">novinky</a> ze světa Mozilly, a <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a>, který se stará o lokalizace <a href="/doplnky/rozsireni/">rozšíření</a> (máme jich už 35), přijali naše pozvání a stali se členy <a href="/czilla/">týmu CZilla</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/02/11/">11. 2. 05</a>
@@ -859,7 +859,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/o-projektu-czilla/">O projektu CZilla</a></h3>
 
-	<div>Setkáváme se často s dotazy "Co je projekt CZilla a kdo za ním stojí?", jako odpověď jsme rozšířili sekci <a href="/czilla/">O projektu CZilla</a>. Najdete v ní <a href="/czilla/kontakt.html" title="Kontaktní informace projektu CZilla">kontaktní informace</a>, seznam <a href="/czilla/lide.html" title="Členové týmu CZilla">členů CZilly</a> a lidí, kteří <a href="/czilla/lide.html#pratele" title="Přátelé CZilly a dalši lidé zapojení do projektu">nám pomáhají</a>, přehled <a href="/czilla/web.html" title="Webové stránky projektu CZilla">webových stránek</a> projektu a jeho <a href="/czilla/prezentace.html" title="Prezentace projektu CZilla">prezentací</a>, seznam těch, kdo nás <a href="/czilla/podpora.html" title="Podpora projektu CZilla">podporují</a>, návod jak <a href="/czilla/propagace.html" title="Propagace projektu CZilla">propagovat projekt CZilla</a> a jak nám <a href="/czilla/jak-pomoci/" title="Jak pomoci projektu CZilla">můžete pomoci</a>.</div>
+	<div>Setkáváme se často s dotazy "Co je projekt CZilla a kdo za ním stojí?", jako odpověď jsme rozšířili sekci <a href="/czilla/">O projektu CZilla</a>. Najdete v ní <a href="/czilla/kontakt.html" title="Kontaktní informace projektu CZilla">kontaktní informace</a>, seznam <a href="/czilla/prispevatele.php" title="Členové týmu CZilla">členů CZilly</a> a lidí, kteří <a href="/czilla/prispevatele.php#pratele" title="Přátelé CZilly a dalši lidé zapojení do projektu">nám pomáhají</a>, přehled <a href="/czilla/web.html" title="Webové stránky projektu CZilla">webových stránek</a> projektu a jeho <a href="/czilla/prezentace.html" title="Prezentace projektu CZilla">prezentací</a>, seznam těch, kdo nás <a href="/czilla/podpora.html" title="Podpora projektu CZilla">podporují</a>, návod jak <a href="/czilla/propagace.html" title="Propagace projektu CZilla">propagovat projekt CZilla</a> a jak nám <a href="/czilla/jak-pomoci/" title="Jak pomoci projektu CZilla">můžete pomoci</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/12/23/">23. 12. 04</a>
@@ -879,7 +879,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/rozhovor-o-firefoxu-s-jirim-burdou/">Rozhovor o Firefoxu s Jiřím Burdou</a></h3>
 
-	<div><a href="/archiv.html#news:6119e0f806dcdd07d70a0a3a72909055">Minulý týden</a> prohěhl na <a href="http://www.radioakropolis.cz/">rádiu Akropolis</a> rozhovor s členem CZilly <a href="/czilla/lide.html#kdo-je-JB">Jiřím "Gebu" Burdou</a> na téma Firefox. Pokud jste rozhovor neslyšeli, můžete si dodatečně poslechnout jeho sestřihanou podobu ve <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.mp3">formátu MP3</a> (3.8&nbsp;MB) nebo <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.ogg">formátu OGG</a> (4.2&nbsp;MB).</div>
+	<div><a href="/archiv.html#news:6119e0f806dcdd07d70a0a3a72909055">Minulý týden</a> prohěhl na <a href="http://www.radioakropolis.cz/">rádiu Akropolis</a> rozhovor s členem CZilly <a href="/czilla/prispevatele.php#kdo-je-JB">Jiřím "Gebu" Burdou</a> na téma Firefox. Pokud jste rozhovor neslyšeli, můžete si dodatečně poslechnout jeho sestřihanou podobu ve <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.mp3">formátu MP3</a> (3.8&nbsp;MB) nebo <a href="http://ftp.czilla.cz/other/propagation/terabajt_czilla_11_2004.ogg">formátu OGG</a> (4.2&nbsp;MB).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/11/29/">29. 11. 04</a>
@@ -909,7 +909,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/czilla-v-radiu/">CZilla v rádiu</a></h3>
 
-	<div>Na <a href="http://www.radioakropolis.cz/main.php">rádiu Akropolis</a>, vysílajícím výhradně prostřednictvím sítě internet, si můžete dnes v pořadu Terabajt od 18:00 do 19:00h poslechnout rozhovor s <a href="/czilla/lide.html#kdo-je-JB">Jirkou Burdou</a> o CZille a Firefoxu. Rozhovor bude možné i dodatečně stáhnout z <a href="http://www.radioakropolis.cz/main.php?id=archiv&amp;id_=4">archívu rádia</a>.</div>
+	<div>Na <a href="http://www.radioakropolis.cz/main.php">rádiu Akropolis</a>, vysílajícím výhradně prostřednictvím sítě internet, si můžete dnes v pořadu Terabajt od 18:00 do 19:00h poslechnout rozhovor s <a href="/czilla/prispevatele.php#kdo-je-JB">Jirkou Burdou</a> o CZille a Firefoxu. Rozhovor bude možné i dodatečně stáhnout z <a href="http://www.radioakropolis.cz/main.php?id=archiv&amp;id_=4">archívu rádia</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/pribyl/">Adam Přibyl</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/11/23/">23. 11. 04</a>
@@ -999,7 +999,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/mozilla-v-radiu/">Mozilla v rádiu</a></h3>
 
-	<div>Dnes od 18:00h bude v pořadu <a href="http://www.radioakropolis.cz/main.php?id=program_detail&amp;file=terabajt">Terabajt</a> na rádiu <a href="http://www.radioakropolis.cz/">Akropolis</a> rozhovor o Mozille s naším <a href="/czilla/lide.html#kdo-je-AP">Adamem Přibylem</a> (vlastní rozhovor zřejmě začne okolo 18:30h). <b>Update:</b> záznam rozhovoru naleznete v <a href="http://ftp.sh.cvut.cz/Archiv-Radio_Strahov/Archiv%20Radia%20Akropolis/Terabajt%20-%202004-05-25%20-%20Mozilla.ogg">archivu</a> (začíná cca na 30. minutě záznamu).</div>
+	<div>Dnes od 18:00h bude v pořadu <a href="http://www.radioakropolis.cz/main.php?id=program_detail&amp;file=terabajt">Terabajt</a> na rádiu <a href="http://www.radioakropolis.cz/">Akropolis</a> rozhovor o Mozille s naším <a href="/czilla/prispevatele.php#kdo-je-AP">Adamem Přibylem</a> (vlastní rozhovor zřejmě začne okolo 18:30h). <b>Update:</b> záznam rozhovoru naleznete v <a href="http://ftp.sh.cvut.cz/Archiv-Radio_Strahov/Archiv%20Radia%20Akropolis/Terabajt%20-%202004-05-25%20-%20Mozilla.ogg">archivu</a> (začíná cca na 30. minutě záznamu).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/05/25/">25. 5. 04</a>
@@ -1169,7 +1169,7 @@ Jak jsme vás již <a href="/zpravicky/vysla-1-betaverze-uzivatelske-prirucky-k-
 <div class="news">
 	<h3><a href="/zpravicky/ukladani-stranek-podle-title/">Ukládaní stránek podle &lt;title&gt;</a></h3>
 
-	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/lide.html#kdo-je-PC">CZilla týmu</a> :-)</div>
+	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/prispevatele.php#kdo-je-PC">CZilla týmu</a> :-)</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/08/06/">6. 8. 03</a>

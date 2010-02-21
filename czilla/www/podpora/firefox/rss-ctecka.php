@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Jak a proč používat panel RSS čtečka';
-	$page->headline = array('Panel RSS čtečka','Jak a proč používat panel RSS čtečka');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Jak a proč používat panel RSS čtečka');
+	$page->setHeadline('Panel RSS čtečka','Jak a proč používat panel RSS čtečka');
 	$page->setKeywords('podpora, pomoc, návod, rss, čtečka');
 	$page->setDescription('Práce s nainstalovanou RSS čtečkou v Mozilla Firefoxu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2 class="nice">Co je to panel RSS čtečka?</h2>
 
@@ -56,5 +52,5 @@
 <p>Pokud potřebujete často přenášet RSS seznamy mezi počítači, nebo je chcete poslat vašim přátelům, použijte volby <tt>Nástroje / Import/Export</tt> RSS čtečky &ndash; vaše RSS odkazy budou uloženy do <tt>*.opml</tt> souboru, který na jiném počítači do RSS čtečky opět snadno importujete.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

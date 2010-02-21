@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Document.all - omezená podpora v prohlížečích Mozilla';
-	$page->headline = array('Document.all - omezená podpora v Mozille','a proč je použití document.all na Internetu špatné');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Document.all - omezená podpora v prohlížečích Mozilla');
+	$page->setHeadline('Document.all - omezená podpora v Mozille','a proč je použití document.all na Internetu špatné');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Mezi novinkami
 <a href="http://www.mozilla.org/releases/mozilla1.8a3/"
@@ -65,9 +66,7 @@ vyšším, Konqueroru, Safari či v Opeře.</p>
 na kterém se řadu let podíleli zaměstnanci
 <a href="http://channels.netscape.com/ns/info/default.jsp"
 	title="Netscape: About Netscape" hreflang="en">Nestcape</a>
-společně s dobrovolníky projektu Mozilla (server CZilla se připojuje v podobě
-<a href="/czilla/technicka-evangelizace.html"
-	title="CZilla: Technická Evangelizace" hreflang="cs">Technické Evangelizace</a> zaměřené na český web),
+společně s dobrovolníky projektu Mozilla,
 se podařilo předsvědčit tisíce autorů webů k používání standardních
 technologií. Přesto i dnes na Internetu nalezneme řadu stránek používajících
 <code>document.all</code>, ať již jde o stařičké opuštěné stránky, které již
@@ -159,13 +158,11 @@ vypnutí i této základní omezené podpory. Zadejte v adresním řádku
 			title="Alespoň kousek DOMu" hreflang="cs">Jak snadno nahradit document.all modernějším DOMem</a></li>
 	<li><a href="http://www.sweb.cz/pichlik/archive/2004_01_25_archive.html#107538922899916497"
 			title="Dagblog: Poznáváme DOM IV. - Procházíme dokument" hreflang="cs">Popis použití getElement* funkcí pro práci s dokumentem</a></li>
-	<li><a href="http://forum.czilla.cz/viewtopic.php?p=12873"
-			title="Fórum: Nedetekovatelna podpora document.all" hreflang="cs">CZilla fórum - diskuse na téma document.all</a></li>
 </ul>
 
 <hr />
 <p><small>21. 8. 2004, Tým CZilla (aktualizováno 18. 12. 2004)</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

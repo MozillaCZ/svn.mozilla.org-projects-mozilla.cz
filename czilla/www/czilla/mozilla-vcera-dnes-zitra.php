@@ -191,7 +191,7 @@ z&nbsp;řad firemní sféry. Celkově lze očekávat slibnou budoucnost Mozilly
 jak u&nbsp;nás, tak v&nbsp;zahraničí.</p>
 
 <hr />
-<p><small>Článek sepsal <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a>
+<p><small>Článek sepsal <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a>
 a&nbsp;vyšel na podzim 2004 v&nbsp;čísle 1/2004 časopisu
 <a href="http://www.linuxexpres.cz/"
 	title="LinuxEXPRES: Domovská stránka časopisu" hreflang="cs">LinuxEXPRES</a>.

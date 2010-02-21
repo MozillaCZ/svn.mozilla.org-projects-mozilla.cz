@@ -1,17 +1,11 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Otázky lokalizace Mozilla Suite';
-	$page->headline = array('Lokalizace Mozilla Suite','Často kladené otázky lokalizace Mozilla Suite');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Otázky lokalizace Mozilla Suite');
+	$page->setHeadline('Lokalizace Mozilla Suite','Často kladené otázky lokalizace Mozilla Suite');
 	$page->setKeywords('podpora, tipy, triky, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
 	$page->setDescription('Stránka s často kladenými otázky lokalizace balíku internetových aplikací Mozilla Suite');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','suite');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 
@@ -29,7 +23,7 @@ Bohužel po instalaci lokalizačního balíčku se tento problém někdy objeví
 	<li>Obvykle pomůže provést cyklus přepnutí Mozilly do originálního jazyka (angličtiny) a zpět. Tedy nastavte v 'Úpravy -&gt; Předvolby -&gt; Vzhled -&gt; Jazyky/Obsah' v horním okně "English (US)" a v dolním "US Region", restartujte Mozillu, nastavte zpět české nastavení (jak v horním tak dolním okně) a opět restartujte Mozillu.</li>
 
 <li>Pokud to nepomůže, vypněte Mozillu a smažte soubor rychlého spouštění ve vašem <a href="/produkty/suite/poznamky-k-vydani/mozilla1.3/#profileloc">uživatelském profilu</a>. Tento soubor se jmenuje XUL.mfl, XUL.mfasl nebo 'XUL FastLoad File' - záleží na platformě, na které pracujete a lze jej bez jakýchkoliv obav smazat (pokud je Mozilla vypnutá - včetně "rychlého spouštění"). Mozilla si jej při příštím restartu vytvoří znovu (ale již aktualizovaný).</li>
-<li>Pokud ani to nepomůže (ale to se nestává), zeptejte se v <a href="http://forum.czilla.cz/">diskusním fóru</a>. Je možné, že jako poslední pokus nezbyde než odinstalovat Mozillu, vymazat všechny adresáře a soubory, které po ní po odinstalaci zbudou (kromě podadresáře plugins) a nainstalovat Mozillu znova včetně lokalizačních balíčků.</li>
+<li>Pokud ani to nepomůže (ale to se nestává), zeptejte se v <a href="http://forum.mozilla.cz/">diskusním fóru</a>. Je možné, že jako poslední pokus nezbyde než odinstalovat Mozillu, vymazat všechny adresáře a soubory, které po ní po odinstalaci zbudou (kromě podadresáře plugins) a nainstalovat Mozillu znova včetně lokalizačních balíčků.</li>
 </ul>
 
 <p><b>Dotaz: Instalace mi skončila s oznámením chyby 999, co mám dělat?</b><br />
@@ -38,9 +32,6 @@ Tak v tomto případě vás můžeme uklidnit, vše je v naprostém pořádku. C
 <p><b>Dotaz: Při instalaci lokalizace do češtiny se mi objeví oznámení o chybě -201, co to znamená?</b><br />
 Toto se stává u novějších verzí Mozilly na operačním systému Windows, pokud se snažíte nainstalovat češtinu do Mozilly, ve které již čeština nainstalována je - stávající lokalizační soubory jsou totiž používány a Mozilla vám je nedovolí přepsat. Pokud chcete takovou instalaci provést, je nutné přepnout Mozillu do jiného jazyka (angličtiny) - tedy nastavte v 'Úpravy -&gt; Předvolby -&gt; Vzhled -&gt; Jazyky/Obsah' v horním okně "English (US)" a v dolním "US Region" a pro jistotu Mozillu restartujte. Nyní by měla jít stará lokalizace přepsat tou novou.
 </p>
-
-<p><b>Dotaz: Mám připomínky/náměty k překladu, kam je mám hlásit?</b><br />
-Všechny připomínky a náměty jsou vítány. Vaše návrhy/ohlasy/chyby hlašte buď do naší <a href="http://bugzilla.czilla.cz/">bugzilly</a> do sekce 'Lokalizace Mozilly' nebo nám je pošlete <a href="mailto:info@czilla.cz">e-mailem</a>.</p>
 
 <p><b>Dotaz: Proč není počeštěna i nápověda? Bude někdy?</b><br />
 Počeštěná nápověda je jistě velmi vhodná, i když většina uživatelů asi ani neví, že prohlížeč nějakou nápovědu má...<br />Na překladu nápovědy se <a href="/podpora/suite/">pracuje</a>.</p>
@@ -55,5 +46,5 @@ Pravděpodobně používáte distribuci, která využívá jako své základní 
 <p>Při vlastním běhu již nainstalované Mozilly by se mělo vše zobrazovat správně a není potřeba ji spouštět tímto stylem.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,42 +1,26 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Instalace rozšíření do Firefoxu';
-	$page->headline = array('Instalace rozšíření','Návod jak nainstalovat nové rozšíření do Firefoxu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Instalace rozšíření do Firefoxu');
+	$page->setHeadline('Instalace rozšíření','Návod jak nainstalovat nové rozšíření do Firefoxu');
 	$page->setKeywords('podpora, instalace, rozšíření, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
 	$page->setDescription('Návod jak nainstalovat nové rozšíření do prohlížeč Mozilla Firefox');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#zdroje">Kde sehnat rozšíření</a>
-	&middot;
-	<a href="#z-webu">Instalace z&nbsp;webu</a>
-	&middot;
-	<a href="#lokalne">Instalace z&nbsp;lokálního umístění</a>
-	&middot;
-	<a href="#odinstalace-update">Odinstalace a&nbsp;aktualizace</a>
-	&middot;
-	<a href="#problemy">Řešení problémů</a>
-</div>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p><a href="/produkty/firefox/">Mozilla Firefox</a>
 je rychlý, bezpečný a&nbsp;spolehlivý prohlížeč, který
 nabízí vše potřebné k&nbsp;jednoduchému a&nbsp;pohodlnému prohlížení
 internetových stránek. Díky jeho flexibilní architektuře jej můžete snadno
 rozšířit o&nbsp;mnoho dodatečných funkcí jako např.
-<a href="/doplnky/rozsireni/fireftp/"><abbr title="File Transfer Protocol" lang="en">FTP</abbr>
+<a href="https://addons.mozilla.org/cs/firefox/addon/684"><abbr title="File Transfer Protocol" lang="en">FTP</abbr>
 	klient</a>
 či předpověď
-<a href="/doplnky/rozsireni/forecastfox/">počasí pro váš region</a>.
+<a href="https://addons.mozilla.org/cs/firefox/addon/398">počasí pro váš region</a>.
 Za těmito funkcemi stojí tzv.
-<a href="/doplnky/rozsireni/">rozšíření</a>
+<a href="http://www.mozilla.cz/doplnky/rozsireni/">rozšíření</a>
 (<span lang="en">extensions</span>). Jak na to?</p>
 
 
@@ -44,15 +28,12 @@ Za těmito funkcemi stojí tzv.
 
 <p>Nejprve je třeba najít webovou stránku, kde bychom rozšíření sehnali.
 Velký archiv rozšíření nabízí server
-<a href="https://addons.mozilla.org/firefox/extensions/"
-	hreflang="en" lang="en">Firefox Addons</a>,
-rozšíření v&nbsp;češtině najdeme
-v&nbsp;<a href="/doplnky/rozsireni/">přehledu lokalizovaných rozšíření</a>.
-My si vybereme první jmenovaný zdroj.</p>
+<a href="https://addons.mozilla.org/cs/firefox/"
+	hreflang="en" lang="en">Firefox Addons</a>.</p>
 
 <p>Chceme-li projít dostupná rozšíření a&nbsp;vybrat si, která
 nainstalujeme, použijeme
-<a href="https://addons.mozilla.org/firefox/extensions/"
+<a href="https://addons.mozilla.org/cs/firefox/"
 	hreflang="en">přehled dostupných rozšíření</a>.
 
 Pro hledání předem známého rozšíření můžeme použít vyhledávací formulář
@@ -61,7 +42,7 @@ lang="en">extensions</span>, do vyhledávacího políčka vložíme hledaný tex
 a&nbsp;stiskneme <span lang="en">Go</span>. Z&nbsp;výsledků vyhledávání vybereme
 rozšíření, která potřebujeme. (Pokud je výsledků více, můžeme s&nbsp;výhodou
 využít třeba
-<a href="/podpora/firefox/prohlizeni-v-panelech.html">panely</a>.)</p>
+<a href="/podpora/firefox/prohlizeni-v-panelech.php">panely</a>.)</p>
 
 <div class="img-center"><div class="img-c" style="width:275px">
 	<img src="images/umo-formular.png"
@@ -74,8 +55,7 @@ využít třeba
 daného rozšíření. Na obrázku (viz výše) jsme hledali slovo
 &quot;<abbr title="File Transfer Protocol" lang="en">ftp</abbr>&quot;
 a&nbsp;dostali jsme se tak na stránku rozšíření
-<a href="https://addons.mozilla.org/firefox/684/"
-	hreflang="en" lang="en">FireFTP</a>.
+<a href="https://addons.mozilla.org/cs/firefox/addon/684" lang="en">FireFTP</a>.
 Tato stránka obsahuje základní informace o&nbsp;rozšíření, od jeho popisu až
 po komentáře uživatelů. Nás ale hlavně zajímá odkaz na instalaci rozšíření,
 který se nachází ve žluto-zeleném rámečku a&nbsp;je označen slovy <span
@@ -256,7 +236,7 @@ aplikace nebude umět vypořádat. V takovém případě může po restartu apli
 dojít k&nbsp;porušení jejího uživatelského rozhraní. Pokud k&nbsp;tomu
 dojde, doporučujeme rozšíření nejprve
 <a href="#odinstalace">odinstalovat</a>. Pokud bude chyba přetrvávat,
-vyhledejte pomoc <a href="http://forum.czilla.cz/viewforum.php?f=19">ve
+vyhledejte pomoc <a href="http://forum.mozilla.cz/viewforum.php?f=3">ve
 fóru</a>.</p>
 
 <p>Pokud by se stalo, že se aplikace ani nespustí, budete ji muset spustit
@@ -269,9 +249,9 @@ do adresáře, kde máte Firefox nainstalován, a&nbsp;napíšete <code>firefox
 v&nbsp;nouzovém režimu zavřít.</p>
 
 <p>V&nbsp;případě, kdy si nebudete vědět rady, se můžete zeptat ve
-<a href="http://forum.czilla.cz/viewforum.php?f=19">fóru CZilla</a>
+<a href="http://forum.mozilla.cz/viewforum.php?f=3">fóru CZilla</a>
 a&nbsp;jistě se vám brzy dostane uspokojivé pomoci.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

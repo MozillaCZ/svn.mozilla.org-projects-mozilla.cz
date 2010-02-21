@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Instalace motivu vzhledu do Firefoxu';
-	$page->headline = array('Instalace motivu vzhledu','Návod jak nainstalovat nový motiv vzhledu do Frefoxu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Instalace motivu vzhledu do Firefoxu');
+	$page->setHeadline('Instalace motivu vzhledu','Návod jak nainstalovat nový motiv vzhledu do Frefoxu');
 	$page->setKeywords('podpora, tipy, triky, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
 	$page->setDescription('Návod jak nainstalovat nový motiv vzhledu do prohlížeč Mozilla Firefox');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p>Možná to znáte: denně pracujete s&nbsp;Mozilla Firefoxem a&nbsp;po čase
 se vám vzhled aplikace přestane líbit. Podobně jako aplikace
@@ -34,11 +30,10 @@ poví, jak toho co nejsnadněji docílit.</p>
 
 <h2>Stažení motivu vzhledu</h2>
 
-<p>Nový motiv vzhledu lze <a href="/doplnky/motivy-vzhledu/">získat na řadě
+<p>Nový motiv vzhledu lze <a href="http://www.mozilla.cz/doplnky/motivy-vzhledu/">získat na řadě
 míst</a>. Nejspíš nejznámějším místem je server
 <a href="https://addons.mozilla.org/themes/"
-	title="Mozilla Update: Domovská stránka"
-	hreflang="en" lang="en">Mozilla Update</a>.
+	title="Mozilla Update: Domovská stránka">Doplňky Mozilly</a>.
 Instalace nového vzhledu je možná přímo z&nbsp;prostředí Internetu. To je
 pohodlné, ale v&nbsp;našich podmínkách ne vždy nejvhodnější, protože řada
 uživatelů nemůže být kdykoliv připojena. Proto častěji volí stažení motivu
@@ -98,11 +93,7 @@ class="nabidka">Nástroje -&gt; Správce motivů vzhledu</span>. Pro
 pohodlnější instalaci je vhodné nainstalovat rozšíření
 <a href="http://www.mrtech.com/extensions/"
 	title="Local Install: Domovská stránka rozšíření"
-	hreflang="en" lang="en">Local Install</a>,
-které
-<a href="http://ftp.czilla.cz/other/addons/localinstall/"
-	title="Odkaz na stažení rozšíření Local Install">naleznete lokalizované na našem
-	<abbr title="File Transfer Protocol" lang="en">FTP</abbr></a>.</p>
+	hreflang="en" lang="en">Local Install</a>.</p>
 
 <p>Po nainstalování rozšíření otevřete Mozilla Firefox a&nbsp;v&nbsp;hlavní
 nabídce zvolte <span class="nabidka">Nástroje -&gt; Správce motivů
@@ -151,5 +142,5 @@ vzhledu</span>.</p>
 </div></div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

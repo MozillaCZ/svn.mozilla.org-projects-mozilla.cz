@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 8. Změna vzhledu Mozilly');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 8. Změna vzhledu Mozilly');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <h3>8. Změna vzhledu Mozilly</h3>
@@ -37,7 +36,7 @@ v uživatelském rozhranní), vyzkoušejte u témat třetích stran zda:</p>
 <li>Jestliže ano, fungují Classic a Modern v nově vytvořeném profilu?</li>
 </ol>
 
-<p>Pokud stále pozorujete divné chování, může to být chyba. Podívejte se do <a href="jak-se-zapojit.html">jak se zpojit</a>, kde se můžete dozvědět jak hlásit chyby.</p>
+<p>Pokud stále pozorujete divné chování, může to být chyba. Podívejte se do <a href="jak-se-zapojit.php">jak se zpojit</a>, kde se můžete dozvědět jak hlásit chyby.</p>
 <p><small><a href="#top">Na začátek</a> <a href="./">Na obsah</a></small></p>
 </dd>
 <dt id="question-8.2"><a name="8.2">8.2. Jak mohu používat rozdílné ikony pro jednotlivé části Mozilly?
@@ -81,5 +80,5 @@ jejich okraje.</p>
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

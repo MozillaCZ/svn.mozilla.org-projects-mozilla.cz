@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 4. Editor (Composer)');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 4. Editor (Composer)');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 
@@ -21,5 +20,5 @@ CSS editor je vyvíjen na <a href="http://cascades.mozdev.org/">CaScadeS</a>.</p
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

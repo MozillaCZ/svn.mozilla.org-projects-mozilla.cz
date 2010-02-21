@@ -1,18 +1,14 @@
- <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Windows Media Player ve Firefoxu';
-	$page->headline = array('Windows Media Player ve Firefoxu','Návod jak řešit problémy s&nbsp;WMP ve Firefoxu');
-
+<?php
+	require_once '../../inc/page.php';
+	$page->setTitle('Windows Media Player ve Firefoxu');
+	$page->setHeadline('Windows Media Player ve Firefoxu','Návod jak řešit problémy s&nbsp;WMP ve Firefoxu');
 	$page->setKeywords('firefox, windows media player, wmp, problémy, video, zvuk');
 	$page->setDescription('Návod jak řešit problémy s&nbsp;WMP v&nbsp;Mozilla Firefoxu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2 class="nice">Obsah</h2>
 
@@ -56,7 +52,7 @@ modul <a href="http://www.apple.com/quicktime/download/"
 
 <h2 id="wmpplugin">Zásuvný modul Windows Media Player</h2>
 <p><abbr title="Windows Media Player">WMP</abbr> obsahuje <a 
- href="/doplnky/zasuvne-moduly/" title="CZilla: Zásuvné moduly (pluginy)">zásuvný 
+ href="http://www.mozilla.cz/doplnky/zasuvne-moduly/" title="Mozilla.cz: Zásuvné moduly (pluginy)">zásuvný
 modul</a> (anglicky plug-in), který umožňuje zobrazit vložené objekty Windows 
 Media i&nbsp;v&nbsp;jiných prohlížečích než pouze v&nbsp;<abbr 
  title="Internet Explorer">IE</abbr>. Právě tento zásuvný modul Firefox využívá.</p>
@@ -307,7 +303,7 @@ stáhněte si potřebné soubory z&nbsp;<a href="http://www.dlldump.com"
 			Webové stránky > Povolit JavaScript</span> je-li JavaScript povolen.</li>
 			<li>Používáte-li rozšíření, která umožňují zakázat JavaScript, raději je 
 			zakažte (nebo povolte skripty pro požadovanou stránku). Takovým 
-			rozšířením je například <a href="/doplnky/rozsireni/noscript">NoScript</a>.</li>
+			rozšířením je například <a href="https://addons.mozilla.org/cs/firefox/addon/722">NoScript</a>.</li>
 		</ul>
 	</li>
 	<li>
@@ -407,7 +403,7 @@ pouze ActiveX.</p>
 <p>Alternativou k&nbsp;zásuvnému modulu ActiveX je skript <a 
  href="http://homepage.ntlworld.com/vectorspace/greasemonkey/#mimic" 
  hreflang="en">IE Media Mimic</a> do rozšíření <a 
- href="/doplnky/rozsireni/greasemonkey/">Greasemonkey</a>. Podpora médií 
+ href="https://addons.mozilla.org/cs/firefox/addon/748">Greasemonkey</a>. Podpora médií
 vložených pomocí ActiveX však není úplná, protože skript funguje tak, že 
 převádí objekt ActiveX na objekt WMP. V&nbsp;současné době jej autor skriptu IE 
 Media Mimic nepovažuje za dostatečně přívětivý pro běžné uživatele, proto si 
@@ -546,7 +542,7 @@ postupu:</p>
 	není funkční.</li>
 	<li>Z&nbsp;nějakého důvodu dochází ke konfliktům zásuvného modulu ActiveX 
 	a&nbsp;volbou <span class="nabidka">Zobrazovat ouška</span> v&nbsp;rozšíření 
-	<a href="/doplnky/rozsireni/adblock/">Adblock</a> (<span class="nabidka">OBJ-TABS</span> v&nbsp;anglické verzi). Soubor 
+	<a href="http://adblockplus.org/en/">Adblock</a> (<span class="nabidka">OBJ-TABS</span> v&nbsp;anglické verzi). Soubor
 	<span class="soubor">activex.js</span>, který se nainstaluje spolu se ActiveX, 
 	vymezuje prvky, ke kterým má zásuvný modul přístup. Pokud je výše zmíněná 
 	volba v&nbsp;Adblocku zapnuta, soubor <span class="soubor">activex.js</span> 
@@ -579,7 +575,7 @@ vkládaných médií ve Firefoxu, obraťte se na <a
 
 <h2 id="zdroje">Použité zdroje</h2>
 <ul>
-	<li><a href="http://www.czilla.cz/doplnky/zasuvne-moduly">CZilla: Zásuvné moduly (pluginy)</a></li>
+	<li><a href="http://www.mozilla.cz/doplnky/zasuvne-moduly">Mozilla: Zásuvné moduly (pluginy)</a></li>
 	<li><a href="http://support.microsoft.com/?kbid=831430" hreflang="en">Microsoft.com: Several Dialog Boxes Are Blank</a></li>
 	<li><a href="http://plugindoc.mozdev.org" hreflang="en">Mozdev.org: PluginDoc</a></li>
 	<li><a href="http://forums.mozillazine.org/viewtopic.php?t=206216" hreflang="en">MozillaZine Forums: Complete Embedded &amp; Streaming Quicktime/Real/Windows Media Player Guide for Windows Users.</a></li>
@@ -587,8 +583,8 @@ vkládaných médií ve Firefoxu, obraťte se na <a
 </ul>
 
 <hr />
-<p><small>21. 7. 2006, <a href="/czilla/prispevatele.html#kdo-je-PJ">Petr Jirsa</a></small></p>
+<p><small>21. 7. 2006, <a href="/czilla/prispevatele.php#kdo-je-PJ">Petr Jirsa</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

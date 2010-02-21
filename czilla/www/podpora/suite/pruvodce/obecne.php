@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Používáme Mozillu: Všeobecné';
-	$page->headline = array('Používáme Mozillu','Všeobecné');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Používáme Mozillu: Všeobecné');
+	$page->setHeadline('Používáme Mozillu','Všeobecné');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 
@@ -18,7 +17,7 @@
 </ul>
 
 <ul>
-<li><a href="index.html#index">Hlavní obsah</a></li>
+<li><a href="index.php#index">Hlavní obsah</a></li>
 </ul>
 
 <p><br /></p>
@@ -38,7 +37,7 @@
 
 <p>Základna programu je tvořena <strong>otevřenými zdrojovými kódy</strong>, které dávají uživatelům ohromné množství volby, kterého není nikdy možné dosáhnout s proprietárním software.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -52,17 +51,17 @@
 
 <p>Doufáme, že nejvíce uživatelů získá Mozillu jako část volné nebo placené distribuce třetích stran, jako např. <a href="http://channels.netscape.com/ns/browsers/7/download.jsp?x=96&amp;y=9" title="Netscape 7">Netscape</a>, <a href="http://www.redhat.com/" title="Red Hat Linux">Red Hat</a>, <a href="http://www-3.ibm.com/software/os/warp/browser/" title="OS/2 port Mozilly">IBM</a> nebo <a href="http://www.beonex.com/" title="The Beonex">Beonex</a>. Další aplikace, které se časem stanou také součástí Mozilly, jsou v současnosti ve vývoji.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
 <h3><a id="toolkit">Co jsou nástroje Mozilly?</a></h3>
 
-<p>Nástroje Mozilly kombinují několik komponent (jako Gecko, JavaScript, knihovny síťových funkcí a vrstvu pro přenositelnost) a <a href="../start/webovi-vyvojari.html" title="Více informací o Mozille a programovacích nástrojích">programovací nástroje</a> (JavaScript debugger, DOM inspector, atd.) s technologiemi jako XML, CSS a ECMAScript (JavaScript).</p>
+<p>Nástroje Mozilly kombinují několik komponent (jako Gecko, JavaScript, knihovny síťových funkcí a vrstvu pro přenositelnost) a <a href="../start/webovi-vyvojari.php" title="Více informací o Mozille a programovacích nástrojích">programovací nástroje</a> (JavaScript debugger, DOM inspector, atd.) s technologiemi jako XML, CSS a ECMAScript (JavaScript).</p>
 
 <p>S touto <strong>jednoduchou základnou</strong> je možné <strong>vytvořit aplikace</strong> od jednoduchých (jako jsou webové stránky) až po velmi složité, jako je Mozilla.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -78,7 +77,7 @@
 
 <p>Mozilla je založená na otevřeném software, což znamená, že může být použita, měněna a/nebo distribuována beze změny. <b>Licence, pod kterou je kód vydáván, byla počlivě sestavena</b> tak, aby umožňovala ostatním kombinovat kód Mozilly s dalším proprietárním kódem a vytvářet tak komerční produkty, za které se platí. Samozřejmě může být použita k vytvoření dalšího ne-proprietárního software.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -99,7 +98,7 @@
 
 <p>Znatelný vývoj bude prováděn na hlavním kmeni, zatímco větev (1.0) bude udržována pouze za účelem zlepšení stability a výkonnosti. Touto cestou se mohou společnosti přející si postavit jejich produkty na Mozille spolehnout na přístup ke kódu s dlouhou životností a nemusí se obávat denních nebo týdenních změn, které budou probíhat ve vývojové části.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -133,9 +132,9 @@
 
 <p>Společnosti používající kód Mozilly v jejich produktech mohou vyvinout vnitřní zkušenosti na mnoha úrovních. Mohou se koncentrovat na speciální funkce jedinečného významu jejich produktu nebo pomáhat svými zkušenostmi při vývoji základních komponent. Se zkušenostmi přichází i možnost vedení a vedoucí pozice vždy znamená velký vliv na budoucnost vývoje software.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

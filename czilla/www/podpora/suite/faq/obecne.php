@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 1. Všeobecné');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 1. Všeobecné');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul>
@@ -27,12 +26,12 @@
 <dt id="question-1.1"><a name="1.1">1.1. Pro koho je Mozilla 1.0 určena?</a></dt>
 <dd id="answer-1.1">
 
-<p>Mozilla 1.0 byla první plně funkční ukázka technologie pro ty, kteří chtějí vidět, čeho všeho lze s Mozillou dosáhnout, a pro ty, kteří chtějí tvořit balíky a produkty založené na Mozille. Zamýšlenou cílovou skupinou je komunita vývojářů. Mozilla je <a href="../start/open-source.html">otevřený software</a>, tedy každá osoba nebo společnost ji může měnit a distribuovat dál, pokud bude dodržovat podmínky <a href="http://www.mozilla.org/MPL/">licence</a>.</p>
+<p>Mozilla 1.0 byla první plně funkční ukázka technologie pro ty, kteří chtějí vidět, čeho všeho lze s Mozillou dosáhnout, a pro ty, kteří chtějí tvořit balíky a produkty založené na Mozille. Zamýšlenou cílovou skupinou je komunita vývojářů. Mozilla je <a href="../start/open-source.php">otevřený software</a>, tedy každá osoba nebo společnost ji může měnit a distribuovat dál, pokud bude dodržovat podmínky <a href="http://www.mozilla.org/MPL/">licence</a>.</p>
 
 <p>Mozilla 1.0 je připravena k pohodlnému používání všemi uživateli, &#8211; a ti, kteří ji chtějí používat
 tak, jak byla vydána na <a href="http://www.mozilla.org/">mozilla.org</a>, jsou více než vítáni, aby tak učinili &#8211; mozilla.org
 nemá žádné zdroje, které by nabízely
-<a href="uzivatel.html">podporu koncových uživatelů</a>. Nicméně vždy uvítá nové <a href="jak-se-zapojit.html">testery a hlášení chyb</a>.</p>
+<a href="uzivatel.php">podporu koncových uživatelů</a>. Nicméně vždy uvítá nové <a href="jak-se-zapojit.php">testery a hlášení chyb</a>.</p>
 
 
 <p>Vyvíjí se také další aplikace založené na Mozille.</p>
@@ -47,7 +46,7 @@ nemá žádné zdroje, které by nabízely
 
 <p>Pokud máte adresář pro zásuvné moduly (plugins) uvnitř adresáře pro aplikace Mozilly, je radno ho před přeinstalováním
 uložit jinam, abyste jej pak znova obnovili. Adresář se zásuvnými moduly můžete také uložit do svých
-<a href="profil.html#7.3">profilů</a>. Chcete-li znát umístění jednotlivých modulů, které právě Mozilla používá,
+<a href="profil.php#7.3">profilů</a>. Chcete-li znát umístění jednotlivých modulů, které právě Mozilla používá,
 přejděte na Help | About Plug-ins. </p>
 
 <p>Pokud takto odinstalujete Mozillu, vaše profily a osobní nastavení zůstanou. Nejspíš však
@@ -55,9 +54,9 @@ ztratíte přístup k některým přídavným modulům, ty je pak třeba přeins
 Nová instalace by měla detekovat témata a opravu pravopisu (pokud byla instalována).</p>
 
 <p>Po nainstalování novější verze Mozilly je lepší vytvořit nový profil než se snažit používat profil starší verze.
-Sdílení profilů mezi různými verzemi Mozilly může vést k <a href="profil.html#7.5">poškození profilů</a>.</p>
+Sdílení profilů mezi různými verzemi Mozilly může vést k <a href="profil.php#7.5">poškození profilů</a>.</p>
 
-<p>Pokud se při vaší instalaci Mozilly vyskytnou chyby, zkuste dokument o <a href="problemy.html">odstraňování problémů</a>. </p>
+<p>Pokud se při vaší instalaci Mozilly vyskytnou chyby, zkuste dokument o <a href="problemy.php">odstraňování problémů</a>. </p>
 
 <p><small><a href="#top">Na začátek</a> <a href="./">Na obsah</a></small></p>
 </dd>
@@ -139,7 +138,7 @@ ale již několik měsíců nepokračuje. Nicméně dosud vyvinutá verze je st�
 <ul>
 <li>
 <a href="http://www.mozillazine.org/">MozillaZine</a> &#8211;
-včetně <a href="http://www.mozillazine.org/build_comments/">komentářů</a> každodenních <a href="jak-se-zapojit.html">verzí</a>
+včetně <a href="http://www.mozillazine.org/build_comments/">komentářů</a> každodenních <a href="jak-se-zapojit.php">verzí</a>
 </li>
 
 <li><a href="http://www.mozillanews.org/">MozillaNews</a></li>
@@ -197,5 +196,5 @@ V roce 2003 byla Mozilla vydávána každého čtvrt roku.
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

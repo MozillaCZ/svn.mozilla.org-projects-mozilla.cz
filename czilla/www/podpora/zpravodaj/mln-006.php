@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 6. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','6. číslo (11.11.2003 / 2.12.2003)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 6. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','6. číslo (11.11.2003 / 2.12.2003)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -255,8 +252,8 @@ Umožňuje prohledávat rozsáhlý katalog amazon.com, stejně tak zapisovat kl�
 <p>Uvítáme vaši spolupráci i komentáře. Směřujte je prosím na <a href="mailto:newsletter-feedback@mozilla.org">newsletter-feedback@mozilla.org</a>.</p>
 <p>Zpravodaj Mozilla Links je překládán do němčiny, italštiny, japonštiny, polštiny, holandštiny a <a href="http://www.czilla.cz/podpora/zpravodaj/">češtiny</a>.</p>
 
-<p><b>Česká verze:</b> <a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a></p>
+<p><b>Česká verze:</b> <a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

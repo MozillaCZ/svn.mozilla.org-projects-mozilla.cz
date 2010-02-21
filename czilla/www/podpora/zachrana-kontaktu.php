@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Záchrana kontaktů z poškozené databáze kontaktů';
-	$page->headline = array('Záchrana kontaktů','Záchrana kontaktů z poškozené databáze kontaktů');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Záchrana kontaktů z poškozené databáze kontaktů');
+	$page->setHeadline('Záchrana kontaktů','Záchrana kontaktů z poškozené databáze kontaktů');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <h2 class="nice abook">Poškodila se mi databáze kontaktů</h2>
 <p>Ztratili jste v <a href="/produkty/suite/" title="Mozilla Suite: Stránka o produktu">Mozilla Suite</a> či <a href="/produkty/thunderbird/" title="Mozilla Thunderbird: Stránka o produktu">Mozilla Thunderbirdu</a> všechny své kontakty? K podobné situaci může dojít, pokud např. při pádu vašeho operačního systému zrovna s kontakty pracujete. Následující návod vám poradí s obnovou poškozených dat.</p>
@@ -84,5 +85,5 @@
 <p><small>Poslední úprava: 6. 12. 2003, Martin Hassmann (CZilla)</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

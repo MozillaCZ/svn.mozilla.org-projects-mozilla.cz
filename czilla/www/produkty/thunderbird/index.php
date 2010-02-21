@@ -13,18 +13,14 @@
 	<td style="width: 220px"><a href="/img/thunderbird-big.png" title="Klepněte pro získání plné velikosti">
 		<img src="/img/thunderbird.png" alt="Náhled na Thunderbird" width="200" height="160" /></a></td>
 	<td style="vertical-align: top">
-	   <p>
-      <strong>Mozilla Thunderbird</strong> je poštovní klient, který vám nabízí příjemné uživatelské prostředí a&nbsp;řadu pokročilých funkcí. Klient vás překvapí zejména konfortními funkcemi, spolehlivostí a&nbsp;velkým důrazem na <strong>bezpečnost uživatele</strong>.
-     </p>
-
-     <p>
-     Hledáte jednoduchý a&nbsp;přehledný e-mailový klient? Mozilla Thunderbird je to pravé pro vás! Nainstalujte si jej a&nbsp;přidejte se ke <a href="http://thunderbird.mozilla.cz/zkusenosti/" title="Používejte Thunderbird: Zkušenosti uživatelů">spokojeným uživatelům</a>.
-     </p>
-
-  <p><img src="/img/download.png" width="16" height="16" alt="" />
-  <strong><a href="http://www.mozilla.cz/stahnout/thunderbird/" title="Stáhnout nejnovější verzi Mozilla Thunderbirdu v češtině">Stáhnout nejnovější verzi</a></strong></p>
-
-  </td>
+		<div class="obsolete">Některé informace na stránkách produktu mohou být zastaralé. Aktuální informace naleznete na serveru
+		<a href="http://www.mozilla.cz/produkty/thunderbird/">Mozilla.cz</a>.</div>
+		<p><strong>Mozilla Thunderbird</strong> je poštovní klient, který vám nabízí příjemné uživatelské prostředí a&nbsp;řadu pokročilých funkcí.
+		Klient vás překvapí zejména konfortními funkcemi, spolehlivostí a&nbsp;velkým důrazem na <strong>bezpečnost uživatele</strong>.</p>
+		<p>Hledáte jednoduchý a&nbsp;přehledný e-mailový klient? Mozilla Thunderbird je to pravé pro vás! Nainstalujte si jej a&nbsp;přidejte se ke <a href="http://thunderbird.mozilla.cz/zkusenosti/" title="Používejte Thunderbird: Zkušenosti uživatelů">spokojeným uživatelům</a>.</p>
+		<p><img src="/img/download.png" width="16" height="16" alt="" />
+		<strong><a href="http://www.mozilla.cz/stahnout/thunderbird/" title="Stáhnout nejnovější verzi Mozilla Thunderbirdu v češtině">Stáhnout nejnovější verzi</a></strong></p>
+	</td>
 </tr>
 </table>
 

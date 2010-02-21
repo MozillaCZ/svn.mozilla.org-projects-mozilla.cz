@@ -65,7 +65,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/greasemonkey-skript-pro-oskarovu-sms-branu/">Greasemonkey skript pro Oskarovu SMS bránu</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-JM">Honza Matoušek</a> připravil <a href="http://www.abclinuxu.cz/blog/plathel/2005/6/24/92024" title="Greasemonkey skript pro Oskaří smsky">zajímavý Greasemonkey skript</a> upravující Oskarovu <a href="http://sms.oskarmobil.cz/">SMS bránu</a>. Umožňuje vyplnit příjemce pomocí parametru v URL (ideální pro přidání do záložek), přeskupuje pořadí ovládacích prvků, odstraňuje zbytečnosti na stránce a jako důležitou vychytávku přidává telefonní seznam v <abbr title="Extensible Markup Language" lang="en">XML</abbr>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-JM">Honza Matoušek</a> připravil <a href="http://www.abclinuxu.cz/blog/plathel/2005/6/24/92024" title="Greasemonkey skript pro Oskaří smsky">zajímavý Greasemonkey skript</a> upravující Oskarovu <a href="http://sms.oskarmobil.cz/">SMS bránu</a>. Umožňuje vyplnit příjemce pomocí parametru v URL (ideální pro přidání do záložek), přeskupuje pořadí ovládacích prvků, odstraňuje zbytečnosti na stránce a jako důležitou vychytávku přidává telefonní seznam v <abbr title="Extensible Markup Language" lang="en">XML</abbr>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/06/27/">27. 6. 05</a>

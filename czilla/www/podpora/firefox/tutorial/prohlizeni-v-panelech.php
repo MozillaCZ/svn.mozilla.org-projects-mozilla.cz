@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Prohlížení stránek v panelech';
-	$page->headline = array('Prohlížení stránek v panelech','Začínáme používat prohlížeč Firefox, 2. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Prohlížení stránek v panelech');
+	$page->setHeadline('Prohlížení stránek v panelech','Začínáme používat prohlížeč Firefox, 2. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, tutorial, panely, prohlížení');
 	$page->setDescription ('Návod jak ve Firefoxu pracovat s prohlížením v panelech');	
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./ovladani.html">Základní ovládání</a></li>
+		<a href="./ovladani.php">Základní ovládání</a></li>
 	<li>Předchozí:
-		<a href="./instalace.html">Instalace a&nbsp;konfigurace</a></li>
+		<a href="./instalace.php">Instalace a&nbsp;konfigurace</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -92,13 +92,13 @@ a&nbsp;pustíte, panel se přesune na zvolené místo.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./ovladani.html">Základní ovládání</a></li>
+		<a href="./ovladani.php">Základní ovládání</a></li>
 	<li>Předchozí:
-		<a href="./instalace.html">Instalace a&nbsp;konfigurace</a></li>
+		<a href="./instalace.php">Instalace a&nbsp;konfigurace</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla, Firefox a download managery';
-	$page->headline = array('Mozilla, Firefox a download managery','Nejčastěji používané download managery a jejich spolupráce s prohlížeči Mozilla.');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Mozilla, Firefox a download managery');
+	$page->setHeadline('Mozilla, Firefox a download managery','Nejčastěji používané download managery a jejich spolupráce s prohlížeči Mozilla.');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/">Mozilla.cz</a>.</div>
 
 <p>V&nbsp;článku naleznete přehled nejčastěji používaných download managerů na
 platformě Windows a&nbsp;jejich spolupráce
@@ -569,5 +570,5 @@ rozšíření
 <p><small>1. 11. 2004, Tým CZilla</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

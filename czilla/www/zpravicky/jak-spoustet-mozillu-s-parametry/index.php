@@ -8,7 +8,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/jak-spoustet-mozillu-s-parametry/">Jak spouštět Mozillu s parametry</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/01/03/">3. 1. 05</a>

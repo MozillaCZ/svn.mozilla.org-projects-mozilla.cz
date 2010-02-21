@@ -386,7 +386,7 @@ potěšeni, zachováte-li nám svou přízeň i&nbsp;do dalšího pokračování
 
 <p>A&nbsp;na závěr každé produkce se sluší uvést jména aktérů. Tak tedy:
 v&nbsp;hlavních rolích v&nbsp;českém znění členové a&nbsp;spolupracovníci <a
- href="/czilla/lide.html">týmu CZilla</a>, rodina, přátelé a&nbsp;známí, kteří
+ href="/czilla/prispevatele.php">týmu CZilla</a>, rodina, přátelé a&nbsp;známí, kteří
 nás v&nbsp;naší práci podporovali, a&nbsp;samozřejmě uživatelé produktů Mozilla,
 bez kterých by to nemělo smysl :) Hodně štěstí do nového roku všem!</p>
 

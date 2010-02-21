@@ -1,12 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-
-	$page->title    = 'Mozilla Public Licence - souhrn práv a povinností';
-	$page->headline = array('Mozilla Public Licence - souhrn práv a povinností','Souhrn práv a povinností pro nakládání se zdrojovým kódem aplikací Mozilla');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Mozilla Public Licence - souhrn práv a povinností');
+	$page->setHeadline('Mozilla Public Licence - souhrn práv a povinností','Souhrn práv a povinností pro nakládání se zdrojovým kódem aplikací Mozilla');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Na aplikace <a
 href="/produkty/firefox/">Mozilla Firefox</a>, <a
@@ -67,5 +67,5 @@ hreflang="en">Mozilla Public Licence</a> (EN).</p>
 </small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

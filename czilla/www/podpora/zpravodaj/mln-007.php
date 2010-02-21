@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 7. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','7. číslo (25.11.2003 / 3.1.2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 7. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','7. číslo (25.11.2003 / 3.1.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -65,7 +62,7 @@
 </ul>
 
 <h2 id="ml.0" class="nice">Úvod</h2>
-<p>V <a href="mln-006.html#ml.0">minulém čísle</a> jsme se ptali na názvy e-mailových aplikací tvořících zbývajících 20&nbsp;% odpovědí minulé ankety. Jsou to Pegasus, The Bat, Incredimail, Ximian Evolution, Courier, Pine, Novell Groupwise a Turnpike.</p>
+<p>V <a href="mln-006.php#ml.0">minulém čísle</a> jsme se ptali na názvy e-mailových aplikací tvořících zbývajících 20&nbsp;% odpovědí minulé ankety. Jsou to Pegasus, The Bat, Incredimail, Ximian Evolution, Courier, Pine, Novell Groupwise a Turnpike.</p>
 <p><a href="http://www.mozilla.org/">Mozilla.org</a> spustila nový web s přehlednějším rozhraním pro uživatele, kteří hledají aktuální verze programů a více informací o komunitě Mozilly a jejích produktech. Na webu najdete odkazy na zpravodaj Mozilla Links a nový obchod Mozilly, kde si můžete zakoupit CD s Mozillou a objednat trička.</p>
 <p>Naše poslední anketa ukazuje, že lidi baví mít Mozillu pod kontrolou a držet krok s aktuálním vývojem. A jaké jiné informace nebo sekce byste uvítali v našem zpravodaji Mozilla Links? Pošlete <a href="mailto:newsletter-feedback@mozilla.org">nám</a> vaše návrhy.</p>
 <address>Percy Cabello, Mozilla Links</address>
@@ -242,8 +239,8 @@ Umožnuje hledání, blogování, překládání a další činnosti pouhým kli
 <p>Uvítáme vaši spolupráci i komentáře. Směřujte je prosím na <a href="mailto:newsletter-feedback@mozilla.org">newsletter-feedback@mozilla.org</a>.</p>
 <p>Zpravodaj Mozilla Links je překládán do němčiny, italštiny, japonštiny, polštiny, holandštiny a <a href="http://www.czilla.cz/podpora/zpravodaj/">češtiny</a>.</p>
 
-<p><b>Česká verze:</b> <a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a></p>
+<p><b>Česká verze:</b> <a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

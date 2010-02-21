@@ -1,19 +1,12 @@
 <?php
-
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla Reporter&nbsp;&ndash; hlášení nefunkčních stránek';
-	$page->headline = array('Mozilla Reporter&nbsp;&ndash; hlášení nefunkčních stránek','Jak na nefungující stránky');
-	$page->includeHeader();
-	
+	require_once '../inc/page.php';
+	$page->setTitle('Mozilla Reporter &ndash; hlášení nefunkčních stránek');
+	$page->setHeadline('Mozilla Reporter &ndash; hlášení nefunkčních stránek','Jak na nefungující stránky');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#mr-co-je">Co je Mozilla Reporter?</a> &middot;
-	<a href="#mr-instalace">Instalace</a> &middot;
-	<a href="#mr-nahlaseni">Nahlášení chybné stránky</a>
-</div>
-
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2 id="mr-co-je">Co je Mozilla Reporter?</h2>
 
@@ -21,9 +14,7 @@
 stránkami, které se vám zobrazovaly špatně &ndash; ať už byla stránka pouze 
 špatně čitelná nebo rozházená a&nbsp;naprosto nepoužitelná. Mozilla Reporter je 
 nástroj, který vám dává možnost pomoci opravit tyto stránky. Tento program 
-odešle hlášení o&nbsp;chybné stránce a&nbsp;lidé zapojení v&nbsp;projektu <a 
- href="/czilla/technicka-evangelizace.html" 
- title="Technická evangelizace: stránky o činnosti">Technické evangelizace</a> 
+odešle hlášení o&nbsp;chybné stránce a&nbsp;lidé zapojení v&nbsp;projektu Technické evangelizace
 stránky prozkoumají, zjistí problémy a&nbsp;vhodně upozorní správce webu, jak 
 chyby odstranit.</p>
 
@@ -96,21 +87,17 @@ všechna potřebná pole vyplněna, můžete odeslat upozornění.</p>
 <p>Poslední okno, se kterým se při hlášení setkáte, vám sdělí číslo nahlášené 
 chyby. Zaškrtnutím políčka  <span class="nabidka">Zobrazit detaily</span> si 
 zobrazíte přehled všech informací, které byly odeslány spolu s&nbsp;chybou. 
-Podle nich budou pracovníci <a 
- href="/czilla/technicka-evangelizace.html" 
- title="Technická evangelizace: stránky o činnosti">Technické evangelizace</a> 
+Podle nich budou pracovníci Technické evangelizace
 analyzovat oznámený problém. Všechny chybové stránky lze nalézt na <a 
  href="http://reporter.mozilla.org/" hreflang="en">stránce Reporteru</a></p>
 
 <p>Gratulujeme, nahlášení chybové stránky je úspěšně za vámi! Nyní už je vše na  
-<a href="/czilla/technicka-evangelizace.html" 
- title="Technická evangelizace: stránky o činnosti">Technické evangelizaci</a> 
-a&nbsp;na ochotě webmasterů opravit web a&nbsp;zpřístupnit ho tak uživatelům 
+Technické evangelizaci a&nbsp;na ochotě webmasterů opravit web a&nbsp;zpřístupnit ho tak uživatelům
 moderních prohlížečů.</p>
 
 <hr />
-<p><small>18. 7. 2006, <a href="/czilla/prispevatele.html#kdo-je-JJ">Jiří Janda</a></small></p>
+<p><small>18. 7. 2006, <a href="/czilla/prispevatele.php#kdo-je-JJ">Jiří Janda</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

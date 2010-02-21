@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Ukládání stránek v Mozille podle značky TITLE';
-	$page->headline = array('Ukládání stránek v Mozille podle značky TITLE','Úprava chování prohlížečů Mozilla.org při ukládání webových stránek');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Ukládání stránek v Mozille podle značky TITLE');
+	$page->setHeadline('Ukládání stránek v Mozille podle značky TITLE','Úprava chování prohlížečů Mozilla.org při ukládání webových stránek');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/">Mozilla.cz</a>.</div>
 
 <p>Řadě uživatelů, kteří začali používat <a href="/produkty/suite/" 
 title="Mozilla Suite: Stránka o produktu">Mozilla Suite</a>, 
@@ -145,13 +146,13 @@ Mozillu a zkontrolujeme výsledek.</p>
 <a href="http://www.jasnapaka.com/mozilla/filetitle/"
 title="Rozšíření File Title: Domovská stránka" hreflang="en">rozšíření File Title</a>,
 které vám zajistí stejnou funkčnost bez nutnosti manuálně editovat zdrojové kódy.
-Pokud nevíte, jak rozšíření nainstalovat, přečtěte si <a href="/podpora/firefox/instalace-rozsireni.html" title="Návod na instalaci rozšíření do Firefoxu">návod na instalaci</a>.
+Pokud nevíte, jak rozšíření nainstalovat, přečtěte si <a href="/podpora/firefox/instalace-rozsireni.php" title="Návod na instalaci rozšíření do Firefoxu">návod na instalaci</a>.
 </p>
 
 <hr />
-<p><small>Sepsal: <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> (CZilla),
+<p><small>Sepsal: <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> (CZilla),
 Poslední aktualizace: 14. října 2005</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

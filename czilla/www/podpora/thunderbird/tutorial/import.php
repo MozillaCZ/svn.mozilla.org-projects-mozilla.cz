@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Import elektronické pošty a kontatků';
-	$page->headline = array('Import elektronické pošty a kontatků','Úvod do Thunderbirdu, 6. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Import elektronické pošty a kontatků');
+	$page->setHeadline('Import elektronické pošty a kontatků','Úvod do Thunderbirdu, 6. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, import, Outlook, Outlook Express');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu importovat poštu');	
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu importovat poštu');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./filtry.html">Filtry</a></li>
+	  <a href="./filtry.php">Filtry</a></li>
 	<li>Předchozí:
-		<a href="./antispamovy-filtr.html">Antispamový filtr</a></li>
+		<a href="./antispamovy-filtr.php">Antispamový filtr</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -105,13 +105,13 @@ na kontaktech kterou importujete.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./filtry.html">Filtry</a></li>
+	  <a href="./filtry.php">Filtry</a></li>
 	<li>Předchozí:
-		<a href="./antispamovy-filtr.html">Antispamový filtr</a></li>
+		<a href="./antispamovy-filtr.php">Antispamový filtr</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Ochrana před viry v Mozille';
-	$page->headline = array('Ochrana před viry v Mozille','Rady a doporučení, jak se v Mozille chránit pře viry');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Ochrana před viry v Mozille');
+	$page->setHeadline('Ochrana před viry v Mozille','Rady a doporučení, jak se v Mozille chránit pře viry');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div id="navigation">
@@ -26,16 +25,13 @@
 </p>
 
 <ol>
-	<li><a href="/podpora/suite/instalace.html">Nainstalujte
-	Mozilla Suite</a> (je zdarma).</li>
+	<li>Nainstalujte Mozilla Suite</a> (je zdarma).</li>
 	<li>Přečtěte si tento článek (vyplatí se vám to).</li>
 	<li>Nebojte se.</li>
 	<li>Ale buďte opatrní, pokud jako e-mailovou přílohu obdržíte
 	neznámý archiv (např. soubory <span class="soubor">.zip</span>).</li>
 	<li>Dejte si pozor na dokumenty Microsoft Office
 	přijaté e-mailem (mohou obsahovat viry).</li>
-	<li>A nezapomeňte zkontrolovat, že používáte nejnovější verzi
-	<a href="/produkty/suite/stahnout.html">Mozilla Suite</a>.</li>
 </ol>
 
 <h2>Komu je určen tento článek</h2>
@@ -224,16 +220,14 @@ pokud je otevřete bez jakékoli havárie, jste v&nbsp;bezpečí.</p>
 <p>Mozilla Suite není dokonalá (je nám líto). Virus může (teoreticky)
 využít <a href="http://www.mozilla.org/projects/security/known-vulnerabilities.html"
 hreflang="en">známých zranitelných míst Mozilly</a> pro útok na uživatele
-Mozilla Suite. Proto se ujistěte, že používáte <a
-href="/produkty/suite/stahnout.html">nejnovější verzi Mozilly</a>. Známé
-slabiny bývají v&nbsp;nejnovější verzi opraveny.</p>
+Mozilla Suite.</p>
 
 <p>Hluboko uvnitř starého kódu Netscape, na němž je Mozilla založená, je
 možná spousta "kostlivců", kteří mohou "vylézt ze skříně". Naše rada proto je:
 <strong>čas od času zkontrolujte, zda nevyšla nová verze</strong>
 a&nbsp;jděte s&nbsp;dobou. Mozilla Suite se dá snadno aktualizovat.
 Odinstalujte starou verzi, stáhněte si
-<a href="/podpora/suite/instalace.html">instalační balík Mozilly</a>
+<a href="/podpora/suite/instalace.php">instalační balík Mozilly</a>
 a&nbsp;spusťte ho. Nainstaluje se vám nová verze se zachováním všech vašich
 nastavení, e-mailů a&nbsp;kontaktů.</p>
 
@@ -350,5 +344,5 @@ hreflang="en">Other things you can do to improve security</a>. Přeložil David
 Koudela.</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

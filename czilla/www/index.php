@@ -36,7 +36,7 @@
 <div class="next">
 	<strong><a href="/produkty/">Další produkty</a>:</strong>
 		<a href="/produkty/seamonkey/">SeaMonkey</a> |
-		<a href="/produkty/nvu/">Nvu</a>
+		<a href="http://www.mozilla.cz/produkty/kompozer/">Kompozer</a>
 </div>
 </div>
 

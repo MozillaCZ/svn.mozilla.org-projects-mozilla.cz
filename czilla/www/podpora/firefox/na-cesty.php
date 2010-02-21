@@ -1,19 +1,12 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Firefox na cesty';
-	$page->headline = array('Firefox na cesty','Jak na přenosný prohlížeč s&nbsp;vlastním nastavením');
-
-	$page->includeHeader(); 
+	require_once '../../inc/page.php';
+	$page->setTitle('Firefox na cesty');
+	$page->setHeadline('Firefox na cesty','Jak na přenosný prohlížeč s&nbsp;vlastním nastavením');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#fnc-pp">Přenositelný prohlížeč</a>
-	&middot;
-	<a href="#fnc-pk">Připravujeme konfiguraci</a>
-	&middot;
-	<a href="#fnc-cnp">Co nejmenší prohlížeč</a>
-</div>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2 id="fnc-pp">Přenositelný prohlížeč</h2>
 
@@ -49,8 +42,7 @@ Firefoxu zajímat.</p>
 tyto:</p>
 
 <ul>
-	<li><strong>Firefox</strong>, verzi bez instalátoru
-		(<a href="http://firefox.czilla.cz/stahnout/">http://firefox.czilla.cz/stahnout/</a>)</li>
+	<li><strong>Firefox</strong>, verzi bez instalátoru</li>
 	<li><strong lang="en">Total Commander</strong>
 		(<a href="http://www.ghisler.com/download.htm"
 			hreflang="en">http://www.ghisler.com/download.htm</a>)</li>
@@ -215,5 +207,5 @@ class="soubor">history.dat</span> a nastavit mu atribut <code>jen pro
 <p><small>30. 11. 2004, <a href="http://pmatous.net/">Petr Matouš</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

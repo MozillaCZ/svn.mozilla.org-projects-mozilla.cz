@@ -92,7 +92,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/lokalizovano-50-rozsireni/">Lokalizováno 50 rozšíření</a></h3>
 
-	<div>Máme tu čest vám oznámit, že počet <a href="/doplnky/rozsireni/">lokalizovaných rozšíření</a>, která nabízíme, právě překročil úctyhodný počet padesáti kusů. Díky tvrdé a obětavé práci mnoha lokalizátorů se tak čeština stala jedním z nejčastěji používaných jazyků rozšíření. Děkujeme všem, kteří k tomu svým dílem přispěli a pokud byste chtěli i vy pomoci na cestě za stovkou, přečtěte si <a href="/clanky/prekladame-rozsireni.html">jak lokalizovat rozšíření</a> a <a href="/czilla/lide.html#kdo-je-LP">napište nám</a>.</div>
+	<div>Máme tu čest vám oznámit, že počet <a href="/doplnky/rozsireni/">lokalizovaných rozšíření</a>, která nabízíme, právě překročil úctyhodný počet padesáti kusů. Díky tvrdé a obětavé práci mnoha lokalizátorů se tak čeština stala jedním z nejčastěji používaných jazyků rozšíření. Děkujeme všem, kteří k tomu svým dílem přispěli a pokud byste chtěli i vy pomoci na cestě za stovkou, přečtěte si <a href="/clanky/prekladame-rozsireni.html">jak lokalizovat rozšíření</a> a <a href="/czilla/prispevatele.php#kdo-je-LP">napište nám</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/petrovicky/">Lukáš Petrovický</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/03/02/">2. 3. 05</a>

@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Nevyžádaná pošta v Thunderbirdu';
-	$page->headline = array('Nevyžádaná pošta','Návod jak blokovat nevyžádanou poštu v Thunderbirdu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Nevyžádaná pošta v Thunderbirdu');
+	$page->setHeadline('Nevyžádaná pošta','Návod jak blokovat nevyžádanou poštu v Thunderbirdu');
 	$page->setKeywords('nevyžádaná pošta, spam, junk, podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod jak blokovat nevyžádanou poštu v Thunderbirdu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Hlavním problémem elektronické pošty dneška je velké množství nevyžádané
 pošty (spamu), která zahlcuje vaši poštovní schránku a&nbsp;okrádá vás 
@@ -28,7 +24,7 @@ o&nbsp;čas.</p>
 	<li>V rozbalovacím seznamu vyberte poštovní účet, pro který chcete filtry 
 	nevyžadané pošty nastavit. Všimněte si, že "poštovním účtem" nyní označujeme
 	položku v&nbsp;panelu složek, do které se ukládají zprávy. Pokud tedy 
-	používáte  <a href="globalni-dorucena-posta.html">Globální doručenou 
+	používáte  <a href="globalni-dorucena-posta.php">Globální doručenou
 	poštu</a>, zvolte jako účet Místní složky. Tím se liší od filtrů pro zprávy,
 	kde vybíráte účet, který zprávu přijímá. 
 
@@ -99,5 +95,5 @@ vás zbavuje právě té pošty, kterou nechcete číst.</p>
 </ul>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

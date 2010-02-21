@@ -1,19 +1,19 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Záložky ve Firefoxu';
-	$page->headline = array('Záložky','Začínáme používat prohlížeč Firefox, 8. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Záložky ve Firefoxu');
+	$page->setHeadline('Záložky','Začínáme používat prohlížeč Firefox, 8. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, záložky');
 	$page->setDescription ('Návod jak ve Firefoxu pracovat s tiskem');			
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Předchozí:
-		<a href="./tisk-stranek.html">Tisk stránek</a></li>
+		<a href="./tisk-stranek.php">Tisk stránek</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -44,7 +44,7 @@ pojmenovat. Můžete též zvolit, kde bude záložka uložena (ve které složc
 Pokud zaškrtnete volbu, která je též součástí dialogu, uloží se  do podsložky 
 záložek všechny aktuálně otevřené panely. Pokud si nejste jisti informacemi 
 o&nbsp;panelech, nahlédněte do  
-<a href="prohlizeni-v-panelech.html">jiného dílu</a>.Doporučuji vám, abyste 
+<a href="prohlizeni-v-panelech.php">jiného dílu</a>.Doporučuji vám, abyste 
 strávili chvilku času zkoušením různých možností.</p>
 
 
@@ -93,11 +93,11 @@ v&nbsp;závislosti na tom, co potřebujete.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Předchozí:
-		<a href="./tisk-stranek.html">Tisk stránek</a></li>
+		<a href="./tisk-stranek.php">Tisk stránek</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

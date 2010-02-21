@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 20. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','20. číslo (8.7.2004 / 15.7.2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 20. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','20. číslo (8.7.2004 / 15.7.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 Konečně,
@@ -498,7 +495,7 @@ prohlížeče jako Mozilla a Opera</i>".</font></font></p>
  face="moz-fixed">Vyšla
 česká <a href="ftp://ftp.czilla.cz/mozilla.org/mozilla/1.7/">Mozilla
 1.7</a>, k dispozici je
-<a href="/czilla/tiskove-zpravy/mozilla-1.7-cz.html">tisková
+<a href="/czilla/tiskove-zpravy/mozilla-1.7-cz.php">tisková
 zpráva</a>.<br>
 <br>
 4.
@@ -839,5 +836,6 @@ Marek a Martin Hassman <br>
 </font></font></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

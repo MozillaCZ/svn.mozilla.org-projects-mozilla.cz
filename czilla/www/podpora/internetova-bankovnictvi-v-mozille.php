@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Internetová bankovnictví v Mozille';
-	$page->headline = array('Internetová bankovnictví v Mozille','Přehled funkčních a nefunkčních internetových bankovnictví');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Internetová bankovnictví v Mozille');
+	$page->setHeadline('Internetová bankovnictví v Mozille','Přehled funkčních a nefunkčních internetových bankovnictví');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/">Mozilla.cz</a>.</div>
 
 <p>Internetové bankovnictví (<span lang="en">internet banking</span>)
 zaznamenává v&nbsp;poslední době velký rozmach.
@@ -202,9 +203,9 @@ které ve funkčnosti/nefunkčnosti nastanou.</p>
 </ul>
 
 <hr />
-<p><small>Sepsal: <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> (CZilla),
+<p><small>Sepsal: <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> (CZilla),
 Poslední aktualizace: 5. prosince 2005</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

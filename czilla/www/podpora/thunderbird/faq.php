@@ -1,19 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Často kladené otázky k Thunderbirdu';
-	$page->headline = array('Často kladené otázky','Na co se nás uživatelé často ptají');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Často kladené otázky k Thunderbirdu');
+	$page->setHeadline('Často kladené otázky','Na co se nás uživatelé často ptají');
 	$page->setKeywords('podpora, otázky, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Stránka často kladených otázek ohledně pošťáka Mozilla Thunderbird');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
-	$page->includeFile('tips');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p id="top">Toto je neoficiální Thunderbird <abbr
 title="Frequently Asked Questions" lang="en">FAQ</abbr>,
@@ -75,7 +70,7 @@ podobně jako konkurenční produkty (např. Outlook Express), ale obsahuje něk
 hlavních výhod, např. filtrování nevyžádané pošty. Více informací o tomto
 poštovním klientovi získáte na <a
 href="http://www.mozilla.org/projects/thunderbird/index.html"
-hreflang="en">stránkách projektu</a> [Eng].</p>
+hreflang="en">stránkách projektu</a>.</p>
 
 
 <h3 id="q1.2">Co je Mozilla?</h3>
@@ -97,18 +92,18 @@ k použití.</p>
 <h3 id="why">Proč bych měl používat Thunderbird místo ostatních poštovních klientů?</h3>
 <p>Přečtěte si dokument <a
 href="http://www.mozilla.com/thunderbird/why/" hreflang="en">proč
-používat Thunderbird</a> [Eng].</p>
+používat Thunderbird</a>.</p>
 
 
 <h3 id="free">Je Thunderbird zdarma?</h3>
 <p>Ano, Thunderbird je software s otevřeným kódem, to znamená, že každý má
 právo stáhnout a používat poštovního klienta zdarma, a prohlížet a upravovat
 zdrojový kód podle ustanovení uvedených v <a
-href="http://www.mozilla.org/MPL/" hreflang="en">licenci</a> [Eng].</p>
+href="http://www.mozilla.org/MPL/" hreflang="en">licenci</a> .</p>
 
 
 <h3 id="q1.4">Kde můžu stáhnout Thunderbird?</h3>
-<p>Přejděte na stránku <a href="/produkty/thunderbird/stahnout.html">stažení Mozilla Thunderbird</a>,
+<p>Přejděte na stránku <a href="http://www.mozilla.cz/stahnout/thunderbird/">stažení Mozilla Thunderbird</a>,
 kde naleznete další pokyny.</p>
 
 <h3 id="q1.5">Jak mám nainstalovat Mozilla Thunderbird?</h3>
@@ -118,13 +113,13 @@ kde naleznete další pokyny.</p>
 <h3 id="uninstall">Jak mám odinstalovat Mozilla Thunderbird?</h3>
 
 <p>Pokud jste nainstalovali Mozilla Thunderbird použitím oficiálního <a
-href="/produkty/thunderbird/stahnout.html">instalátoru pro Windows</a>, odinstalujte jej
+href="http://www.mozilla.cz/stahnout/thunderbird/">instalátoru pro Windows</a>, odinstalujte jej
 použitím panelu <span class="nabidka">Přidat nebo odebrat programy</span> v Ovládacích panelech
 Windows.</p>
 
 <p>Pokud jste nainstalovali Mozilla Thunderbird použitím neoficiálního
 zabaleného archívu, pouze smažte složku, do které jste archiv rozbalili. Také
-můžete smazat <a href="konfigurace.html#profile">složku s profilem</a>.
+můžete smazat <a href="konfigurace.php#profile">složku s profilem</a>.
 Tím ale smažete i všechny vaše poštovní zprávy uložené v této složce.</p>
 
 <h3 id="q1.7">Jaký je rozdíl mezi stabilními a nočními verzemi?</h3>
@@ -139,12 +134,12 @@ noční verze budou na 100&nbsp;% fungovat. (Nu, to někdy nemusí ani stabilní
 Mozilla Thunderbird do světových jazyků (do češtiny <a href="/">tým
 CZilla</a>). Seznam všech lokalizovaných verzí najdete na <a
 href="http://ftp.mozilla.org/pub/thunderbird/releases/0.2/contrib-localized/"
-lang="en" hreflang="en">localized builds list</a> [Eng], české verze najdete na stránce
-<a href="/produkty/thunderbird/stahnout.html">stažení Mozilla Thunderbird</a>.</p>
+lang="en" hreflang="en">localized builds list</a> , české verze najdete na stránce
+<a href="http://www.mozilla.cz/stahnout/thunderbird/">stažení Mozilla Thunderbird</a>.</p>
 
 <h3 id="profilemanager">Jak spustím Správce profilů?</h3>
 <p>Thunderbird uchovává vaše osobní nastavení a poštu ve <a
-href="konfigurace.html#profile">složce profilu</a>. Správce profilů slouží
+href="konfigurace.php#profile">složce profilu</a>. Správce profilů slouží
 ke správě více profilů. Správce profilů zobrazíte tak, že spustíte
 Thunderbird s přepínačem <var>-p</var>. Ve Windows následujte tyto kroky:</p>
 
@@ -181,7 +176,7 @@ Thunderbirdu, postupujte takto:</p>
 
 	<li>Najděte Mozilla profil, který chcete přenést (<span class="soubor">...\Application
 	Data\Mozilla\Profiles\\XXXXXXXX.slt</span>). Najděte umístění vašeho
-	nového výchozího <a href="konfigurace.html#profile">profilu</a>. Nyní
+	nového výchozího <a href="konfigurace.php#profile">profilu</a>. Nyní
 	zkopírujte veškerý obsah první složky do druhé včetně podsložek.</li>
 
 	<li>Ještě nejste hotovi, protože Mozilla používá absolutní cesty složek
@@ -240,7 +235,7 @@ přes AOL server. Proto se ujistěte, že používáte lokální složky pro Ode
 poštu, Koncepty a Šablony. Toto specifikujete tak, že otevřete Nastavení účtu a
 vyberete pod AOL účtem <span class="nabidka">Kopie &amp; složky</span>.</p>
 
-<p>Pro více informací si přečtěte <a href="http://help.channels.aol.com/article.adp?catId=1&amp;sCId=416&amp;sSCId=4093&amp;articleId=217449" title="AOL Help : Can I read and send AOL e-mail using other e-mail applications?" lang="en" hreflang="en">article on AOL Help</a> [Eng].</p>
+<p>Pro více informací si přečtěte <a href="http://help.channels.aol.com/article.adp?catId=1&amp;sCId=416&amp;sSCId=4093&amp;articleId=217449" title="AOL Help : Can I read and send AOL e-mail using other e-mail applications?" lang="en" hreflang="en">article on AOL Help</a> .</p>
 
 
 <h3 id="q2.3">Můžu přistupovat k Nescape Webmail nebo Hotmail účtům pomocí Thunderbirdu?</h3>
@@ -248,7 +243,7 @@ vyberete pod AOL účtem <span class="nabidka">Kopie &amp; složky</span>.</p>
 přímo pomocí poštovního klienta vyžaduje použití Netscape 6+ s AIM; podobně Hotmail
 požaduje Microsoft Outlook nebo Outlook Express. Pro tento účel jsou dostupné
 freewarové aplikace, jako například <a href="http://www.boolean.ca/hotpop/"
-lang="en" hreflang="en">Hotmail Popper</a> [Eng].</p>
+lang="en" hreflang="en">Hotmail Popper</a> .</p>
 
 <p>Dalším příkladem je <a href="http://www.nongnu.org/gotmail/" lang="en"
 hreflang="en">Gotmail</a>, utilita
@@ -267,7 +262,7 @@ href="http://www.hotmail.com/" hreflang="en">http://www.hotmail.com/</a>.</p>
 ve kterém můžete složku uložit jako mbox složku. Zkopírujte všechny zprávy
 doručené pošty Kmailu do nové složky inboxmbox, potom složku zkopírujte
 nebo přesuňte do podsložky <span class="soubor">Mail/Local Folders</span>
-ve vašem <a href="konfigurace.html#profile">složce s profilem</a>.
+ve vašem <a href="konfigurace.php#profile">složce s profilem</a>.
 Když otevřete Thunderbird, složka inboxmbox se zobrazí pod Lokálními složkami.
 Zkopírujte zprávy do složky Doručená pošta podle vašeho uvážení.</p>
 
@@ -277,7 +272,7 @@ Zkopírujte zprávy do složky Doručená pošta podle vašeho uvážení.</p>
 <span class="nabidka">Zobrazit obsah balíčku</span> a otevře se nové okno obsahující
 několik souborů včetně souboru pojmenovaného <span class="soubor">mbox</span>.
 Zkopírujte tento soubor do podsložky nazvané <span class="soubor">Mail</span>
-ve vaší <a href="konfigurace.html#profile">složce s profilem</a>
+ve vaší <a href="konfigurace.php#profile">složce s profilem</a>
 a přejmenujte ji na smysluplnější název. Tento proces opakujte pro každou vaši
 poštovní složku. Nakonec spusťte Thunderbird a uvidíte nové poštovní složky.</p>
 
@@ -349,7 +344,7 @@ kde najdete přehled dostupných motivů vzhledu.</p>
 <h3 id="q2.7">Jaká je klávesová zkratka pro příkaz x?</h3>
 <p>Nejčastěji používané klávesové zkratky naleznete na adrese <a
 href="http://www.mozilla.org/support/thunderbird/keyboard" lang="en"
-hreflang="en">Keyboard Shortcuts</a> [Eng].</p>
+hreflang="en">Keyboard Shortcuts</a> .</p>
 
 <h3 id="q2.8">Je Thunderbird náchylný na viry?</h3>
 <p>
@@ -364,7 +359,7 @@ spustit kód skriptu pouhým otevřením zprávy.</p>
 jakéhokoliv souboru, který jste přijali v poště. Vhodný antivirový program vám
 pomůže zvýšit vaši bezpečnost.</p>
 
-<p>Vaše soubory pošty jsou uvnitř <a href="konfigurace.html#profile">vašeho profilu</a>,
+<p>Vaše soubory pošty jsou uvnitř <a href="konfigurace.php#profile">vašeho profilu</a>,
 ve složkách <span class="soubor">Mail</span> a (pokud používáte <acronym
 title="Internet Message Access Protocol" lang="en">IMAP</acronym>)
 <span class="soubor">ImapMail</span>. Každá poštovní složka
@@ -393,7 +388,7 @@ certifikáty se použijí pro digitální podpis nebo šifrování.</p>
 
 <p><abbr title="Pretty Good Privacy" lang="en">PGP</abbr> nebo GnuPG není
 zahrnuto v Thunderbirdu, ale je ve vývoji, viz <a
-href="http://enigmail.mozdev.org/" hreflang="en">Enigmail</a> [Eng].</p>
+href="http://enigmail.mozdev.org/" hreflang="en">Enigmail</a> .</p>
 
 <h3 id="q2.13">Změnil jsem mé <acronym title="Internet Message Access Protocol"
 lang="en">IMAP</acronym> heslo, jak mám odstranit zapamatované heslo?</h3>
@@ -417,5 +412,5 @@ nakonec klepněte na <span class="nabidka">Změnit heslo</span>.</p>
 
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

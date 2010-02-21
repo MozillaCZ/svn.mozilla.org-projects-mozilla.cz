@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 5. Adresář (databáze kontaktů)');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 5. Adresář (databáze kontaktů)');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul><li><a href="#5.1">5.1. Jak přenesu adresář z nebo do jiného programu?</a></li></ul>
@@ -22,5 +21,6 @@ Mozilla používá k ukládání formát LDIF.</p>
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+

@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 18. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','18. číslo (3.5.2004 / 19.5.2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 18. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','18. číslo (3.5.2004 / 19.5.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <pre>
@@ -388,5 +385,6 @@ Hledáme další překladatele na urychlení vydávání českých verzí!
 </pre>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

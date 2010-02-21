@@ -56,7 +56,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/tyden-open-source/">Týden Open Source</a></h3>
 
-	<div>V týdnu od 20. do 23. února bude probíhat v prostorách Přírodovědecké Fakulty Univerzity Palackého v Olomouci <a href="http://www.geoinformatics.upol.cz/tydenos/">Týden Open Source</a>. V rámci něj bude <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-JB">Jiří Burda</a> prezentovat i <a href="http://www.geoinformatics.upol.cz/tydenos/program.html">Firefox a Thunderbird</a>.</div>
+	<div>V týdnu od 20. do 23. února bude probíhat v prostorách Přírodovědecké Fakulty Univerzity Palackého v Olomouci <a href="http://www.geoinformatics.upol.cz/tydenos/">Týden Open Source</a>. V rámci něj bude <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-JB">Jiří Burda</a> prezentovat i <a href="http://www.geoinformatics.upol.cz/tydenos/program.html">Firefox a Thunderbird</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/pribyl/">Adam Přibyl</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/06/">6. 2. 06</a>
@@ -76,7 +76,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/czilla-v-radiu/">CZilla v rádiu</a></h3>
 
-	<div>Na <a href="http://www.radioakropolis.cz/main.php">rádiu Akropolis</a>, vysílajícím výhradně prostřednictvím sítě internet, si můžete dnes v pořadu Terabajt od 18:00 do 19:00h poslechnout rozhovor s <a href="/czilla/lide.html#kdo-je-JB">Jirkou Burdou</a> o CZille a Firefoxu. Rozhovor bude možné i dodatečně stáhnout z <a href="http://www.radioakropolis.cz/main.php?id=archiv&amp;id_=4">archívu rádia</a>.</div>
+	<div>Na <a href="http://www.radioakropolis.cz/main.php">rádiu Akropolis</a>, vysílajícím výhradně prostřednictvím sítě internet, si můžete dnes v pořadu Terabajt od 18:00 do 19:00h poslechnout rozhovor s <a href="/czilla/prispevatele.php#kdo-je-JB">Jirkou Burdou</a> o CZille a Firefoxu. Rozhovor bude možné i dodatečně stáhnout z <a href="http://www.radioakropolis.cz/main.php?id=archiv&amp;id_=4">archívu rádia</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/pribyl/">Adam Přibyl</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2004/11/23/">23. 11. 04</a>

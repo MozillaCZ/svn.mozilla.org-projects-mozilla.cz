@@ -1,19 +1,19 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Instalace Firefoxu';
-	$page->headline = array('Instalace a konfigurace','Začínáme používat prohlížeč Firefox, 1. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Instalace a konfigurace');
+	$page->setHeadline('Instalace a konfigurace','Začínáme používat prohlížeč Firefox, 1. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, tutorial, instalace');
 	$page->setDescription ('Návod na instalaci a import dat do Mozilla Firefoxu');	
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./prohlizeni-v-panelech.html">Prohlížení stránek v&nbsp;panelech</a></li>
+		<a href="./prohlizeni-v-panelech.php">Prohlížení stránek v&nbsp;panelech</a></li>
 	<li>Předchozí:
 		<a href="./">Úvod a&nbsp;obsah</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
@@ -31,7 +31,7 @@ prohlížeč Firefox představit.</p>
 <h2 class="nice ff">Instalace a&nbsp;konfigurace</h2>
 
 <p>První věc, kterou potřebujete udělat, je získat instalační program Mozilla
-Firefoxu. Na stránce <a href="http://firefox.czilla.cz/stahnout/">stažení 
+Firefoxu. Na stránce <a href="http://www.mozilla.cz/stahnout/firefox/">stažení 
 Firefoxu</a> naleznete zdarma vždy nejnovější lokalizovanou verzi.</p>
 
 <p>Na stránce si doporučuji pečlivě přečíst, kterou verzi byste si měli stáhnout. 
@@ -43,8 +43,8 @@ točit okolo ní. Pokud si nejste jisti a&nbsp;používáte Windows, stáhněte 
 
 <p>První přichází na řadu instalátor. Nyní vás provedu jednotlivými kroky
 instalace, která je snadná. Mnou popisovaný instalátor je lokalizovaný 
-a&nbsp;vytváří jej <a href="http://www.czilla.cz/" 
-title="CZilla.cz: Domovská stránka">CZilla</a> ve spolupráci 
+a&nbsp;vytváří jej <a href="http://www.mozilla.cz/" 
+title="Mozilla.cz: Domovská stránka">Mozilla.cz</a> ve spolupráci 
 s <a href="http://www.mozilla.org" title="Mozilla.org: Domovská stránka"
  hreflang="en">Mozilla.org</a>.</p>
 
@@ -145,7 +145,7 @@ nastavením.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./prohlizeni-v-panelech.html">Prohlížení stránek v&nbsp;panelech</a></li>
+		<a href="./prohlizeni-v-panelech.php">Prohlížení stránek v&nbsp;panelech</a></li>
 	<li>Předchozí:
 		<a href="./">Úvod a&nbsp;obsah</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
@@ -153,5 +153,5 @@ nastavením.</p>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

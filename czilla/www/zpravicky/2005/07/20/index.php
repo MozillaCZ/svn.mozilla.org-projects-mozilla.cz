@@ -79,7 +79,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/nvu-1.0-cz/">Nvu 1.0 CZ</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PP">Pavel Petric</a> pro vás připravil lokalizaci <abbr title="What You See Is What You Get" lang="en">WYSIWYG</abbr> editoru <a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a> verze 1.0, který slouží ke snadnému vytváření a správě webových stránek. Instalátory pro jednotlivé operační systémy a samostatný lokalizační balíček jsou k dispozici ke stažení v sekci <a href="/stahnout/" title="Stáhnout produkty">Stáhnout</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PP">Pavel Petric</a> pro vás připravil lokalizaci <abbr title="What You See Is What You Get" lang="en">WYSIWYG</abbr> editoru <a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a> verze 1.0, který slouží ke snadnému vytváření a správě webových stránek. Instalátory pro jednotlivé operační systémy a samostatný lokalizační balíček jsou k dispozici ke stažení v sekci <a href="/stahnout/" title="Stáhnout produkty">Stáhnout</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/cvrcek/">Pavel Cvrček</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/07/20/">20. 7. 05</a>

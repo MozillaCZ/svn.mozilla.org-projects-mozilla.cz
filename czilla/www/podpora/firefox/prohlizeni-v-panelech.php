@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla Firefox a prohlížení v panelech';
-	$page->headline = array('Mozilla Firefox a prohlížení v panelech','Naučte se používat další užitečnou funkci svého prohlížeče');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Mozilla Firefox a prohlížení v panelech');
+	$page->setHeadline('Mozilla Firefox a prohlížení v panelech','Naučte se používat další užitečnou funkci svého prohlížeče');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p><a href="/produkty/firefox/">Mozilla Firefox</a> je internetový prohlížeč
 nové generace, jehož uživatelské prostředí i&nbsp;funkce jsou navrženy tak,
@@ -219,18 +220,18 @@ nedokážete představit, jak to bez nich vůbec mohlo jít.</p>
 
 <h2 class="nice" id="nazory-uzivatelu">Názory uživatelů</h2>
 <p>Uživatelé si prohlížení v panelech ve svých <a
-href="http://firefox.czilla.cz/zkusenosti/">zkušenostech</a> často chválí. <a
-href="http://firefox.czilla.cz/zkusenosti/nada-malkovska/">Naďa Malkovská</a> je
+href="http://firefox.mozilla.cz/zkusenosti/">zkušenostech</a> často chválí. <a
+href="http://firefox.mozilla.cz/zkusenosti/nada-malkovska/">Naďa Malkovská</a> je
 považuje za velký klad a dle <a
-href="http://firefox.czilla.cz/zkusenosti/patrick-zandl/">Patrika Zandla</a> je
+href="http://firefox.mozilla.cz/zkusenosti/patrick-zandl/">Patrika Zandla</a> je
 to jedna z mnoha užitečných maličkostí.</p>
 <p>Další <a
-href="http://firefox.czilla.cz/zkusenosti/">zkušenosti uživatelů</a>, stejně
-jako například <a href="http://firefox.czilla.cz/otazky/klavesove-zkratky/">
+href="http://firefox.mozilla.cz/zkusenosti/">zkušenosti uživatelů</a>, stejně
+jako například <a href="http://firefox.mozilla.cz/otazky/klavesove-zkratky/">
 seznam klávesových zkratek</a>, pár slov o
-<a href="http://firefox.czilla.cz/otazky/ovladani-mysi/">ovládání Firefoxu
+<a href="http://firefox.mozilla.cz/otazky/ovladani-mysi/">ovládání Firefoxu
  myší</a> a další užitečné informace naleznete na webu
- <a href="http://firefox.czilla.cz">Přejděte na Firefox</a>.</p>
+ <a href="http://firefox.mozilla.cz">Přejděte na Firefox</a>.</p>
 
 <h2 class="nice">Stojí prohlížení v&nbsp;panelech za to?</h2>
 
@@ -241,8 +242,8 @@ starému prohlížeči, jenž tuto vlastnost nemá.</p>
 
 
 <hr />
-<p><small>13. 01. 2005, <a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a>, Tým CZilla</small></p>
+<p><small>13. 01. 2005, <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a>, Tým CZilla</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

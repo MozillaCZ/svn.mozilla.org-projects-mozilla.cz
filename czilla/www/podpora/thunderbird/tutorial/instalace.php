@@ -1,19 +1,19 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Úvod a instalace';
-	$page->headline = array('Úvod a instalace','Úvod do Thunderbirdu, 1. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Úvod a instalace');
+	$page->setHeadline('Úvod a instalace','Úvod do Thunderbirdu, 1. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, instalace');
-	$page->setDescription ('Návod na instalaci Mozilla Thunderbirdu');		
-
-	$page->includeHeader();
+	$page->setDescription ('Návod na instalaci Mozilla Thunderbirdu');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./prace-s-postou.html">Základy práce s&nbsp;poštou</a></li>
+		<a href="./prace-s-postou.php">Základy práce s&nbsp;poštou</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -46,9 +46,7 @@ Na této adrese naleznete vždy nejnovější počeštěnou verzi společně s&n
 informacemi o&nbsp;programu Mozilla Thunderbird, jako jsou aktualizace či 
 přídavné funkce.</p>
 
-<h3>Přímý odkaz ke stažení</h3>
-
-<p><strong><a href="/produkty/thunderbird/stahnout.html">Stažení poslední verze</a>
+<p><strong><a href="http://www.mozilla.cz/stahnout/thunderbird/">Stažení poslední verze</a>
 </strong></p>
 
 <h2 class="nice thunderbird">Jak ho mám nainstalovat?</h2>
@@ -169,11 +167,11 @@ Program vás o&nbsp;to sám požádá. Ukážeme si to krok po kroku.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./prace-s-postou.html">Základy práce s&nbsp;poštou</a></li>
+		<a href="./prace-s-postou.php">Základy práce s&nbsp;poštou</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

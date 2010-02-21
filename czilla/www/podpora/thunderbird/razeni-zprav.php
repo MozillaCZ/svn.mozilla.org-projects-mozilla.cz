@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Řazení zpráv v Thunderbirdu';
-	$page->headline = array('Řazení zpráv','Návod jak si seřadit svou poštu v Thunderbirdu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Řazení zpráv v Thunderbirdu');
+	$page->setHeadline('Řazení zpráv','Návod jak si seřadit svou poštu v Thunderbirdu');
 	$page->setKeywords('řazení zpráv, třídění, podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod jak si seřadit svou poštu v Thunderbirdu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Funkce seskupování zpráv vám umožňuje organizovat zprávy do skupin podle
 různých vlastností, jako jsou odesílatel nebo důležitost. Pokud například
@@ -44,9 +40,9 @@ příjemce, stavu, předmětu nebo štítku.</p>
 	<li>Seskupování zpráv funguje pro každou složku zvlášť. Pokud tedy seskupíte
 	zprávy např. ve složce Doručená pošta, v Odeslané poště seskupeny nebudou.</li>
 	<li>Seskupování zpráv prozatím nefunguje ve 
-	<a href="slozky-ulozeneho-hledani.html">složkách uloženého hledání</a>.</li>
+	<a href="slozky-ulozeneho-hledani.php">složkách uloženého hledání</a>.</li>
 </ul>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

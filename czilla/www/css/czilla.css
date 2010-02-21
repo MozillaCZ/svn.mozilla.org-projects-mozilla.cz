@@ -427,3 +427,26 @@ dl.fr {float:right;width:50%}
 
 ul.news {padding:0 1.5em;margin:1em 0}
 dl.news {margin-left:0}
+
+/* Soubor s definicemi pro kod zvyrazneny jEditem. */
+.syntax0 {} /* (nezvyrazneno) */
+.syntax1 {color: #008000} /* COMMENT1 - JS:  \**\, XML: <!-- --> */
+.syntax2 {color: #008000} /* COMMENT2 - JS: // */
+.syntax3 {color: #008080} /* COMMENT3 - Java: JavaDoc */
+.syntax4 {color: #008000} /* COMMENT4 */
+.syntax5 {color: #000080} /* DIGIT */
+.syntax6 {} /* FUNCTION */
+.syntax7 {} /* INVALID */
+.syntax8 {font-weight: bold} /* KEYWORD1 - JS: rezervovana slova */
+.syntax9 {color:#000080;font-weight: bold} /* KEYWORD2 - XML: <!DOCTYPE */
+.syntax10 {} /* KEYWORD3 - JS: spec. objekty, XML: <?xml deklarace */
+.syntax11 {font-weight: bold} /* KEYWORD4 */
+.syntax12 {} /* LABEL - XML: namespace */
+.syntax13 {color:#800000} /* LITERAL1 - JS: retezec */
+.syntax14 {} /* LITERAL2 */
+.syntax15 {} /* LITERAL3 */
+.syntax16 {} /* LITERAL4 */
+.syntax17 {color: #800080;font-weight:bold} /* MARKUP - XML: tagy */
+.syntax18 {} /* OPERATOR */
+
+.obsolete {background-color:#ee9e22; text-align:center; padding:10px; border:1px solid #000}

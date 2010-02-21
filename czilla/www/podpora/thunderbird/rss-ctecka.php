@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'RSS čtečka v Thunderbirdu';
-	$page->headline = array('RSS čtečka v Thunderbirdu','Návod jak používat RSS čtečku v Thunderbirdu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('RSS čtečka v Thunderbirdu');
+	$page->setHeadline('RSS čtečka v Thunderbirdu','Návod jak používat RSS čtečku v Thunderbirdu');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod jak používat RSS čtečku v Thunderbirdu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Dnes již prakticky každý významnější web nabízí 
 <abbr title="Really Simple Syndication">RSS</abbr> kanál, což je malý soubor,
@@ -144,7 +140,7 @@ title="Mozilla Firefox: Stránka o produktu">Mozilla Firefox</a> je přítomnost
 signalizována ikonkou
 <img src="/images/articles/az-rss-ikonka.png" alt="RSS ikonka" height="14" width="14" />
 umístěnou adresním řádku. Pokud si do Firefoxu přidáte 
-<a href="/podpora/firefox/aktualni-zalozky.html">aktuální záložku</a> tohoto
+<a href="/podpora/firefox/aktualni-zalozky.php">aktuální záložku</a> tohoto
 <abbr title="Really Simple Syndication">RSS</abbr> kanálu, můžete jeho adresu získat v dialogu
 vlastnosti této aktuální záložky.</p>
 
@@ -153,26 +149,11 @@ vlastnosti této aktuální záložky.</p>
 
 <p>Dalším způsobem je hledat na stránkách vašeho oblíbeného serveru, zda někde
 na svých stránkách sami své <abbr title="Really Simple Syndication">RSS</abbr>
-kanály neinzerují. Pro příklad použijeme stránky 
-<a href="http://www.czilla.cz/" 
- title="http://www.czilla.cz"><tt>http://www.czilla.cz</tt></a>.
-Úplně dole (v patičce) vidíte odkaz <span class="nabidka">Seznam RSS</span>.
-Klepneme-li na něj, objeví se stránka se seznamem 
-<abbr title="Really Simple Syndication">RSS</abbr> kanálů serveru CZilla.cz.
-Pokud nyní klepnete např. na odkaz 
-<a href="http://www.czilla.cz/rss/rss.html">RSS kanál novinek z&nbsp;titulní 
-stránky</a>, načte se vám <abbr title="eXtensible Markup Language">XML</abbr>
-zdroj tohoto kanálu, jehož adresu si do schránky můžete zkopírovat 
-z&nbsp;adresního řádku.</p>
-
-<div class="img-center"><img src="images/rss-07.png" alt="Náhled RSS" 
- height="409" width="594" /></div>
-
-<p>Poslední námi nabízenou možností je navštívit některý ze specializovaných 
+kanály neinzerují. Poslední námi nabízenou možností je navštívit některý ze specializovaných
 serverů, zabývající se katalogizací 
 <abbr title="Really Simple Syndication">RSS</abbr> kanálů. Takovýmto serverem 
 je například server <a href="http://www.feedcat.net/">Feedcat.net</a>.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

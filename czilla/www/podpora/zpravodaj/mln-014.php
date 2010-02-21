@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 14. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','14. číslo (2. 3. 2004 / 9. 3. 2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 14. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','14. číslo (2. 3. 2004 / 9. 3. 2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -269,8 +266,8 @@ odhlášení apod.).</p>
 <p>Zpravodaj Mozilla Links je překládán do <a href="http://www.csie.ntu.edu.tw/%7Er91034/mozilla/forum/viewforum.php?f=15">čínštiny</a>, <a href="http://www.czilla.cz/podpora/zpravodaj/">češtiny</a>, <a href="http://www.mozbrowser.nl/nieuwsbrief">holandštiny</a>, <a href="http://www.mysunrise.ch/users/alabor">němčiny</a>, <a href="http://ryuzi.dyndns.org/mozillazine/html/modules/newbb/viewforum.php?forum=6">japonštiny</a>, <a href="http://www.vivamozilla.prv.pl/">polštiny</a> a <a href="http://www.mozilla.ru/">ruštiny</a>.</p>
 <p>Copyright 2004 přispěvatelé zpravodaje Mozilla Links. Zpravodaj Mozilla Links je vydáván pod licencí <a href="http://creativecommons.org/licenses/by-nc-sa/1.0/legalcode/">Creative Commons Attribution-NonCommercial-ShareAlike 1.0</a>.</p>
 <p><strong>Česká verze:</strong>
-<a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a>, Pavel Kácha a Tomáš Marek; <a href="mailto:info@czilla.cz">info@czilla.cz</a></p>
+<a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a>, Pavel Kácha a Tomáš Marek; <a href="mailto:info@czilla.cz">info@czilla.cz</a></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Základní ovládání, blokování vyskakovacích oken ve Firefoxu';
-	$page->headline = array('Základní ovládání Firefoxu','Začínáme používat prohlížeč Firefox, 3. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Základní ovládání, blokování vyskakovacích oken ve Firefoxu');
+	$page->setHeadline('Základní ovládání Firefoxu','Začínáme používat prohlížeč Firefox, 3. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, klávesové zkratky, myš');
 	$page->setDescription ('Návod jak pracovat s Firefoxem');		
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./rozsireni.html">Rozšíření</a></li>
+		<a href="./rozsireni.php">Rozšíření</a></li>
 	<li>Předchozí:
-		<a href="./prohlizeni-v-panelech.html">Prohlížení stránek v panelech</a></li>
+		<a href="./prohlizeni-v-panelech.php">Prohlížení stránek v panelech</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -60,9 +60,9 @@ v&nbsp;následujícím rychlém přehledu:
 <p>Toto jsou pouze základní klávesové zkratky, které můžete použít. Samozřejmě
 existují i&nbsp;další. Můžete si je zobrazit postupným rozbalováním jednotlivých
 nabídek <span class="nabidka">Soubor</span>, <span class="nabidka">Úpravy</span> apod. 
-Pokud máte zájem o&nbsp;jejich kompletní výpis, navštivte adresu <a
-href="http://firefox.czilla.cz/otazky/klavesove-zkratky/" 
-title="Přehled klávesových zkratek Firefoxu">http://firefox.czilla.cz/otazky/klavesove-zkratky/</a>.</p>
+Pokud máte zájem o&nbsp;jejich kompletní výpis, navštivte stránku s přehledem <a
+href="http://firefox.mozilla.cz/otazky/klavesove-zkratky/" 
+title="Přehled klávesových zkratek Firefoxu">nejvíce používaných klávesových zkratek</a>.</p>
 
 
 <h2 class="nice ff">Blokování vyskakovacích oken</h2>
@@ -116,13 +116,13 @@ odstranit použitím výborného freeware programu
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./rozsireni.html">Rozšíření</a></li>
+		<a href="./rozsireni.php">Rozšíření</a></li>
 	<li>Předchozí:
-		<a href="./prohlizeni-v-panelech.html">Prohlížení stránek v panelech</a></li>
+		<a href="./prohlizeni-v-panelech.php">Prohlížení stránek v panelech</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Antispamový filtr';
-	$page->headline = array('Antispamový filtr','Úvod do Thunderbirdu, 5. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Antispamový filtr');
+	$page->setHeadline('Antispamový filtr','Úvod do Thunderbirdu, 5. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, spam, antispam, nevyžádaná pošta');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s nevyžádanou poštou');	
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s nevyžádanou poštou');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./import.html">Import elektronické pošty a&nbsp;kontaktů</a></li>
+	  <a href="./import.php">Import elektronické pošty a&nbsp;kontaktů</a></li>
 	<li>Předchozí:
-		<a href="./prilohy.html">Práce s přílohami a&nbsp;kontakty</a></li>
+		<a href="./prilohy.php">Práce s přílohami a&nbsp;kontakty</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -81,13 +81,13 @@ To vám pomůže omezit problém s nevyžádanými zprávami.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./import.html">Import elektronické pošty a&nbsp;kontaktů</a></li>
+	  <a href="./import.php">Import elektronické pošty a&nbsp;kontaktů</a></li>
 	<li>Předchozí:
-		<a href="./prilohy.html">Práce s přílohami a&nbsp;kontakty</a></li>
+		<a href="./prilohy.php">Práce s přílohami a&nbsp;kontakty</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

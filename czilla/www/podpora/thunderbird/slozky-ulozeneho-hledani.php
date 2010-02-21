@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Složky uloženého hledání';
-	$page->headline = array('Složky uloženého hledání','Návod jak pouľívat v Thunderbirdu složky uloženého hledání');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Složky uloženého hledání');
+	$page->setHeadline('Složky uloženého hledání','Návod jak pouľívat v Thunderbirdu složky uloženého hledání');
 	$page->setKeywords('virtuální složky, složky uloženého hledání, podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod jak používat RSS čtečku v Thunderbirdu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>Thunderbird již od verze 0.9 nabízí Složky uloženého hledání. Taková složka
 vypadá úplně stjně jako běžná složka s&nbsp;poštou, ale když ji otevřete, prohledá
@@ -126,5 +122,5 @@ obnovit.</p>
 </ul>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

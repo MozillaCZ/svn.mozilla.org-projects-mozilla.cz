@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Tipy a triky pro pošťáka Thunderbird';
-	$page->headline = array('Tipy a triky','Jak si můžete upravit pošťáka Thunderbird');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Tipy a triky pro pošťáka Thunderbird');
+	$page->setHeadline('Tipy a triky','Jak si můžete upravit pošťáka Thunderbird');
 	$page->setKeywords('podpora, tipy, triky, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Stránka s různými tipy a triky pro pošťáka Mozilla Thunderbird');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p id="top">Tato stránka obsahuje různé tipy a triky pro <a href="./">Mozilla
 Thunderbird</a>. Většina těchto
@@ -56,7 +52,7 @@ odpovědích může jít velmi hluboko.</p>
 
 <p>Samozřejmě si můžete barvy v kódu uvedeném níže přizpůsobit dle vlastního vkusu.
 Přidejte následující kód do vašeho souboru <a
-href="konfigurace.html#content">userContent.css</a>:</p>
+href="konfigurace.php#content">userContent.css</a>:</p>
 
 <pre class="codearea"><code>/* Barvy úrovní citací */
 blockquote[type=cite] {
@@ -79,7 +75,7 @@ blockquote[type=cite] blockquote blockquote blockquote blockquote {
 <h3 id="cela-jmena-diskusnich-skupin">Zobrazovat jména diskusních skupin rozvinutá, ne zkrácená</h3>
 <p>Jména serverů diskusních skupin se v panelu složek zobrazují
 zkrácená. Chcete-li místo toho zobrazovat plná jména, přidejte následující
-kód do vašeho souboru <a href="konfigurace.html#user">user.js</a>:</p>
+kód do vašeho souboru <a href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Nezkracovat jména diskusních skupin:
 user_pref("mail.server.default.abbreviate", false);
@@ -89,7 +85,7 @@ user_pref("mail.server.default.abbreviate", false);
 
 <p>Můžete změnit barvu pozadí pro titulky Seskupit tříděním ("Dnes", "Včera", a tak dále).
 Pouze přidejte následující kód do vašeho souboru
-<a href="konfigurace.html#css">userChrome.css</a>:</p>
+<a href="konfigurace.php#css">userChrome.css</a>:</p>
 
 <pre class="codearea"><code>/* Změní barvu pozadí pro
    Seskupit tříděním "Dnes, Včera a tak dále..." */
@@ -122,7 +118,7 @@ lang="en">IMAP</acronym> složek na nové zprávy</h3>
 
 <p>Thunderbird může stáhnout poštu ze všech účtů při spuštění programu.
 Pouze přidejte následující kód do vašeho souboru <a
-href="konfigurace.html#user">user.js</a>:</p>
+href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Stáhnout zprávy ze všech účtů při spuštění
 user_pref("mail.check_all_imap_folders_for_new", true);</code></pre>
@@ -131,7 +127,7 @@ user_pref("mail.check_all_imap_folders_for_new", true);</code></pre>
 
 <p>Můžete si zvolit skrytí okna průběhu, které se zobrazuje při odesílání zprávy, přidáním
 následujícího kódu do vašeho souboru
-<a href="konfigurace.html#user">user.js</a>:</p>
+<a href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Nezobrazovat okno průběhu odesílání
 user_pref("mailnews.show_send_progress", false);
@@ -143,7 +139,7 @@ user_pref("mailnews.show_send_progress", false);
 <p>Standardní hlavičku odpovědi <q>[autor] napsal:</q> můžete změnit
 prakticky na cokoliv, a své e-maily přizpůsobit svým potřebám.
 Upravte a přidejte následující kód do vašeho souboru <a
-  href="konfigurace.html#user">user.js</a>, pokyny jsou v
+  href="konfigurace.php#user">user.js</a>, pokyny jsou v
 komentářích:</p>
 
 <pre class="codearea"><code>// Změna hlavičky odpovědi
@@ -179,7 +175,7 @@ user_pref("mail.password_protect_local_cache", true);
 výchozím nastavení při startu jména serverů, takže nekontroluje přítomnost
 nových zpráv. Perzistenci diskusních
 skupin můžete zapnout přidáním následujícího kódu do vašeho souboru
-<a href="konfigurace.html#user">user.js</a>:</p>
+<a href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Pamatovat si stav serverů diskusních skupin v panelu složek:
 user_pref("news.persist_server_open_state_in_folderpane", true); </code></pre>
@@ -191,7 +187,7 @@ user_pref("news.persist_server_open_state_in_folderpane", true); </code></pre>
 otvírat odkazy z poštovních zpráv
 v nových záložkách (nebo oknech) místo využití existujícího okna prohlížeče. Pokud toto
 chcete nastavit, postupujte podle instrukcí na stránkách
-<a href="/podpora/firefox/tipy-a-triky.html#beh_reuse">nápovědy k programu Mozilla Firefox</a>.</p>
+<a href="/podpora/firefox/tipy-a-triky.php#beh_reuse">nápovědy k programu Mozilla Firefox</a>.</p>
 
 
 <h3 id="zmena-chovani-prejit">Změna chování Přejít na další zprávu</h3>
@@ -202,7 +198,7 @@ chcete nastavit, postupujte podle instrukcí na stránkách
 složce. Pokud nejsou ve složce další nepřečtené zprávy, Thunderbird se vás
 zeptá, zda-li chcete postoupit do další složky obsahující nepřečtené zprávy.
 Toto chování můžete změnit přidáním (a úpravou) následujícího kódu do vašeho
-souboru <a href="konfigurace.html#user">user.js</a>:</p>
+souboru <a href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Toto nastavení mění chování "Přejít na další nepřečtenou zprávu v [x] složce"
 // <strong>0</strong> - Vždy přejít do další složky bez dotazování
@@ -218,7 +214,7 @@ URL</acronym> throbberu</h3>
 přesměrováni na <a href="http://www.mozilla.org/">www.mozilla.org</a>. Tato
 adresa může být změněna na jakoukoliv adresu (<abbr title="Uniform Resource
 Locator" lang="en">URL</abbr>) přidáním následujícího kódu do vašeho souboru <a
-href="konfigurace.html#user">user.js</a>:</p>
+href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Klepnutím na throbber přejít na Thunderbird nápovědu:
 user_pref("messenger.throbber.url", "http://www.mozilla.org/support/thunderbird/");</code></pre>
@@ -229,7 +225,7 @@ user_pref("messenger.throbber.url", "http://www.mozilla.org/support/thunderbird/
 <p>Když je přijata nová poštovní zpráva, zobrazí se malé upozornění v pravém
 dolním rohu obrazovky. Pomocí tohoto tipu můžete určit dobu zobrazení oznámení.
 Přidejte následující kód do vašeho souboru
-<a href="konfigurace.html#user">user.js</a>:</p>
+<a href="konfigurace.php#user">user.js</a>:</p>
 
 <pre class="codearea"><code>// Určení doby zobrazení oznámení nové zprávy (v milisekundách):
 user_pref("alerts.totalOpenTime", 4000);</code></pre>
@@ -237,5 +233,5 @@ user_pref("alerts.totalOpenTime", 4000);</code></pre>
 <p><a href="#top">Na začátek stránky</a></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

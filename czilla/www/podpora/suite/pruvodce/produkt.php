@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Používáme Mozillu (Mozilla - balík aplikací)';
-	$page->headline = array('Používáme Mozillu','Mozilla - balík aplikací');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Používáme Mozillu (Mozilla - balík aplikací)');
+	$page->setHeadline('Používáme Mozillu','Mozilla - balík aplikací');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <h2 id="index">Obsah</h2>
@@ -20,7 +19,7 @@
 </ul>
 
 <ul>
-<li><a href="index.html#index">Hlavní obsah</a></li>
+<li><a href="index.php#index">Hlavní obsah</a></li>
 </ul>
 
 <p><br /></p>
@@ -30,19 +29,19 @@
 <h3><a id="features">Jaké jsou nejzajímavější znaky Mozilly?</a></h3>
 
 <ul>
-<li><a href="../faq/prohlizec.html#2.10">Paralelní zpracování [Pipelining]</a> &#8211; zlepšuje výkon prohlížeče jak při použití vytáčeného připojení tak na širokopásmových připojeních.</li>
-<li><a href="../faq/prohlizec.html#2.3">Panelové prohlížení [Tabbed browsing]</a> &#8211; umožňuje přepínat stránky bez nutnosti přepínat okna aplikace.</li>
-<li><a href="../faq/prohlizec.html#2.4">Blokování vyskakovacích oken [Pop-up blocking]</a> &#8211; je potřeba říkat více?</li>
+<li><a href="../faq/prohlizec.php#2.10">Paralelní zpracování [Pipelining]</a> &#8211; zlepšuje výkon prohlížeče jak při použití vytáčeného připojení tak na širokopásmových připojeních.</li>
+<li><a href="../faq/prohlizec.php#2.3">Panelové prohlížení [Tabbed browsing]</a> &#8211; umožňuje přepínat stránky bez nutnosti přepínat okna aplikace.</li>
+<li><a href="../faq/prohlizec.php#2.4">Blokování vyskakovacích oken [Pop-up blocking]</a> &#8211; je potřeba říkat více?</li>
 <li><a href="http://developer.netscape.com/evangelism/docs/articles/bookmarks/">Klíčová slova záložek [Bookmark Keywords]</a> &#8211; zjednodušené prohlížení a prohledávání.</li>
-<li><a href="../faq/obecne.html#1.5">Uživatelská přizpůsobitelnost</a> &#8211; nastavte si předvolby Mozilly tak, aby vám vyhovovala</li>
-<li>Prohlížení stránek, (<a href="http://www.mozilla.org/docs/end-user/moz_shortcuts.html#page_viewing">změna velikosti</a> a alternativní stylesheety) &#8211; přestaňte být oběťmi špatného designu stránek.</li>
-<li><a href="../faq/vzhled.html">Témata vzhledu</a> &#8211; upravte si vzhled Mozilly podle svého vkusu a zvyků.</li>
-<li><a href="../faq/chatzilla.html#6.1">Chat</a> &#8211; vestavěný klient pro chat vám umožní používat IRC.</li>
+<li><a href="../faq/obecne.php#1.5">Uživatelská přizpůsobitelnost</a> &#8211; nastavte si předvolby Mozilly tak, aby vám vyhovovala</li>
+<li>Prohlížení stránek, (<a href="http://www.mozilla.org/docs/end-user/moz_shortcuts.php#page_viewing">změna velikosti</a> a alternativní stylesheety) &#8211; přestaňte být oběťmi špatného designu stránek.</li>
+<li><a href="../faq/vzhled.php">Témata vzhledu</a> &#8211; upravte si vzhled Mozilly podle svého vkusu a zvyků.</li>
+<li><a href="../faq/chatzilla.php#6.1">Chat</a> &#8211; vestavěný klient pro chat vám umožní používat IRC.</li>
 <li><a href="http://www.mozdev.org/">Rozšiřitelnost</a> &#8211; rozšíření (extension) znamenají, že Mozilla může být více než jen prohlížeč.</li>
 <li><a href="http://www.mozilla.org/releases/">Podpora více platforem</a> &#8211; stejná Mozilla na různých počítačích (Mozilla je nyní každý den předpřipravena pro použití na mnoha systémech a na dalších je možno ji zkompilovat).</li>
 </ul>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -54,7 +53,7 @@
 
 <p>Hlad po lokalizovaných aplikacích a obsahu je pozorovatelný v enormním množství dobrovolných komunit, které se rozhodli vyvíjet lokalizované verze. Mozilla.org podporuje tyto snahy skrz <a href="http://www.mozilla.org/projects/l10n/mlp_howto.html" title="jak lokalizovat Mozillu">Mozilla - lokalizační projekt</a>, který poskytuje poradenství, komunity a kontatní informace pro mnoho lokalizačních projektů.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -68,7 +67,7 @@
 
 <p>Netscape 6/7 je zákaznická úprava kódu Mozilly, určená pro zákazníka.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -78,7 +77,7 @@
 
 <p>Pro tabulku porovnání vlastností zkuste: <tt><a href="http://www.vorstrasse91.com/moztips/browser_compare.html" title="Porovnání Mozilly a jiných prohlížečů">http://www.vorstrasse91.com/moztips/browser_compare.html</a></tt>. Nynější porovnání prohlížečů <a href="http://www.hut.fi/u/hsivonen/os-x-browsers.html" title="Porovnání prohlížečů pro Mac">pouze pro Mac</a> (chybí nový prohlížeč založený na Gecko pro Max OS X <a href="http://chimera.mozdev.org/" title="The Chimera project - domovská stránka">Chimera</a>) bylo také uděláno.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -110,7 +109,7 @@
 
 <p>Pokud se chcete dozvědět o těchto technologiích více odkazujeme vás na <a href="http://www.mozilla.org/newlayout/xml/" title="Mozilla a XML podpora">XML v Mozille</a>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -118,18 +117,18 @@
 
 <p>Standardizovaný renderovací stroj Gecko, který je srdcem Mozilly je rychlý a efektivní. Může být použit i na tak malých zařízeních jako jsou handheldy a může sloužit i jako základ pro celé pracovní prostředí .&nbsp;.&nbsp;. a pro vše mezi tím.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
 <h3><a id="more">Kde mohu nalézt více informací?</a></h3>
 
-<p>Jedno z dobrých míst jsou <a href="../faq/index.html" title="Mozilla FAQ">Mozilla - Často kladené otázky [FAQ]</a>.</p>
+<p>Jedno z dobrých míst jsou <a href="../faq/index.php" title="Mozilla FAQ">Mozilla - Často kladené otázky [FAQ]</a>.</p>
 
 <p>Můžete se také podívat na recenzentskou stránku produktů založených na Mozille, jako <a href="http://channels.netscape.com/ns/browsers/7/learnmore/NS70pr1_reviewersguide.pdf">Netscape 7</a> (prosím vezměte na vědomí, že se jedná o PDF dokument velikosti 2.9 Mb).</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

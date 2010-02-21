@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla Firefox: Kompletní uživatelská příručka';
-	$page->headline = array('Mozilla Firefox: Kompletní uživatelská příručka','Krátká recenze knihy o Firefoxu');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Konfigurační soubory Firefoxu');
+	$page->setHeadline('Mozilla Firefox: Kompletní uživatelská příručka','Krátká recenze knihy o Firefoxu');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p>Prohlížeč <a href="/produkty/firefox/" title="Stránka o produktu">Mozilla 
 Firefox</a> si u&nbsp;nás za svou existenci získal řadu spokojených uživatelů. 
@@ -95,9 +96,9 @@ koupě knihy se vám určitě vyplatí.</p>
 </table>
 
 <hr />
-<p><small>Napsal: <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> (CZilla),
+<p><small>Napsal: <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> (CZilla),
 Poslední aktualizace: 23. října 2005</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

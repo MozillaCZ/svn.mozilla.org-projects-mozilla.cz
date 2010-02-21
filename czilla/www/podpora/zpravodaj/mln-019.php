@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 19. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','19. číslo (4.6.2004 / 7.6.2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 19. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','19. číslo (4.6.2004 / 7.6.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <pre>
@@ -508,5 +505,6 @@ Attribution-NonCommercial-ShareAlike 1.0:
 </pre>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

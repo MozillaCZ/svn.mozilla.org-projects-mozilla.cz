@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Používáme Mozillu (Mozilla - nástroje)';
-	$page->headline = array('Používáme Mozillu','Mozilla - nástroje');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Používáme Mozillu (Mozilla - nástroje)');
+	$page->setHeadline('Používáme Mozillu','Mozilla - nástroje');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <h2><a id="index">Obsah</a></h2>
@@ -23,7 +22,7 @@
 </ul>
 
 <ul>
-<li><a href="index.html#index">Hlavní obsah</a></li>
+<li><a href="index.php#index">Hlavní obsah</a></li>
 </ul>
 
 <p><br /></p>
@@ -45,7 +44,7 @@
 
 <p>Více technických informací o tom jak využít Gecko je dostupných na <a href="http://www.mozilla.org/projects/embedding/" title="Využití Gecka">mozilla.org</a> a <a href="http://www.codeguru.com/controls/iemozilla.html" title="Více o využití Gecka">codeguru.com</a>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -59,7 +58,7 @@
 
 <p>Tutorilál o XUL můžete najít na <a href="http://www.xulplanet.com/tutorials/xultu/index.shtml" title="XUL Planet - seriál o XUL">XUL Planet</a>. Zde pak můžete najít balík prospektů o <a href="http://www.hacksrus.com/%7Eginda/devday2001/contents.html">stavění aplikací pomocí XUL a JavaScriptu [Building Applications with XUL and JavaScript]</a>, společně s dalšími detailnějšími technickými informacemi (<a href="http://www.hacksrus.com/%7Eginda/xulkit/doc/README-new-from-template.html" title="Jak generovat kód ze vzorníků a dfinice proměnných">1</a>; <a href="http://www.hacksrus.com/%7Eginda/xulkit/doc/README-makexpi.html" title="Generovaní souborů XPI ze zdrojového stromu XUL.">2</a>). Více informací též na <a href="http://www.mozilla.org/projects/xul/joy-of-xul.html" title="Joy XUL">mozilla.org</a>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -69,7 +68,7 @@
 
 <p>Všechny objekty XPCOM automaticky získávají přístup k ECMAScriptovému (JavaScriptovému) wrapperu, takže většina vývojářů Mozilly využíva všech výhod, které XPCOM poskytuje bez obav o chování na různých platformách.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -79,7 +78,7 @@
 
 <p>API je také používáno v Mozille a je využitelné i k napsání jiných síťových klientů. Více informací o Necko - síťových knihovnách na <tt><a href="http://www.mozilla.org/projects/netlib/">http://www.mozilla.org/projects/netlib/</a></tt>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -87,7 +86,7 @@
 
 <p>Knihovna pro zobrazování obrázků (Imagelib) umí dekódovat nejrůznější formáty obrázků, které tak mohou být zobrazeny v Mozille. Je <strong>zcela modulární</strong> a standardizovaná. Zahrnuje podporu pro populární formáty obrázků jako JPEG, PNG, GIF a PPM (přenositelná bodová mapa [Portable Pixel Map]).</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -118,7 +117,7 @@
 
 <p>Další informace o prostředí Venkman, včetně <a href="http://www.mozilla.org/projects/venkman/venkman-walkthrough.html">průvodce</a>, můžete nalézt na <tt><a href="http://www.mozilla.org/projects/venkman/">http://www.mozilla.org/projects/venkman/</a></tt>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -134,7 +133,7 @@
 
 <p>Navíc mnozí designeři webu zjistí, že mohou rozvinout své schopnosti pro vývoj celých aplikací bez potřeby opustit jim dobře známé domácí teritorium.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -142,7 +141,7 @@
 
 <p>Mozilla obsahuje DOM inspector (pro který je také možné nalézt <a href="http://grayrest.com/moz/evangelism/tutorials/dominspectortutorial.shtml" title="seriál o DOM Inspectoru">tutorial</a>), <a href="http://www.mozilla.org/projects/venkman/" title="Venkman JavaScript debugger">ladící nástroj pro JavaScript</a>, Javu a JavaScriptovou konsoli, a prohlížeč zdrojových kódů se zvýrazněním syntaxe.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -157,7 +156,7 @@
 
 <p>Na vrchu NSS je položena vrstva <a href="http://www.mozilla.org/projects/security/pki/psm/" title="Informace o PSM">bezpečnostního manageru [Personal Security Manager]</a> (PSM). PSM obstarává všechny kryptografické operace na požádání klienta jako je Mozilla a je přístupný jako komponenta přes ECMAScript (JavaScript).</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -165,8 +164,8 @@
 
 <p>OEM zajímající se o využití kódů Mozilly mohou kontaktovat <a href="mailto:%20Mitchell%20Baker%20%3Cmitchell@mozilla.org%3E">Mitchell Baker</a>, prezidentku Mozilla Foundation.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

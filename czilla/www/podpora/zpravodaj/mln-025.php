@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 25. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','25. číslo (24.1.2005 / 28.1.2005)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 25. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','25. číslo (24.1.2005 / 28.1.2005)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader();
+	$page->includeTemplate('header');
 ?>
 
 <pre>
@@ -246,7 +243,7 @@ Návod na instalaci motivu vzhledu do Mozilla Firefoxu
 Chcete ve Firefoxu použít nový motiv vzhledu, a nevíte jak na to? Tak
 právě pro vás jsme připravili návod na instalaci nového motivu vzhledu
 do Firefoxu
-(<a href="/podpora/firefox/instalace-motivu-vzhledu.html">http://www.czilla.cz/podpora/firefox/instalace-motivu-vzhledu.html</a>).
+(<a href="/podpora/firefox/instalace-motivu-vzhledu.php">http://www.czilla.cz/podpora/firefox/instalace-motivu-vzhledu.php</a>).
 Dozvíte se v něm, jak motiv vzhledu nainstalovat z Internetu a jak
 z pevného disku.
 
@@ -255,12 +252,12 @@ Na serveru Měšec.cz se v těchto dnech můžete ptát Pavla Folprechta
 (<a href="http://www.mesec.cz/poradna/internetove-bankovnictvi-leden-2005/">http://www.mesec.cz/poradna/internetove-bankovnictvi-leden-2005/</a>),
 ředitele přímého bankovnictví GE Money, na jejich budoucí plány ohledně
 internetového bankovnictví, podpory moderních prohlížečů
-(<a href="/podpora/internetova-bankovnictvi-v-mozille.html">http://www.czilla.cz/clanky/internetova-bankovnictvi-v-mozille.html</a>)
+(<a href="/podpora/internetova-bankovnictvi-v-mozille.php">http://www.czilla.cz/clanky/internetova-bankovnictvi-v-mozille.php</a>)
 apod.
 
 Návod na instalaci motivů vzhledu do Mozilla Suite
 Připravili jsme přehledný návod na instalaci motivů vzhledu do Mozilla
-Suite (<a href="/podpora/suite/instalace-motivu-vzhledu.html">http://www.czilla.cz/podpora/suite/instalace-motivu-vzhledu.html</a>).
+Suite (<a href="/podpora/suite/instalace-motivu-vzhledu.php">http://www.czilla.cz/podpora/suite/instalace-motivu-vzhledu.php</a>).
 
 Lokalizační balíček Firefoxu pro Mandrakelinux
 Konečně se zrodil i lokalizační balíček Firefoxu pro Mandrakelinux. Na
@@ -295,7 +292,7 @@ a nastiňuje jeho praktické využití.
 Sbírka na Firefoxe předčila očekávání
 Příspěvky od komunity Mozilly překonaly všechna naše očekávání. Za
 vybrané peníze lze adoptovat nejen jednu pandu, což bylo původním cílem
-akce (<a href="/clanky/tiskove-zpravy/adoptujte-pandu.html">http://www.czilla.cz/clanky/tz-adoptujte-pandu.html</a>), ale obě
+akce (<a href="/clanky/tiskove-zpravy/adoptujte-pandu.php">http://www.czilla.cz/clanky/tz-adoptujte-pandu.php</a>), ale obě
 dvě pandy! Dle Fóra dárců (<a href="http://www.donorsforum.cz/">http://www.donorsforum.cz/</a>) přišlo totiž více
 než 800 DMSek. S velkým napětím nyní očekáváme obdržení konečného součtu
 sbírky (dosud chybí údaj o částkách převedených přímo na účet pražské
@@ -306,7 +303,7 @@ Návod jak překládat rozšíření
 Rozšíření pro aplikace Mozilla.org přibývá jako hub po dešti. Řada
 z nich byla lokalizována do češtiny (<a href="http://www.czilla.cz/doplnky/rozsireni/">http://www.czilla.cz/doplnky/rozsireni/</a>)
 a množství na lokalizaci ještě čeká. S návodem Překládáme rozšíření
-(<a href="/czilla/jak-pomoci/preklad-rozsireni.html">http://www.czilla.cz/clanky/prekladame-rozsireni.html</a>) se můžete
+(<a href="/czilla/jak-pomoci/preklad-rozsireni.php">http://www.czilla.cz/clanky/prekladame-rozsireni.php</a>) se můžete
 připojit k řadě lidí, kteří pomáhají přinášet Firefox uživatelům.
 Dozvíte se, z čeho je složen balíček rozšíření, řešení případných
 problémů a jak postupovat, pokud chcete lokalizované rozšíření otestovat
@@ -322,7 +319,7 @@ využíván i během americké prezidentské kampaně.
 
 Jak spouštět Mozillu s parametry
 Vlasta Hopjan přeložil přehled základních parametrů příkazové řádky
-Mozilly (<a href="/podpora/suite/mozilla-s-parametry.html">http://www.czilla.cz/podpora/suite/mozilla-s-parametry.html</a>). Přivítají
+Mozilly (<a href="/podpora/suite/mozilla-s-parametry.php">http://www.czilla.cz/podpora/suite/mozilla-s-parametry.php</a>). Přivítají
 je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať
 již připravených v zástupci na ploše nebo jako alias vašeho shellu)
 spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou
@@ -347,7 +344,7 @@ program (<a href="http://mozbackup.jasnapaka.com/soubory/14/MozBackup-1.4-CZ.exe
 Jaký byl rok 2004? Byl úspěšný pro CZillu a pro Mozilla.org? Byl úspěšný
 pro uživatele? Zavzpomínejme společně, co vše se v něm událo, co se
 během něj změnilo, co jsme v něm udělali a na co nechceme zapomenout:
-(<a href="/czilla/jaky-byl-rok-2004.html">http://www.czilla.cz/czilla/jaky-byl-rok-2004.html</a>)
+(<a href="/czilla/jaky-byl-rok-2004.php">http://www.czilla.cz/czilla/jaky-byl-rok-2004.php</a>)
 
 ________________________________
 
@@ -670,5 +667,6 @@ Attribution-NonCommercial-ShareAlike 2.0:
 </pre>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

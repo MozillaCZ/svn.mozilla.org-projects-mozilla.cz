@@ -1,17 +1,11 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Parametry příkazové řádky u Mozilla Suite';
-	$page->headline = array('Parametry příkazové řádky','Jak spouštět Mozilla Suite s parametry');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Parametry příkazové řádky u Mozilla Suite');
+	$page->setHeadline('Parametry příkazové řádky','Jak spouštět Mozilla Suite s parametry');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, suite');
 	$page->setDescription('Stránka s parametry příkazové řádky balíku internetových aplikací Mozilla Suite');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','suite');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div id="navigation">
@@ -366,9 +360,9 @@ containing:ARGS: <var>-P mujprofil</var></code></pre>
 
 <p><small>Z originálního dokumentu <a
 href="http://www.mozilla.org/docs/command-line-args.html">Mozilla's Command
-Line Options</a> přeložil <a href="/czilla/lide.html#kdo-je-VH">Vlasta
+Line Options</a> přeložil <a href="/czilla/prispevatele.php#kdo-je-VH">Vlasta
 Hopjan</a>.</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

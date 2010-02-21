@@ -8,7 +8,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/zazitky-z-fosdemu/">Zážitky z FOSDEMu</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/26/">26. 2. 06</a>

@@ -1,26 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Talkback - pomocník při pádu Mozilly';
-	$page->headline = array('Talkback - pomocník při pádu Mozilly','Jak na pády aplikací Mozilla.org');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Talkback - pomocník při pádu Mozilly');
+	$page->setHeadline('Talkback - pomocník při pádu Mozilly','Jak na pády aplikací Mozilla.org');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#tb-co-je">Co je Talkback?</a>
-	&middot;
-	<a href="#tb-instalace">Instalace</a>
-	&middot;
-	<a href="#tb-nastaveni">Nastavení</a>
-	&middot;
-	<a href="#tb-odeslani">Odeslání hlášení</a>
-	&middot;
-	<a href="#tb-id">TalkBack ID</a>
-	&middot;
-	<a href="#tb-hledame">Hledáme příčinu</a>
-</div>
-
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2 id="tb-co-je">Co je Talkback?</h2>
 
@@ -378,16 +364,9 @@ chybového hlášení můžeme prohlásit, že pád Firefoxu způsobila
 Zároveň víme, že není potřeba zadávat do Bugzilly vlastní hlášení o&nbsp;této
 chybě, protože by šlo o&nbsp;duplicitní hlášení.</p>
 
-<p>Máte-li pocit, že hledání v&nbsp;Bugzille či na veřejném serveru
-Talkbacku je pro vás ještě tak trochu <em>vyšší dívčí</em> a&nbsp;zároveň
-vás některý pád příliš trápí, obraťte se na nás
-<a href="http://forum.czilla.cz/"
-	title="Fórum podpory uživatelů aplikací Mozilla.org">v&nbsp;našem fóru</a>.
-Nezapomeňte ale uvést Talkback incident ID.</p>
-
 <hr />
 <p><small>16. 11. 2004, CZilla Tým</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

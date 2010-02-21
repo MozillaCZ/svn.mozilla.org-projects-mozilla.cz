@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Základy práce s elektronickou poštou, dokončení';
-	$page->headline = array('Základy práce s elektronickou poštou, dokončení','Úvod do Thunderbirdu, 3. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Základy práce s elektronickou poštou, dokončení');
+	$page->setHeadline('Základy práce s elektronickou poštou, dokončení','Úvod do Thunderbirdu, 3. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, ovládání, základ');
-	$page->setDescription ('Základní práce s Mozilla Thunderbirdem');		
-
-	$page->includeHeader();
+	$page->setDescription ('Základní práce s Mozilla Thunderbirdem');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./prilohy.html">Práce s&nbsp;přílohami a&nbsp;kontakty</a></li>
+	  <a href="./prilohy.php">Práce s&nbsp;přílohami a&nbsp;kontakty</a></li>
 	<li>Předchozí:
-		<a href="./prace-s-postou.html">Základy práce s&nbsp;poštou</a></li>
+		<a href="./prace-s-postou.php">Základy práce s&nbsp;poštou</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -87,13 +87,13 @@ e-mailové zprávy. Pokud jej nyní nevyplníte, program se vás při odesílán
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./prilohy.html">Práce s přílohami a&nbsp;kontakty</a></li>
+	  <a href="./prilohy.php">Práce s přílohami a&nbsp;kontakty</a></li>
 	<li>Předchozí:
-		<a href="./prace-s-postou.html">Základy práce s&nbsp;poštou</a></li>
+		<a href="./prace-s-postou.php">Základy práce s&nbsp;poštou</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

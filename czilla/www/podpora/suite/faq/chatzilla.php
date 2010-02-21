@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 6. ChatZilla');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 6. ChatZilla');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul>
@@ -82,5 +81,5 @@ MozTips</a> můžete nalézt rozsáhlý úvod do ChatZilly.</p>
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

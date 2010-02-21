@@ -1,41 +1,30 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');  
-	$page->title    = 'Soubory v profilu aplikací Mozilla';
-	$page->headline = array('Soubory v profilu aplikací Mozilla','Význam jednotlivých souborů v profilech aplikací Mozilla');
-
+	require_once '../inc/page.php';
+	$page->setTitle('Soubory v profilu aplikací Mozilla');
+	$page->setHeadline('Soubory v profilu aplikací Mozilla','Význam jednotlivých souborů v profilech aplikací Mozilla');
 	$page->setKeywords ('mozilla, firefox, thunderbird, profil, soubory, data');
-	$page->setDescription ('Přehled souborů umístěných v profilech aplikací Mozilla.org.');	
-
-	$page->includeHeader();
+	$page->setDescription ('Přehled souborů umístěných v profilech aplikací Mozilla.org.');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#sp-adresare">Adresáře</a>
-	&middot;
-	<a href="#sp-soubory">Soubory</a>
-	&middot;
-	<a href="#sp-o-soubory">Ostatní soubory</a>
-	&middot;
-	<a href="#sp-vne-profilu">Soubory mimo adresáře&nbsp;s profilem</a>
-</div>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p>V&nbsp;adresáři s&nbsp;profilem
-<a href="/produkty/firefox/index.html">Firefoxu</a>, 
-<a href="/produkty/thunderbird/index.html">Thunderbirdu</a>,
-<a href="/produkty/suite/index.html">Mozilla Suite</a>,
-<a href="/produkty/seamonkey/index.html">SeaMonkey</a>,
-<a href="/produkty/sunbird/index.html">Mozilla Sunbird</a> či
-<a href="/produkty/nvu/index.html">Nvu</a>,
+<a href="/produkty/firefox/">Firefoxu</a>,
+<a href="/produkty/thunderbird/">Thunderbirdu</a>,
+<a href="/produkty/suite/">Mozilla Suite</a>,
+<a href="/produkty/seamonkey/">SeaMonkey</a>,
+<a href="/produkty/nvu/">Nvu</a>,
 je celá řada souborů, které mají často nezvyklá jména. Na této stránce naleznete seznam souborů, které se nacházejí v&nbsp;adresáři
 s&nbsp;profilem. Najdete zde též informace o&nbsp;tom, co dělají a&nbsp;k&nbsp;čemu jsou dobré.</p>
 
 <p>Pokud neznáte cestu k profilu aplikace Mozilla.org, navštivte jeden z&nbsp;následujících odkazů podle aplikace, jejíž uložená data chcete najít.</p> 
 
 <ul>
-  <li><a href="http://firefox.czilla.cz/otazky/#otazka-6" title="Kde je uložen profil Firefoxu">Mozilla Firefox</a> (obdobné u Mozilla Sunbird)</li>
-  <li><a href="http://thunderbird.czilla.cz/otazky/#otazka-prechod-kde-jsou-ulozena-data" title="Kde je uložen profil Thunderbirdu">Mozilla Thunderbird</a> (obdobné u Nvu)</li>
-  <li><a href="/produkty/suite/poznamky-k-vydani/mozilla1.3/index.html#profileloc" title="Kde je uložen profil Mozilla Suite">Mozilla Suite </a> (obdobné u SeaMonkey)</li>
+  <li><a href="http://firefox.mozilla.cz/otazky/#otazka-6" title="Kde je uložen profil Firefoxu">Mozilla Firefox</a> (obdobné u Mozilla Sunbird)</li>
+  <li><a href="http://thunderbird.mozilla.cz/otazky/#otazka-prechod-kde-jsou-ulozena-data" title="Kde je uložen profil Thunderbirdu">Mozilla Thunderbird</a> (obdobné u Nvu)</li>
+  <li><a href="/produkty/suite/poznamky-k-vydani/mozilla1.3/index.php#profileloc" title="Kde je uložen profil Mozilla Suite">Mozilla Suite </a> (obdobné u SeaMonkey)</li>
 </ul>
 
 <p><strong>Upozornění:</strong> Neupravujte prosím žádné
@@ -72,12 +61,12 @@ aplikace Mozilla.</p>
 <tbody>
 <tr>
   <td lang="en"><tt>adblockplus</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/adblock-plus/">Adblock Plus</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/1865">Adblock Plus</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
   <td lang="en"><tt>backupData</tt></td>
-	<td>Soubory záloh kalendářů (rozšíření <a href="http://thunderbird.czilla.cz/proc-pouzivat/kalendar/">Lightning</a>).</td>
+	<td>Soubory záloh kalendářů (rozšíření <a href="http://thunderbird.mozilla.cz/proc-pouzivat/kalendar/">Lightning</a>).</td>
   <td><img src="/images/icon-sunbird.gif" title="Mozilla Sunbird" alt="SN" /> <img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
@@ -109,12 +98,12 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
 	<td lang="en"><tt>colorzilla</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/colorzilla/">ColorZilla</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/271">ColorZilla</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
 	<td lang="en"><tt>chatzilla</tt></td>
-	<td>Soubory rozšíření <a href="https://addons.mozilla.org/firefox/16/">ChatZilla</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/16">ChatZilla</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
@@ -129,7 +118,7 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
   <td lang="en"><tt>forecastfox</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/forecastfox/">ForecastFox</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/398">ForecastFox</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
@@ -162,7 +151,7 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
   <td lang="en"><tt>scrapbook</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/scrapbook/">ScrapBook</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/8186">ScrapBook</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 </tbody>
@@ -316,17 +305,17 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
 	<td lang="en"><tt>fireFTPprograms.dat</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/fireftp/">FireFTP</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/684">FireFTP</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
 	<td lang="en"><tt>fireFTPsites.dat</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/fireftp/">FireFTP</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/684">FireFTP</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
 	<td lang="en"><tt>FlashGot.exe</tt>, <tt>flashgot.log</tt> a <tt>flashgot.log.bak</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/flashgot/">FlashGot</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/220">FlashGot</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
@@ -408,7 +397,7 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
 	<td lang="en"><tt>mousegestures.rdf</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/mouse-gestures/">Mouse Gestures</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/12">Mouse Gestures</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 <tr>
@@ -573,7 +562,7 @@ aplikace Mozilla.</p>
 </tr>
 <tr>
 	<td lang="en"><tt>xyzproxy.rdf</tt></td>
-	<td>Soubory rozšíření <a href="/doplnky/rozsireni/xyzproxy/">xyzproxy</a>.</td>
+	<td>Soubory rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/1273">xyzproxy</a>.</td>
   <td><img src="/images/rozsireni.gif" title="Rozšíření (addons) aplikací Mozilla" alt="XPI" /></td>
 </tr>
 </tbody>
@@ -676,10 +665,10 @@ aplikace Mozilla.</p>
 
 <hr />
 <p><small><a href="http://gemal.dk/mozilla/files.html" hreflang="en" title="Henrik Gemal: Files in your Mozilla profile directory">Původní článek</a>
-přeložil se souhlasem autora <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a>.
-Aktualizoval <a href="/czilla/lide.html#kdo-je-SS">Stanislav Štěpánek</a>.
+přeložil se souhlasem autora <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a>.
+Aktualizoval <a href="/czilla/prispevatele.php#kdo-je-SS">Stanislav Štěpánek</a>.
 Poslední aktualizace: 27. srpna 2007.</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

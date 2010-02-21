@@ -13,8 +13,8 @@
 	<img src="images/scr-nvu-s.png" alt="Náhled Nvu" width="200" height="160" /></a></td>
 
 	<td style="vertical-align: top">
-	<p style="background-color:#ee9e22; text-align:center; padding:10px; border:1px solid #000">Vývoj editoru Nvu <strong>byl ukončen</strong>,
-	jeho nástupcem s řadou novinek je aplikace <strong><a href="http://www.mozilla.cz/produkty/kompozer/">KompoZer</a></strong>.</p>
+	<div class="obsolete">Vývoj editoru Nvu <strong>byl ukončen</strong>,
+	jeho nástupcem s řadou novinek je aplikace <strong><a href="http://www.mozilla.cz/produkty/kompozer/">KompoZer</a></strong>.</div>
 
   <p><strong>Nvu</strong> je kvalitní <abbr title="What You See Is What You Get" lang="en">WYSIWYG</abbr>
   editor na vytváření a&nbsp;správu webových stránek, který je založen na Editoru z&nbsp;balíku

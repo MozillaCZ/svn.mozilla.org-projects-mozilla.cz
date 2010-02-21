@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 23. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','23. číslo (11. 10. 2004 / 6. 11. 2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 23. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','23. číslo (11. 10. 2004 / 6. 11. 2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader();
+	$page->includeTemplate('header');
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -137,7 +134,7 @@ přídavných nabídek.</p>
 <h3 id="ml.13">Tip: Jak vytvořit aktuální záložku</h3>
 <p><em>Přispěl Percy Cabello</em></p>
 
-<p>Firefox 1.0 přináší <a href="/podpora/firefox/aktualni-zalozky.html">Aktuální
+<p>Firefox 1.0 přináší <a href="/podpora/firefox/aktualni-zalozky.php">Aktuální
 záložky</a>, novou funkci pro vyhledání, uložení a zobrazení webových kanálů
 ve formátech
 <abbr title="Really Simple Syndication">RSS</abbr>
@@ -706,11 +703,11 @@ title="Odkaz na Googlebar pro Firefox">HTTP rozhraní</a>).</p>
 <h3 id="ml.34">Mozilla, Firefox a download managery</h3>
 
 <p>Používáte pro stahování <a
-href="/podpora/mozilla-a-download-managery.html">download managery</a>?
+href="/podpora/mozilla-a-download-managery.php">download managery</a>?
 Zajímá vás, které managery můžete používat spolu s <a
 href="/produkty/suite/">Mozillou</a> a <a
 href="/produkty/firefox/">Firefoxem</a>? Přečtěte si článek <a
-href="/podpora/mozilla-a-download-managery.html">Mozilla, Firefox a
+href="/podpora/mozilla-a-download-managery.php">Mozilla, Firefox a
 download managery</a>, kde najdete přehled těch nejčastěji používaných spolu
 s popisem, jak který z nich spolupracuje s Mozillou a Firefoxem.</p>
 
@@ -754,12 +751,12 @@ href="http://forum.czilla.cz/viewtopic.php?t=3251">fóru</a>.</p>
 
 <h3 id="ml.38">Ikonky Miluju Firefox a zkušenost A. Hausenblasové</h3>
 
-<p>Na webu <a href="http://firefox.czilla.cz/">Přejděte na Firefox</a> se o
+<p>Na webu <a href="http://firefox.mozilla.cz/">Přejděte na Firefox</a> se o
 svou zkušenost se podělila <a
-href="http://firefox.czilla.cz/zkusenosti/anna-hausenblasova/" title="Anna
+href="http://firefox.mozilla.cz/zkusenosti/anna-hausenblasova/" title="Anna
 Hausenblasová">Anna Hausenblasová</a> a pro opravdové fanoušky Firefoxu
 nabízí nové ikonky "<a
-href="http://firefox.czilla.cz/propagace/srdicka/">Miluju Firefox</a>".</p>
+href="http://firefox.mozilla.cz/propagace/srdicka/">Miluju Firefox</a>".</p>
 
 
 <h3 id="ml.39">Lokalizace Mozilla Thunderbird 0.8</h3>
@@ -785,8 +782,8 @@ title="Mozilla Thunderbird 0.8: Stažení ZIP verze">ftp</a>).</p>
 
 <h3 id="ml.310">Aktuální záložky snadno a rychle</h3>
 
-<p>Pokud ve <a href="http://firefox.czilla.cz/">Firefoxu</a> používáte <a
-href="/podpora/firefox/aktualni-zalozky.html">aktuální
+<p>Pokud ve <a href="http://firefox.mozilla.cz/">Firefoxu</a> používáte <a
+href="/podpora/firefox/aktualni-zalozky.php">aktuální
 záložky</a> a narážíte na stránky, které je neumožňují snadno přidat,
 vytvořil pro vás Michal Vyskočil <a
 href="http://livemarks.aktualne.cz/">stráku</a>, která to usnadňuje.</p>
@@ -796,16 +793,16 @@ href="http://livemarks.aktualne.cz/">stráku</a>, která to usnadňuje.</p>
 
 <p>Chcete doporučit <a href="/produkty/firefox/">Firefox</a> svým přátelům,
 kolegům a návštěvníkům svých stránek? Pak je odkažte na nový web <a
-href="http://firefox.czilla.cz/">Přejděte na Firefox</a>. Na webu naleznou
-dostatek důvodů, <a href="http://firefox.czilla.cz/proc-prejit/">proč by
+href="http://firefox.mozilla.cz/">Přejděte na Firefox</a>. Na webu naleznou
+dostatek důvodů, <a href="http://firefox.mozilla.cz/proc-prejit/">proč by
 měli přejít na nový prohlížeč</a>. Mohou si přečíst <a
-href="http://firefox.czilla.cz/zkusenosti/">zkušenosti uživatelů
+href="http://firefox.mozilla.cz/zkusenosti/">zkušenosti uživatelů
 Firefoxu</a>, odpovědi na <a
-href="http://firefox.czilla.cz/otazky/">nejčastější otázky</a> a mnoho
+href="http://firefox.mozilla.cz/otazky/">nejčastější otázky</a> a mnoho
 dalšího. Pro stránkyy nadšených uživatelů Firefoxu web nabízí <a
-href="http://firefox.czilla.cz/propagace/">sadu propagačních ikonek a
+href="http://firefox.mozilla.cz/propagace/">sadu propagačních ikonek a
 proužků</a>. Pro ostatní <a
-href="http://firefox.czilla.cz/stahnout/tapety/">tapetu</a> na pracovní
+href="http://firefox.mozilla.cz/stahnout/tapety/">tapetu</a> na pracovní
 plochu s logem Firefoxu.</p>
 
 
@@ -1017,5 +1014,5 @@ Uvítáme další překladatele, kteří by v rámci svých možností pomohli z
 časové prodlevy při vydávání českých verzí tohoto zpravodaje!</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

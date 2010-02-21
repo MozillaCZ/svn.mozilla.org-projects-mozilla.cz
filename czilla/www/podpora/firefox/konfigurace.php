@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Konfigurační soubory Firefoxu';
-	$page->headline = array('Konfigurační soubory','Návod kde najít konfigurační soubory Firefoxu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Konfigurační soubory Firefoxu');
+	$page->setHeadline('Konfigurační soubory','Návod kde najít konfigurační soubory Firefoxu');
 	$page->setKeywords('podpora, tipy, triky, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
 	$page->setDescription('Návod kde najít konfigurační soubory prohlížeče Mozilla Firefox');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p>Prohlížeč Mozilla Firefox ukládá data patřící k uživateli do adresáře nazývaného uživatelský profil. Profil obsahuje
 uložené předvolby, historii prohlížeče, cookies, a další důležitá data. Standardní uložení profilu na nejpoužívanějších
@@ -43,7 +39,7 @@ operačních systémech se dá vyčíst z následující tabulky.</p>
 </tbody>
 </table>
 
-<p>Řada pokročilých <a href="tipy-a-triky.html">nastavení</a> se provádí úpravou některého z konfiguračních souborů v uživatelském
+<p>Řada pokročilých <a href="tipy-a-triky.php">nastavení</a> se provádí úpravou některého z konfiguračních souborů v uživatelském
 profilu.</p>
 
 <ul class="disc">
@@ -78,5 +74,5 @@ Firefox se namísto tohoto souboru nachází soubor <q>userContent-example.css,<
 <q>userContent.css.</q></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

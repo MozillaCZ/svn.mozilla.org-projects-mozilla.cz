@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Stahování souborů ve Firefoxu';
-	$page->headline = array('Stahování souborů','Začínáme používat prohlížeč Firefox, 6. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Stahování souborů ve Firefoxu');
+	$page->setHeadline('Stahování souborů','Začínáme používat prohlížeč Firefox, 6. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, tutorial, stažení, stahování, download');
 	$page->setDescription ('Návod jak ve Firefoxu pracovat se Správcem stahování');	
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./tisk-stranek.html">Tisk stránek</a></li>
+		<a href="./tisk-stranek.php">Tisk stránek</a></li>
 	<li>Předchozí:
-		<a href="./historie.html">Procházení historií</a></li>
+		<a href="./historie.php">Procházení historií</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -78,20 +78,20 @@ ve výchozí aplikaci. Pokud není definována, Firefox se vás zeptá,
 čím by měl být otevřen.</p>
 
 <p>Pokud stahujete často, možná se vám bude hodit rozšíření 
-<a href="/doplnky/rozsireni/download-statusbar/" 
-title="Download Statusbar: Lokalizované rozšíření">Download Statusbar</a>, 
+<a href="https://addons.mozilla.org/cs/firefox/addon/26" 
+title="Download Statusbar: Stránka serveru Doplňky Mozilly">Download Statusbar</a>, 
 které učiní vaše stahování příjemnější a&nbsp;snadnější na správu.</p>
 
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./tisk-stranek.html">Tisk stránek</a></li>
+		<a href="./tisk-stranek.php">Tisk stránek</a></li>
 	<li>Předchozí:
-		<a href="./historie.html">Procházení historií</a></li>
+		<a href="./historie.php">Procházení historií</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

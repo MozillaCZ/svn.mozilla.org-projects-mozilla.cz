@@ -7,6 +7,8 @@
 	$page->setMenu('produkty');
 	$page->includeTemplate('header');
 ?>
+	<div class="obsolete">Vývoj editoru Nvu <strong>byl ukončen</strong>,
+	jeho nástupcem s řadou novinek je aplikace <strong><a href="http://www.mozilla.cz/produkty/kompozer/">KompoZer</a></strong>.</div>
 	<p>Ukázky vzhledu <a href="./">Nvu</a>:</p>
 <?php
 	$images = array(

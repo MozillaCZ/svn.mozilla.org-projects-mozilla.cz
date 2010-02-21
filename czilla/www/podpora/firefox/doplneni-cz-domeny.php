@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Jak na doplňování CZ domény ve Firefoxu 1.0';
-	$page->headline = array('Jak na doplňování CZ domény ve Firefoxu 1.0','Upravte si doplňování domén podle svých potřeb');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Jak na doplňování CZ domény ve Firefoxu 1.0');
+	$page->setHeadline('Jak na doplňování CZ domény ve Firefoxu 1.0','Upravte si doplňování domén podle svých potřeb');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p>V&nbsp;prohlížeči <a href="/produkty/firefox/">Mozilla Firefox 1.0</a>
 existuje užitečná funkce, která umožňuje doplňovat doménové jméno (např.
@@ -107,5 +108,5 @@ bude následně korektně doplňovat <tt>.cz</tt>.</p>
 <p><small>Poslední úprava: 14. 3. 2005, Tým CZilla</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - Expres';
-	$page->headline = array('Zpravodaj Mozilla Links','Expres (x. x. 2004 / x. x. 2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - Expres');
+	$page->setHeadline('Zpravodaj Mozilla Links','Expres (x. x. 2004 / x. x. 2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <div>
@@ -38,5 +35,5 @@ Uvítáme další překladatele, kteří by v rámci svých možností pomohli z
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

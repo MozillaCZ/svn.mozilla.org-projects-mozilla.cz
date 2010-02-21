@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - Mezinárodní speciálo';
-	$page->headline = array('Zpravodaj Mozilla Links','Mezinárodní speciál (8.4.2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - Mezinárodní speciálo');
+	$page->setHeadline('Zpravodaj Mozilla Links','Mezinárodní speciál (8.4.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 <pre>
 Vítejte zpět u Mozilla Links!
@@ -300,5 +297,6 @@ Attribution-NonCommercial-ShareAlike 1.0:
 </pre>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

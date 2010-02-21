@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Soukromí a bezpečnost v Mozilla Suite (Obsah)';
-	$page->headline = array('Soukromí a bezpečnost v Mozilla Suite','Obsah');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Soukromí a bezpečnost v Mozilla Suite (Obsah)');
+	$page->setHeadline('Soukromí a bezpečnost v Mozilla Suite','Obsah');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <table>
@@ -15,19 +14,19 @@
 </table>
 
 <dl>
-  <dt><a href="sprava-cookies.html">Práce s cookies</a></dt>
+  <dt><a href="sprava-cookies.php">Práce s cookies</a></dt>
   <dd>Základní pravidla a nastavení pro práci s cookies.</dd>
   
-  <dt><a href="obrazky-bannery.html">Obrázky a bannery</a></dt>
+  <dt><a href="obrazky-bannery.php">Obrázky a bannery</a></dt>
   <dd>Několik rad týkajících se blokování obrázků a reklamních bannerů.</dd>  
   
-  <dt><a href="vyskakovaci-okna.html">Vyskakovací okna</a></dt>
+  <dt><a href="vyskakovaci-okna.php">Vyskakovací okna</a></dt>
   <dd>Návod jak efektivně blokovat vyskakovací okna.</dd>    
   
-  <dt><a href="hesla.html">Hesla</a></dt>
+  <dt><a href="hesla.php">Hesla</a></dt>
   <dd>Pár slov o bezpečném ukládání hesel v Mozille.</dd>
   
-  <dt><a href="scripty-zasuvne-moduly.html">Skripty a zásuvné moduly</a></dt>
+  <dt><a href="scripty-zasuvne-moduly.php">Skripty a zásuvné moduly</a></dt>
   <dd>Několik rad, jak nastavit chování scriptů a zásuvných modulů.</dd>          
 </dl>
 
@@ -36,11 +35,12 @@
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./sprava-cookies.html">Práce s cookies</a></li>
+		<a href="./sprava-cookies.php">Práce s cookies</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+

@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Přehled předvoleb about:config';
-	$page->headline = array('Přehled předvoleb about:config','Pokročilá konfigurace aplikací Mozilla');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Přehled předvoleb about:config');
+	$page->setHeadline('Přehled předvoleb about:config','Pokročilá konfigurace aplikací Mozilla');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/">Mozilla.cz</a>.</div>
 
 <h2>Accessibility.*</h2>
 <div class="tbl-1">
@@ -1977,5 +1978,5 @@ Firefox si většiny z nich nevšímá.</p>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

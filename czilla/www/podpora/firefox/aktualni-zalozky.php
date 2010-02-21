@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Aktuální záložky (RSS) ve Firefoxu';
-	$page->headline = array('Aktuální záložky (RSS) ve Firefoxu','K čemu slouží aktuální záložky v prohlížeči Mozilla Firefox?');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Aktuální záložky (RSS) ve Firefoxu');
+	$page->setHeadline('Aktuální záložky (RSS) ve Firefoxu','K čemu slouží aktuální záložky v prohlížeči Mozilla Firefox?');;
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p><strong>Firefox 1.0&nbsp;<abbr title="Preview Release"
 lang="en">PR</abbr></strong> přináší novinku <strong>aktuální
@@ -102,5 +103,5 @@ odpovídající prvek <code>&lt;link&gt;</code> do hlavičky vaší stránky. V�
 <p><small>Aktualizováno: 16. 10. 2004, Tým CZilla</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

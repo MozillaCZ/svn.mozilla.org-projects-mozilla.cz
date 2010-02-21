@@ -7,6 +7,8 @@
 	$page->setMenu('produkty');
 	$page->includeTemplate('header');
 ?>
+	<div class="obsolete">Některé informace na stránkách produktu mohou být zastaralé. Aktuální informace naleznete na serveru
+	<a href="http://www.mozilla.cz/produkty/firefox/">Mozilla.cz</a>.</div>
 	<p>Ukázky vzhledu <a href="./">Mozilla Firefoxu</a>:</p>
 <?php
 	$images = array(

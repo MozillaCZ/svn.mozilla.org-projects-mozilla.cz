@@ -1,36 +1,23 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Instalace rozšíření do Thunderbirdu';
-	$page->headline = array('Instalace rozšíření','Návod jak nainstalovat nové rozšíření do Thunderbirdu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Instalace rozšíření do Thunderbirdu');
+	$page->setHeadline('Instalace rozšíření','Návod jak nainstalovat nové rozšíření do Thunderbirdu');
 	$page->setKeywords('podpora, instalace, rozšíření, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod jak nainstalovat nové rozšíření do pošťáka Mozilla Thunderbird');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
-	$page->includeFile('tips');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
-	<div id="navigation">
-		<a href="#zdroje">Kde sehnat rozšíření</a> &middot;
-		<a href="#instalace">Instalace</a> &middot;
-		<a href="#odinstalace-update">Odinstalace a&nbsp;aktualizace</a> &middot;
-		<a href="#problemy">Řešení problémů</a>
-	</div>
 	<p>
 		Mozilla Thunderbird je bezpečný a&nbsp;spolehlivý e-mailový klient, který
 		nabízí vše potřebné k&nbsp;pohodlnému a&nbsp;bezstarostnému vyřizování vaší
 		e-mailové komunikace a&nbsp;čtení <acronym title=
 		"Really Simple Syndication">RSS</acronym>. Díky jeho flexibilní
 		architektuře jej můžete snadno rozšířit o&nbsp;mnoho dodatečných funkcí jako
-		např. <a href="/doplnky/rozsireni/enigmail/">podpora šifrovaných
-		zpráv</a> či <a href="/doplnky/rozsireni/mozilla-kalendar/">kalendář</a>.
-		Za těmito funkcemi stojí tzv. <a href="/doplnky/rozsireni/">rozšíření</a>
-		(<span lang="en" xml:lang="en">extensions</span>).
+		např. <a href="http://thunderbird.mozilla.cz/proc-pouzivat/enigmail/">podpora šifrovaných
+		zpráv</a> či <a href="http://thunderbird.mozilla.cz/proc-pouzivat/kalendar/">kalendáře</a>.
 	</p>
 	<h2 id="zdroje">
 		Kde sehnat rozšíření
@@ -38,15 +25,12 @@
 	<p>
 		Nejprve je třeba najít webovou stránku, kde bychom rozšíření sehnali.
 		Velký archiv rozšíření nabízí server
-		<a href="https://addons.mozilla.org/extensions/?application=thunderbird">Mozilla
-		Update</a>, rozšíření v&nbsp;češtině najdeme v&nbsp;<a
-		href="/doplnky/rozsireni/">přehledu lokalizovaných rozšíření</a>. My si
-		vybereme první jmenovaný zdroj.
+		<a href="https://addons.mozilla.org/cs/thunderbird/">Doplňky Mozilly</a>.
 	</p>
 	<p>
 		Chceme-li projít dostupná rozšíření a&nbsp;vybrat si, která nainstalujeme,
 		použijeme
-		<a href="https://addons.mozilla.org/extensions/?application=thunderbird">přehled
+		<a href="https://addons.mozilla.org/cs/thunderbird/">přehled
 		dostupných rozšíření</a>. Pro hledání předem známého rozšíření můžeme
 		použít vyhledávací formulář v&nbsp;pravém horním rohu stránky. V&nbsp;roletce
 		vybereme položku <span lang="en" xml:lang="en">extensions</span>, do
@@ -66,7 +50,7 @@
 		daného rozšíření. Na obrázku (viz výše) jsme hledali slovo
 		"enigmail" a&nbsp;dostali
 		jsme se tak na stránku rozšíření <a
-		href="https://addons.mozilla.org/extensions/moreinfo.php?application=thunderbird&amp;version=1.0&amp;id=71">
+		href="https://addons.mozilla.org/cs/thunderbird/addon/71">
 		Enigmail</a>. Tato stránka obsahuje základní informace o&nbsp;rozšíření, od
 		jeho popisu až po komentáře uživatelů. Nás ale hlavně zajímá odkaz na
 		instalaci rozšíření, který se nachází ve žluto-zeleném rámečku a&nbsp;je
@@ -190,9 +174,7 @@
 		Je možné, že se do některých rozšíření vloudila chyba, se kterou se vaše
 		aplikace nebude umět vypořádat. V&nbsp;takovém případě může po restartu
 		aplikace dojít k&nbsp;porušení jejího uživatelského rozhraní. Pokud k&nbsp;tomu
-		dojde, doporučujeme rozšíření nejprve
-		<a href="#odinstalace">odinstalovat</a>. Pokud bude chyba přetrvávat, vyhledejte
-		pomoc <a href="http://forum.czilla.cz/viewforum.php?f=21">ve fóru</a>.
+		dojde, doporučujeme rozšíření nejprve <a href="#odinstalace">odinstalovat</a>.
 	</p>
 	<p>
 		Pokud by se stalo, že se aplikace ani nespustí, budete ji muset spustit
@@ -206,10 +188,10 @@
 	</p>
 	<p>
 		V&nbsp;případě, kdy si nebudete vědět rady, se můžete zeptat ve <a
-		href="http://forum.czilla.cz/viewforum.php?f=21">fóru CZilla</a> a&nbsp;jistě se
+		href="http://forum.mozilla.cz/viewforum.php?f=4">fóru podpory uživatelů</a> a&nbsp;jistě se
 		vám brzy dostane uspokojivé pomoci.
 	</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -7,6 +7,9 @@
 	$page->setMenu('produkty');
 	$page->includeTemplate('header');
 ?>
+	<div class="obsolete">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
+	jejím nástupcem s řadou novinek je aplikace <strong><a href="../seamonkey/">Seamonkey</a></strong>.</div>
+
 	<p>Ukázky vzhledu <a href="./">Mozilla Suite</a>:</p>
 <?php
 	$images = array(

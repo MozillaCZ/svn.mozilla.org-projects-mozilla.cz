@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Ochrana soukromí v Thunderbirdu';
-	$page->headline = array('Ochrana soukromí','Návod, jak si v Thunderbirdu chránit své soukromí');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Ochrana soukromí v Thunderbirdu');
+	$page->setHeadline('Ochrana soukromí','Návod, jak si v Thunderbirdu chránit své soukromí');
 	$page->setKeywords('soukromí, bezpečnost, viry, podpora, nápověda, pomoc, návod, mozilla, thunderbird, poąťák');
 	$page->setDescription('Návod, jak si v Thunderbirdu chránit své soukromí');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <p>My všichni máme rádi e-maily. Je tu ale problém, a&nbsp;to "havěť", která se 
 e-maily šíří z&nbsp;jednoho počítače na druhý. Je to trochu jako řetězový 
@@ -60,5 +56,5 @@ v&nbsp;nabídce <span class="nabidka">Nástroje</span> zvolte
 <span class="nabidka">Soukromí</span>.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

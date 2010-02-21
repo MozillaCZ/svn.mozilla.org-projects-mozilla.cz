@@ -230,7 +230,7 @@ Podle ní bylo totiž možné získání kontroly nad počítačem. Nakonec se u
 <a href="/zpravicky/firefox-na-konferenci-openchange-v-olomouci/">proběhla</a>
 konference <a href="http://www.openchange.cz/">Openchange</a>. Byla na ní
 uvedena i&nbsp;přednáška o&nbsp;Firefoxu, kterou si připravil
-<a href="/czilla/lide.html#kdo-je-JB">Jiří Burda</a><a> z&nbsp;CZilly.</a></p>
+<a href="/czilla/prispevatele.php#kdo-je-JB">Jiří Burda</a><a> z&nbsp;CZilly.</a></p>
 
 <p>Fakt, že Firefox využívá stále více lidí
 <a href="/zpravicky/bankovnictvi-ceske-sporitelny-oficialne-podporuje-firefox/">si uvědomili</a>

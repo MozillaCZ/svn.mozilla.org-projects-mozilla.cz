@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Mozilla často kladené otázky';
-	$page->headline = array('Často kladené otázky','Mozilla FAQ: 9. Jak se zapojit do vývoje Mozilly');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Mozilla často kladené otázky');
+	$page->setHeadline('Často kladené otázky','Mozilla FAQ: 9. Jak se zapojit do vývoje Mozilly');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <ul>
@@ -38,11 +37,11 @@ kde se v pokračováních dozvíte celý proces <a href="http://www.mozilla.org/
 vám bude též nápomocna.</p>
 
 <p>Společnosti přející si zapojit se do projektu Mozilla, aby se podíleli na vývoji nebo proto, aby mohli vyvíjet vlastní software používající kód nebo technologie Mozilly, by měli nejdříve kontaktovat
-<a href="mailto:mitchell@mozilla.org">Mitchell Baker</a>, tak jedině může <a href="http://www.mozilla.org/">mozilla.org</a> pomoci. Pokud máte zájem o implementaci v českém prostředí můžete se obrátit na <a href="/czilla/kontakt.html">tým CZilla</a>.</p>
+<a href="mailto:mitchell@mozilla.org">Mitchell Baker</a>, tak jedině může <a href="http://www.mozilla.org/">mozilla.org</a> pomoci. Pokud máte zájem o implementaci v českém prostředí můžete se obrátit na <a href="/czilla/">tým CZilla</a>.</p>
 <p><small><a href="#top">Na začátek</a> <a href="./">Na obsah</a></small></p>
 </dd>
 </dl>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

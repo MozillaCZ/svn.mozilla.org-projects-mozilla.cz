@@ -238,7 +238,7 @@ FormSpy se ve Firefoxu maskuje za rozšíření
 <div class="news">
 	<h3><a href="/zpravicky/anketa-czech-open-source-konci-v-patek/">Anketa CZECH OPEN SOURCE končí v pátek</a></h3>
 
-	<div>Do uzávěrky prvního ročníku ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, kterou vyhlásil server <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a> a v které byla CZilla nominována v kategorii projekt, zbývá už jen několik dnů. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobnost nominován její člen <a href="/czilla/lide.html#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
+	<div>Do uzávěrky prvního ročníku ankety <a href="http://cos.root.cz/" title="CZECH OPEN SOURCE 2006 - Root.cz">CZECH OPEN SOURCE 2006</a>, kterou vyhlásil server <a href="http://www.root.cz/" title="Root.cz - linux, open source a free software">Root.cz</a> a v které byla CZilla nominována v kategorii projekt, zbývá už jen několik dnů. Pokud si myslíte, že CZilla mezi ostatními projekty obstojí, <a href="http://cos.root.cz/hlasovani/" title="CZECH OPEN SOURCE 2006 - Hlasovací formulář - Root.cz">dejte jí svůj hlas</a>. Kromě CZilly byl také v kategorii osobnost nominován její člen <a href="/czilla/prispevatele.php#kdo-je-AP">Adam Přibyl</a> za svůj projekt <a href="http://proc.linux.cz/" title="Proč používat Linux">Proč používat Linux</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/03/28/">28. 3. 06</a>
@@ -248,7 +248,7 @@ FormSpy se ve Firefoxu maskuje za rozšíření
 <div class="news">
 	<h3><a href="/zpravicky/czilla-na-linuxexpu-2006/">CZilla na LinuxExpu 2006</a></h3>
 
-	<div>Ve dnech 10.-12. 4. 2006 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2006</a>. Projekt <a href="/czilla/">CZilla</a>  bude mít opět na výstavě v rámci <strong>sekce Free &amp; Open Zone vlastní stánek</strong>. Kromě toho se ve středu 12. 4. v 14:00 uskuteční <a href="http://linuxexpo.cz/index.php?kategorie=283&amp;lang=CZ">přednáška</a> <a href="/czilla/lide.html#kdo-je-DM">Davida Majdy</a> na téma "Vývojová platforma Mozilla", která nabídne pohled na Mozillu jako na platformu pro vývoj aplikací, včetně informací o současnosti a budoucnosti XULRunneru. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://linuxexpo.netsektor.net/">včasné registraci</a> je vstup na výstavu zdarma.</div>
+	<div>Ve dnech 10.-12. 4. 2006 se v pražském Hotelu Olympik koná výstava <a href="http://linuxexpo.cz/">LinuxExpo 2006</a>. Projekt <a href="/czilla/">CZilla</a>  bude mít opět na výstavě v rámci <strong>sekce Free &amp; Open Zone vlastní stánek</strong>. Kromě toho se ve středu 12. 4. v 14:00 uskuteční <a href="http://linuxexpo.cz/index.php?kategorie=283&amp;lang=CZ">přednáška</a> <a href="/czilla/prispevatele.php#kdo-je-DM">Davida Majdy</a> na téma "Vývojová platforma Mozilla", která nabídne pohled na Mozillu jako na platformu pro vývoj aplikací, včetně informací o současnosti a budoucnosti XULRunneru. Všechny přátele a příznivce CZilly a Mozilly tímto srdečně zveme, těšíme se na setkání a připomínáme, že při <a href="http://linuxexpo.netsektor.net/">včasné registraci</a> je vstup na výstavu zdarma.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/03/28/">28. 3. 06</a>
@@ -279,7 +279,7 @@ FormSpy se ve Firefoxu maskuje za rozšíření
 <div class="news">
 	<h3><a href="/zpravicky/zazitky-z-fosdemu/">Zážitky z FOSDEMu</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a> píše na svém <a href="http://dreamsign.cz/weblog/">weblogu</a> o svých zážitcích z letošního Fosdemu &ndash; <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-i/">díl první</a>, <a href="http://dreamsign.cz/weblog/clanek/zkazky-z-bruselu-ii/">díl druhý</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/26/">26. 2. 06</a>
@@ -289,7 +289,7 @@ FormSpy se ve Firefoxu maskuje za rozšíření
 <div class="news">
 	<h3><a href="/zpravicky/fosdem-2006/">FOSDEM 2006</a></h3>
 
-	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/lide.html#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/lide.html#kdo-je-lp">Lukáš Petrovický</a>.</div>
+	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/prispevatele.php#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/prispevatele.php#kdo-je-lp">Lukáš Petrovický</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/25/">25. 2. 06</a>

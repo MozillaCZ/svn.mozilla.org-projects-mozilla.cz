@@ -18,17 +18,14 @@ o&nbsp;historii Mozilly a&nbsp;CZilly vám poskytnou články
 <a href="jaky-byl-rok-2006.php">2006</a>.</p>
 
 <dl>
-	<dt><a href="lide.php">Lidé CZilly</a></dt>
-	<dd>Lidé zapojení do projektu CZilla.</dd>
+	<dt><a href="prispevatele.php">Přispěvatelé</a></dt>
+	<dd>Lidé, kteří pomáhají či pomáhali projektu CZilla.</dd>
 
 	<dt><a href="tiskove-zpravy/">Tiskové zprávy</a></dt>
 	<dd>Tiskové centrum projektu CZilla.</dd>
 
 	<dt><a href="web.php">Webové stránky</a></dt>
 	<dd>Rozcestník po webových stránkách projektu CZilla, tvůrci, copyright.</dd>
-
-	<dt><a href="prispevatele.php">Přispěvatelé</a></dt>
-	<dd>Lidé, kteří pomáhají či pomáhali projektu CZilla.</dd>
 
 	<dt><a href="fotky/">Fotografie</a></dt>
 	<dd>Fotografie z akcí, kterých se projekt CZilla zúčastnil.</dd>

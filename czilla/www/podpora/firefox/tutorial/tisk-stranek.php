@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Tisk webových stránek ve Firefoxu';
-	$page->headline = array('Tisk stránek','Začínáme používat prohlížeč Firefox, 7. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Tisk webových stránek ve Firefoxu');
+	$page->setHeadline('Tisk stránek','Začínáme používat prohlížeč Firefox, 7. část');
 	$page->setKeywords ('mozilla, firefox, prohlížeč, browser, začátečník, beginner, návod, tisk, náhled tisku');
 	$page->setDescription ('Návod jak ve Firefoxu pracovat s tiskem');		
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./zalozky.html">Záložky</a></li>
+		<a href="./zalozky.php">Záložky</a></li>
 	<li>Předchozí:
-		<a href="./stahovani-souboru.html">Stahování souborů</a></li>
+		<a href="./stahovani-souboru.php">Stahování souborů</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -69,13 +69,13 @@ a&nbsp;náhled toho, jak bude vytištěná stránka vypadat.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./zalozky.html">Záložky</a></li>
+		<a href="./zalozky.php">Záložky</a></li>
 	<li>Předchozí:
-		<a href="./stahovani-souboru.html">Stahování souborů</a></li>
+		<a href="./stahovani-souboru.php">Stahování souborů</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

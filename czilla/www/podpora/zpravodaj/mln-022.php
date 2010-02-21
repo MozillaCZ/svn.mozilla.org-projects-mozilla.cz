@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 22. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','22. číslo (6. 9. 2004 / 23. 9. 2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 22. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','22. číslo (6. 9. 2004 / 23. 9. 2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader();
+	$page->includeTemplate('header');
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -422,7 +419,7 @@ instalátor pro Windows, Linux a lokalizační balíček. Více najdete
 <p>Jednou z novinek Firefoxu 1.0 PR jsou aktuální záložky (Live Bookmarks),
 které prostřednictvím RSS umožnují uživatelům sledovat novinky na jejich
 oblíbených webech. Připravili jsme pro vás návod
-<a href="/podpora/firefox/aktualni-zalozky.html">Aktuální záložky (RSS) ve Firefoxu</a>.</p>
+<a href="/podpora/firefox/aktualni-zalozky.php">Aktuální záložky (RSS) ve Firefoxu</a>.</p>
 
 
 <h3 id="ml.33">Mozilla Suite, Firefox, Thunderbird. Co zvolit?</h3>
@@ -430,13 +427,13 @@ oblíbených webech. Připravili jsme pro vás návod
 <p>Pokud patříte k těm, kteří zvažují, zda zvolit celý balík Mozilla,
 nebo kombinaci Mozilla Firefox a Mozilla Thunderbird, snad vám při
 rozhodování pomůže dokument
-<a href="/produkty/ktery-zvolit.html">Který produkt projektu Mozilla si vybrat?</a></p>
+<a href="/produkty/ktery-zvolit.php">Který produkt projektu Mozilla si vybrat?</a></p>
 
 
 <h3 id="ml.34">Instalace Mozilly</h3>
 
 <p>Připravili jsme
-<a href="/podpora/suite/instalace.html">návod k instalaci Mozilly</a>
+<a href="/podpora/suite/instalace.php">návod k instalaci Mozilly</a>
 pro začínající uživatele. Pokud doporučujete Mozillu svým přátelům a nejste
 si jistí, zda si s instalací budou vědět rady, odkažte je na náš návod.</p>
 
@@ -455,8 +452,7 @@ nebo třeba s Technickou evangelizací.</p>
 <p>Modemisté nás neustále bombardují žádostmi, zda nezačneme vydávat
 Mozillu, Firefox a Thunderbird na CD-ROM. My jsme se rozhlédli a zjistili
 jsme, že dnes je Mozilla (i česká) k dispozici v CD-přílohách velké řady
-časopisů. Na stránce
-<a href="/produkty/mozilla-na-cd.html">Mozilla na CD-ROM</a>
+časopisů. Na stránce Mozilla na CD-ROM
 budeme zveřejňovat seznam CD, na kterých Mozilla vyšla. Pokud víte o CD,
 které nemáme v seznamu, dejte nám vědět.</p>
 
@@ -747,5 +743,5 @@ Attribution-NonCommercial-ShareAlike 1.0</a>.</p>
 <a href="http://www.czilla.cz/podpora/zpravodaj/">http://www.czilla.cz/podpora/zpravodaj/</a>.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

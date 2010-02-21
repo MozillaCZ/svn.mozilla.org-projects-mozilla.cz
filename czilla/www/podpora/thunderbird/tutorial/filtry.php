@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Filtry';
-	$page->headline = array('Filtry','Úvod do Thunderbirdu, 7. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Filtry');
+	$page->setHeadline('Filtry','Úvod do Thunderbirdu, 7. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, filtry');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s filtry');	
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s filtry');
+// 	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./diskusni-skupiny.html">Diskusní skupiny</a></li>
+	  <a href="./diskusni-skupiny.php">Diskusní skupiny</a></li>
 	<li>Předchozí:
-		<a href="./import.html">Import elektronické pošty a&nbsp;kontaktů</a></li>
+		<a href="./import.php">Import elektronické pošty a&nbsp;kontaktů</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -87,14 +87,14 @@ novou složku. Pokud jste hotovi, klepněte na tlačítko <span class="nabidka">
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./diskusni-skupiny.html">Diskusní skupiny</a></li>
+	  <a href="./diskusni-skupiny.php">Diskusní skupiny</a></li>
 	<li>Předchozí:
-		<a href="./import.html">Import elektronické pošty a&nbsp;kontaktů</a></li>
+		<a href="./import.php">Import elektronické pošty a&nbsp;kontaktů</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

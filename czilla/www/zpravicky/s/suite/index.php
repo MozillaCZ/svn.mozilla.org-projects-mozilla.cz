@@ -94,7 +94,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/prehled-souboru-v-profilu-aplikaci-mozilla/">Přehled souborů v profilu aplikací Mozilla</a></h3>
 
-	<div>Uživatelé aplikací Mozilla se <a href="http://forum.czilla.cz/" title="CZilla fórum">na fóru</a> často zajímají o to, jak mohou svá nastavení zálohovat nebo přenést na jiný počítač. Nejjednodušší cestou je použít aplikaci <a href="http://mozbackup.jasnapaka.com/" hreflang="en" title="MozBackup - Backup tool for Firefox and Thunderbird">MozBackup</a>, pokud však někomu toto řešení nevyhovuje, může si snadno zkopírovat jednotlivé soubory z profilu aplikace. V takovém případě přijde vhod článek <a href="http://www.czilla.cz/podpora/soubory-v-profilu.html">Soubory v profilu aplikací Mozilla</a>, jehož aktualizované vydání pro vás připravil <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-SS">Stanislav Štěpánek</a>. Ten nyní popisuje, kromě základních produktů <a href="http://www.mozilla.com/" title="Mozilla Corporation: Domovská stránka" hreflang="en">Mozilla Corporation</a>, také soubory v profilech <a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a>, <a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a> a vybraných rozšíření.</div>
+	<div>Uživatelé aplikací Mozilla se <a href="http://forum.czilla.cz/" title="CZilla fórum">na fóru</a> často zajímají o to, jak mohou svá nastavení zálohovat nebo přenést na jiný počítač. Nejjednodušší cestou je použít aplikaci <a href="http://mozbackup.jasnapaka.com/" hreflang="en" title="MozBackup - Backup tool for Firefox and Thunderbird">MozBackup</a>, pokud však někomu toto řešení nevyhovuje, může si snadno zkopírovat jednotlivé soubory z profilu aplikace. V takovém případě přijde vhod článek <a href="http://www.czilla.cz/podpora/soubory-v-profilu.html">Soubory v profilu aplikací Mozilla</a>, jehož aktualizované vydání pro vás připravil <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-SS">Stanislav Štěpánek</a>. Ten nyní popisuje, kromě základních produktů <a href="http://www.mozilla.com/" title="Mozilla Corporation: Domovská stránka" hreflang="en">Mozilla Corporation</a>, také soubory v profilech <a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a>, <a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a> a vybraných rozšíření.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/mik/">Michal Kec</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2007/08/29/">29. 8. 07</a>
@@ -325,7 +325,7 @@ Jako bonbónek tu máme jedno nové rozšíření, a to <a href="doplnky/rozsire
 <div class="news">
 	<h3><a href="/zpravicky/mozbackup-1.4.3-beta/">MozBackup 1.4.3 Beta</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> vydal novou verzi 1.4.3 Beta svého programu <a href="http://mozbackup.jasnapaka.com/index_cz.php" title="MozBackup - Utilita pro zálohování uživatelských profilů aplikací Mozilla, Mozilla Firefox, Mozilla Thunderbird a Netscape">MozBackup</a>, který slouží k zálohování uživatelských profilů aplikací Mozilla.org. Tato verze není stabilní a je určena především pro testování. Novinky shrnuje <a href="http://mozbackup.jasnapaka.com/changelog.txt" hreflang="en" title="">changelog</a>.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> vydal novou verzi 1.4.3 Beta svého programu <a href="http://mozbackup.jasnapaka.com/index_cz.php" title="MozBackup - Utilita pro zálohování uživatelských profilů aplikací Mozilla, Mozilla Firefox, Mozilla Thunderbird a Netscape">MozBackup</a>, který slouží k zálohování uživatelských profilů aplikací Mozilla.org. Tato verze není stabilní a je určena především pro testování. Novinky shrnuje <a href="http://mozbackup.jasnapaka.com/changelog.txt" hreflang="en" title="">changelog</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/09/26/">26. 9. 05</a>
@@ -566,7 +566,7 @@ Jako bonbónek tu máme jedno nové rozšíření, a to <a href="doplnky/rozsire
 <div class="news">
 	<h3><a href="/zpravicky/male-rozsireni-z-ceskych-luhu-a-haju-aboutplugin/">Malé rozšíření z českých luhů a hájů: AboutPlugin</a></h3>
 
-	<div>I v Čechách vznikají nová rozšíření &ndash; jedno malé připravil <a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a>. Jmenuje se <a href="http://www.jasnapaka.com/mozilla/aboutplug/">AboutPlugin</a>, je určeno pouze pro Deer Park Alpha 2 a přidává do nabídky Nápověda položku <em>O zásuvných modulech</em>, která vyvolává stránku <tt>about:plugins</tt>. Podobné menu je vestavěno v <a href="/produkty/suite/">Mozilla Suite</a>. Pavel již dříve pro Firefox vytvořil rozšíření <a href="http://www.jasnapaka.com/mozilla/filetitle/">File Title</a>, které zajišťuje, že se ukládané stránky pojmenovávají podle obsahu tagu <code>&lt;title&gt;</code>. Pokud i vy tvoříte nějaké rozšíření, dejte nám o něm určitě vědět, rádi o něm napíšeme!</div>
+	<div>I v Čechách vznikají nová rozšíření &ndash; jedno malé připravil <a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a>. Jmenuje se <a href="http://www.jasnapaka.com/mozilla/aboutplug/">AboutPlugin</a>, je určeno pouze pro Deer Park Alpha 2 a přidává do nabídky Nápověda položku <em>O zásuvných modulech</em>, která vyvolává stránku <tt>about:plugins</tt>. Podobné menu je vestavěno v <a href="/produkty/suite/">Mozilla Suite</a>. Pavel již dříve pro Firefox vytvořil rozšíření <a href="http://www.jasnapaka.com/mozilla/filetitle/">File Title</a>, které zajišťuje, že se ukládané stránky pojmenovávají podle obsahu tagu <code>&lt;title&gt;</code>. Pokud i vy tvoříte nějaké rozšíření, dejte nám o něm určitě vědět, rádi o něm napíšeme!</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/07/15/">15. 7. 05</a>
@@ -1066,7 +1066,7 @@ Jako bonbónek tu máme jedno nové rozšíření, a to <a href="doplnky/rozsire
 <div class="news">
 	<h3><a href="/zpravicky/prehled-lokalizovanych-rozsireni/">Přehled lokalizovaných rozšíření</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-LP">Lukáš Petrovický</a> na <a href="/archiv.html#news:61a6ea47a8dea9166bd7e7d474f03293">Mozparty2</a> přislíbil organizovat lokalizace rozšíření a zřídit novou sekci s jejich přehledem. <strong><a href="/doplnky/rozsireni/">Přehled lokalizovaných rozšíření</a></strong> je hotov. Najdete v něm 26 lokalizovaných rozšíření pro <a href="/produkty/suite/">Mozilla Suite</a>, <a href="/produkty/firefox/">Firefox</a> a <a href="/produkty/thunderbird/">Thundebird</a> (a jsou připravena další, která čekají na otestování). Je vhodným místem pro všechny, kdo se na anglickém <a href="https://addons.mozilla.org/">Mozilla Update</a> nevyznají a pro ty, kdo rádi používají programy v češtině. Nezbývá než poděkovat všem, kdo se na <a href="/czilla/lide.html#ostatni">lokalizaci rozšíření podílejí</a> (k překladu dalších rozšíření můžete <a href="/clanky/prekladame-rozsireni.html">přispět i vy</a>).</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš Petrovický</a> na <a href="/archiv.html#news:61a6ea47a8dea9166bd7e7d474f03293">Mozparty2</a> přislíbil organizovat lokalizace rozšíření a zřídit novou sekci s jejich přehledem. <strong><a href="/doplnky/rozsireni/">Přehled lokalizovaných rozšíření</a></strong> je hotov. Najdete v něm 26 lokalizovaných rozšíření pro <a href="/produkty/suite/">Mozilla Suite</a>, <a href="/produkty/firefox/">Firefox</a> a <a href="/produkty/thunderbird/">Thundebird</a> (a jsou připravena další, která čekají na otestování). Je vhodným místem pro všechny, kdo se na anglickém <a href="https://addons.mozilla.org/">Mozilla Update</a> nevyznají a pro ty, kdo rádi používají programy v češtině. Nezbývá než poděkovat všem, kdo se na <a href="/czilla/prispevatele.php#ostatni">lokalizaci rozšíření podílejí</a> (k překladu dalších rozšíření můžete <a href="/clanky/prekladame-rozsireni.html">přispět i vy</a>).</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/01/29/">29. 1. 05</a>
@@ -1126,7 +1126,7 @@ Jako bonbónek tu máme jedno nové rozšíření, a to <a href="doplnky/rozsire
 <div class="news">
 	<h3><a href="/zpravicky/jak-spoustet-mozillu-s-parametry/">Jak spouštět Mozillu s parametry</a></h3>
 
-	<div><a href="/czilla/lide.html#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
+	<div><a href="/czilla/prispevatele.php#kdo-je-VH">Vlasta Hopjan</a> přeložil přehled základních <a href="/podpora/suite/mozilla-s-parametry.html">parametrů příkazové řádky Mozilly</a>. Přivítají je zejména pokročilejší uživatelé. Dozvíte se, jak pomocí parametrů (ať již připravených v zástupci na ploše nebo jako alias vašeho shellu) spouštět Mozillu se specifikovaným profilem, zadanou aplikací, určitou velkostí okna a další triky.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2005/01/03/">3. 1. 05</a>
@@ -2706,7 +2706,7 @@ Jako bonbónek tu máme jedno nové rozšíření, a to <a href="doplnky/rozsire
 <div class="news">
 	<h3><a href="/zpravicky/ukladani-stranek-podle-title/">Ukládaní stránek podle &lt;title&gt;</a></h3>
 
-	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/lide.html#kdo-je-PC">CZilla týmu</a> :-)</div>
+	<div>Krásný příklad, jak si může zkušený uživatel (nebojící se povrtat v <acronym title="Cross Platform Front End">XPFE</acronym> svého prohlížeče) pozměnit chování Mozilly, nabízí Pavel Cvrček ve svém návodu <a href="/clanky/ukladani-podle-title-v-mozille.html">Jak ukládat stránky v Mozille podle tagu TITLE</a>. (A jen tak mimochodem Pavel je teď novým členem <a href="/czilla/prispevatele.php#kdo-je-PC">CZilla týmu</a> :-)</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/08/06/">6. 8. 03</a>

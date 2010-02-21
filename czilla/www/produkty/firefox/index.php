@@ -12,15 +12,15 @@
 	<td style="width: 220px"><a href="/img/firefox-big.png" title="Klepněte pro získání plné velikosti">
 		<img src="/img/firefox.png" alt="Logo" width="200" height="180" /></a></td>
 	<td style="vertical-align: top">
-	<p><strong>Mozilla Firefox</strong> je moderní prohlížeč webových stránek, který vám nabízí příjemné uživatelské prostředí, <strong>ochranu vašeho soukromí</strong> a&nbsp;řadu pokročilých funkcí. I&nbsp;díky nim dnes patří ke špičce v&nbsp;oblasti webových prohlížečů.</p>
+		<div class="obsolete">Některé informace na stránkách produktu mohou být zastaralé. Aktuální informace naleznete na serveru
+		<a href="http://www.mozilla.cz/produkty/firefox/">Mozilla.cz</a>.</div>
 
-	<p>
-	Hledáte <strong>rychlý a spolehlivý</strong> prohlížeč? Mozilla Firefox je ta pravá volba pro vás! Je k&nbsp;dispozici
-	<strong>v&nbsp;češtině</strong> spolu s&nbsp;celou řadou <a href="http://www.mozilla.cz/doplnky/rozsireni/" title="Rozšíření pro Mozillu Firefox">rozšíření</a> a&nbsp;<a href="http://www.mozilla.cz/podpora/firefox/" title="Uživatelská podpora Mozilla Firefoxu">uživatelskou podporou</a>.
-	</p>
-	<p><img src="/img/download.png" width="16" height="16" alt="" />
-	<strong><a href="http://www.mozilla.cz/stahnout/firefox/" title="Stáhnout nejnovější verzi Mozilla Firefoxu v češtině">Stáhnout nejnovější verzi</a></strong></p>
-  </td>
+		<p><strong>Mozilla Firefox</strong> je moderní prohlížeč webových stránek, který vám nabízí příjemné uživatelské prostředí, <strong>ochranu vašeho soukromí</strong> a&nbsp;řadu pokročilých funkcí. I&nbsp;díky nim dnes patří ke špičce v&nbsp;oblasti webových prohlížečů.</p>
+		<p>Hledáte <strong>rychlý a spolehlivý</strong> prohlížeč? Mozilla Firefox je ta pravá volba pro vás! Je k&nbsp;dispozici
+		<strong>v&nbsp;češtině</strong> spolu s&nbsp;celou řadou <a href="http://www.mozilla.cz/doplnky/rozsireni/" title="Rozšíření pro Mozillu Firefox">rozšíření</a> a&nbsp;<a href="http://www.mozilla.cz/podpora/firefox/" title="Uživatelská podpora Mozilla Firefoxu">uživatelskou podporou</a>.</p>
+		<p><img src="/img/download.png" width="16" height="16" alt="" />
+		<strong><a href="http://www.mozilla.cz/stahnout/firefox/" title="Stáhnout nejnovější verzi Mozilla Firefoxu v češtině">Stáhnout nejnovější verzi</a></strong></p>
+	</td>
 </tr>
 </table>
 

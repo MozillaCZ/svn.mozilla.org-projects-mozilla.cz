@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Globální doručená pošta';
-	$page->headline = array('Globální doručená pošta','Návod, jak si v Thunderbirdu poradit s nastavením typu účtu');
-
-	$page->setKeywords('globální doporučená pota, inbox, IMAP, POP, podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
+	require_once '../../inc/page.php';
+	$page->setTitle('Globální doručená pošta');
+	$page->setHeadline('Globální doručená pošta','Návod, jak si v Thunderbirdu poradit s nastavením typu účtu');
+	$page->setKeywords('globální doporučená pošta, inbox, IMAP, POP, podpora, nápověda, pomoc, návod, mozilla, thunderbird, pošťák');
 	$page->setDescription('Návod, jak si v Thunderbirdu poradit s nastavením typu účtu');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links'); 
-	$page->addSideBox('tips','thunderbird');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <h2>Při vytváření nového účtu</h2>
 
@@ -62,7 +58,7 @@ je dobré provést také následující:</p>
 <span class="nabidka">Kopie a&nbsp;složky</span> se podívejte na cílové složky
 Odelslanou poštu, Koncepty a Šablony. Ujistěte se, že zprávy pro daný účet
 budou ukládány do složek podle vašich představ.</li>
-<li>Pokud pro daný účet používáte <a href="./nevyzadana-posta.html" 
+<li>Pokud pro daný účet používáte <a href="./nevyzadana-posta.php" 
 title="Mozilla Thunderbird: Nastavení filtru nevyžádané pošty">filtr nevyžádané
 pošty</a>, zkontrolujte zda je v&nbsp;abídce <span class="nabidka">Nástoje</span> &gt; 
 <span class="nabidka">Nastavení nevyžádané pošty</span> pro nevyžádanou poštu
@@ -96,5 +92,5 @@ uživatelský účet a&nbsp;tak nemohou být všechny uloženy v&nbsp;jedné slo
 </ul>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

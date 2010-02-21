@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Chci rozšíření pro Firefox, které...';
-	$page->headline = array('Chci rozšíření pro Firefox, které...','Zajímavá rozšíření pro Firefox seřazená podle účelu');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Chci rozšíření pro Firefox, které...');
+	$page->setHeadline('Chci rozšíření pro Firefox, které...','Zajímavá rozšíření pro Firefox seřazená podle účelu');
 	$page->setKeywords('firefox, rozšíření, účel');
 	$page->setDescription('Zajímavá rozšíření pro Firefox seřazená podle účelu.');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <p id="top">Na stránkách <a href="http://www.econsultant.com/" hreflang="en" 
 title="Domovská stránka eConsultant">eConsultant</a> vyšel <a 
@@ -21,10 +17,7 @@ hreflang="en" title="Originální verze tohoto článku">zajímavý článek</a>
 přehledným způsobem třídí vybraná rozšíření a&nbsp;usnadňuje tak hledání 
 vhodného doplňku pro funkci, která vám ve <a href="/produkty/firefox/" 
 title="Firefox: Stránka o&nbsp;produktu">Firefoxu</a> chybí. S&nbsp;jejich 
-svolením jsme jej pro vás přeložili a&nbsp;doplnili o&nbsp;odkazy na 
-lokalizované verze, které jsou na našem webu <a 
- href="/doplnky/rozsireni/p/firefox/" 
- title="Seznam lokalizovaných rozšíření pro Firefox">dostupné</a>.</p>
+svolením jsme jej pro vás přeložili.</p>
 
 <p><strong>Kategorie:</strong> <a href="#bezpecnost">Bezpečnost</a> |
 <a href="#blogovani">Blogování</a> | 
@@ -63,8 +56,7 @@ lokalizované verze, které jsou na našem webu <a
 <ul>
 	<li>povolit JavaScript, Javu, zásuvné moduly atd. pouze na důvěryhodných 
 	stránkách: <a href="http://noscript.net/" title="Domovská stránka rozšíření NoScript" 
-	hreflang="en">NoScript</a> (<a href="/doplnky/rozsireni/noscript/" 
-	title="Česká lokalizace rozšíření NoScript">česká verze</a>)</li>
+	hreflang="en">NoScript</a></li>
 	<li>mít více možností nastavení JavaScriptu: <a 
 	 href="https://addons.mozilla.org/firefox/1004/" 
 	 title="Domovská stránka rozšíření Javascript Options" 
@@ -74,9 +66,7 @@ lokalizované verze, které jsou na našem webu <a
 	title="Domovská stránka rozšíření ViewCookies" hreflang="en">View Cookies</a></li>
 	<li>spravovat cookies: <a 
 	href="http://cookieculler.mozdev.org" 
-	title="Domovská stránka rozšíření CookieCuller" hreflang="en">CookieCuller</a> 
-	(<a href="/doplnky/rozsireni/cookieculler/" 
-title="Česká lokalizace rozšíření CookieCuller">česká verze</a>)</li>
+	title="Domovská stránka rozšíření CookieCuller" hreflang="en">CookieCuller</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -110,8 +100,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	hreflang="en">GMail</a> účtu: <a 
 	href="http://extensions.nexgenmedia.net/" 
 	title="Domovská stránka rozšíření GMail Notifier" 
-	hreflang="en">Gmail Notifier</a> (<a href="/doplnky/rozsireni/gmail-notifier/" 
-	title="Česká lokalizace rozšíření GMail Notifier">česká verze</a>)</li>
+	hreflang="en">Gmail Notifier</a></li>
 	<li>odeslat internetovou stránku e-mailem: <a 
 	href="https://addons.mozilla.org/firefox/886/" 
 	title="Domovská stránka rozšíření Amazing Webpage Emailer" 
@@ -119,9 +108,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>vkládat vlastní podpis do e-mailů: <a 
 	href="https://addons.mozilla.org/firefox/578/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Signature</a> (<a 
-	href="/doplnky/rozsireni/signature/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Signature</a></li>
 	<li>vkládat emotikony do zpráv: <a 
 	href="https://addons.mozilla.org/firefox/375/" 
 	title="Domovská stránka rozšíření Smiley Xtra" 
@@ -130,13 +117,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	hreflang="en">GMail</a> účtů: <a 
 	href="http://www.longfocus.com/firefox/gmanager/" 
 	title="Domovská stránka rozšíření GMail Manager" 
-	hreflang="en">GMail Manager</a> (<a href="/doplnky/rozsireni/gmail-manager/" 
-	title="Česká lokalizace rozšíření GMail Manager">česká verze</a>)</li>
+	hreflang="en">GMail Manager</a></li>
 	<li>aby se e-mailová adresa napsaná jako text chovala jako odkaz: <a 
 	href="https://addons.mozilla.org/firefox/1864/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">text/plain</a> (<a href="/doplnky/rozsireni/text-plain/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">text/plain</a></li>
 	<li>používat různé <a href="http://mail.google.com/" 
 	hreflang="en">GMail</a> účty v&nbsp;různých panelech: <a 
 	href="http://www.nektra.com/oss/firefox/extensions/cookiepie/" 
@@ -186,9 +171,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	href="http://www.google.com/">Google</a>; odstranit reklamy: <a 
 	href="https://addons.mozilla.org/firefox/743/" 
 	title="Domovská stránka rozšíření CustomizeGoogle" 
-	hreflang="en">CustomizeGoogle</a> (<a 
-	href="/doplnky/rozsireni/customizegoogle/" 
-	title="Česká lokalizace rozšíření CustomizeGoogle">česká verze</a>)</li>
+	hreflang="en">CustomizeGoogle</a></li>
 	<li>zobrazovat mé příjmy u&nbsp;Adsense: <a 
 	href="https://addons.mozilla.org/extensions/moreinfo.php?id=500&amp;application=firefox" 
 	title="Domovská stránka rozšíření" 
@@ -197,9 +180,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	href="http://www.google.com/">Google</a>: <a 
 	href="http://www.customizegoogle.com/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">CustomizeGoogle</a> (<a 
-	href="/doplnky/rozsireni/customizegoogle/" 
-	title="Česká lokalizace rozšíření CustomizeGoogle">česká verze</a>)</li>
+	hreflang="en">CustomizeGoogle</a></li>
 	<li>vyhledávat <a 
 	href="http://www.google.com/">Googlem</a> a&nbsp;používat další služby <a 
 	href="http://www.google.com/">Google</a>: <a 
@@ -238,9 +219,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zaznamenávat navštívené stránky: <a 
 	href="https://addons.mozilla.org/firefox/143/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Slogger</a> (<a 
-	href="/doplnky/rozsireni/slogger/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Slogger</a></li>
 	<li>prohlížet v&nbsp;minulosti navštívené stránky: <a 
 	href="https://addons.mozilla.org/firefox/682/" 
 	title="Domovská stránka rozšíření" 
@@ -289,9 +268,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	href="http://www.google.com/">Google</a>, <a 
 	href="http://www.yahoo.com/">Yahoo!</a> atd.: <a 
 	href="https://addons.mozilla.org/firefox/189/" 
-	title="Domovská stránka rozšíření" hreflang="en">GooglePreview</a> (<a 
-	href="/doplnky/rozsireni/googlepreview/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">GooglePreview</a></li>
 	<li>vyhledávat na 1 až 25 vybraných stránkách: <a 
 	href="http://www.rollyo.com/firefoxsearch.html" 
 	title="Domovská stránka rozšíření" 
@@ -309,15 +286,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>ovládat multimediální přehrávače z Firefoxu: <a 
 	href="http://www.foxytunes.org/firefox/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">FoxyTunes</a> (<a 
-	href="/doplnky/rozsireni/foxytunes/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">FoxyTunes</a></li>
 	<li>spouštět Windows Media Player pro média na stránkách: <a 
 	href="http://membres.lycos.fr/sethnakht/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">MediaPlayerConnectivity</a> (<a 
-	href="/doplnky/rozsireni/mediaplayerconnectivity/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">MediaPlayerConnectivity</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -337,14 +310,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zobrazovat stránky funkční pouze v&nbsp;Internet Exploreru také ve Firefoxu: <a 
 	href="http://ietab.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">IE Tab</a> (<a 
-	href="/doplnky/rozsireni/ie-tab/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">IE Tab</a></li>
 	<li>zobrazit ve Firefoxu stejnou stránku, která je otevřená v&nbsp;Internet 
 	Exploreru: <a href="http://www.iosart.com/firefox/firefoxview/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">FirefoxView</a> (<a href="/doplnky/rozsireni/firefoxview/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">FirefoxView</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -400,9 +370,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zvětšovat nebo zmenšovat obrázky: <a 
 	href="http://imagezoom.yellowgorilla.net/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Image Zoom</a> (<a 
-	href="/doplnky/rozsireni/image-zoom/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Image Zoom</a></li>
 	<li>ukládat video z&nbsp;<abbr title="Uniform Resource Locator">URL</abbr> 
 	adresy ve schránce: <a href="https://addons.mozilla.org/firefox/1478/" 
 	title="Domovská stránka rozšíření" 
@@ -424,9 +392,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>přetáhnutím odkazu nebo obrázku jej otevřít v&nbsp;novém panelu: <a 
 	href="http://morphis.eu.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">SuperDrag&amp;Go</a> (<a 
-	href="/doplnky/rozsireni/super-dragandgo/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">SuperDrag&amp;Go</a></li>
 	<li>dvojitým poklepáním na textový odkaz jej otevřít: <a 
 	href="https://addons.mozilla.org/firefox/1939/" 
 	title="Domovská stránka rozšíření" 	
@@ -443,8 +409,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<abbr title="Portable Document Format">PDF</abbr> atd.): <a 
 	href="http://www.bolinfest.com/targetalert/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">TargetAlert</a> (<a href="/doplnky/rozsireni/target-alert/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">TargetAlert</a></li>
 	<li>vybrat a&nbsp;otevřít více odkazů najednou: <a 
 	href="https://addons.mozilla.org/firefox/841/" 
 	title="Domovská stránka rozšíření" 
@@ -455,9 +420,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	hreflang="en">Fetch Text URL</a></li>
 	<li>zacházet s&nbsp;textovou <abbr title="Uniform Resource Locator">URL</abbr> 
 	jako s&nbsp;odkazem: <a href="http://www.beggarchooser.com/firefox/" 
-	title="Domovská stránka rozšíření" hreflang="en">Linkification</a> (<a 
-	href="/doplnky/rozsireni/linkification/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">Linkification</a></li>
 	<li>zalamovat dlouhé odkazy, které si vynucují zobrazení posuvníku: <a 
 	href="https://addons.mozilla.org/firefox/2021/" 
 	title="Domovská stránka rozšíření" 
@@ -478,21 +441,15 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	hreflang="en">Colorful Tabs</a></li>
 	<li>duplikovat panely: <a href="http://twanno.mozdev.org/duplicatetab/" 
 	title="Domovská stránka rozšíření DuplicateTab" 
-	hreflang="en">Duplicate Tab</a> (<a 
-	href="/doplnky/rozsireni/duplicate-tab/" 
-	title="Česká lokalizace rozšíření DuplicateTab">česká verze</a>)</li>
+	hreflang="en">Duplicate Tab</a></li>
 	<li>spravovat panely (přidávat, přesouvat atd.): <a 
 	href="http://216.55.161.203/theonekea/tabprefs/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Tabbrowser Preferences</a> (<a 
-	href="/doplnky/rozsireni/tabbrowser-preferences/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Tabbrowser Preferences</a></li>
 	<li>spravovat panely (vícenásobné odkazy, duplikování, zavření stejné domény, 
 	atd.): <a href="http://tmp.garyr.net/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Tab Mix Plus</a> (<a 
-	href="/doplnky/rozsireni/tab-mix-plus/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Tab Mix Plus</a></li>
 	<li>označit libovolný panel jako permanentní: <a 
 	href="https://addons.mozilla.org/firefox/2558/" 
 	title="Domovská stránka rozšíření" 
@@ -521,9 +478,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 <ul>
 	<li>otevírat <abbr title="Portable Document Format">PDF</abbr> soubory 
 	v&nbsp;novém panelu: <a href="https://addons.mozilla.org/firefox/636/" 
-	title="Domovská stránka rozšíření" hreflang="en">PDF Download</a> (<a 
-	href="/doplnky/rozsireni/pdf-download/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">PDF Download</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -532,9 +487,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 <ul>
 	<li>sledovat informace o&nbsp;počasí: <a href="http://forecastfox.mozdev.org/"
 	 title="Domovská stránka rozšíření" 
-	hreflang="en">ForecastFox</a> (<a 
-	href="/doplnky/rozsireni/forecastfox/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">ForecastFox</a></li>
 	<li>sledovat informace o&nbsp;počasí a&nbsp;radarové snímky: <a 
 	href="http://users.rcn.com/shoofy/forecastfox_enhanced/" 
 	title="Domovská stránka rozšíření" 
@@ -561,9 +514,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>automaticky obnovovat stránku po nastaveném časovém intervalu: <a 
 	href="https://addons.mozilla.org/firefox/115/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Reload Every</a> (<a 
-	href="/doplnky/rozsireni/reload-every/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Reload Every</a></li>
 	<li>automaticky s&nbsp;pohybem myši zobrazovat a&nbsp;skrývat postranní lištu: 
 	<a href="https://addons.mozilla.org/firefox/368/" 
 	title="Domovská stránka rozšíření" 
@@ -571,9 +522,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>vytvářet krátké odkazy (tzv. <a href="http://www.tinyurl.com" 
 	hreflang="en">Tiny<acronym title="Uniform Resource Locator">URL</acronym></a>): 
 	<a href="https://addons.mozilla.org/firefox/126/" 
-	title="Domovská stránka rozšíření" hreflang="en">TinyURL Creator</a>, <a 
-	href="/doplnky/rozsireni/tinyurl/" 
-	title="Česká lokalizace rozšíření">česká verze</a></li>
+	title="Domovská stránka rozšíření" hreflang="en">TinyURL Creator</a></li>
 	<li>odstranit přednastavenou prodlevu před instalací souborů *.xpi: <a 
 	href="https://addons.mozilla.org/firefox/775/" 
 	title="Domovská stránka rozšíření" 
@@ -593,9 +542,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>otevírat odkazy a&nbsp;e-maily v&nbsp;externích aplikacích: <a 
 	href="https://addons.mozilla.org/firefox/81/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Launchy</a> (<a 
-	href="/doplnky/rozsireni/launchy/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Launchy</a></li>
 	<li>odstranit natrvalo části stránek: <a 
 	href="https://addons.mozilla.org/firefox/521/" 
 	title="Domovská stránka rozšíření" 
@@ -603,15 +550,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>obnovit všechny otevřené stránky po pádu: <a 
 	href="https://addons.mozilla.org/firefox/1955/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Crash Recovery</a> (<a 
-	href="/doplnky/rozsireni/crash-recovery/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Crash Recovery</a></li>
 	<li>obnovit po spuštění naposledy otevřené stránky: <a 
 	href="https://addons.mozilla.org/firefox/436/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">SessionSaver</a> (<a 
-	href="/doplnky/rozsireni/sessionsaver2/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">SessionSaver</a></li>
 	<li>sledovat všechny panely naráz na obrazovce: <a 
 	href="https://addons.mozilla.org/firefox/1810/" 
 	title="Domovská stránka rozšíření" 
@@ -619,9 +562,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zobrazovat datum a&nbsp;čas ve stavovém řádku: <a 
 	href="https://addons.mozilla.org/firefox/52/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Statusbar Clock</a> (<a 
-	href="/doplnky/rozsireni/statusbar-clock/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Statusbar Clock</a></li>
 	<li>zobrazit na stránkách více výsledků hledání: <a 
 	href="https://addons.mozilla.org/firefox/2099/" 
 	title="Domovská stránka rozšíření" 
@@ -633,9 +574,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>přepínat mezi více postranními lištami: <a 
 	href="https://addons.mozilla.org/firefox/1027/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">All-In-One Sidebar</a> (<a 
-	href="/doplnky/rozsireni/all-in-one-sidebar/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">All-In-One Sidebar</a></li>
 	<li>sledovat čas strávený u&nbsp;prohlížeče: <a 
 	href="https://addons.mozilla.org/firefox/1887/" 
 	title="Domovská stránka rozšíření" 
@@ -657,9 +596,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>ukládat internetové stránky: <a 
 	href="https://addons.mozilla.org/firefox/427/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">ScrapBook</a> (<a 
-	href="/doplnky/rozsireni/scrapbook/"
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">ScrapBook</a></li>
 	<li>ukládat poznámky z&nbsp;internetových stránek: <a 
 	href="https://addons.mozilla.org/firefox/1407/" 
 	title="Domovská stránka rozšíření" 
@@ -681,18 +618,14 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>přidávat, odstraňovat či měnit některé vlastnosti stránek: <a 
 	href="http://greasemonkey.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">GreaseMonkey</a> (<a 
-	href="/doplnky/rozsireni/greasemonkey/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">GreaseMonkey</a></li>
 	<li>přizpůsobovat stránky a&nbsp;ukládat jako skript GreaseMonkey: <a 
 	href="http://platypus.mozdev.org/" 
 	title="Domovská stránka rozšíření" hreflang="en">platypus</a></li>
 	<li>upravovat uživatelské styly sránek: <a 
 	href="https://addons.mozilla.org/firefox/2108/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Stylish</a> (<a 
-	href="/doplnky/rozsireni/stylish/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Stylish</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -702,24 +635,18 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>blokovat reklamy na internetových stránkách: <a 
 	href="http://adblock.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Adblock</a> (<a 
-	href="/doplnky/rozsireni/adblock/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Adblock</a></li>
 	<li>blokovat reklamy na internetových stránkách: <a 
 	href="http://p2.forumforfree.com/releases-vf3-adblockplus.html" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Adblock Plus</a> (<a 
-	href="/doplnky/rozsireni/adblock-plus/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Adblock Plus</a></li>
 	<li>automaticky aktualizovat filtry AdBlocku: <a 
 	href="http://www.pierceive.com/" 
 	title="Domovská stránka rozšíření" 
 	hreflang="en">Adblock Filterset.G Updater</a></li>
 	<li>blokovat Flash: <a href="http://flashblock.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Flashblock</a> (<a 
-	href="/doplnky/rozsireni/flashblock/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Flashblock</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -738,9 +665,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	podporované verze rozšíření a&nbsp;další věci spojené s&nbsp;rozšířeními: <a 
 	href="https://addons.mozilla.org/firefox/421/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">MR Tech Local Install</a> (<a 
-	href="/doplnky/rozsireni/local-install/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">MR Tech Local Install</a></li>
 	<li>vytvářet seznam nainstalovaných rozšíření a&nbsp;motivů vzhledu: <a 
 	href="https://addons.mozilla.org/firefox/447/" 
 	title="Domovská stránka rozšíření" 
@@ -752,15 +677,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>restartovat Firefox jedním klepnutím: <a 
 	href="https://addons.mozilla.org/extensions/moreinfo.php?id=1249&amp;application=firefox" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Restart Firefox</a> (<a 
-	href="/doplnky/rozsireni/restartfirefox/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Restart Firefox</a></li>
 	<li>zobrazit dostupné aktualizace rozšíření: <a 
 	href="https://addons.mozilla.org/firefox/2098/" 
 	title="Domovská stránka rozšíření Update Notifier" 
-	hreflang="en">Update Notifier</a> (<a 
-	href="/doplnky/rozsireni/update-notifier/" 
-	title="Česká lokalizace rozšíření Update Notifier">česká verze</a>)</li>
+	hreflang="en">Update Notifier</a></li>
 	<li>třídit seznam rozšíření: <a 
 	href="https://addons.mozilla.org/firefox/1230/" 
 	title="Domovská stránka rozšíření" 
@@ -776,14 +697,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	do čteček, nebo jejich rozšíření: <a 
 	href="https://addons.mozilla.org/firefox/324/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">LiveLines</a> (<a 
-	href="/doplnky/rozsireni/livelines/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">LiveLines</a></li>
 	<li>číst <acronym title="Really Simple Syndication">RSS</acronym> kanály: <a 
 	href="http://sage.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Sage</a> (<a href="/doplnky/rozsireni/sage/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Sage</a></li>
 	<li>číst <acronym title="Really Simple Syndication">RSS</acronym> kanály: <a 
 	href="https://addons.mozilla.org/firefox/424/" 
 	title="Domovská stránka rozšíření" 
@@ -835,14 +753,11 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>používat více proxy serverů najednou: <a 
 	href="https://addons.mozilla.org/firefox/125/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">SwitchProxy Tool</a> (<a 
-	href="/doplnky/rozsireni/switchproxy-tool/"
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">SwitchProxy Tool</a></li>
 	<li>používat více proxy serverů najednou: <a 
 	href="https://addons.mozilla.org/firefox/1273/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">xyzproxy</a> (<a href="/doplnky/rozsireni/xyzproxy/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">xyzproxy</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -857,38 +772,26 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>stahovat všechny odkazy na stránce (třídění podle typu): <a 
 	href="http://downthemall.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">DownThemAll!</a> (<a 
-	href="/doplnky/rozsireni/downthemall/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">DownThemAll!</a></li>
 	<li>stahovat a&nbsp;odesílat soubory pomocí <acronym 
 	title="File Transfer Protocol">FTP</acronym>: <a 
 	href="http://fireftp.mozdev.org/" 
-	title="Domovská stránka rozšíření" hreflang="en">FireFTP</a> (<a 
-	href="/doplnky/rozsireni/fireftp/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">FireFTP</a></li>
 	<li>ovládat stahování souborů: <a href="http://www.flashgot.net/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">FlashGot</a> (<a 
-	href="/doplnky/rozsireni/flashgot/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">FlashGot</a></li>
 	<li>otevírat Správce stahování v&nbsp;novém panelu: <a 
 	href="http://dmextension.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Download Manager Tweak</a> (<a 
-	href="/doplnky/rozsireni/download-manager-tweak/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Download Manager Tweak</a></li>
 	<li>sledovat rychlost stahování ve stavovém řádku: <a 
 	href="http://downloadstatusbar.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Download Statusbar</a> (<a 
-	href="/doplnky/rozsireni/download-statusbar/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Download Statusbar</a></li>
 	<li>zamezit otevírání prázdného okna při stahování: <a 
 	href="https://addons.mozilla.org/extensions/moreinfo.php?id=241" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Disable Targets For Downloads</a> (<a 
-	href="/doplnky/rozsireni/disable-targets-for-downloads/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Disable Targets For Downloads</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -899,16 +802,12 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>automaticky kopírovat označený text do schránky: <a 
 	href="http://autocopy.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">AutoCopy</a> (<a 
-	href="/doplnky/rozsireni/autocopy/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">AutoCopy</a></li>
 	<li>kopírovat prostý text (bez formátování, <acronym 
 	title="HyperText Markup Language">HTML</acronym>,...): <a 
 	href="https://addons.mozilla.org/extensions/moreinfo.php?id=134" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Copy Plain Text</a> (<a 
-	href="/doplnky/rozsireni/copy-plain-text/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Copy Plain Text</a></li>
 	<li>vyplňovat internetové formuláře jménem, adresou, e-mailem atd.: <a 
 	href="https://addons.mozilla.org/firefox/184/" 
 	title="Domovská stránka rozšíření" 
@@ -920,9 +819,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>vyhledávat význam označených slov ve slovníku: <a 
 	href="http://dictionarysearch.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">DictionarySearch</a> (<a 
-	href="/doplnky/rozsireni/dictionary-search/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">DictionarySearch</a></li>
 	<li>vyhledávat význam označených slov ve slovníku: <a 
 	href="https://addons.mozilla.org/firefox/1171/" 
 	title="Domovská stránka rozšíření" 
@@ -982,9 +879,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>odstranit nežádoucí text či obrázky před tiskem stránky: <a 
 	href="https://addons.mozilla.org/firefox/951/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Nuke Anything Enhanced</a> (<a 
-	href="/doplnky/rozsireni/nuke-anything-enhanced/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Nuke Anything Enhanced</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -1010,8 +905,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zobrazovat zpětné odkazy vyhledávacího modulu, analyzovat odkazy atd.: <a
 	 href="https://addons.mozilla.org/firefox/570/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">SEOpen</a> (<a href="/doplnky/rozsireni/seopen/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">SEOpen</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -1026,14 +920,10 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>upravovat, mazat a&nbsp;přemisťovat položky v&nbsp;nabídkách: <a 
 	href="http://menueditor.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Menu Editor</a> (<a 
-	href="/doplnky/rozsireni/menu-editor/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Menu Editor</a></li>
 	<li>minimalizovat Firefox do oznamovací oblasti: <a 
 	href="https://addons.mozilla.org/firefox/2110/" 
-	title="Domovská stránka rozšíření" hreflang="en">MinimizeToTray</a> (<a 
-	href="/doplnky/rozsireni/minimizetotray/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">MinimizeToTray</a></li>
 	<li>zobrazovat průběh načítání stránky: <a 
 	href="https://addons.mozilla.org/firefox/1951/" 
 	title="Domovská stránka rozšíření" 
@@ -1041,9 +931,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zobrazovat průběh načítání stránky ve stavovém řádku: <a 
 	href="http://galeb.etf.bg.ac.yu/%7Eks040161d/firefox/extensions/esb/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Extended Statusbar</a> (<a 
-	href="/doplnky/rozsireni/extended-statusbar/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Extended Statusbar</a></li>
 	<li>spojit tlačítka <span class="nabidka">Zastavit</span> a&nbsp;<span 
 	class="nabidka">Obnovit</span> v&nbsp;jedno: <a href="http://v2studio.com/k/moz/" 
 	title="Domovská stránka rozšíření" 
@@ -1051,9 +939,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zrychlit Firefox: <a 
 	href="http://fasterfox.mozdev.org/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Fasterfox</a> (<a 
-	href="/doplnky/rozsireni/fasterfox/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Fasterfox</a></li>
 	<li>používat pestré ikony v&nbsp;nabídkách: <a 
 	href="https://addons.mozilla.org/firefox/1330/" 
 	title="Domovská stránka rozšíření" 
@@ -1071,21 +957,15 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>měnit identifikaci svého prohlížeče: <a 
 	href="https://addons.mozilla.org/firefox/59/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">User Agent Switcher</a> (<a 
-	href="/doplnky/rozsireni/user-agent-switcher/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">User Agent Switcher</a></li>
 	<li>zjistit barvu zvoleného pixelu: <a 
 	href="https://addons.mozilla.org/firefox/271/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">ColorZilla</a> (<a 
-	href="/doplnky/rozsireni/colorzilla/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">ColorZilla</a></li>
 	<li>snímat stránky jako obrázky: <a 
 	href="http://andy.5263.org/screengrab/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">ScreenGrab!</a> (<a 
-	href="/doplnky/rozsireni/screen-grab/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">ScreenGrab!</a></li>
 	<li>snímat stránky jako obrázky: <a 
 	href="http://pearlcrescent.com/products/pagesaver/" 
 	title="Domovská stránka rozšíření" 
@@ -1112,14 +992,10 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>stahovat celé internetové stránky: <a 
 	href="https://addons.mozilla.org/firefox/1616/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">SpiderZilla</a> (<a 
-	href="/doplnky/rozsireni/spiderzilla/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">SpiderZilla</a></li>
 	<li>upravovat <acronym title="Cascading Style Sheets">CSS</acronym>: <a 
 	href="https://addons.mozilla.org/firefox/179/" 
-	title="Domovská stránka rozšíření" hreflang="en">EditCSS</a> (<a 
-	href="/doplnky/rozsireni/editcss/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">EditCSS</a></li>
 	<li>Prohledávat informace WHOIS: <a 
 	href="https://addons.mozilla.org/firefox/1836/" 
 	title="Domovská stránka rozšíření" 
@@ -1139,9 +1015,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>měřit rozměry v&nbsp;pixelech pomocí pravítka: <a 
 	href="https://addons.mozilla.org/firefox/539/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">MeasureIt</a> (<a 
-	href="/doplnky/rozsireni/measureit/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">MeasureIt</a></li>
 	<li>upravovat <abbr title="Hyper Text Transfer Protocol">HTTP</abbr>/<abbr 
 	title="HyperText Transfer Protocol Secure">HTTPS</abbr> hlavičky 
 	a&nbsp;parametry POST: <a href="https://addons.mozilla.org/firefox/966/" 
@@ -1220,9 +1094,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	title="Cascading Style Sheets">CSS</acronym> nebo <acronym 
 	title="HyperText Markup Language">HTML</acronym>: <a 
 	href="http://chrispederick.com/work/webdeveloper/" 
-	title="Domovská stránka rozšíření" hreflang="en">Web Developer</a> (<a 
-	href="/doplnky/rozsireni/web-developer-toolbar/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	title="Domovská stránka rozšíření" hreflang="en">Web Developer</a></li>
 	<li>zobrazovat strukturu <acronym 
 	title="HyperText Markup Language">HTML</acronym> přímo na stránkách: <a 
 	href="https://addons.mozilla.org/firefox/1802/" 
@@ -1235,14 +1107,10 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>zobrazovat zdrojový kód v&nbsp;externí aplikaci: <a 
 	href="https://addons.mozilla.org/firefox/394/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">ViewSourceWith</a> (<a 
-	href="/doplnky/rozsireni/viewsourcewith/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">ViewSourceWith</a></li>
 	<li>vytvářet výplňové "dummy" texty: <a href="https://addons.mozilla.org/firefox/198/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">LoremIpsum Content Generator</a> (<a 
-	href="/doplnky/rozsireni/lorem-ipsum-content-generator/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">LoremIpsum Content Generator</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
@@ -1252,9 +1120,7 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>přidat příkaz "přidat záložku sem" do stromu záložek: <a 
 	href="https://addons.mozilla.org/firefox/11/" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Add Bookmark Here</a> (<a 
-	href="/doplnky/rozsireni/add-bookmark-here/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Add Bookmark Here</a></li>
 	<li>ukládat záložky na <a href="http://del.icio.us" 
 	hreflang="en">del.icio.us</a>: <a  href="http://del.icio.us/help/firefox/extension" 
 	title="Domovská stránka rozšíření" 
@@ -1292,58 +1158,14 @@ a&nbsp;pošta na webu: Chtěl bych...</h3>
 	<li>synchronizovat záložky Firefoxu s&nbsp;jinými počítači: <a 
 	href="http://extensionroom.mozdev.org/more-info/booksync" 
 	title="Domovská stránka rozšíření" 
-	hreflang="en">Bookmarks Synchronizer</a> (<a 
-	href="/doplnky/rozsireni/bookmarks-synchronizer/" 
-	title="Česká lokalizace rozšíření">česká verze</a>)</li>
+	hreflang="en">Bookmarks Synchronizer</a></li>
 </ul>
 
 <p><a href="#top">Zpět na začátek stránky</a></p>
 
-<p><strong>Kategorie:</strong> <a href="#bezpecnost">Bezpečnost</a> |
-<a href="#blogovani">Blogování</a> | 
-<a href="#email">e-mail, Gmail a&nbsp;pošta na webu</a> | 
-<a href="#finance">Finance a&nbsp;akcie</a> | 
-<a href="#google">Google</a> | 
-<a href="#hesla">Hesla</a> | 
-<a href="#historie">Historie a&nbsp;archivace</a> | 
-<a href="#hledani">Hledání</a> | 
-<a href="#hudba">Hudba</a> | 
-<a href="#chat">Chat</a> | 
-<a href="#ie">Internet Explorer a&nbsp;ostatní prohlížeče</a> | 
-<a href="#mys">Myš</a> | 
-<a href="#objevovani">Objevování</a> | 
-<a href="#obrazky">Obrázky, mapy, grafika a&nbsp;video</a> | 
-<a href="#odkazy">Odkazy</a> | 
-<a href="#panely">Panely</a> | 
-<a href="#pdf"><abbr title="Portable Document Format">PDF</abbr></a> | 
-<a href="#pocasi">Počasí</a> | 
-<a href="#pomucky">Pomůcky a&nbsp;nástroje</a> | 
-<a href="#poznamky">Poznámky</a> | 
-<a href="#prizpusobeni">Přizpůsobení a&nbsp;změny vzhledu stránek</a> | 
-<a href="#reklamy">Reklamy</a> | 
-<a href="#rozsireni">Rozšíření a&nbsp;jejich správa</a> | 
-<a href="#rss">RSS, kanály a&nbsp;aktivní záložky</a> | 
-<a href="#soukromi">Soukromí</a> | 
-<a href="#stahovani">Stahování souborů a&nbsp;práce s&nbsp;<abbr title="File Transfer Protocol">FTP</abbr></a> | 
-<a href="#text">Text (kopírování, vyjímání, vkládání, kontrola a&nbsp;překlad)</a> | 
-<a href="#tisk">Tisk</a> | 
-<a href="#vyhledavace">Vyhledávače a&nbsp;jejich přizpůsobení</a> | 
-<a href="#vykon">Výkon, rychlost a&nbsp;ladění</a> | 
-<a href="#vyvoj">Vývojářské nástroje</a> | 
-<a href="#zalozky">Záložky</a></p>
-
-<p>Mějte prosím na paměti, že někdy můžeme při vydání nového počeštěného 
-rozšíření opomenout aktualizovat tento text, proto se vždy můžete přesvědčit, 
-zda není dostupná česká verze i&nbsp;u&nbsp;rozšíření, u&nbsp;kterého to není 
-uvedeno.</p>
-
-<p>CZilla děkuje autorům ze serveru <a href="http://www.econsultant.com/" 
-hreflang="en" title="Domovská stránka eConsultant">eConsultant</a> za svolení 
-k&nbsp;uveřejnění tohoto překladu.</p>
-
 <hr />
-<p><small>2. 8. 2006, <a href="/czilla/prispevatele.html#kdo-je-MS">Miroslav Suchý</a></small></p>
+<p><small>2. 8. 2006, <a href="/czilla/prispevatele.php#kdo-je-MS">Miroslav Suchý</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

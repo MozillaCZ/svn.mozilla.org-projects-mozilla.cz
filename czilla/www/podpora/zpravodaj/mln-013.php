@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Zpravodaj Mozilla Links - 13. číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','13. číslo (17. 2. 2004 / 2. 3. 2004)');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Zpravodaj Mozilla Links - 13. číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','13. číslo (17. 2. 2004 / 2. 3. 2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -265,8 +262,8 @@ kdyby to propagovala Mozilla. Zde jsou výsledky:</p>
 <p><strong>Komentáře:</strong> Vítány na <a href="mailto:newsletter-feedback@mozilla.org">newsletter-feedback@mozilla.org</a>.</p>
 <p>Zpravodaj Mozilla Links je překládán do čínštiny, <a href="/podpora/zpravodaj/">češtiny</a>, holandštiny, němčiny, japonštiny a polštiny.</p>
 
-<p><strong>Česká verze:</strong> <a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> a Pavel Kácha.</p>
+<p><strong>Česká verze:</strong> <a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> a Pavel Kácha.</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

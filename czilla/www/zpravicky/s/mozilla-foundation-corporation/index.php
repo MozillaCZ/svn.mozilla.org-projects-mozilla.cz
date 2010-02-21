@@ -236,7 +236,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/jan-matousek-z-czilly-se-ucastni-summer-of-code/">Jan Matoušek z CZilly se účastní Summer of Code</a></h3>
 
-	<div>S potěšením oznamujeme, že projekt <a href="http://plathel.iglu.cz/czt/" title="CZilla Translator">CZilla Translator</a> od <a href="http://www.czilla.cz/czilla/lide.html#kdo-je-JM">Jana Matouška</a> z CZilly byl <a href="http://code.google.com/soc/mofo/about.html" hreflang="en">akceptován</a> do programu <a href="http://code.google.com/soc/" hreflang="en" title="Google Code - Summer of Code - Summer of Code">Summer of Code</a>. Tento program je aktivitou společnosti Google, která jeho prostřednictvím financuje příspěvky studentů do různých open source projektů, včetně Mozilly. Projekt CZilla Translator si klade za cíl ulehčit lokalizaci aplikací Mozilly a jejich rozšíření. Jelikož víme, kolik mají lokalizátoři s lokalizací Mozilly práce, držíme Honzovi palce, ať se mu projekt povede.</div>
+	<div>S potěšením oznamujeme, že projekt <a href="http://plathel.iglu.cz/czt/" title="CZilla Translator">CZilla Translator</a> od <a href="http://www.czilla.cz/czilla/prispevatele.php#kdo-je-JM">Jana Matouška</a> z CZilly byl <a href="http://code.google.com/soc/mofo/about.html" hreflang="en">akceptován</a> do programu <a href="http://code.google.com/soc/" hreflang="en" title="Google Code - Summer of Code - Summer of Code">Summer of Code</a>. Tento program je aktivitou společnosti Google, která jeho prostřednictvím financuje příspěvky studentů do různých open source projektů, včetně Mozilly. Projekt CZilla Translator si klade za cíl ulehčit lokalizaci aplikací Mozilly a jejich rozšíření. Jelikož víme, kolik mají lokalizátoři s lokalizací Mozilly práce, držíme Honzovi palce, ať se mu projekt povede.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/majda/">David Majda</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/05/25/">25. 5. 06</a>
@@ -343,7 +343,7 @@ mentorů a projektů.</div>
 <div class="news">
 	<h3><a href="/zpravicky/fosdem-2006/">FOSDEM 2006</a></h3>
 
-	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/lide.html#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/lide.html#kdo-je-lp">Lukáš Petrovický</a>.</div>
+	<div>Tento víkend se v Bruselu koná šestý ročník evropského setkání OpenSource vývojářů <a href="http://www.fosdem.org/2006/">FOSDEM 2006</a>, jehož součástí je i stánek Mozilly a cyklus <a href="http://www.fosdem.org/2006/index/dev_room_mozilla/schedule">přednášek/diskuzí na téma Mozilla</a>. Součástí setkání vývojářů Mozilly je i setkání lokalizátorů, kterého se za CZillu účastní <a href="/czilla/prispevatele.php#kdo-je-pf">Pavel Franc</a> a <a href="/czilla/prispevatele.php#kdo-je-lp">Lukáš Petrovický</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/franc/">Pavel Franc</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2006/02/25/">25. 2. 06</a>

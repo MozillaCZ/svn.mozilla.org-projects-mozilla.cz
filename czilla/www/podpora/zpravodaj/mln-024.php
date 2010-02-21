@@ -1,13 +1,10 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title = 'Zpravodaj Mozilla Links - 24.číslo';
-	$page->headline = array('Zpravodaj Mozilla Links','24. číslo (3.11.2004 / 13.11.2004)');
-
+	require_once '../../inc/page.php';
+	$page->title = 'Zpravodaj Mozilla Links - 24.číslo');
+	$page->setHeadline('Zpravodaj Mozilla Links','24. číslo (3.11.2004 / 13.11.2004)');
 	$page->setKeywords('podpora, zpravodaj, nápověda, pomoc, návod, mozilla');
 	$page->setDescription('Stránka zpravodaje Mozilla Links');
-
-	$page->includeHeader(); 
+	$page->includeTemplate('header'); 
 ?>
 
 <h2 id="content" class="nice">Obsah</h2>
@@ -58,7 +55,7 @@
 <li>V žádném případě.</li>
 </ul>
 
-<p>(Pozn. překladatele: Původní anglické i lokalizované vydání tohoto zpravodaje se ještě věnuje testovacím verzím (RC) Firefoxu 1.0. <a href="/clanky/tiskove-zpravy/mozilla-firefox-1.0-cz.html">Firefox 1.0 vyšel 9.11.2004</a>.) Firefox 1.0 Release Candidate je tu. Od tzv. Preview Release se liší pouze v menších konečných úpravách, jako jsou vylepšení tisku a Aktuálních záložek a nové ikony na nástrojové liště. Příjemného vylepšení doznaly také ikony v nabídce předvolby. Díky nové položce v Předvolbách/Ostatní/Prohlížení v panelech můžete ve Firefoxu otevírat odkazy z jiných aplikací (např. z e-mailového klienta nebo chatovacího klienta) v novém okně, v novém panelu, anebo v již otevřeném panelu. Ještě důležitější vývoj proběhl v rámci oprav více než 250 chyb od vydání verze Preview Release. Pokud se více zajímáte o používání Firefoxu než o hlášení chyb, pak pro vás bude lepší počkat na finální verzi Firefoxu 1.0, která vyjde 9. listopadu, a vyhnete se tak nepříjemnostem, které jsou spojeny s častou aktualizací.</p>
+<p>(Pozn. překladatele: Původní anglické i lokalizované vydání tohoto zpravodaje se ještě věnuje testovacím verzím (RC) Firefoxu 1.0. <a href="/clanky/tiskove-zpravy/mozilla-firefox-1.0-cz.php">Firefox 1.0 vyšel 9.11.2004</a>.) Firefox 1.0 Release Candidate je tu. Od tzv. Preview Release se liší pouze v menších konečných úpravách, jako jsou vylepšení tisku a Aktuálních záložek a nové ikony na nástrojové liště. Příjemného vylepšení doznaly také ikony v nabídce předvolby. Díky nové položce v Předvolbách/Ostatní/Prohlížení v panelech můžete ve Firefoxu otevírat odkazy z jiných aplikací (např. z e-mailového klienta nebo chatovacího klienta) v novém okně, v novém panelu, anebo v již otevřeném panelu. Ještě důležitější vývoj proběhl v rámci oprav více než 250 chyb od vydání verze Preview Release. Pokud se více zajímáte o používání Firefoxu než o hlášení chyb, pak pro vás bude lepší počkat na finální verzi Firefoxu 1.0, která vyjde 9. listopadu, a vyhnete se tak nepříjemnostem, které jsou spojeny s častou aktualizací.</p>
 <p>Pro ty z vás, kteří chtějí vědět více o Aktuálních záložkách, připravil server mozilla.org <a href="http://www.mozilla.org/products/firefox/live-bookmarks.html">dobrou stránku</a> s podrobnostmi o využití RSS a jiných publikačních formátů ve svém oblíbeném prohlížeči.</p>
 <p>Vyhledávač Google tento měsíc uvolnil nástroj <a href="http://desktop.google.com/">Google Search Desktop</a> (betaverze, pouze pro Windows) k indexaci a prohledávání dokumentů v počítači, který je postaven na dnes již legendárním vyhledávači Google. Bohužel není možné prohledávat zprávy v aplikaci Thunderbird, ani historii navštívených stránek ve Firefoxu či Mozilla Suite. Toto můžete změnit, když pro tuto funkci budete <a href="http://desktop.google.com/support/bin/request.py?type=features&amp;submit=Continue">požadovat podporu</a>. Kromě toho má deník The Boston Globe <a href="http://www.boston.com/business/globe/globe_article/">zájem</a> o váš příběh o přechodu na Firefox.</p>
 <p>Děkuji za přízeň. Své připomínky a komentáře zasílejte prosím na <a href="mailto:info@czilla.cz">info@czilla.cz</a>.</p>
@@ -285,5 +282,6 @@ web: <a href="http://www.czilla.cz/podpora/zpravodaj/">http://www.czilla.cz/podp
 <p>Uvítáme další překladatele, kteří by v rámci svých možností pomohli zkrátit časové prodlevy při vydávání českých verzí tohoto zpravodaje!</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+>

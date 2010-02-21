@@ -1,10 +1,9 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Používáme Mozillu (Na rovinu...)';
-	$page->headline = array('Používáme Mozillu','Na rovinu...');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Používáme Mozillu (Na rovinu...)');
+	$page->setHeadline('Používáme Mozillu','Na rovinu...');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <h2><a id="index">Obsah</a></h2>
@@ -22,7 +21,7 @@
 </ul>
 
 <ul>
-<li><a href="index.html#index">Hlavní obsah</a></li>
+<li><a href="index.php#index">Hlavní obsah</a></li>
 </ul>
 
 <p><br /></p>
@@ -35,7 +34,7 @@
 
 <p>Hlavním cílem projektu Mozilla je podílet se na inovacích a tvorbě technologie klientů splňujících dohodnuté standardy tak, aby všechny zdroje webu zůstaly svobodně přístupné. S tím jak stále více společností přijímá technologie a strategii Mozilly za své, bude Mozilla stále více podporovat <strong>šíření a schvalování otevřeného a na standardech založeného software</strong> napříč celým Internetem, což se nakonec vrátí v životaschopnosti projektu Mozilla. </p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -49,7 +48,7 @@
 
 <p>Nakonec, pokud uvažujeme verzi 1.0, ta musela být schopna splňovat v době svého uvedení standardy odpovídající době uvedení, nikoli době vzniku myšlenky. Mozilla 1.0 musela být porovnatelná s nejnovější generací komerčních prohlížečů. Proto jsme věnovali část času také úvahám o načasování, protože Mozilla musela být připravena &#8220;<b>v pravý čas</b>.&#8221;</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -66,7 +65,7 @@
 
 <p>Projekt Mozilla a vývojová komunita kolem něho se snaží pracovat v týmu a vytvářet projekt schopný stále se zlepšovat a je si vědoma, že vývoj uživatelského rozhranní a implementace užitečných vlastností se urychlily právě vydáním Mozilly 1.0.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -87,7 +86,7 @@
 
 <p>Protože, jak vidno, číslo chyb neudává skutečnou chybovost, <b>provádíme</b> jiná sledováni a měření chybovosti a to sice pomocí <b>střední doby mezi chybami</b> [MTBF - Meant Time Between Failures] a dalších standardních postupů (můžete se podívat do <a href="http://ftp34.newaol.com/pub/data/crash-data/M1RC2-smart-analysis-all.txt">této analýzy</a> poslední verze).</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -99,7 +98,7 @@
 
 <p>Někteří pracovnící mozilla.org jsou dobrovolníci, včetně vedoucího celého projektu, kterým je Lizard Wrandler. Jiní členové jsou sponzorováni svými zaměstnavateli. Ve všech případech je preferována přímá účast na projektu, než podílnictví na některém produktu vycházejího z projektu. Mozilla.org má dlouhotrvající závazek <strong>plné transparentnosti</strong>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -115,7 +114,7 @@
 
 <p>Taktéž je vytvářeno velké množství dokumentace, včetně různých tutoriálů, která přichází od dobrovolníků.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 <h3><a id="codebase">Jaké jsou licenční podmínky zakotvené v kódech Mozilly?</a></h3>
@@ -139,7 +138,7 @@
 
 <p>U kódové základny je v součastnosti měněna licence tak, aby umožnila kombinovat kód Mozilly s dalším kódem z jiných projektů, které jsou také svobodné, ale mají zatím <a href="http://www.mozilla.org/MPL/relicensing-faq.html">neslučitelné licence</a> (GNU GPL a LGPL). Ke změně licente je však potřeba nalézt několik <a href="http://www.mozilla.org/MPL/missing.html">"chybějících" přispěvatelů</a>.</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
@@ -153,11 +152,11 @@
 
 <p>Navíc jsou zde další rozličné projekty, jako např. <a href="http://www.mozilla.org/rhino/">Rhino</a>, což je implementace JavaScriptu v Javě (umožňuje těm, kteří vyvíjejí řešení založená na Javě, využívat schopnosti skriptovat).</p>
 
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 
 
-<h3><a id="mozilla-dot-org">Co se děje na mozilla.org, czilla.cz?</a></h3>
+<h3><a id="mozilla-dot-org">Co se děje na mozilla.org?</a></h3>
 
 <p>Cokoli to je, je to <strong>zcela zřejmě otevřené</strong>. Jak je vidět z prvního návrhu &#8220;<a href="http://www.mozilla.org/roadmap/roadmap-26-Oct-1998.html" title="Dokument o budoucím vývoji Mozilly">budoucího vývoje</a>&#8221; (z října 1998), dotkl se tento dokument i tohoto problému (ostatní návrhy se týkali především technických záležitostí).</p>
 
@@ -165,10 +164,8 @@
 
 <p>Vývoj Mozilly sleduje cestu definovanou v periodicky obnovovaném &#8220;<a href="http://www.mozilla.org/roadmap.html" title="Současný plán vývoje">plánu vývoje</a>&#8221;. Priority a cíle jsou definovány v &#8220;manifestu&#8221;, dokumentu jako <a href="http://www.mozilla.org/roadmap/mozilla-1.0.html">manifest Mozilla 1.0</a>.</p>
 
-<p>Pokud jde o dění na czilla.cz - zde se shromažďují lidé zainteresovaní na přiblížení projektu Mozilla a jeho produktu prohlížeče Mozilla, široké české veřejnosti. Zároveň se snaží shromáždit kolem sebe všechny projekty a lidi zainteresované na všech činnostech, které nespadají přímo do působnosti mozilla.org, ale váží se k Mozille prostřednictvím českého národního prostředí.</p>
-
-<p style="text-align: right;">[ <a href="index.html#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
+<p style="text-align: right;">[ <a href="index.php#index">Zpět na obsah</a> ]&nbsp;[ <a href="#index">Zpět na začátek</a> ]</p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

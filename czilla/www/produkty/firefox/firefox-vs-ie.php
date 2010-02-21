@@ -8,11 +8,19 @@
 	$page->includeTemplate('header');
 ?>
 
-<div class="mainsplash"><a href="/podpora/firefox/"><img src="images/scr-firefox-m2.png" width="200" height="180" alt="Mozilla Firefox 1.0" /></a></div>
+<table>
+<tr>
+	<td style="width: 220px"><a href="/img/firefox-big.png" title="Klepněte pro získání plné velikosti">
+		<img src="/img/firefox.png" alt="Logo" width="200" height="180" /></a></td>
+	<td style="vertical-align: top">
+		<div class="obsolete">Některé informace na stránkách produktu mohou být zastaralé. Aktuální informace naleznete na serveru
+		<a href="http://www.mozilla.cz/produkty/firefox/">Mozilla.cz</a>.</div>
 
-<p>Nejdůležitějším faktorem, který mě inspiroval k tomu, abych začal používat jiný prohlížeč než <b>Internet Explorer</b>, byly stálé chyby a bezpečnostní opravy, které mi znepříjemňovaly práci s tímto produktem. A to nezmiňuju doslova tuny různých pluginů, které ovládnou váš prohlížeč a změní nastavení vaší domovské stránky na nějaké placené reklamy, nebo přidají nástrojovou lištu, která vám práci pranic neulehčuje, spíš naopak.</p>
-
-<p>Většina takovýchto špehounských programů (<i>spyware</i>) a slabin se běžně programuje pro Internet Explorer vzhledem k faktu, že IE ovládá přes 70% trhu s internetovými prohlížeči. Existují i další prohlížeče, které s IE mohou soupeřit, ale <b>Mozilla Firefox</b> (původně známý jako Firebird) je hodnotný prohlížeč se spoustou vlastností, který navíc zůstává velmi štíhlým, co se objemu týče. Vestavěné blokování vyskakovacích (pop-up) oken, které funguje lépe než spousta komerčních blokátorů, a panelové prohlížení jsou, mezi jinými, dvě věci, které dělají z prohlížeče Firefox <b>internetový prohlížeč snů</b>.</p>
+		<p>Nejdůležitějším faktorem, který mě inspiroval k tomu, abych začal používat jiný prohlížeč než <b>Internet Explorer</b>, byly stálé chyby a bezpečnostní opravy, které mi znepříjemňovaly práci s tímto produktem. A to nezmiňuju doslova tuny různých pluginů, které ovládnou váš prohlížeč a změní nastavení vaší domovské stránky na nějaké placené reklamy, nebo přidají nástrojovou lištu, která vám práci pranic neulehčuje, spíš naopak.</p>
+		<p>Většina takovýchto špehounských programů (<i>spyware</i>) a slabin se běžně programuje pro Internet Explorer vzhledem k faktu, že IE ovládá přes 70% trhu s internetovými prohlížeči. Existují i další prohlížeče, které s IE mohou soupeřit, ale <b>Mozilla Firefox</b> (původně známý jako Firebird) je hodnotný prohlížeč se spoustou vlastností, který navíc zůstává velmi štíhlým, co se objemu týče. Vestavěné blokování vyskakovacích (pop-up) oken, které funguje lépe než spousta komerčních blokátorů, a panelové prohlížení jsou, mezi jinými, dvě věci, které dělají z prohlížeče Firefox <b>internetový prohlížeč snů</b>.</p>
+	</td>
+</tr>
+</table>
 
 <ol>
 	<li><a href="#blokovani-popups">Blokování vyskakovacích oken</a></li>

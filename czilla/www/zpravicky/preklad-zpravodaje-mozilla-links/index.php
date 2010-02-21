@@ -8,7 +8,7 @@
 <div class="news">
 	<h3><a href="/zpravicky/preklad-zpravodaje-mozilla-links/">Překlad zpravodaje Mozilla Links</a></h3>
 
-	<div>A je to tady. <a href="/czilla/lide.html#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-006.html">6. číslo zpravodaje Mozilla Links</a> a přislíbil i překlad dalších čísel. Čeština se tak stává 6. jazykem, do kterého je zpravodaj Mozilla Links překládán. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
+	<div>A je to tady. <a href="/czilla/prispevatele.php#kdo-je-PT">Petr Tomeš</a> (alias Lumpy) přeložil <a href="/podpora/zpravodaj/mln-006.html">6. číslo zpravodaje Mozilla Links</a> a přislíbil i překlad dalších čísel. Čeština se tak stává 6. jazykem, do kterého je zpravodaj Mozilla Links překládán. Více o <a href="/podpora/zpravodaj/">zpravodaji Mozilla Links</a>.</div>
 	<div class="ft">
 		<a href="/zpravicky/a/hassman/">Martin Hassman</a>&nbsp;|&nbsp;<a
 			 href="/zpravicky/2003/12/03/">3. 12. 03</a>

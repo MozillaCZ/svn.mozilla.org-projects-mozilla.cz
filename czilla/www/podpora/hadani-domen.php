@@ -1,11 +1,12 @@
 <?php
-	$rootPath = '../';
-	include($rootPath . '../cas/includes-web.inc.php');  
-	$page->title    = 'Hádání domén v Mozille';
-	$page->headline = array('Hádání domén v Mozille','Popis, jak Mozilla odhaduje doménu, kterou jste neúplně zadali');
-
-	$page->includeHeader();
+	require_once '../inc/page.php';
+	$page->setTitle('Hádání domén v Mozille');
+	$page->setHeadline('Hádání domén v Mozille','Popis, jak Mozilla odhaduje doménu, kterou jste neúplně zadali');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
   
 <h2 class="nice">Co to je hádání domén?</h2>
 
@@ -39,8 +40,8 @@
 </tr> 
 <tr>
  <td>chybějící "předpona" www.</td>
- <td><strong>czilla.cz </strong></td>
- <td><strong>www</strong>.czilla.cz</td> 
+ <td><strong>mozilla.cz </strong></td>
+ <td><strong>www</strong>.mozilla.cz</td>
 </tr> 
 </tbody>
 </table>
@@ -90,5 +91,5 @@ Doménové hádání má zřejmé výhody, protože možňuje komukoliv navští
 </ol>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

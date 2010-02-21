@@ -151,9 +151,9 @@ odešli <a href="/podpora/talkback.html">hlášení o pádu</a>.)</p>
 
 <p>Nových verzí je již na jednoho člověka příliš, je třeba <strong>rozdělit
 lokalizace</strong> mezi více lidí. O Mozilla Suite se začíná starat <a
-href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a>, o Firefox a
-Thunderbird <a href="/czilla/lide.html#kdo-je-PF">Pavel Franc</a>. <a
-href="/czilla/lide.html#kdo-je-RV">Radkovi Vybíralovi</a> patří náš obdiv,
+href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a>, o Firefox a
+Thunderbird <a href="/czilla/prispevatele.php#kdo-je-PF">Pavel Franc</a>. <a
+href="/czilla/prispevatele.php#kdo-je-RV">Radkovi Vybíralovi</a> patří náš obdiv,
 že se dokázal o lokalizace starat tak dlouho sám. Lokalizace Nvu a Sunbirdu zatím
 necháváme, až se ozve nějaký dobrovolník.</p>
 
@@ -184,7 +184,7 @@ nepřejmenovaný
 <a href="http://www.mozillazine.org/talkback.html?article=4853"
 	hreflang="en">Thunderbird 0.7</a>
 a <a href="/czilla/tiskove-zpravy/mozilla-1.7-cz.html">Mozilla 1.7</a>.
-<a href="/czilla/lide.html#kdo-je-JM">Jan Matoušek</a> se svou prací <a
+<a href="/czilla/prispevatele.php#kdo-je-JM">Jan Matoušek</a> se svou prací <a
 href="http://developer.mozilla.org/cs/docs/%C3%9Aprava_instalace_Mozilly_pro_pot%C5%99eby_instituce">Úprava instalace Mozilly pro potřebu
 instituce</a> se dostal do celorepublikového kola <a
 href="http://www.soc.cz/"><acronym title="Středoškolská odborná činnost">
@@ -217,7 +217,7 @@ dík!</p>
 <p><strong>Podíl Gecka</strong> (renderovacího jádra společného pro Mozillu a Firefox) na
 českém Internetu roste asi o procento za měsíc. Začínáme
 10&nbsp;% do konce roku vidět reálně.
-<a href="/czilla/lide.html#kdo-je-AHA">AHA</a> odvážně slibuje: <cite>"Deset
+<a href="/czilla/prispevatele.php#kdo-je-AHA">AHA</a> odvážně slibuje: <cite>"Deset
 procent na konci roku bude, i&nbsp;kdybych měl ty MSIE odinstalovat sám."</cite>
 S Pavlem se tajně těšíme na Adama běhajícího v převleku Dědy Mráze o
 Vánocích od jednoho uživatele k druhému s <abbr title="Compact Disc"
@@ -254,7 +254,7 @@ na <abbr title="Compact Disc Read Only Memory">CD-ROM</abbr></strong></a>. Pamat
 
 <p>Počet návštěvníků <a href="http://forum.czilla.cz/">CZilla fóra</a>
 rapidně roste. Již je nestačíme zvládat sami, a tak zavádíme <a
-href="/czilla/lide.html#moderatori">moderátory fóra</a> &ndash; lidi, kteří
+href="/czilla/prispevatele.php#moderatori">moderátory fóra</a> &ndash; lidi, kteří
 fórum pravidelně sledují, odpovídají, mažou duplicitní a zamykají nevhodné
 příspěvky. Pomáhá jim řada těch lidí, kteří fórum sledují a trpělivě a
 slušně uživatelům pomáhají řešit jejich problémy. Všem takovým děkujeme!</p>
@@ -263,7 +263,7 @@ slušně uživatelům pomáhají řešit jejich problémy. Všem takovým děkuj
 <h2 id="zari">Září</h2>
 
 <p>Konečně jsme našli pomoc pro tvorbu linuxových verzí. Díky
-<a href="/czilla/lide.html#kdo-je-OK">Ondrovi Kudlíkovi</a>
+<a href="/czilla/prispevatele.php#kdo-je-OK">Ondrovi Kudlíkovi</a>
 tu máme opět plné verze pro <a href="http://www.linux.cz/">Linux</a>. Vyšla
 <a href="http://ftp.mozilla.org/pub/mozilla.org/mozilla/releases/mozilla1.7.3/"
 	hreflang="en">Mozilla 1.7.3</a>,
@@ -280,14 +280,14 @@ Netscape se našly</a> a server <a href="http://www.mozdev.org/">Mozdev.org</a>
 poskytující zázemí pro vývoj rozšíření slaví 4 roky.</p>
 
 <p>K jazykové kvalitě textů na CZille nyní významně přispívají korektoři
-<a href="/czilla/lide.html#kdo-je-VO">Vlastimil Ott</a> a
-<a href="/czilla/lide.html#kdo-je-ZH">Zdeněk Hájek</a>. (A jen tak mezi námi,
+<a href="/czilla/prispevatele.php#kdo-je-VO">Vlastimil Ott</a> a
+<a href="/czilla/prispevatele.php#kdo-je-ZH">Zdeněk Hájek</a>. (A jen tak mezi námi,
 my autoři si pak při pohledu na korektury svých textů občas připadáme jako
 jazykoví neumětelové.)</p>
 
 <p>Celý měsíc je ve stádiu příprav webu
 <a href="http://firefox.czilla.cz/"><strong>Přejděte na Firefox</strong></a>.
-Pod vedením <a href="/czilla/lide.html#kdo-je-AHA">AHA</a> se dolaďují
+Pod vedením <a href="/czilla/prispevatele.php#kdo-je-AHA">AHA</a> se dolaďují
 překlady, vychytávají screenshoty, tvoří design. Lidé nám posílají své
 zkušenosti s přechodem na Firefox a vůbec netuší, k čemu je chceme použít.
 Časovaná bomba pomalu odtikává.</p>
@@ -318,7 +318,7 @@ Následujíci týdny jsou tak ve znamení přesouvání lokalizace do <abbr
 title="Concurrent Versions System" lang="en">CVS</abbr>, ladění
 sestavovacích skriptů, odstraňování chyb. Kdo si myslí, že to je sranda,
 ten nikdy žádný Firefox nelokalizoval. Díky
-<a href="/czilla/lide.html#kdo-je-PF">Pavlu Francovi</a> a mnoha dalším vše
+<a href="/czilla/prispevatele.php#kdo-je-PF">Pavlu Francovi</a> a mnoha dalším vše
 klape a koncem měsíce vychází
 <a href="/archiv.html#news:96076cd238334c20325057ed0df3b799">Firefox 1.0 RC1</a>,
 který je již úspěšně sestaven na Mozilla.org.</p>
@@ -332,7 +332,7 @@ Příjemným překvapením je lokalizovaná
 <a href="http://www.google.com/firefox?client=firefox-a&amp;rls=org.mozilla:cs-CZ:official">startovací
 stránka od Googlu</a>. Web Mozilla Europe má <a
 href="http://www.mozilla-europe.org/cs/">českou verzi</a>, <a
-href="/czilla/lide.html#kdo-je-JB">Jiří Burda</a> má <a
+href="/czilla/prispevatele.php#kdo-je-JB">Jiří Burda</a> má <a
 href="/archiv.html#news:6119e0f806dcdd07d70a0a3a72909055">rozhovor v rádiu
 Akropolis</a>, uživatelé mají
 <a href="http://www.mozilla.com/thunderbird/releases/0.9-release-notes.html"
@@ -348,9 +348,9 @@ href="http://www.anicka.net/anicka.php">Anička</a> náš spor zkomplikovala
 tvrzením, že Firefox je panda, a proto určitě nosí tanga. Ženy těmto debatám
 prostě nerozumí.</p>
 
-<p>Radost nám udělal <a href="/czilla/lide.html#kdo-je-DM">David Majda</a>.
+<p>Radost nám udělal <a href="/czilla/prispevatele.php#kdo-je-DM">David Majda</a>.
 Po několikátém pivu se nám upsal k zasílání novinek. (A že to byl úpis Davide.
-Ještě ho mám schovaný). <a href="/czilla/lide.html#kdo-je-LP">Lukáš
+Ještě ho mám schovaný). <a href="/czilla/prispevatele.php#kdo-je-LP">Lukáš
 Petrovický</a>, organizátor české Mozparty2, si zase vzal na starost
 organizaci <a href="/doplnky/rozsireni/">lokalizace rozšíření</a>.</p>
 
@@ -384,7 +384,7 @@ href="/czilla/tiskove-zpravy/">tiskových zpráv</a>, vydali bezpočet <a
 href="/stahnout/">lokalizací</a> a množství webů řešených v rámci <a
 href="/czilla/technicka-evangelizace.html">Technické Evangelizace</a> se
 pohybuje již ve stovkách. Celé bychom to nezvládli bez <strong><a
-href="/czilla/lide.html">pomoci řady lidí</a></strong>, kterým
+href="/czilla/prispevatele.php">pomoci řady lidí</a></strong>, kterým
 <strong>děkujeme</strong> a doufáme, že nám zachovají přízeň i v roce,
 který právě začíná.</p>
 
@@ -402,7 +402,7 @@ aplikace? A kdo bude dělat příští rok Dědu Mráze? Na to vše si budeme mu
 počkat.</p>
 
 <p>Nemusíme ale čekat s <strong>rukama za zády</strong>. Třeba se najdou <a
-href="/czilla/lide.html">další lidé</a>, kteří <a
+href="/czilla/prispevatele.php">další lidé</a>, kteří <a
 href="/czilla/jak-pomoci/">nám pomůžou</a>. Možná se někdo dokonce ujme
 osiřelých lokalizací a dočkáme se českého Sunbirdu a Nvu. Doufáme, že se
 podaří zrealizovat lokalizaci ChatZilly a Venkmanu. Nu, necháme se překvapit.</p>

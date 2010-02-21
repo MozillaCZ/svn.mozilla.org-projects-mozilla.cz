@@ -16,17 +16,11 @@
 	</a></td>
 
 	<td style="vertical-align: top">
-	<p style="background-color:#ee9e22; text-align:center; padding:10px; border:1px solid #000">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
-	jejím nástupcem s řadou novinek je
-	aplikace <strong><a href="../seamonkey/">Seamonkey</a></strong>.</p>
+	<div class="obsolete">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
+	jejím nástupcem s řadou novinek je aplikace <strong><a href="../seamonkey/">Seamonkey</a></strong>.</div>
 
-	<p>
-	<strong>Mozilla Suite</strong> je balík webových aplikací, které poskytují prvotřídní komfort pro práci na Internetu. Balík obsahuje webový prohlížeč, e-mailový klient, editor webových stránek a&nbsp;IRC klient. Všechny aplikace kladou velký <strong>důraz na bezpečnost</strong>.
-  </p>
-
-   <p><img src="/img/download.png" width="16" height="16" alt="" />
-  <strong><a href="stahnout.html" title="Stáhnout nejnovější verzi Mozilla Suite v češtině">Stáhnout nejnovější verzi</a></strong></p>
-
+	<p><strong>Mozilla Suite</strong> je balík webových aplikací, které poskytují prvotřídní komfort pro práci na Internetu.
+	Balík obsahuje webový prohlížeč, e-mailový klient, editor webových stránek a&nbsp;IRC klient. Všechny aplikace kladou velký <strong>důraz na bezpečnost</strong>.</p>
 	</td>
 </tr>
 </table>

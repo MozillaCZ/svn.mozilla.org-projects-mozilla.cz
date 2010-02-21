@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Práce s přílohami';
-	$page->headline = array('Práce s přílohami','Úvod do Thunderbirdu, 4. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Práce s přílohami');
+	$page->setHeadline('Práce s přílohami','Úvod do Thunderbirdu, 4. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, přílohy');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s přílohami');			
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s přílohami');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./antispamovy-filtr.html">Antispamový filtr</a></li>
+	  <a href="./antispamovy-filtr.php">Antispamový filtr</a></li>
 	<li>Předchozí:
-		<a href="./prace-s-postou2.html">Vytváření a&nbsp;používání podpisu</a></li>
+		<a href="./prace-s-postou2.php">Vytváření a&nbsp;používání podpisu</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -91,13 +91,13 @@ seznamu příjemců (zprávy) přidá označené kontakty.</p></li>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./antispamovy-filtr.html">Antispamový filtr</a></li>
+	  <a href="./antispamovy-filtr.php">Antispamový filtr</a></li>
 	<li>Předchozí:
-		<a href="./prace-s-postou2.html">Vytváření a&nbsp;používání podpisu</a></li>
+		<a href="./prace-s-postou2.php">Vytváření a&nbsp;používání podpisu</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

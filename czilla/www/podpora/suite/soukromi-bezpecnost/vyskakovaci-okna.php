@@ -1,18 +1,17 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Vyskakovací okna';
-	$page->headline = array('Vyskakovací okna','Soukromí a bezpečnost v Mozilla Suite, 3. část');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Vyskakovací okna');
+	$page->setHeadline('Vyskakovací okna','Soukromí a bezpečnost v Mozilla Suite, 3. část');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./hesla.html">Hesla</a></li>
+		<a href="./hesla.php">Hesla</a></li>
 	<li>Předchozí:
-		<a href="./obrazky-bannery.html">Obrázky a bannery</a></li>
+		<a href="./obrazky-bannery.php">Obrázky a bannery</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -70,12 +69,12 @@
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./hesla.html">Hesla</a></li>
+		<a href="./hesla.php">Hesla</a></li>
 	<li>Předchozí:
-		<a href="./obrazky-bannery.html">Obrázky a bannery</a></li>
+		<a href="./obrazky-bannery.php">Obrázky a bannery</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

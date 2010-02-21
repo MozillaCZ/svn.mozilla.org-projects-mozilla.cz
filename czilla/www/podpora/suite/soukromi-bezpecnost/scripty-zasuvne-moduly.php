@@ -1,15 +1,15 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Skripty a zásuvné moduly';
-	$page->headline = array('Skripty a zásuvné moduly', 'Soukromí a bezpečnost v Mozilla Suite, 5. část');
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Skripty a zásuvné moduly');
+	$page->setHeadline('Skripty a zásuvné moduly', 'Soukromí a bezpečnost v Mozilla Suite, 5. část');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div class="ipn-top">
 <ul>
 	<li>Předchozí:
-		<a href="./hesla.html">Hesla</a></li>
+		<a href="./hesla.php">Hesla</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -60,10 +60,10 @@ zmírněny nastaveními Mozilly.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Předchozí:
-		<a href="./hesla.html">Hesla</a></li>
+		<a href="./hesla.php">Hesla</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

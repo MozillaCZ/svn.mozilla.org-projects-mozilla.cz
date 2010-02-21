@@ -40,7 +40,7 @@
 
 <div class="in-prod-one">
 	<div class="in-prod-desc">
-	<h3><a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a></h3>
+	<h3><a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu">SeaMonkey</a> (dříve <a href="/produkty/suite/" title="Mozilla Suite: Stránka o produktu">Mozilla Suite</a>)</h3>
 	<a href="/produkty/seamonkey/" title="SeaMonkey: Stránka o produktu"><img src="/img/logo-sm.gif" width="60" height="60" alt="" /></a>
 	<p>Balík aplikací pro práci s&nbsp;Internetem zahrnující prohlížeč, poštovní
 	klient, editor HTML stránek a&nbsp;IRC klient. Jedná se o&nbsp;nástupce Mozilla
@@ -56,14 +56,13 @@
 
 <div class="in-prod-last">
 	<div class="in-prod-desc">
-	<h3><a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a></h3>
-	<a href="/produkty/nvu/" title="Nvu: Stránka o produktu"><img src="/img/logo-nvu.gif" width="60" height="60" alt="" /></a>
+	<h3><a href="http://www.mozilla.cz/produkty/kompozer/" title="Kompozer: Stránka o produktu">Kompozer</a> (dříve <a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Nvu</a>)</h3>
+	<a href="/produkty/nvu/" title="Nvu: Stránka o produktu"><img src="/img/kompozer.png" width="64" height="64" alt="" /></a>
 	<p>Pokročilý <abbr title="What You See Is What You Get" lang="en">WYSIWYG</abbr> editor webových stránek, který vám umožní jejich snadné vytváření.</p>
 	<div>
 		<strong>Chci vědet více:</strong>
-		<a href="/produkty/nvu/" title="Nvu: Stránka o produktu">Více informací</a> &middot;
-		<a href="/produkty/nvu/nahledy.php" title="Ukázky, jak aplikace Nvu vypadá">Ukázky aplikace</a> &middot;
-		<a href="http://www.mozilla.cz/stahnout/nvu/" title="Nejnovější verze v češtině ke stažení">Ke stažení</a>
+		<a href="http://www.mozilla.cz/produkty/kompozer/" title="Kompozer: Stránka o produktu">Více informací</a> &middot;
+		<a href="http://www.mozilla.cz/stahnout/kompozer/" title="Nejnovější verze v češtině ke stažení">Ke stažení</a>
 	</div>
 	</div>
 </div>

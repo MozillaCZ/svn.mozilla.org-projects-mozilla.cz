@@ -1,16 +1,15 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Práce s cookies';
-	$page->headline = array('Práce s cookies','Soukromí a bezpečnost v Mozilla Suite, 1. část');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Práce s cookies');
+	$page->setHeadline('Práce s cookies','Soukromí a bezpečnost v Mozilla Suite, 1. část');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./obrazky-bannery.html">Obrázky a bannery</a></li>
+		<a href="./obrazky-bannery.php">Obrázky a bannery</a></li>
 	<li>Předchozí:
 		<a href="./">Obsah</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
@@ -75,12 +74,13 @@
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./obrazky-bannery.html">Obrázky a bannery</a></li>
+		<a href="./obrazky-bannery.php">Obrázky a bannery</a></li>
 	<li>Předchozí:
 		<a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
+

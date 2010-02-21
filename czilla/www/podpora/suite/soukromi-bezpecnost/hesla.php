@@ -1,18 +1,17 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Hesla';
-	$page->headline = array('Hesla','Soukromí a bezpečnost v Mozilla Suite, 4. část');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Hesla');
+	$page->setHeadline('Hesla','Soukromí a bezpečnost v Mozilla Suite, 4. část');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./scripty-zasuvne-moduly.html">Scripty a zásuvné moduly</a></li>
+		<a href="./scripty-zasuvne-moduly.php">Scripty a zásuvné moduly</a></li>
 	<li>Předchozí:
-		<a href="./vyskakovaci-okna.html">Vyskakovací okna</a></li>
+		<a href="./vyskakovaci-okna.php">Vyskakovací okna</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -59,12 +58,12 @@ Pokud zaškrtnete volbu  <span class="nabidka">Při ukládání soukromých dat 
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./scripty-zasuvne-moduly.html">Scripty a zásuvné moduly</a></li>
+		<a href="./scripty-zasuvne-moduly.php">Scripty a zásuvné moduly</a></li>
 	<li>Předchozí:
-		<a href="./vyskakovaci-okna.html">Vyskakovací okna</a></li>
+		<a href="./vyskakovaci-okna.php">Vyskakovací okna</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Základy práce s elektronickou poštou';
-	$page->headline = array('Základy práce s elektronickou poštou','Úvod do Thunderbirdu, 2. část');
-
+	require_once '../../../inc/page.php';
+	$page->setTitle('Základy práce s elektronickou poštou');
+	$page->setHeadline('Základy práce s elektronickou poštou','Úvod do Thunderbirdu, 2. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, ovládání, základ');
-	$page->setDescription ('Základní práce s Mozilla Thunderbirdem');		
-
-	$page->includeHeader();
+	$page->setDescription ('Základní práce s Mozilla Thunderbirdem');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./prace-s-postou2.html">Vytváření a&nbsp;používání podpisu</a></li>
+	  <a href="./prace-s-postou2.php">Vytváření a&nbsp;používání podpisu</a></li>
 	<li>Předchozí:
-		<a href="./instalace.html">Instalace</a></li>
+		<a href="./instalace.php">Instalace</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -138,13 +138,13 @@ nastavení (v&nbsp;nabídce
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./prace-s-postou2.html">Vytváření a&nbsp;používání podpisu</a></li>
+	  <a href="./prace-s-postou2.php">Vytváření a&nbsp;používání podpisu</a></li>
 	<li>Předchozí:
-		<a href="./instalace.html">Instalace</a></li>
+		<a href="./instalace.php">Instalace</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

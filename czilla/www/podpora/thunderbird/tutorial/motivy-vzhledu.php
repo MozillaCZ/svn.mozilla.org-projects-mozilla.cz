@@ -1,19 +1,19 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Motivy vzhledu';
-	$page->headline = array('Motivy vzhledu','Úvod do Thunderbirdu, 9. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Motivy vzhledu');
+	$page->setHeadline('Motivy vzhledu','Úvod do Thunderbirdu, 9. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, motivy vzhledu');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s motivy vzhledu');		
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s motivy vzhledu');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Předchozí:
-		<a href="./diskusni-skupiny.html">Diskusní skupiny</a></li>
+		<a href="./diskusni-skupiny.php">Diskusní skupiny</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -76,11 +76,11 @@ libovolné množství vzhledů mezi kterými lze snadno přepínat.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Předchozí:
-		<a href="./diskusni-skupiny.html">Diskusní skupiny</a></li>
+		<a href="./diskusni-skupiny.php">Diskusní skupiny</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

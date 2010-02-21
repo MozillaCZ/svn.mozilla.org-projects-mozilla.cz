@@ -1,18 +1,14 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Řešení problemů s Firefoxem';
-	$page->headline = array('Řešení problemů s Firefoxem','Návod jak řešit problémy s&nbsp;Firefoxem');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Řešení problemů s Firefoxem');
+	$page->setHeadline('Řešení problemů s Firefoxem','Návod jak řešit problémy s&nbsp;Firefoxem');
 	$page->setKeywords('firefox, problémy, řešení');
 	$page->setDescription('Návod jak řešit problémy s Mozilla Firefoxem');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
 <h2>Obsah</h2>
 
@@ -148,7 +144,7 @@ jiné složky, než samotný Firefox. Odinstalace Firefoxu na něj tedy nemá ž
 vliv a problém zůstává.</p>
 
 <p>Informace, kde profil hledat, můžete nalézt mezi
-<a href="http://firefox.czilla.cz/otazky/#otazka-6" title="Často kladené
+<a href="http://firefox.mozilla.cz/otazky/#otazka-6" title="Často kladené
 dotazy">často kladenými dotazy</a>. Jaké soubory profil obsahuje a jaké 
 informace skrývá každý z nich naleznete v článku <a 
  href="/podpora/soubory-v-profilu.html"
@@ -179,9 +175,7 @@ title="Nová instalace prohlížeče Firefox">Nová instalace</a>.</p>
 <p>Váš nový profil bude ochuzen o všechno původní nastavení, rozšíření,
 oblíbené záložky aj. Ty můžete posléze získat ze starého profilu přímým
 přenosem <a href="/podpora/soubory-v-profilu.html" title="Soubory v profilu
-prohlížeče Firefox">souborů</a> nebo pomocí programu
-<a href="http://forum.czilla.cz/viewtopic.php?t=8097" title="MozBackup -
-utilita na zálohu a obnovu profilu">MozBackup</a>. Tímto způsobem se 
+prohlížeče Firefox">souborů</a> nebo pomocí programu MozBackup. Tímto způsobem se
 nedoporučuje obnovovat <a 
  href="/podpora/firefox/instalace-rozsireni.html">rozšíření</a>,
 <a href="/podpora/firefox/instalace-motivu-vzhledu.html">motivy vzhledu</a> a 
@@ -190,7 +184,7 @@ Firefoxem generované soubory, je lepší je znovu nainstalovat.</p>
 <h3 class="nice" id="pokrocile">Pro pokročilé</h3>
 
 <p>Předtím, než se do něčeho pustíte, zálohujte
-<a href="http://firefox.czilla.cz/otazky/#otazka-6" title="Umístění profilu">
+<a href="http://firefox.mozilla.cz/otazky/#otazka-6" title="Umístění profilu">
 profil</a>. Firefox vypněte a zkontrolujte tento stav také ve
 <a href="#opersystem" title="Správce procesů MS Windows">Správci procesů</a>.
 Otevřete adresář s profilem a zrušte u všech souborů atribut "Jen pro
@@ -246,10 +240,10 @@ title="Nová instalace prohlížeče Firefox">Nová instalace</a>.</p>
 <h2 class="nice" id="novinstal">Nová instalace</h2>
 
 <p>Nejprve odinstalujte prohlížeč Firefox z operačního systému. Smažte nebo 
-přesuňte <a href="http://firefox.czilla.cz/otazky/#otazka-6" title="Často kladené
+přesuňte <a href="http://firefox.mozilla.cz/otazky/#otazka-6" title="Často kladené
 dotazy">profil</a> do jiného umístění. Následně <a 
-href="/produkty/firefox/stahnout.html" 
-title="CZilla: Stažení Firefoxu">stáhněte</a> a spusťte instalátor prohížeče 
+href="http://www.mozilla.cz/stahnout/firefox/"
+title="Mozilla.cz: Stažení Firefoxu">stáhněte</a> a spusťte instalátor prohížeče
 Mozilla Firefox.</p>
  
  <div class="img-center"><div class="img-c" style="width:200px"><a 
@@ -269,8 +263,8 @@ Mozilla Firefox.</p>
   bych chtěl poděkovat za inspiraci slovenským kolegům.</p>
 
 <hr />
-<p><small>2. 8. 2006, <a href="/czilla/prispevatele.html#kdo-je-ST">Štěpán Tračík</a></small></p>
+<p><small>2. 8. 2006, <a href="/czilla/prispevatele.php#kdo-je-ST">Štěpán Tračík</a></small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

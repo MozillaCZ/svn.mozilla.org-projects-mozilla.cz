@@ -1,32 +1,19 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Podpora prohlížeče Mozilla Firefox';
-	$page->headline = array('Podpora prohlížeče Firefox','Rady, návody, tipy a triky ...');
-
+	require_once '../../inc/page.php';
+	$page->setTitle('Podpora prohlížeče Mozilla Firefox');
+	$page->setHeadline('Podpora prohlížeče Firefox','Rady, návody, tipy a triky ...');
 	$page->setKeywords('podpora, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
 	$page->setDescription('Stránka podpory prohlížeče Mozilla Firefox');
-
-	$page->addSideBox('menu','podpora');
-	$page->addSideBox('links');
-	$page->addSideBox('tips','firefox');
-
-	$page->includeHeader();
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/firefox/">Mozilla.cz</a>.</div>
 
-<div id="navigation">
-	<a href="#uvod-do-firefoxu">Úvod do Firefoxu</a> &#183;
-	<a href="#dokumentace-navody">Dokumentace a&nbsp;návody</a> &#183;
-	<a href="#online-napoveda">Online nápověda</a> &#183;
-	<a href="#dalsi-zdroje">Další zdroje informací</a>
-</div>
-
-<p><strong>Vítejte na stránce podpory</strong> webového prohlížeče <a href="/produkty/firefox/" title="Mozilla Firefox: Stránka o produktu">Mozilla Firefox</a>. Naleznete zde řadu užitečných informací týkajících se tohoto moderního prohlížeče. Pokud zde nenajdete odpověď na to, co hledáte a&nbsp;budete se chtít zeptat, navštivte naše <strong><a href="http://forum.czilla.cz/viewforum.php?f=19" title="Fórum na podporu uživatelů Mozilla Firefoxu">fórum na podporu uživatelů</a></strong>. Rádi vám poradíme.</p>
-
-<p>Hledáte, jak si prohlížeč Firefox vylepšit? Navštivte <a href="/doplnky/" title="Doplňky aplikací Mozilla">sekci
-s&nbsp;doplňky</a>.</p>
-
-<p>Máte nějakou otázku? Zeptejte se v našem <strong><a href="http://forum.czilla.cz/viewforum.php?f=19" title="Fórum na podporu uživatelů Mozilla Firefoxu">fóru na podporu uživatelů</a></strong>, kde vám řada zkušených uživatelů poradí.</p>
+<p><strong>Vítejte na stránce podpory</strong> webového prohlížeče <a href="/produkty/firefox/" title="Mozilla Firefox: Stránka o produktu">Mozilla Firefox</a>.
+Naleznete zde řadu užitečných informací týkajících se tohoto prohlížeče. Pokud zde nenajdete odpověď na to, co hledáte a&nbsp;budete se chtít zeptat,
+navštivte <strong><a href="http://forum.mozilla.cz/viewforum.php?f=3" title="Fórum na podporu uživatelů Mozilla Firefoxu">fórum na podporu uživatelů</a></strong>.
+Hledáte, jak si prohlížeč Firefox vylepšit? Navštivte <a href="http://www.mozilla.cz/doplnky/" title="Doplňky aplikací Mozilla">sekci s&nbsp;doplňky</a>.</p>
 
 <h2 id="online-napoveda" class="nice ff">Nápověda</h2>
 
@@ -53,7 +40,7 @@ s&nbsp;doplňky</a>.</p>
 <ul>
 	<li><a href="http://www.chovancik.cz/mozilla-firefox-3-5-uzivatelska-prirucka-manual/">Mozilla Firefox 3.5 Uživatelská příručka</a></li>
 	<li><a href="http://www.chovancik.cz/mozilla-firefox-30-uzivatelska-prirucka-manual/">Mozilla Firefox 3.0 Uživatelská příručka</a></li>
-	<li><a href="http://knihy.cpress.cz/Book.asp?ID=1759">Mozilla Firefox - Kompletní uživatelská příručka</a> (<a href="recenze-kompletni-prirucka.html">recenze</a>)</li>
+	<li><a href="http://knihy.cpress.cz/Book.asp?ID=1759">Mozilla Firefox - Kompletní uživatelská příručka</a> (<a href="recenze-kompletni-prirucka.php">recenze</a>)</li>
 </ul>
 
 <h2 id="uvod-do-firefoxu" class="nice ff">Začínáme používat prohlížeč Firefox</h2>
@@ -64,46 +51,43 @@ a&nbsp;naučí vás jej efektivně používat. Autorem tohoto průvodce je <a hr
 <p><strong>Obsah:</strong></p>
 <ul>
 	<li><a href="tutorial/">Úvod</a></li>
-	<li><a href="tutorial/instalace.html">Instalace a&nbsp;konfigurace</a></li>
-	<li><a href="tutorial/prohlizeni-v-panelech.html">Prohlížení v&nbsp;panelech</a></li>
-	<li><a href="tutorial/ovladani.html">Základní ovládání</a></li>
-	<li><a href="tutorial/rozsireni.html">Rozšíření</a></li>
-	<li><a href="tutorial/historie.html">Procházení historií</a></li>
-	<li><a href="tutorial/zalozky.html">Záložky</a></li>
-	<li><a href="tutorial/stahovani-souboru.html">Stahování souborů</a></li>
-	<li><a href="tutorial/tisk-stranek.html">Tisk stránek</a></li>
+	<li><a href="tutorial/instalace.php">Instalace a&nbsp;konfigurace</a></li>
+	<li><a href="tutorial/prohlizeni-v-panelech.php">Prohlížení v&nbsp;panelech</a></li>
+	<li><a href="tutorial/ovladani.php">Základní ovládání</a></li>
+	<li><a href="tutorial/rozsireni.php">Rozšíření</a></li>
+	<li><a href="tutorial/historie.php">Procházení historií</a></li>
+	<li><a href="tutorial/zalozky.php">Záložky</a></li>
+	<li><a href="tutorial/stahovani-souboru.php">Stahování souborů</a></li>
+	<li><a href="tutorial/tisk-stranek.php">Tisk stránek</a></li>
 </ul>
 
 <h2 id="dokumentace-navody" class="nice ff">Dokumentace, návody, knihy</h2>
 
-<h3>Dokumentace</h3>
-
 <ul>
-	<li><a href="faq.html" title="Často kladané otázky k prohlížeči">Často kladené otázky</a></li>
-	<li><a href="tipy-a-triky.html" title="Tipy a triky k prohlížeči">Tipy a&nbsp;triky</a></li>
-	<li><a href="konfigurace.html" title="Popis konfiguračních souborů">Konfigurační soubory</a></li>
-	<li><a href="1.5-novinky.html" title="Co je nového ve Firefoxu 1.5">Novinky Firefoxu 1.5</a></li>
-	<li><a href="http://firefox.czilla.cz/otazky/klavesove-zkratky/" title="Klávesové zkratky Firefoxu">Klávesové zkratky </a></li>
-	<li><a href="http://firefox.czilla.cz/otazky/ovladani-mysi/" title="Ovládání Firefoxu myší">Ovládání myší</a></li>
+	<li><a href="faq.php" title="Často kladané otázky k prohlížeči">Často kladené otázky</a></li>
+	<li><a href="tipy-a-triky.php" title="Tipy a triky k prohlížeči">Tipy a&nbsp;triky</a></li>
+	<li><a href="konfigurace.php" title="Popis konfiguračních souborů">Konfigurační soubory</a></li>
+	<li><a href="reseni-problemu.php" title="Řešení problémů">Řešení problémů s Firefoxem</a></li>
+	<li><a href="1.5-novinky.php" title="Co je nového ve Firefoxu 1.5">Novinky Firefoxu 1.5</a></li>
 </ul>
 
 <h3>Návody a články</h3>
 
 <ul>
-	<li><a href="/podpora/firefox/aktualni-zalozky.html" title="Popis aktuálních záložek">Aktuální záložky (<abbr title="Rich Site Summary">RSS</abbr>) ve Firefoxu</a></li>
-	<li><a href="/podpora/firefox/rozsireni-podle-ucelu.html" title="Vyberte si rozšíření podle účelu">Chci rozšíření pro Firefox, které...</a></li>
-	<li><a href="/podpora/firefox/na-cesty.html" title="Návod na uzpůsobení Firefoxu na cesty">Firefox na cesty</a></li>
-	<li><a href="instalace-motivu-vzhledu.html" title="Návod na instalaci motivu vzhledu">Instalace motivů vzhledu</a></li>
-	<li><a href="instalace-rozsireni.html" title="Návod na instalaci rozšíření">Instalace rozšíření</a></li>
-	<li><a href="/podpora/internetova-bankovnictvi-v-mozille.html" title="Přehled internetových bankovnictví a jejich podpory v Mozilla Firefoxu">Internetová bankovnictví v&nbsp;Mozille</a></li>
-	<li><a href="/podpora/firefox/doplneni-cz-domeny.html" title="Návod na doplňování CZ domény do adresního řádku">Jak na doplňování CZ domény</a></li>
-	<li><a href="/podpora/firefox/jak-na-windows-media-player.html" title="Návod, jak zprovoznit Windows Media Player ve Firefoxu">Windows Media Player ve Firefoxu</a></li>
-	<li><a href="/podpora/mozilla-a-download-managery.html" title="Přehled správců stahování a jejich funkčnosti v Mozille Firefoxu">Mozilla Firefox a&nbsp;download managery</a></li>
-	<li><a href="/podpora/hlaseni-nefunkcnich-stranek.html" title="Jak použít Mozilla Reporter k nahlášení chybně se zobrazující stránky">Mozilla Reporter &ndash; hlášení nefunkčních stránek</a></li>
-	<li><a href="/podpora/firefox/prohlizeni-v-panelech.html" title="Prohlížení v panelech">Prohlížení v&nbsp;panelech</a></li>
-	<li><a href="/podpora/soubory-v-profilu.html" title="Přehled souborů, co se nalézaji ve složce s profilem">Soubory v&nbsp;profilu aplikací Mozilla</a></li>
-	<li><a href="/podpora/talkback.html" title="Jak použít Talkback k nahlášení pádu Mozilly">Talkback &ndash; pomocník při pádu Mozilly</a></li>
-	<li><a href="/podpora/ukladani-podle-title.html" title="Návod na ukládání stránek podle značky TITLE">Ukládání stránek v&nbsp;Mozille podle značky TITLE</a></li>
+	<li><a href="aktualni-zalozky.php" title="Popis aktuálních záložek">Aktuální záložky (<abbr title="Rich Site Summary">RSS</abbr>) ve Firefoxu</a></li>
+	<li><a href="rozsireni-podle-ucelu.php" title="Vyberte si rozšíření podle účelu">Chci rozšíření pro Firefox, které...</a></li>
+	<li><a href="na-cesty.php" title="Návod na uzpůsobení Firefoxu na cesty">Firefox na cesty</a></li>
+	<li><a href="instalace-motivu-vzhledu.php" title="Návod na instalaci motivu vzhledu">Instalace motivů vzhledu</a></li>
+	<li><a href="instalace-rozsireni.php" title="Návod na instalaci rozšíření">Instalace rozšíření</a></li>
+	<li><a href="/podpora/internetova-bankovnictvi-v-mozille.php" title="Přehled internetových bankovnictví a jejich podpory v Mozilla Firefoxu">Internetová bankovnictví v&nbsp;Mozille</a></li>
+	<li><a href="doplneni-cz-domeny.php" title="Návod na doplňování CZ domény do adresního řádku">Jak na doplňování CZ domény</a></li>
+	<li><a href="jak-na-windows-media-player.php" title="Návod, jak zprovoznit Windows Media Player ve Firefoxu">Windows Media Player ve Firefoxu</a></li>
+	<li><a href="/podpora/mozilla-a-download-managery.php" title="Přehled správců stahování a jejich funkčnosti v Mozille Firefoxu">Mozilla Firefox a&nbsp;download managery</a></li>
+	<li><a href="/podpora/hlaseni-nefunkcnich-stranek.php" title="Jak použít Mozilla Reporter k nahlášení chybně se zobrazující stránky">Mozilla Reporter &ndash; hlášení nefunkčních stránek</a></li>
+	<li><a href="prohlizeni-v-panelech.php" title="Prohlížení v panelech">Prohlížení v&nbsp;panelech</a></li>
+	<li><a href="/podpora/soubory-v-profilu.php" title="Přehled souborů, co se nalézaji ve složce s profilem">Soubory v&nbsp;profilu aplikací Mozilla</a></li>
+	<li><a href="/podpora/talkback.php" title="Jak použít Talkback k nahlášení pádu Mozilly">Talkback &ndash; pomocník při pádu Mozilly</a></li>
+	<li><a href="/podpora/ukladani-podle-title.php" title="Návod na ukládání stránek podle značky TITLE">Ukládání stránek v&nbsp;Mozille podle značky TITLE</a></li>
 </ul>
 
 <h2 id="dalsi-zdroje" class="nice ff">Další zdroje informací</h2>
@@ -114,5 +98,5 @@ a&nbsp;naučí vás jej efektivně používat. Autorem tohoto průvodce je <a hr
 </ul>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

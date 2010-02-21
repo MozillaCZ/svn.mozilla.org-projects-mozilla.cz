@@ -1,18 +1,17 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Obrázky a bannery';
-	$page->headline = array('Obrázky a bannery','Soukromí a bezpečnost v Mozilla Suite, 2. část');
-
-	$page->includeHeader();
+	require_once '../../../inc/page.php';
+	$page->setTitle('Obrázky a bannery');
+	$page->setHeadline('Obrázky a bannery','Soukromí a bezpečnost v Mozilla Suite, 2. část');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-		<a href="./vyskakovaci-okna.html">Vyskakovací okna</a></li>
+		<a href="./vyskakovaci-okna.php">Vyskakovací okna</a></li>
 	<li>Předchozí:
-		<a href="./sprava-cookies.html">Práce s cookies</a></li>
+		<a href="./sprava-cookies.php">Práce s cookies</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -88,12 +87,12 @@ Nastavení této volby závisí na vašich osobních preferencích. Některé st
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-		<a href="./vyskakovaci-okna.html">Vyskakovací okna</a></li>
+		<a href="./vyskakovaci-okna.php">Vyskakovací okna</a></li>
 	<li>Předchozí:
-		<a href="./sprava-cookies.html">Práce s cookies</a></li>
+		<a href="./sprava-cookies.php">Práce s cookies</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

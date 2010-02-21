@@ -1,10 +1,11 @@
 <?php
-	$rootPath = '../../';
-	include($rootPath . '../cas/includes-web.inc.php');  
-	$page->title= 'Co je nového v Mozilla Firefoxu 1.5';
-	$page->headline = array('Co je nového v Mozilla Firefoxu 1.5','Souhrn toho, co přináší nová verze populárního prohlížeče');
-
-	$page->includeHeader();
+	require_once '../../inc/page.php';
+	$page->setTitle('Co je nového v Mozilla Firefoxu 1.5');
+	$page->setHeadline('Co je nového v Mozilla Firefoxu 1.5','Souhrn toho, co přináší nová verze populárního prohlížeče');
+	$page->setKeywords('podpora, otázky, nápověda, pomoc, návod, mozilla, firefox, prohlížeč');
+	$page->setDescription('Co je nového v Mozilla Firefoxu 1.5');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
 
 <p>Ke konci loňského roku zvířil stojaté vody webových prohlížečů nový 
@@ -176,9 +177,7 @@ nový nástroj pro upozornění na chybnou stránku. </p>
 
 <p style="margin-bottom: 0">Tento nástroj naleznete v&nbsp;nabídce <span class="nabidka">Nápověda</span>
 pod položkou <span class="nabidka">Upozornit na chybnou stránku...</span>. 
-Nahlášené reporty zpracují spolupracovníci projektu 
-<a href="/czilla/technicka-evangelizace.html" 
-title="O projektu Technická evangelizace">Technická evangelizace</a> 
+Nahlášené reporty zpracují spolupracovníci projektu Technická evangelizace
 a&nbsp;pokusí se s&nbsp;příslušným webmasterem sjednat nápravu.</p>
 </td>
 
@@ -312,8 +311,8 @@ u&nbsp;objektu <tt>Array</tt> nové užitečné metody:
 <tt><a href="http://developer.mozilla.org/en/docs/Core_JavaScript_1.5_Reference:Objects:Array:lastIndexOf" hreflang="en">lastIndexOf</a></tt>.</p>
 
 <hr />
-<p><small><a href="/czilla/lide.html#kdo-je-PC">Pavel Cvrček</a> &amp; <a href="/czilla/lide.html#kdo-je-DM">David Majda</a>, Tým CZilla</small></p>
+<p><small><a href="/czilla/prispevatele.php#kdo-je-PC">Pavel Cvrček</a> &amp; <a href="/czilla/prispevatele.php#kdo-je-DM">David Majda</a>, Tým CZilla</small></p>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>

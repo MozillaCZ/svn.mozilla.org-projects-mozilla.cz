@@ -1,21 +1,21 @@
 <?php
-	$rootPath = '../../../';
-	include($rootPath . '../cas/includes-web.inc.php');
-	$page->title    = 'Diskusní skupiny';
-	$page->headline = array('Diskusní skupiny','Úvod do Thunderbirdu, 8. část');
-	
+	require_once '../../../inc/page.php';
+	$page->setTitle('Diskusní skupiny');
+	$page->setHeadline('Diskusní skupiny','Úvod do Thunderbirdu, 8. část');
 	$page->setKeywords ('mozilla, thunderbird, e-mail, e-mailový klient, začátečník, beginner, návod, tutorial, diskusní skupiny');
-	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s diskusními skupinami');	
-
-	$page->includeHeader();
+	$page->setDescription ('Návod jak v Mozilla Thunderbirdu pracovat s diskusními skupinami');
+	$page->setMenu('podpora');
+	$page->includeTemplate('header');
 ?>
+<div class="obsolete">Některé informace na stránkách podpory mohou být zastaralé. Aktuální informace naleznete na serveru
+<a href="http://www.mozilla.cz/podpora/thunderbird/">Mozilla.cz</a>.</div>
 
 <div class="ipn-top">
 <ul>
 	<li>Následující:
-	  <a href="./motivy-vzhledu.html">Motivy vzhledu</a></li>
+	  <a href="./motivy-vzhledu.php">Motivy vzhledu</a></li>
 	<li>Předchozí:
-		<a href="./filtry.html">Filtry</a></li>
+		<a href="./filtry.php">Filtry</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
@@ -86,13 +86,13 @@ tlačítko <span class="nabidka">Odebírat</span>.</p>
 <div class="ipn-bottom">
 <ul>
 	<li>Následující:
-	  <a href="./motivy-vzhledu.html">Motivy vzhledu</a></li>
+	  <a href="./motivy-vzhledu.php">Motivy vzhledu</a></li>
 	<li>Předchozí:
-		<a href="./filtry.html">Filtry</a></li>
+		<a href="./filtry.php">Filtry</a></li>
 	<li class="ipn-index"><a href="./">Obsah</a></li>
 </ul>
 </div>
 
 <?php
-	$page->includeFooter();
+	$page->includeTemplate('footer');
 ?>
