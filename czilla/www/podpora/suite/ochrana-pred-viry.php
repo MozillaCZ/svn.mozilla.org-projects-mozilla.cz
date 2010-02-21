@@ -5,14 +5,8 @@
 	$page->setMenu('podpora');
 	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#vr-poucka">Phillova poučka</a> &middot;
-	<a href="#vr-otevirani-priloh">Otevírání příloh</a> &middot;
-	<a href="#vr-zvyseni-bezpecnosti">Zvýšení bezpečnosti</a> &middot;
-	<a href="#vr-pro-zvidave">Pro zvídavé</a>
-</div>
-
+<div class="obsolete">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
+jejím nástupcem s řadou novinek je aplikace <strong><a href="/produkty/seamonkey/">Seamonkey</a></strong>.</div>
 
 <h2>Souhrn</h2>
 <p>

@@ -7,7 +7,8 @@
 	$page->setMenu('podpora');
 	$page->includeTemplate('header');
 ?>
-
+<div class="obsolete">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
+jejím nástupcem s řadou novinek je aplikace <strong><a href="/produkty/seamonkey/">Seamonkey</a></strong>.</div>
 
 <p>Máte problémy s instalací české lokalizace Mozilly? Níže najdete odpovědi na vaše nejčastější dotazy.</p>
 

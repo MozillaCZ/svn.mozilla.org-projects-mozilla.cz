@@ -7,13 +7,8 @@
 	$page->setMenu('podpora');
 	$page->includeTemplate('header');
 ?>
-
-<div id="navigation">
-	<a href="#jak-pouzivat-parametry">Jak používat parametry</a> &middot;
-	<a href="#parametry">Parametry příkazové řádky</a> &middot;
-	<a href="#pravidla-zapisu">Pravidla zápisu</a>
-</div>
-
+<div class="obsolete">Vývoj aplikace Mozilla Suite <strong>byl ukončen</strong>,
+jejím nástupcem s řadou novinek je aplikace <strong><a href="/produkty/seamonkey/">Seamonkey</a></strong>.</div>
 
 <p>Pomocí nastavení parametrů příkazové řádky můžete "obejít" správce
 profilů a otevřít přímo požadovaný profil (používáte-li více profilů). Dále
