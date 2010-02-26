@@ -82,5 +82,5 @@ testování stránek.</p>
 	</p>
 </div>
 <?php
-	$page->includeTemplate('header');
+	$page->includeTemplate('footer');
 ?>
