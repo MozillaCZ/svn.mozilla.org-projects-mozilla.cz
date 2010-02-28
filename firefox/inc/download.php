@@ -68,7 +68,7 @@ class Download
 		if (empty($this->data[$key])) {
 			return 'http://www.mozilla-europe.org/cs/firefox/';
 		}
-		return $this->data[$key];
+		return str_replace("&", "&amp;", $this->data[$key]);
 	}
 
 	public function getChangelogLink()

@@ -100,8 +100,8 @@ Zde jsou odkazy ke stažení těch nejpopulárnějších:</p>
 			 lang="en">Mozilla Thunderbird</a></dt>
 		<dd>Samostatný poštovní klient, skvělý doplněk Firefoxu.</dd>
 
-		<dt><a href="http://www.mozilla.cz/produkty/nvu/"
-			 lang="en">Nvu</a></dt>
+		<dt><a href="http://www.mozilla.cz/produkty/kompozer/"
+			 lang="en">KompoZer</a></dt>
 		<dd>Samostatný editor webových stránek.</dd>
 
 		<dt><a href="http://www.mozilla.cz/produkty/seamonkey/"

@@ -263,3 +263,26 @@ acronym[title]			{cursor:help}
 .wp span				{display:block;text-decoration:underline}
 
 .exp-short hr			{display:block;height:1px;line-height:1px;font-size:1px;border:1px solid #DDD;border-width:1px 0 0 0;margin:.5em 0;clear:both}
+
+.download-ico-win {background-image:url(/img/i-windows.png);}
+.download-ico-linux {background-image:url(/img/i-linux.png);}
+.download-ico-mac {background-image:url(/img/i-mac.png);}
+.download-ico-flash {background-image:url(/img/i-flash.png);}
+.download-ico-reader {background-image:url(/img/i-reader.png);}
+.download-ico-silverlight {background-image:url(/img/i-silverlight.png);}
+.download-ico-java {background-image:url(/img/i-java.png);}
+.download-ico-addon {background-image:url(/img/i-addon.png);}
+
+.download-ico-win,
+.download-ico-linux,
+.download-ico-mac,
+.download-ico-flash,
+.download-ico-reader,
+.download-ico-silverlight,
+.download-ico-java,
+.download-ico-addon {
+	background-position:left center;
+	background-repeat:no-repeat;
+	display:block;
+	padding:2px 0 2px 20px;
+}
