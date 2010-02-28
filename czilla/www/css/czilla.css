@@ -331,7 +331,6 @@ h3.javascript-console#warnings {background-image:url(/vyvojari/web/img/javascrip
 h3.javascript-console#messages {background-image:url(/vyvojari/web/img/javascript-console-message.png)}
 .ecma-compatibility {padding: .5em .5em .5em 70px;background:#eee url(/vyvojari/aplikace/javascript/img/ecma.gif) no-repeat .5em .6em}
 
-/* hreflang - drzet synchronizovane s CVSROOT/cas/templates/admin/blank-preview.tpl.php */
 a[hreflang]				{padding-right:12px;background:transparent none no-repeat 100% 0%}
 a[hreflang=en]			{background-image:url("/img/l-enf.gif")}
 a[hreflang=de]			{background-image:url("/img/l-def.gif")}

@@ -1,0 +1,61 @@
+################################################################################
+#
+# Zde jsou definice presmerovani pro 404.html. Presmerovani je dano dvojicemi
+# radku v nasledujicim formatu:
+#
+# From: <string> nebo <regexp>
+# To:   <address>
+#
+# Znamena to, ze pokud je chybna adresa rovna <string>u nebo matchuje dany
+# <regexp>, presmeruje se na <address>. <regexp> se pozna od <string>u tak, ze
+# na pocatku a na konci obsahuje znaky "%". Pouzije se vzdy prvni vyhovujici
+# pravidlo.
+#
+# Pokud je pouzit <regexp>, jdou v <address> pouzivat i backreference do
+# <regexp> (ve tvaru $1, $2 atd.), stejne jako v PHPkove funkci preg_replace.
+#
+# Prazdne radky, radky obsahujici jen whitespace nebo zacinajici whitespace,
+# po kterem nasleduje znak "#", se ignoruji. Mezi "From:" a <regexp>/<string>
+# muze byt libovolny whitespace; analogicky u "To:". Radky v jinem formatu
+# vyvolaji chybu, stejne jako spatne parovani radku zacinajicich na "From:"
+# a "To:".
+#
+################################################################################
+
+From: %/rss/.*%
+To:   http://www.mozilla.cz/feed/
+
+From: %/start/.*%
+To:   http://start.mozilla.cz/
+
+From: %/produkty/(.*)/stahnout.html%
+To:   http://www.mozilla.cz/stahnout/$1/
+
+From: %/stahnout/(.*)%
+To:   http://www.mozilla.cz/stahnout/$1
+
+From: %/doplnky/(.*)%
+To:   http://www.mozilla.cz/doplnky/$1
+
+From: %/czilla/jak-pomoci/.*%
+To:   http://www.mozilla.cz/zapojte-se/
+
+From: %/mozcestnik/.*%
+To:   http://www.czilla.cz/
+
+From: /czilla/technicka-evangelizace.html
+To:   http://forum.czilla.cz/viewforum.php?f=7
+
+From: /czilla/prezentace.html
+To:   http://www.mozilla.cz/o-nas/prezentace-mozilly/
+
+From: /czilla/oceneni.html
+To:   http://www.mozilla-europe.org/cs/pressroom/awards/
+
+From: /czilla/propagace.html
+To:   http://www.mozilla.cz/zapojte-se/loga-propagace/
+
+################################################################################
+
+From: %^(.*)\.html$%
+To:   $1.php

@@ -10,11 +10,15 @@ class Page
 	protected $webStat = true;
 	protected $incPath;
 	protected $feedHandler;
+	protected $error;
 
 	public function __construct()
 	{
 		error_reporting(E_ALL);
 		$this->incPath = dirname(__FILE__);
+
+		require_once $this->incPath . '/error.php';
+		$this->error = new Error($this->incPath);
 	}
 
 	function setMeta($name, $content, $lang = 'cs')
@@ -134,6 +138,12 @@ class Page
 	{
 		include $this->incPath . '/tipBuilder.php';
 		return new TipBuilder($category, $faq);
+	}
+
+	public function handleRedirect()
+	{
+		$this->error->handleRedirect();
+		$this->webStat = false;
 	}
 }
 
