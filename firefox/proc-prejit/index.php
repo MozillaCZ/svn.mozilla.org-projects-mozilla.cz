@@ -195,7 +195,7 @@ klávesových zkratek. Díky nim máte všechny důležité funkce hned po ruce.
 <kbd>Ctrl</kbd>+<kbd>K</kbd> pro pole hledání. <kbd>Ctrl</kbd>+<kbd>T</kbd>
 otvírá nový panel a&nbsp;<kbd>Ctrl</kbd>+<kbd>S</kbd> dělá to, co asi čekáte
 - uloží aktuální stránku. Chcete-li znát další, máme pro vás
-<a href="/otazky/klavesove-zkratky/">seznam klávesových zkratek</a>.</p>
+<a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">seznam klávesových zkratek</a>.</p>
 
 <p>Jak Záložky, tak Historie jsou pro rychlý přístup dostupné
 v&nbsp;postranní liště. Jednoduše stiskněte <kbd>Ctrl</kbd>+<kbd>B</kbd> pro

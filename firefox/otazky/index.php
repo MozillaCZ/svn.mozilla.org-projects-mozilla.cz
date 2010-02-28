@@ -81,7 +81,7 @@ title="Recenze knihy o Mozilla Firefoxu">dočtete v naší recenzi</a>.</p>
 
 <p>Firefox ukládá všechna nastavení na disk do složky s&nbsp;profilem.</p>
 
-<p>Ve <strong>Windows Vista</strong> je složka umístěna v&nbsp;<span
+<p>Ve <strong>Windows Vista/7</strong> je složka umístěna v&nbsp;<span
 class="file">C:\Users\[Uživatelské jméno]\AppData\Roaming\Mozilla\Firefox\Profiles\default\</span>.</p>
 
 <p>Ve <strong>Windows XP/2000</strong> je složka umístěna v&nbsp;<span
@@ -111,11 +111,8 @@ and Settings\[Uživatelské jméno]\Data aplikací.</span></p>
 <h2 id="otazka-7">Jaké jsou klávesové zkratky?</h2>
 
 <p>Nabízíme vám přehled
-<a href="./klavesove-zkratky/">nejběžnějších klávesových zkratek Firefoxu</a>,
-které vám v prohlížeči pomohou zrychlit opakující se akce. Kromě toho David
-Tenser sestavil vynikající
-<a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">porovnání klávesových zkratek</a>
-Firefoxu, Internet Exploreru a&nbsp;Opery.</p>
+<a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">nejběžnějších klávesových zkratek Firefoxu</a>,
+které vám v prohlížeči pomohou zrychlit opakující se akce.</p>
 
 <h2 id="otazka-8">Je Firefox dostupný v&nbsp;češtině?</h2>
 
@@ -262,15 +259,15 @@ title="Eurotran XP: Domovská stránka">Eurotran&nbsp;XP</a>.</p>
 		<dd>Kromě všeobecných otázek a&nbsp;odpovědí také na téma zásuvných
 		modulů, rozšíření a&nbsp;způsobu použití.</dd>
 
-		<dt><a href="./klavesove-zkratky/">Klávesové zkratky</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">Klávesové zkratky</a></dt>
 		<dd>Přehled nejběžnějších klávesových zkratek ve Firefoxu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Internet Exploreru.</dd>
 
-		<dt><a href="./ovladani-mysi/">Ovládání myší</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Ovl%C3%A1d%C3%A1n%C3%AD+Firefoxu+my%C5%A1%C3%AD">Ovládání myší</a></dt>
 		<dd>Nejčastěji používané funkce, které lze v&nbsp;prohlížeči Mozilla
 		Firefox ovládat myší a&nbsp;jejich ekvivalenty v&nbsp;Internet Exploreru.</dd>
 
-		<dt><a href="./rozdily-terminologie/">Rozdíly v terminologii</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Pro%20u%C5%BEivatele%20Internet%20Exploreru#Rozd_ly_v_terminologii">Rozdíly v terminologii</a></dt>
 		<dd>Základní slovníček rozdílně pojmenovaných prvků a&nbsp;funkcí.</dd>
 	</dl>
 

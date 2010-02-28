@@ -68,11 +68,11 @@ Firefoxem.</p>
 	<p>Poznejte, jak efektivně ovládat Firefox pomocí klávesnice a&nbsp;myši:</p>
 
 	<dl>
-		<dt><a href="/otazky/klavesove-zkratky/">Klávesové zkratky</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">Klávesové zkratky</a></dt>
 		<dd>Přehled nejběžnějších klávesových zkratek ve Firefoxu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Internet Exploreru.</dd>
 
-		<dt><a href="/otazky/ovladani-mysi/">Ovládání myší</a></dt>
+		<dt><a href="http://support.mozilla.com/cs/kb/Ovl%C3%A1d%C3%A1n%C3%AD+Firefoxu+my%C5%A1%C3%AD">Ovládání myší</a></dt>
 		<dd>Nejčastěji používané funkce, které lze v&nbsp;prohlížeči Mozilla
 		Firefox ovládat myší, a&nbsp;jejich ekvivalenty v&nbsp;Internet Exploreru.</dd>
 	</dl>

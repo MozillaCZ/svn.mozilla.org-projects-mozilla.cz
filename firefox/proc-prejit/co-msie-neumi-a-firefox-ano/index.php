@@ -325,8 +325,9 @@ důvod, proč používat raději Mozilla Firefox než Internet Explorer.</p>
 		který můžete použít k&nbsp;navigaci a&nbsp;výběru textu pouze pomocí šipek na
 		klávesnici namísto používání myši.</p>
 
-		<p>Více o&nbsp;<a href="/otazky/klavesove-zkratky/">ovládání pomocí
-		klávesových zkratek</a> a&nbsp;<a href="/otazky/ovladani-mysi/">ovládání
+		<p>Více o&nbsp;<a href="http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky">ovládání pomocí
+		klávesových zkratek</a> a&nbsp;<a 
+		href="http://support.mozilla.com/cs/kb/Ovl%C3%A1d%C3%A1n%C3%AD+Firefoxu+my%C5%A1%C3%AD">ovládání
 		myší</a>...</p>
 
 		<p class="note"><em>Poznámka:</em> Funkce není totožná s&nbsp;nastavením
