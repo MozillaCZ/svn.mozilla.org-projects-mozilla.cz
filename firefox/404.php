@@ -1,6 +1,17 @@
 <?php
 	$badUrl = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 	$redirectUrl = '';
+	
+	if (strpos($_SERVER['REQUEST_URI'], "/otazky/klavesove-zkratky") === 0) {
+		$redirectUrl = "http://support.mozilla.com/cs/kb/Kl%C3%A1vesov%C3%A9+zkratky";
+	}	
+	if (strpos($_SERVER['REQUEST_URI'], "/otazky/ovladani-mysi") === 0) {
+		$redirectUrl = "http://support.mozilla.com/cs/kb/Ovl%C3%A1d%C3%A1n%C3%AD+Firefoxu+my%C5%A1%C3%AD";
+	}
+	if (strpos($_SERVER['REQUEST_URI'], "/otazky/rozdily-terminologie") === 0) {
+		$redirectUrl = "http://support.mozilla.com/cs/kb/Pro%20u%C5%BEivatele%20Internet%20Exploreru#Rozd_ly_v_terminologii";
+	}
+
 
 	if ($redirectUrl != '') {
 		header("HTTP/1.1 301 Moved Permanently");
