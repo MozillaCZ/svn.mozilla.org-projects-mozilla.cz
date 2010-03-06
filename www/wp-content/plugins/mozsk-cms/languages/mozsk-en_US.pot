@@ -1,0 +1,248 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: MozSk CMS\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-10-16 21:59+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Pavel Cvrček <pcvrcek@mozilla.cz>\n"
+"Language-Team: Wladow & JasnaPaka <info@mozilla.cz>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: D:\\www\\mozillacz\\wp-content\\plugins\\mozsk-cms\\\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: form-pridat-ok.php:30
+msgid "Product was added."
+msgstr "Product was added."
+
+#: form-pridat-ver.php:1
+msgid "Newer product version"
+msgstr "Newer product version"
+
+#: form-pridat-ver.php:25
+msgid "I don"
+msgstr "I don"
+
+#: form-pridat-ver.php:29
+msgid "Confirm values"
+msgstr "Confirm values"
+
+#: form-pridat.php:1
+#: form-pridat.php:20
+#: form-zoznam.php:56
+msgid "Add product"
+msgstr "Add product"
+
+#: form-upravit-inc.php:4
+#: form-zoznam.php:8
+#: napisali-upravit-inc.php:4
+msgid "Name"
+msgstr "Name"
+
+#: form-upravit-inc.php:8
+msgid "Text ID"
+msgstr "Text ID"
+
+#: form-upravit-inc.php:9
+msgid "just ASCII, numbers or minus"
+msgstr "just ASCII, numbers or minus"
+
+#: form-upravit-inc.php:12
+#: form-zoznam.php:10
+#: napisali-upravit-inc.php:28
+msgid "Date"
+msgstr "Date"
+
+#: form-upravit-inc.php:13
+#: napisali-upravit-inc.php:29
+msgid "format RRRR-MM-DD"
+msgstr "format RRRR-MM-DD"
+
+#: form-upravit-inc.php:16
+#: form-zoznam.php:9
+#: form-zoznam.php:41
+msgid "Version"
+msgstr "Version"
+
+#: form-upravit-inc.php:20
+#: form-zoznam.php:11
+msgid "Download"
+msgstr "Download"
+
+#: form-upravit-inc.php:23
+#: form-zoznam.php:38
+msgid "Changelog"
+msgstr "Changelog"
+
+#: form-upravit-inc.php:27
+msgid "Windows"
+msgstr "Windows"
+
+#: form-upravit-inc.php:31
+msgid "Linux"
+msgstr "Linux"
+
+#: form-upravit-inc.php:35
+msgid "Mac OS X"
+msgstr "Mac OS X"
+
+#: form-upravit-inc.php:39
+#: form-zoznam.php:37
+msgid "Portable"
+msgstr "Portable"
+
+#: form-upravit-inc.php:61
+msgid "Autofill"
+msgstr "Autofill"
+
+#: form-upravit-inc.php:61
+msgid "You must fill a version!"
+msgstr "You must fill a version!"
+
+#: form-upravit-inc.php:64
+msgid "Others"
+msgstr "Others"
+
+#: form-upravit-inc.php:67
+#: form-zoznam.php:12
+msgid "Note"
+msgstr "Note"
+
+#: form-upravit-ok.php:37
+msgid "Product was updated."
+msgstr "Product was updated."
+
+#: form-upravit.php:1
+msgid "Edit product"
+msgstr "Edit product"
+
+#: form-upravit.php:25
+#: napisali-upravit.php:21
+msgid "I don't know this ID."
+msgstr "I don't know this ID."
+
+#: form-upravit.php:29
+msgid "Confirm changes"
+msgstr "Confirm changes"
+
+#: form-zmazat-ok.php:9
+msgid "product deleted"
+msgstr "product deleted"
+
+#: form-zoznam.php:2
+msgid "List of applications"
+msgstr "List of applications"
+
+#: form-zoznam.php:7
+msgid "ID"
+msgstr "ID"
+
+#: form-zoznam.php:40
+msgid "Edit"
+msgstr "Edit"
+
+#: form-zoznam.php:42
+msgid "Delete"
+msgstr "Delete"
+
+#: form-zoznam.php:49
+msgid "There are no products in database."
+msgstr "There are no products in database."
+
+#: mozsk-cms.php:63
+#: mozsk-cms.php:99
+msgid "released"
+msgstr "released"
+
+#: mozsk-cms.php:65
+#: mozsk-cms.php:101
+msgid "release notes"
+msgstr "release notes"
+
+#: mozsk-cms.php:166
+msgid "Oldest articles"
+msgstr "Oldest articles"
+
+#: mozsk-cms.php:167
+msgid "Newest articles"
+msgstr "Newest articles"
+
+#: mozsk-cms.php:175
+msgid "At this moment there are no articles in this category."
+msgstr "At this moment there are no articles in this category."
+
+#: mozsk-cms.php:213
+#: mozsk-cms.php:252
+msgid "I dont know what to do."
+msgstr "I dont know what to do."
+
+#: mozsk-cms.php:266
+msgid "Products"
+msgstr "aaa"
+
+#: mozsk-cms.php:267
+msgid "Articles about Mozilla"
+msgstr "Articles about Mozilla"
+
+#: mozsk-cms.php:337
+msgid "Do you really want to delete this version?"
+msgstr "Do you really want to delete this version?"
+
+#: napisali-pridat-ok.php:19
+msgid "Article was updated"
+msgstr "Article was updated"
+
+#: napisali-pridat.php:1
+#: napisali-pridat.php:11
+msgid "Add article"
+msgstr "Add article"
+
+#: napisali-upravit-inc.php:8
+msgid "Link"
+msgstr "Link"
+
+#: napisali-upravit-inc.php:24
+msgid "other"
+msgstr "other"
+
+#: napisali-upravit-inc.php:24
+msgid "it"
+msgstr "it"
+
+#: napisali-upravit-inc.php:32
+msgid "Short description"
+msgstr "Short description"
+
+#: napisali-upravit-ok.php:21
+msgid "Article was updated."
+msgstr "Article was updated."
+
+#: napisali-upravit.php:1
+msgid "Edit article"
+msgstr "Edit article"
+
+#: napisali-upravit.php:25
+msgid "Confirm"
+msgstr "Confirm"
+
+#: napisali-zmazat-ok.php:9
+msgid "Article was deleted."
+msgstr "Article was deleted."
+
+#: napisali.php:2
+msgid "List of articles"
+msgstr "List of articles"
+
+#: napisali.php:8
+msgid "Server"
+msgstr "Server"
+
+#: napisali.php:44
+msgid "There are no articles in database."
+msgstr "There are no articles in database."
+

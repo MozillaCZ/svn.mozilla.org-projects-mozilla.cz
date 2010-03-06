@@ -27,7 +27,7 @@ poznamka
 
 ?>
 <div class="updated">
-	<p><strong>Produkt pridaný. (ID=<?php echo $wpdb->insert_id ?>)</strong></p>
+	<p><strong><?php echo __('Product was added.', MOZ_DOMAIN) ?> (ID=<?php echo $wpdb->insert_id ?>)</strong></p>
 </div>
 <?php
 require_once("form-zoznam.php");

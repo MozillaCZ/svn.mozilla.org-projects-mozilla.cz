@@ -2,9 +2,9 @@
 /*
 Plugin Name: Mozilla.sk CMS Plugin
 Plugin URI: http://www.mozilla.sk
-Description: CMS plugin pre stránky Mozilla.sk
-Author: wladow
-Version: 0.5.7
+Description: CMS plugin for Mozilla.sk and Mozilla.cz
+Author: wladow & JasnaPaka
+Version: 0.5.6
 Author URI: http://www.wladow.sk
 */
 
@@ -76,6 +76,7 @@ function get_newprodukt($produkt, $what) {
 	return htmlspecialchars($result);
 }
 
+
 function get_dlpage($produkt) {
 
   	global $wpdb;
@@ -84,9 +85,9 @@ function get_dlpage($produkt) {
   	$temp_prod = $wpdb->get_row("SELECT verzia, datum, changelog, download_win, velkwin,
 			download_lin,velklin,download_mac,velkmac,download_port,velkport FROM mozsk_produkty WHERE urlid='$produkt' ORDER BY id DESC LIMIT 1");
 	$result .= $temp_prod->verzia.'</strong><br/>';
-	$result .= 'Vydané: '.date("d.m.Y",strtotime($temp_prod->datum)).' - <a href="'.$temp_prod->changelog.'"';
+	$result .= __('released', MOZ_DOMAIN).': '.date("d.m.Y",strtotime($temp_prod->datum)).' - <a href="'.$temp_prod->changelog.'"';
   if (strpos($temp_prod->changelog,'/sk/') == 0) $result .= ' hreflang="en"';
-  $result .= '>poznámky k vydaniu</a></p>';
+  $result .= '>'.__('release notes', MOZ_DOMAIN).'</a></p>';
 
 	$result .= '<ul>
 		<li class="ico-win"><a href="'.htmlspecialchars($temp_prod->download_win).'">Windows <small>(.exe)</small></a> ('.$temp_prod->velkwin.' МB)</li>
@@ -120,9 +121,9 @@ function get_archiv($produkt) {
 			if ($prvy==1) { $result .= '<div class="arch '.$produkt.'_arch">'; $prvy=0;} else $result .= '<div class="arch">';
 			
 			    $result .= '<h1><a href="/'.$produkt.'/">'.$prod->nazov.' '.$prod->verzia.'</a></h1>';
-				$result .= '<p class="description">vydané: '.date("d.m.Y",strtotime($prod->datum)).' - <a href="'.$prod->changelog.'"';
+				$result .= '<p class="description">'.__('released', MOZ_DOMAIN).': '.date("d.m.Y",strtotime($prod->datum)).' - <a href="'.$prod->changelog.'"';
         if (strpos($prod->changelog,'/sk/') == 0) $result .= ' hreflang="en"';
-        $result .= '>poznámky k vydaniu</a></p>';
+        $result .= '>'.__('release notes', MOZ_DOMAIN).'</a></p>';
 
 				$result .= '<ul>
 					<li class="ico-win"><a href="'.htmlspecialchars($prod->download_win).'">Windows <small>(.exe)</small></a> ('.$prod->velkwin.' МB)</li>
@@ -187,8 +188,8 @@ function get_napisali($pocet = 15, $sidebar = 0) {
           echo '</small></p>';
          */ 
 		echo '<br/><br/><div class="navigation">';
-			if (($celkom/ 15)+1>$paged) { echo '<div class="alignleft"><a href="/napisali/page/'; echo $paged+1 .'/">&laquo; Staršie články</a></div>'; }
-			if ($paged>1) { echo '<div class="alignright"><a href="/napisali/page/'; echo $paged-1 .'/">Novšie články &raquo;</a></div>';}
+			if (($celkom/ 15)+1>$paged) { echo '<div class="alignleft"><a href="/napisali/page/'; echo $paged+1 .'/">&laquo;'; __('Oldest articles', MOZ_DOMAIN); echo '</a></div>'; }
+			if ($paged>1) { echo '<div class="alignright"><a href="/napisali/page/'; echo $paged-1 .'/">'; __('Newest articles', MOZ_DOMAIN); echo '&raquo;</a></div>';}
 		echo '</div>';
          
           }	
@@ -196,7 +197,7 @@ function get_napisali($pocet = 15, $sidebar = 0) {
 	else
 	{
 
-		echo '<div class="error">Momentálne nie sú v tejto rubrike dostupné žiadne články.</div>';
+		echo '<div class="error">'.__('At this moment there are no articles in this category.', MOZ_DOMAIN).'</div>';
 	}
 
 }
@@ -234,7 +235,7 @@ function mskcms_PanelProdukty()
 				require_once("form-pridat-ver-ok.php");
 				break;
 			default:
-				echo '<p>Neviem, čo mám robiť.</p>';
+				echo '<p>'.__('I dont know what to do.', MOZ_DOMAIN).'</p>';
 				break;
 		}
 	}
@@ -273,7 +274,7 @@ function mskcms_PanelNapisali()
 				break;
 
 			default:
-				echo '<p>Neviem, čo mám robiť.</p>';
+				echo '<p>'.__('I dont know what to do.', MOZ_DOMAIN).'</p>';
 				break;
 		}
 	}
@@ -287,8 +288,8 @@ function mskcms_PanelNapisali()
 
 function mskcms_AddOptionsPage() {
 	if (function_exists('add_submenu_page')) {
-		add_submenu_page('plugins.php', 'Produkty', 'Produkty', 3, basename(__FILE__), 'mskcms_PanelProdukty'); 
-		add_submenu_page('plugins.php', 'Napísali o Mozille', 'Napísali o Mozille', 1, 'napisali.php','mskcms_PanelNapisali');
+		add_submenu_page('plugins.php', __('Products', MOZ_DOMAIN), __('Products', MOZ_DOMAIN), 3, basename(__FILE__), 'mskcms_PanelProdukty'); 
+		add_submenu_page('plugins.php', __('Articles about Mozilla', MOZ_DOMAIN), __('Articles about Mozilla', MOZ_DOMAIN), 1, 'napisali.php','mskcms_PanelNapisali');
 	}		
 }
 
@@ -339,15 +340,26 @@ function mskcms_Install()
 	}
 }
 
+function localization_init() {
+	if ( function_exists('load_plugin_textdomain') ) {
+		if ( !defined('WP_PLUGIN_DIR') ) {			
+			load_plugin_textdomain( MOZ_DOMAIN );
+			load_plugin_textdomain( MOZ_DOMAIN, str_replace( ABSPATH, '', dirname(__FILE__) ) . '/languages' );
+		} else {
+			load_plugin_textdomain( MOZ_DOMAIN, true );
+			load_plugin_textdomain( MOZ_DOMAIN, false, dirname( plugin_basename(__FILE__) ) . '/languages' );
+		}
+	}
+}
+
+
 function mskcms_AddAdminJS() 
 {
-	if($_SERVER['SCRIPT_NAME'] == '/wp-admin/plugins.php' && ($_GET['page'] == basename(__FILE__)) || $_GET['page'] == 'napisali.php' || $_GET['page'] == 'ocakavane.php')
-	{
 		echo '<script type="text/javascript">
 //<![CDATA[
 function mskcms_AskDel(id)
 {
-	answer = window.confirm("Naozaj odstrániť túto verziu? Pozor, po stlačení OK ihneď maže!");
+	answer = window.confirm("'; echo __('Do you really want to delete this version?', MOZ_DOMAIN); echo '");
 	if(answer)
 	{
 		document.getElementById("todo").value = "zmazat-ok";
@@ -372,16 +384,14 @@ function mskcms_NuVer(id)
 
 //]]>
 </script>';
-	}
-	//echo '<!-- ' . $_SERVER['SCRIPT_NAME'] . ' -->';
 }
 
+add_action('init', 'localization_init');
+add_action('plugins_loaded','mskcms_Install');
 add_action('admin_menu', 'mskcms_AddOptionsPage');
 add_action('admin_head', 'mskcms_AddAdminJS');
-add_action('plugins_loaded','mskcms_Install');
 
 add_shortcode('moz-download-rn', 'moz_download_rn_handler');
 add_shortcode('moz-download-version', 'moz_download_version_handler');
 add_shortcode('moz-download-url', 'moz_download_url_handler');
-
 ?>

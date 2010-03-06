@@ -18,7 +18,7 @@ WHERE id = '$uprav_id'");
 
 ?>
 <div class="updated">
-	<p><strong>Článok upravený. (ID=<?php echo $uprav_id ?>)</strong></p>
+	<p><strong><?php echo __('Article was updated.', MOZ_DOMAIN) ?> (ID=<?php echo $uprav_id ?>)</strong></p>
 </div>
 <?php
 require_once("napisali.php");

@@ -1,4 +1,4 @@
-<form method="post" action=""><h2>Upraviť produkt</h2>
+<form method="post" action=""><h2><?php echo __('Edit product', MOZ_DOMAIN)?></h2>
 <?php
 if (isset($_POST['param1'])) 
 {
@@ -22,11 +22,11 @@ if (isset($_POST['param1']))
 		$poznamka = htmlspecialchars($produkt->poznamka, ENT_QUOTES);
 		require_once("form-upravit-inc.php");
 	}
-	else die ("Osudová chyba: Také ID tu nemám.");
+	else die ( __('I don\'t know this ID.', MOZ_DOMAIN) );
 }
 ?>
 	<div class="submit">
-		<input type="submit" name="ok-submit" value="Potvrdiť zmeny &raquo;" />
+		<input type="submit" name="ok-submit" value="<?php echo __('Confirm changes', MOZ_DOMAIN) ?> &raquo;" />
 	</div>
 	<input id="todo" name="todo" type="hidden" value="upravit-ok"/>
 	<input id="param1" name="param1" type="hidden" value="<?php echo $uprav_id ?>"/>

@@ -1,4 +1,4 @@
-<form method="post" action=""><h2>Pridať produkt</h2>
+<form method="post" action=""><h2><?php echo __('Add product', MOZ_DOMAIN) ?></h2>
 <?php
 $urlid = '';
 $nazov = '';
@@ -17,7 +17,7 @@ $poznamka = '';
 require_once("form-upravit-inc.php");
 ?>
 	<div class="submit">
-		<input type="submit" name="ok-submit" value="Pridať produkt &raquo;" />
+		<input type="submit" name="ok-submit" value="<?php echo __('Add product', MOZ_DOMAIN) ?> &raquo;" />
 	</div>
 	<input id="todo" name="todo" type="hidden" value="pridat-ok"/>
 	<input id="param1" name="param1" type="hidden" value=""/>

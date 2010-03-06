@@ -6,7 +6,7 @@ if (isset($_POST['param1']))
 }
 ?>
 <div class="updated">
-	<p><strong>produkt zmazaný.</strong></p>
+	<p><strong><?php echo __('product deleted', MOZ_DOMAIN) ?>.</strong></p>
 </div>
 <?php
 require_once("form-zoznam.php");

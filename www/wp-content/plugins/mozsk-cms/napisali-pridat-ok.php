@@ -16,7 +16,7 @@ nazov, datum, server, odkaz, excerpt
 
 ?>
 <div class="updated">
-	<p><strong>Článok pridaný. (ID=<?php echo $wpdb->insert_id ?>)</strong></p>
+	<p><strong><?php echo __('Article was updated', MOZ_DOMAIN) ?> (ID=<?php echo $wpdb->insert_id ?>)</strong></p>
 </div>
 <?php
 require_once("napisali.php");

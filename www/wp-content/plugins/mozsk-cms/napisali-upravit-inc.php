@@ -1,11 +1,11 @@
 <table cellpadding="2" cellspacing="2" border="0" style="text-align: left; width: 95%;">
 <tbody>
 	<tr>
-		<td style="width:15%"><label for="nazov">Názov</label></td>
+		<td style="width:15%"><label for="nazov"><?php echo __('Name', MOZ_DOMAIN) ?></label></td>
 		<td><input type="text" id="nazov" name="nazov" size="75" value="<?php echo $nazov; ?>" /> </td>
 	</tr>
 	<tr>
-		<td><label for="urlid">Odkaz</label></td>
+		<td><label for="urlid"><?php echo __('Link', MOZ_DOMAIN) ?></label></td>
 		<td><input type="text" id="odkaz" name="odkaz" size="75" value="<?php echo $odkaz; ?>" /> </td>
 	</tr>
 	<tr>
@@ -21,15 +21,15 @@
 				<option <?php if ('Lupa.cz'==$server) echo 'selected="selected" '; ?> value="Lupa.cz">Lupa.cz</option>
 				<option <?php if ('-'==$server) echo 'selected="selected" '; ?> value="-">-</option>
             </select>
-            &nbsp;&nbsp; iný: <input id="server_iny" name="server_iny" type="text" value="<?php echo $server_iny; ?>" size="20"/> (berie sa do úvahy, ak vyplnené)
+            &nbsp;&nbsp; <?php echo __('other', MOZ_DOMAIN) ?>: <input id="server_iny" name="server_iny" type="text" value="<?php echo $server_iny; ?>" size="20"/> (<?php echo __('it\'s accepted only when it\'s filled', MOZ_DOMAIN) ?>)
 		</td>
 	</tr>
 	<tr>
-		<td><label for="datum">Dátum</label></td>
-		<td><input id="datum" name="datum" type="text" value="<?php echo $datum; ?>" size="10"/> (formát RRRR-MM-DD)</td>
+		<td><label for="datum"><?php echo __('Date', MOZ_DOMAIN) ?></label></td>
+		<td><input id="datum" name="datum" type="text" value="<?php echo $datum; ?>" size="10"/> (<?php echo __('format RRRR-MM-DD', MOZ_DOMAIN) ?>)</td>
 	</tr>
 	<tr>
-		<td><label for="excerpt">Úryvok</label></td>
+		<td><label for="excerpt"><?php echo __('Short description', MOZ_DOMAIN) ?></label></td>
 		<td><textarea id="excerpt" name="excerpt" cols="80" rows="6"><?php echo $excerpt; ?></textarea></td>
 	</tr>
 </tbody>

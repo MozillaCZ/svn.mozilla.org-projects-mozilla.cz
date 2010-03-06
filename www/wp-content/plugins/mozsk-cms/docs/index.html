@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+        
+<html lang="en" dir="ltr">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+
+  <title>Mozilla.sk CMS Plugin documentation</title>
+	
+	<style type="text/css">
+ /* <![CDATA[ */
+   	body {
+			margin-left: auto;
+			margin-right: auto;
+			max-width: 1000px; 
+		}
+ /* ]]> */
+ </style>
+</head>
+<body>
+
+<h1>Mozilla.sk CMS Plugin documentation</h1>
+
+<p>Mozilla.sk CMS Plugin is plugin for WordPress which can:</p>
+
+<ul>
+	<li>Manage downloads of Mozilla products.</li>
+	<li>Manage links to articles about Mozilla.</li>
+</ul> 
+
+</p>
+
+<h2>How to install</h2>
+
+<ul>
+	<li>Copy directory <em>mozsk-cms</em> to directory <em>plugins</em> in your WordPress installation.</li>
+	<li>Set your locale in file <em>config.php</em>.</li>
+</ul>
+
+<h2>How to use plugin</h2>
+
+<h3>Administration</h3>
+
+<p>Visit WordPress administration and have a look into section <em>Plugins</em>. You can find two new pages there (<em>Products</em> and <em>Articles about Mozilla</em>). I think it's simple to use so no special documentation is needed. Maybe short note to field <em>Text ID</em> in form <em>Add product</em>. In this field fill short product name like <em>firefox</em>, <em>thunderbird</em>, <em>seamonkey</em> etc. If you use <em>seamonkey</em> (all small chars) for SeaMonkey than function  <em>Autofill</em> will set link to release notes correctly.</p>
+
+<h3>Template</h3>
+
+<p><strong>How to print current application version</strong></p>
+
+<pre><code>echo get_product_version('text id');</code></pre>
+
+<p><strong>How to print link to release notes for latest application version</strong></p>
+
+<pre><code>echo get_product_rn('text id');</code></pre>
+
+<p><strong>How to print link for downloading latest application version</strong></p>
+
+<pre><code>echo get_product_link('text id', 'os');</code></pre>
+
+<p>In paramether <em>os</em> you can use values: win, lin, mac or port
+
+<h3>Content</h3>
+
+<p>You can print informations from plugin in posts/pages via Shortcode API.</p>
+
+<p><strong>How to print current application version</strong></p>
+
+<pre><code>[moz-download-version app="text id"]</code></pre>
+
+<p><strong>How to print link to release notes for latest application version</strong></p>
+
+<pre><code>[moz-download-rn app="text id"]</code></pre>
+
+<p><strong>How to print link for downloading latest application version</strong></p>
+
+<pre><code>[moz-download-url app="text id " platform="os"]</code></pre>
+
+<p>In paramether <em>os</em> you can use values: win, lin, mac or port
+
+<h3>Contact</h3>
+
+<ul>
+	<li>Vlado Valaštiak (<a href="http://www.mozilla.sk/">Mozilla.sk</a>) &lt;<a href="mailto:wladow@mozilla.sk">wladow@mozilla.sk</a>&gt;</li>
+	<li>Pavel Cvrček (<a href="http://www.mozilla.cz/">Mozilla.cz</a>) &lt;<a href="mailto:pcvrcek@mozilla.cz">pcvrcek@mozilla.cz</a>&gt;</li>
+</ul>
+
+</body>
+</html>
