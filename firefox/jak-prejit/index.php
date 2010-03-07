@@ -20,8 +20,8 @@ našeho jednoduchého průvodce.</p>
 <p>Importování oblíbených položek do Firefoxu je velmi snadné. Při prvním
 spuštění se Firefox zeptá, odkud chcete importovat data. Vyberte
 &quot;Microsoft Internet Explorer&quot;. A&nbsp;je to! Všechny oblíbené položky
-jsou v&nbsp;záložkách Firefoxu. Můžete je spravovat pomocí <strong>Správce
-záložek</strong>, který najdete v&nbsp;hlavní nabídce Záložky.</p>
+jsou v&nbsp;záložkách Firefoxu. Můžete je spravovat pomocí <strong>Knihovny stránek</strong>, 
+kterou najdete v&nbsp;hlavní nabídce Záložky.</p>
 
 <p>Všechna nastavení ukládá Firefox na váš disk do adresáře s&nbsp;profilem.
 Více informací o profilech se dozvíte na serveru
@@ -30,6 +30,25 @@ Více informací o profilech se dozvíte na serveru
 
 <p><strong>Nemáte své oblíbené položky?</strong> Báječné, tím bude přechod
 ještě jednodušší! Jen nainstalujte a&nbsp;máte hotovo.</p>
+
+<h2>Získejte více informací, jak začít</h2>
+
+<p>Zdá se vám výše uvedený postup příliš složitý či se chcete v&nbsp;souvislosti s&nbsp;přechodem
+z&nbsp;Internet Exploreru dozvědět více informací? Přečtěte si některý z&nbsp;následujích článku
+a&nbsp;budete chytřejší.</p>
+
+<ul>
+	<li><a href="http://support.mozilla.com/cs/kb/Pro+u%C5%BEivatele+Internet+Exploreru" 
+			title="Návod na přechod a přehled rozdílů v terminologii">Pro uživatele Internet Exploreru</a></li>
+	<li><a href="http://support.mozilla.com/cs/kb/Import+z%C3%A1lo%C5%BEek+a+dal%C5%A1%C3%ADch+dat+z+Internet+Exploreru"
+			title="Postup, jak snadno převést data z Internet Exploreru do Firefoxu">Import 
+			záložek a dalších dat z Internet Exploreru</a></li>
+</ul>
+
+<p>Hledáte návody a tipy k Firefoxu? Navštivte <a href="http://support.mozilla.com/cs/kb/" 
+title="Stránky podpory Firefoxu s řadou návodů a tipů v češtině">české stránky podpory Firefoxu</a>.
+Pokud se chcete zeptat na cokoliv, co se týká Firefoxu, navštivte naše <a href="http://forum.mozilla.cz/viewforum.php?f=3"
+title="Fórum podpory uživatelů Firefoxu">fórum podpory</a>, kde vám rádi pomůžeme.</p>
 
 <h2>Vychutnejte si znovu prohlížení Internetu</h2>
 
@@ -46,21 +65,18 @@ Firefoxem.</p>
 
 	<h3 class="first">Seznámení pro nováčky</h3>
 
-	<p>Pokud chcete lépe poznat svůj nový prohlížeč, můžete si na
-	<a href="http://www.czilla.cz/">CZille</a> přečíst průvodce
-	<a href="http://www.czilla.cz/podpora/firefox/tutorial/">Začínáme používat
-	prohlížeč Firefox</a>. Jeho obsah tvoří:</p>
-
+	<p>Chcete lépe poznat svůj nový prohlížeč? Přečtěte
+	si sérii návodů, které vám pomohou začít.</p>
+	
 	<ol>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/">Úvod</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/instalace.html">Instalace a&nbsp;konfigurace</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/prohlizeni-v-panelech.html">Prohlížení v&nbsp;panelech</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/ovladani.html">Základní ovládání</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/rozsireni.html">Rozšíření</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/historie.html">Procházení historií</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/zalozky.html">Záložky</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/stahovani-souboru.html">Stahování souborů</a></li>
-		<li><a href="http://www.czilla.cz/podpora/firefox/tutorial/tisk-stranek.html">Tisk stránek</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Instalace+Firefoxu+ve+Windows">Instalace</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Pou%C5%BE%C3%ADv%C3%A1me+Firefox">Používáme Firefox</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Prohl%C3%AD%C5%BEen%C3%AD+v+panelech">Prohlížení v panelech</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/P%C5%99izp%C5%AFsoben%C3%AD+Firefoxu">Přizpůsobení Firefoxu</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Okno+Spr%C3%A1vce+stahov%C3%A1n%C3%AD">Stahování souborů</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Pr%C3%A1ce+s+cookies">Práce s cookies</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Upravov%C3%A1n%C3%AD+Firefoxu+pomoc%C3%AD+dopl%C5%88k%C5%AF">Správa doplňků</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Nastaven%C3%AD+Firefoxu">Nastavení Firefoxu</a></li>
 	</ol>
 
 	<h3>Rychlé ovládání</h3>
