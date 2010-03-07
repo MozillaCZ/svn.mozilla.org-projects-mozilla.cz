@@ -6,7 +6,7 @@
 
 <p><strong>Thunderbird <?php echo $download->getVersion()?></strong> je oficiálně dostupný pro Windows 2000 a vyšší, Linux a Mac OS X.
 Bližší informace jsou dostupné na stránce <a href="http://www.mozillamessaging.com/en-US/thunderbird/system-requirements/">systémové požadavky</a>.</p>
-<div id="download-box">
+<div>
 	<ul>
 		<li class="download-ico-win"><a href="<?php echo $download->getDownloadLink('win')?>">Stáhnout český Thunderbird <?php echo $download->getVersion()?> pro Windows</a></li>
 		<li class="download-ico-linux"><a href="<?php echo $download->getDownloadLink('lin')?>">Stáhnout český Thunderbird <?php echo $download->getVersion()?> pro Linux</a></li>
@@ -21,7 +21,7 @@ Bližší informace jsou dostupné na stránce <a href="http://www.mozillamessag
 
 <h2 class="separator">Samostatný jazykový balíček</h2>
 <p>Pro případ, kdy potřebujete počeštit anglickou verzi Thunderbirdu, si můžete stáhnout samostatný lokalizační balíček. Pro snadné přepínání lokalizací si nainstalujte rozšíření <a href="https://addons.mozilla.org/cs/firefox/addon/356">Locale Switcher</a>.</p>
-<div id="download-box">
+<div>
 <ul>
 	<li class="download-ico-addon"><a href="<?php echo $download->getDownloadLink('port')?>">Stáhnout lokalizační balíček pro Thunderbird <?php echo $download->getVersion()?></a></li>
 </ul>

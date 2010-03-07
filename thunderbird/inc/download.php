@@ -70,7 +70,7 @@ class Download
 		if (empty($this->data[$key])) {
 			return $this->linkPlaceholder;
 		}
-		return $this->data[$key];
+		return str_replace("&", "&amp;", $this->data[$key]);
 	}
 
 	public function getChangelogLink()

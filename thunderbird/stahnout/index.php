@@ -15,6 +15,23 @@
 	$page->includeTemplate('download-box', array('type' => 'page'));
 ?>
 
+<h2>Český slovník na kontrolu pravopisu</h2>
+
+<p>Součástí Thunderbirdu není z licenčních důvodů slovník na kontrolu pravopisu,
+ale máte možnost si jej snadno doinstalovat. Navštivte server Doplňky Mozilly a 
+<a href="https://addons.mozilla.org/cs/thunderbird/addon/3394">nainstalujte si jej</a>.</p>
+
+<h2>Portable Thunderbird</h2>
+
+<p>Thunderbird je též dostupný v tzv. portable verzi tj. verzi, která se nemusí instalovat 
+a je uzpůsobená pro běh na Flash discích. Portable Thunderbird si lze 
+<a href="http://portableapps.com/apps/internet/thunderbird_portable" hreflang="en">stáhnout 
+z domovské stránky</a> v anglické verzi. Pro lokalizaci je potřeba 
+<a href="http://portableapps.com/apps/internet/thunderbird_portable/localization/" 
+hreflang="en">stáhnout a nainstalovat jazykový balíček</a>. Detailnější postup si 
+můžete <a href="http://jasnapaka.bloguje.cz/515929-jak-pocestit-firefox-portable.php">přečíst 
+v českém návodu</a> (pro Firefox, ale u Thunderbirdu je postup obdobný).</p>
+
 </div>
 
 
