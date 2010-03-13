@@ -74,6 +74,7 @@ Firefoxem.</p>
 		<li><a href="http://support.mozilla.com/cs/kb/Prohl%C3%AD%C5%BEen%C3%AD+v+panelech">Prohlížení v panelech</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/P%C5%99izp%C5%AFsoben%C3%AD+Firefoxu">Přizpůsobení Firefoxu</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Okno+Spr%C3%A1vce+stahov%C3%A1n%C3%AD">Stahování souborů</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Z%C3%A1lo%C5%BEky">Záložky (Oblíbené)</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Pr%C3%A1ce+s+cookies">Práce s cookies</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Upravov%C3%A1n%C3%AD+Firefoxu+pomoc%C3%AD+dopl%C5%88k%C5%AF">Správa doplňků</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Nastaven%C3%AD+Firefoxu">Nastavení Firefoxu</a></li>
