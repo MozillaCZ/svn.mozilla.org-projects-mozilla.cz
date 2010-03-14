@@ -98,7 +98,7 @@ v českém návodu</a> (pro Firefox, ale u Thunderbirdu je postup obdobný).</p>
 	<h3>Další aplikace</h3>
 
 	<dl>
-		<dt><a href="http://firefox.czilla.cz/">Mozilla Firefox</a></dt>
+		<dt><a href="http://firefox.mozilla.cz/">Mozilla Firefox</a></dt>
 		<dd>Samostatný webový prohlížeč, skvělý doplněk Thunderbirdu.</dd>
 
 		<dt><a href="http://www.mozilla.cz/produkty/kompozer/">KompoZer</a></dt>
