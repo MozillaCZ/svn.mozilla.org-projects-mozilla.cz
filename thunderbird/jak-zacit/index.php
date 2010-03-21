@@ -35,10 +35,11 @@ importovalo a&nbsp;vy můžete začít Thunderbird naplno používat.</p>
 <p>Všechna vaše nastavení a&nbsp;data ukládá Thunderbird na váš disk do adresáře s&nbsp;profilem.</p>
 
 <div class="note">
-<p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn
-v&nbsp;<span class="file"><a href="http://www.czilla.cz/podpora/thunderbird/konfigurace.html#profile"
-	title="Nápověda programu Mozilla Thunderbird: Editace konfiguračních souborů"
-	hreflang="cs">%AppData%</a>\Thunderbird\Profiles\[Náhodné znaky].default\</span>. Stačí si prohlédnout
+<p>Na <strong>Windows Vista/7</strong> je adresář obvykle umístěn v&nbsp;cestě
+<span class="file">C:\Users\<var>[Uživatelské jméno]</var>\AppData\Roaming\Thunderbird\Profiles\</span>
+a&nbsp;zbytek by měl být jasný.</p>
+
+<p>Na <strong>Windows XP/2000</strong> je adresář obvykle umístěn v&nbsp;cestě
 <span class="file">C:\Documents and Settings\<var>[Uživatelské jméno]</var>\Data aplikací\Thunderbird\Profiles\</span>
 a&nbsp;zbytek by měl být jasný.</p>
 
@@ -48,6 +49,12 @@ v&nbsp;<span class="file">C:\WINDOWS\Application Data\Thunderbird\Profiles\[Náh
 
 <p><strong>Chcete provést import později?</strong> Můžete! Stačí když v&nbsp;nabídce
 <strong>Nástroje</strong> zvolíte položku <strong>Importovat</strong>.</p>
+
+<p><strong>Není váš aktuální klient v nabídce?</strong> Poštu a kontakty můžete 
+importovat ručně i&nbsp;z&nbsp;<a 
+href="http://kb.mozillazine.org/Category:Migration_%28mail%29" hreflang="en">řady dalších klientů</a>. </p>
+
+
 
 <h2>Snadnější práce s&nbsp;poštou</h2>
 

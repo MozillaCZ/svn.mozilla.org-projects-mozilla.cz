@@ -283,7 +283,7 @@ stávající <strong>poštu a&nbsp;kontakty můžete importovat do
 Thunderbirdu</strong> a&nbsp;pracovat s&nbsp;ní dále. O&nbsp;nic nepřijdete.
 Thunderbird též umožňuje automatický import z&nbsp;Outlooku či Eudory.
 Z&nbsp;řady dalších klientů lze
-<a href="http://mozillanews.org/?article_date=2004-12-07+16-19-25"
+<a href="http://kb.mozillazine.org/Category:Migration_%28mail%29"
 	hreflang="en" class="l-en" lang="en">import provést manuálně</a>.</p>
 
 <p>Import z&nbsp;jiného poštovního klientu je skutečně snadný. Při prvním
