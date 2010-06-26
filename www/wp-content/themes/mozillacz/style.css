@@ -49,7 +49,7 @@ img {
 	border: 0;
 }
 
-img.center {
+img.center, img.aligncenter {
 	border: 0;
 	display: block;
   margin-left: auto;
