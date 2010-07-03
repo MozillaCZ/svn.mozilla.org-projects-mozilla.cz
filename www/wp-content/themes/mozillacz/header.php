@@ -49,7 +49,7 @@
 					<li class="h-menu-item"><a href="/stahnout/">Stáhnout</a></li>
 					<li class="h-menu-item"><a href="/doplnky/">Doplňky</a></li>
 					<li class="h-menu-item"><a href="/podpora/">Podpora</a></li>
-					<li class="h-menu-item"><a href="/zapojte-se/">Zapojte se</a></li>
+					<li class="h-menu-item"><a href="/mozilla/">O Mozille</a></li>
 				</ul>
 			</div>
 		</div>
