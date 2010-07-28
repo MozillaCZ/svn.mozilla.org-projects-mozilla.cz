@@ -28,7 +28,7 @@
 		
 		<?php
 			// Upoutávka na fórum (zobrazujeme na titulce)
-			if (is_front_page()) { 
+			if (is_front_page() or (have_posts() && !is_page())) { 
 		?>
 		<div class="sidebar-box">
 			<div class="sidebar-box-title">Potřebujete poradit?</div>
