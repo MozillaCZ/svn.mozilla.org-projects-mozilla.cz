@@ -529,6 +529,14 @@ ul.twitter {
 	padding:2px 0 2px 20px;
 }
 
+#social-box {
+	margin-top: -5px;
+}
+
+#social-box td {
+	padding-left: 0px;
+}
+
 /* Tiskový styl */
 @media print {
 

@@ -49,7 +49,7 @@ function getDescriptionForPost() {
 	while (have_posts()) : the_post();
 		$content = strip_tags(get_the_content());
 		$content = str_replace(array("\r\n", "\r", "\n"), "", $content);
-		$content = addSlashes(substr ($content, 0, 250)."..."); 
+		$content = htmlspecialchars(substr ($content, 0, 250)."..."); 
 		
 		
 		break;
@@ -59,5 +59,14 @@ function getDescriptionForPost() {
 	return $content;
 }
 
+/**
+ * Vrátí text pro odkaz na přidání zprávy na Twitter
+ */ 
+function getTextForTwitter($title, $url) {
+	$text = urlencode ($title." ".$url." @MozillaCZ");
+	$text = "http://jdem.cz/tw?text=".$text."&amp;redir=1";
+	
+	return $text;
+}
 
 ?>
