@@ -4,6 +4,8 @@
 <head>
 	<?php if (getIsCustomFieldValue("description")) { ?>
 		<meta name="description" content="<?php echo getCustomFieldValue("description") ?>"  />	
+	<?php } else if (have_posts() && is_single()) { ?>
+		<meta name="description" content="<?php echo getDescriptionForPost() ?>" />
 	<?php } else { ?>
 		<meta name="description" content="Novinky ze světa Firefoxu, Thunderbirdu, SeaMonkey a dalších aplikací Mozilla. Ke stažení nové verze, k dispozici řada návodů a tipů pro uživatele."  />
 	<?php } ?>

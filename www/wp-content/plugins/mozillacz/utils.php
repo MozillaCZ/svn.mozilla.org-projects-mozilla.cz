@@ -37,5 +37,27 @@ function getIsCustomFieldValue($fieldName) {
 	return (strlen (getCustomFieldValue($fieldName)) > 0) ? true: false;
 }
 
+/**
+ * Pro konkrétní příspěvek vrátí text pro jeho description.
+ */ 
+function getDescriptionForPost() {
+	if (!have_posts() || !is_single()) {
+		return "";
+	}
+
+	$content = "";
+	while (have_posts()) : the_post();
+		$content = strip_tags(get_the_content());
+		$content = str_replace(array("\r\n", "\r", "\n"), "", $content);
+		$content = addSlashes(substr ($content, 0, 250)."..."); 
+		
+		
+		break;
+	endwhile;
+	rewind_posts();
+
+	return $content;
+}
+
 
 ?>
