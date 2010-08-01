@@ -27,6 +27,7 @@
 		
 <?php } ?>
 
+
 <?php if (have_posts()) : ?>
 
 	<?php while (have_posts()) : the_post(); ?>
@@ -46,6 +47,11 @@
 			<?php edit_post_link('Upravit', '| ', ''); ?>
 		</p>
 		
+		<?php if (is_single()) { ?>		
+			<iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=recommend&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
+			
+			<p style="margin-top: 0"><a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php?u=<?php the_permalink() ?>&amp;t=<?php the_title(); ?>">Sdílet</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></p>
+		<?php } ?>
 		
 		<?php if (is_single()) { ?>
 			<div class="souvisejici-prispevky">Přečtěte si také</div>
