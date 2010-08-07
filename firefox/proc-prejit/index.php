@@ -368,11 +368,6 @@ využijte množství užitečných rozšíření na serveru
 	<h3>Další důvody</h3>
 
 	<dl>
-		<dt><a href="./co-msie-neumi-a-firefox-ano/">Co MSIE neumí a&nbsp;Firefox ano</a></dt>
-		<dd>Přehled funkcí a&nbsp;vlastností Firefoxu, které
-		v&nbsp;<abbr title="Microsoft Internet Explorer" lang="en">MSIE</abbr>
-		nenaleznete.</dd>
-
 		<dt><a href="http://www.czilla.cz/produkty/firefox/firefox-vs-ie.html">Mozilla Firefox vs. IE</a></dt>
 		<dd>13 důvodů proč místo Internet Exploreru používat Mozilla
 		Firefox.</dd>
