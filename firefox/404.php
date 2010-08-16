@@ -12,7 +12,7 @@
 		$redirectUrl = "http://support.mozilla.com/cs/kb/Pro%20u%C5%BEivatele%20Internet%20Exploreru#Rozd_ly_v_terminologii";
 	}
 	if (strpos($_SERVER['REQUEST_URI'], "/proc-prejit/co-msie-neumi-a-firefox-ano") === 0) {
-		$redirectUrl = "http://firefox.mozilla.cz/jak-prejit/";
+		$redirectUrl = "http://firefox.mozilla.cz/proc-prejit/";
 	}
 
 	if ($redirectUrl != '') {
