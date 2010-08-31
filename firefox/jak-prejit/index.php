@@ -78,7 +78,11 @@ Firefoxem.</p>
 		<li><a href="http://support.mozilla.com/cs/kb/Pr%C3%A1ce+s+cookies">Práce s cookies</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Upravov%C3%A1n%C3%AD+Firefoxu+pomoc%C3%AD+dopl%C5%88k%C5%AF">Správa doplňků</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Nastaven%C3%AD+Firefoxu">Nastavení Firefoxu</a></li>
+		<li><a href="http://support.mozilla.com/cs/kb/Anonymn%C3%AD+prohl%C3%AD%C5%BEen%C3%AD?s=anonymn%ED+prohl%ED%5Cu017een%ED&as=s">Anonymní prohlížení</a></li>
 	</ol>
+
+	<p>Více návodů naleznete na stránkách <a href="http://support.mozilla.com/cs/kb/" 
+		title="Podpora Firefoxu: Domovská stránka">podpory Firefoxu</a>.</p>
 
 	<h3>Rychlé ovládání</h3>
 
