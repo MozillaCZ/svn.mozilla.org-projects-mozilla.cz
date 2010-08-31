@@ -510,6 +510,11 @@ ul.twitter {
 	background-image:url(/images/kompozer-16.png);
 }
 
+.download-ico-android {
+	background-image:url(/images/android-16.png);
+}
+
+
 .download-ico-win,
 .download-ico-linux,
 .download-ico-mac,
@@ -522,7 +527,8 @@ ul.twitter {
 .download-ico-sm,
 .download-ico-addon, 
 .download-ico-nvu,
-.download-ico-kompozer {
+.download-ico-kompozer, 
+.download-ico-android {
 	background-position:left center;
 	background-repeat:no-repeat;
 	display:block;
