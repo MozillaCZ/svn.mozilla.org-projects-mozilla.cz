@@ -29,13 +29,16 @@
 	<link type="text/css" rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" title="Základní styl" />
 	<!--[if IE 6]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/styleie.css" /><![endif]-->
 	<!--[if IE 7]><link rel="stylesheet" type="text/css" href="<?php bloginfo('template_directory'); ?>/styleie.css" /><![endif]-->
-
+	
+	 <script type="text/javascript" src="<?php bloginfo('template_directory'); ?>/mozilla.js"></script>
 	
 	<link rel="shortcut icon" href="<?php bloginfo('template_directory'); ?>/favicon.ico" />
 	
 	<link rel="alternate" type="application/rss+xml" title="Články (RSS 2.0)" href="<?php bloginfo('rss2_url'); ?>" />
 	<link rel="alternate" type="application/atom+xml" title="Články (Atom 0.3)" href="<?php bloginfo('atom_url'); ?>" />
 	<link rel="alternate" type="application/rss+xml" title="Komentáře (RSS 2.0)" href="<?php bloginfo('comments_rss2_url'); ?>" />
+	
+	<link rel="search" type="application/opensearchdescription+xml" title="Mozilla.cz" href="<?php bloginfo('template_directory'); ?>/Mozilla.cz.xml">
 </head>
 <body>
 	<h1 class="hide">Mozilla.cz - Mozilla v češtině</h1>	

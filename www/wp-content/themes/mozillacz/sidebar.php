@@ -130,6 +130,7 @@
 	
 		<div style="margin-left: 5px;">
 			<a href="http://www.mozilla.cz/feed/" title="RSS zpráviček Mozilla.cz"><img src="<?php bloginfo('template_directory'); ?>/images/rss.png" alt="" /></a>
+			<a href="javascript:addSearchEngine()" title="Přidat vyhledávání z Mozilla.cz"><img src="<?php bloginfo('template_directory'); ?>/images/opensearch.png" alt="" /></a>
 		
 			<a href="http://www.facebook.com/pages/Mozillacz/150470274045" title="Mozilla.cz na Facebooku"><img src="<?php bloginfo('template_directory'); ?>/images/facebook-32.png" alt="" /></a>
 			<a href="http://twitter.com/MozillaCZ" title="Mozilla.cz na Twitteru"><img src="<?php bloginfo('template_directory'); ?>/images/twitter-32.png" alt="" /></a>
