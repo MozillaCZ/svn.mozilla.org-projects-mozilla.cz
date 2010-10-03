@@ -2,6 +2,8 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="cs" lang="cs">
 <head>
+	<meta http-equiv="Content-language" content="cs" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<?php if (getIsCustomFieldValue("description")) { ?>
 		<meta name="description" content="<?php echo getCustomFieldValue("description") ?>"  />	
 	<?php } else if (have_posts() && is_single()) { ?>
