@@ -3,6 +3,20 @@
  * @package WordPress
  * @subpackage Classic_Theme
  */
+ 
+// aby se komentáře přesměrovávaly na správnou stránku
+function curPageURL() {
+	$pageURL = 'http';
+	if ($_SERVER["HTTPS"] == "on") {$pageURL .= "s";}
+	$pageURL .= "://";
+	if ($_SERVER["SERVER_PORT"] != "80") {
+	$pageURL .= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"];
+	} else {
+	$pageURL .= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"];
+	}
+	return $pageURL;
+}
+//
 
 if (!isset($_GET['komentare'])) {
 ?>
@@ -85,6 +99,10 @@ if ( post_password_required() ) : ?>
 <?php endif; ?>
 
 <!--<p><small><strong>XHTML:</strong> <?php printf(__('You can use these tags: %s'), allowed_tags()); ?></small></p>-->
+
+<?php if (function_exists('curPageURL')) { ?>
+<input type="hidden" name="redirect_to" value="<?php echo curPageURL() ?>" />
+<?php } ?>
 
 <p><textarea name="comment" id="comment" cols="70" rows="10" tabindex="4"></textarea></p>
 
