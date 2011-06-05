@@ -4,6 +4,12 @@
  * @subpackage Classic_Theme
  */
 
+if (!isset($_GET['komentare'])) {
+?>
+
+<?php 
+}
+
 if ( post_password_required() ) : ?>
 <p><?php _e('Enter your password to view comments.'); ?></p>
 <?php return; endif; ?>
@@ -16,7 +22,7 @@ if ( post_password_required() ) : ?>
 <?php endif; ?>
 </p>
 
-<ol id="commentlist">
+<ol id="commentlist"> 
 
 <?php foreach ($comments as $comment) : ?>
 	<li class="<?php echo $oddcomment; ?>" id="comment-<?php comment_ID() ?>">
@@ -39,6 +45,13 @@ if ( post_password_required() ) : ?>
 <?php endforeach; ?>
 
 </ol>
+
+<?php else : ?>
+
+<?php if ($comments.sizeasd == 0) : ?>
+		<p><em>K příspěvku prozatím není žádný komentář.</em></p>
+<?php endif; ?>
+
 
 <?php endif; ?>
 
@@ -74,6 +87,17 @@ if ( post_password_required() ) : ?>
 <!--<p><small><strong>XHTML:</strong> <?php printf(__('You can use these tags: %s'), allowed_tags()); ?></small></p>-->
 
 <p><textarea name="comment" id="comment" cols="70" rows="10" tabindex="4"></textarea></p>
+
+<div id="notification-area">
+	<p>Komentáře na serveru Mozilla.cz jsou <strong>moderované</strong>. Budeme rádi, pokud původní příspěvek
+	rozšíříte hodnotným komentářem. Aby byl schválen, dodržte prosím následující body:</p> 
+	
+	<ul>
+		<li>Svůj komentář pište slušně a podepište se pod něj.</li>
+		<li>Pokud se chcete na něco zeptat, použijte <a href="http://forum.mozilla.cz/">diskuzní fórum</a>.</li>
+		<li>Komentář by se měl týkat podstaty příspěvku. </li>
+	</ul>
+</div>
 
 <p><input name="submit" type="submit" id="submit" tabindex="5" value="<?php esc_attr_e('Submit Comment'); ?>" />
 <input type="hidden" name="comment_post_ID" value="<?php echo $id; ?>" />
