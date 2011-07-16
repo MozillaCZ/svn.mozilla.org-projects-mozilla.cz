@@ -47,11 +47,6 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://firefox.mozilla.cz/otazky/klavesove-zkratky/</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://firefox.mozilla.cz/proc-prejit/co-msie-neumi-a-firefox-ano/</loc>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
