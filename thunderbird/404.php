@@ -1,6 +1,10 @@
 <?php
 	$badUrl = 'http://' . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
 	$redirectUrl = '';
+	
+	if (strpos($_SERVER['REQUEST_URI'], "/otazky/klavesove-zkratky") === 0) {
+		$redirectUrl = "https://support.mozillamessaging.com/cs/kb/klavesove-zkratky";
+	}	
 
 	if ($redirectUrl != "")
 	{

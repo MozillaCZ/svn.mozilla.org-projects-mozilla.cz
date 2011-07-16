@@ -108,7 +108,7 @@ které stejnou možnost doinstalujte i&nbsp;do Thunderbirdu.</p>
 <h2 id="otazka-prechod-klavesove-zkratky">Jaké jsou klávesové zkratky?</h2>
 
 <p>Nabízíme vám přehled
-<a href="./klavesove-zkratky/">nejběžnějších klávesových zkratek Thunderbirdu</a>,
+<a href="https://support.mozillamessaging.com/cs/kb/klavesove-zkratky">nejběžnějších klávesových zkratek Thunderbirdu</a>,
 které vám pomohou zrychlit opakující se akce.</p>
 
 <h2 id="otazka-prechod-kontrola-pravopisu">Umožňuje Thunderbird kontrolu pravopisu ve zprávách?</h2>
@@ -242,7 +242,7 @@ které můžete kdykoliv snadno obnovit.</p>
 
 	<dl>
 
-		<dt><a href="./klavesove-zkratky/">Klávesové zkratky</a></dt>
+		<dt><a href="https://support.mozillamessaging.com/cs/kb/klavesove-zkratky">Klávesové zkratky</a></dt>
 		<dd>Přehled nejběžnějších klávesových zkratek v&nbsp;Thunderbirdu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Outlook Express.</dd>
 

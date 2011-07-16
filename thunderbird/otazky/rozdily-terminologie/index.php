@@ -72,7 +72,7 @@ základní slovníček těchto rozdílů.</p>
 		<dd>Nabízíme odpovědi na otázky, které vás při úvahách
 		o&nbsp;přechodu nejčastěji napadají.</dd>
 
-		<dt><a href="../klavesove-zkratky/">Klávesové zkratky</a></dt>
+		<dt><a href="https://support.mozillamessaging.com/cs/kb/klavesove-zkratky">Klávesové zkratky</a></dt>
 		<dd>Přehled nejběžnějších klávesových zkratek v&nbsp;Thunderbirdu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Outlook Expressu.</dd>
 	</dl>

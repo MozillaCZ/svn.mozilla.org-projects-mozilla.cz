@@ -57,11 +57,6 @@
   <priority>0.64</priority>
 </url>
 <url>
-  <loc>http://thunderbird.mozilla.cz/otazky/klavesove-zkratky/</loc>
-  <changefreq>monthly</changefreq>
-  <priority>0.64</priority>
-</url>
-<url>
   <loc>http://thunderbird.mozilla.cz/otazky/rozdily-terminologie/</loc>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>

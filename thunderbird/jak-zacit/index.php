@@ -93,7 +93,7 @@ zalíbí.</p>
 	<p>Poznejte, jak efektivně ovládat Thunderbird pomocí klávesnice a&nbsp;myši:</p>
 
 	<dl>
-		<dt><a href="/otazky/klavesove-zkratky/">Klávesové zkratky</a></dt>
+		<dt><a href="https://support.mozillamessaging.com/cs/kb/klavesove-zkratky">Klávesové zkratky</a></dt>
 		<dd>Přehled nejběžnějších klávesových zkratek v&nbsp;Thunderbirdu
 		a&nbsp;porovnání s&nbsp;ekvivalenty v&nbsp;Outlook Expressu.</dd>
 	</dl>
