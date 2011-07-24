@@ -1,18 +1,17 @@
 <?php
 	require_once '../inc/page.php';
 	$page->setTitle('Jak přejít?');
-	$page->setDescription('Průvodce nahrazením Internet Exploreru prohlížečem Mozilla Firefox.');
-	$page->setKeywords('msie internet explorer mozilla firefox přechod import převod záložky oblíbené adresy zachování návod');
+	$page->setDescription('Průvodce nahrazením Internet Exploreru/Chrome prohlížečem Mozilla Firefox.');
+	$page->setKeywords('msie internet explorer mozilla firefox chrome přechod import převod záložky oblíbené adresy zachování návod');
 	$page->includeTemplate('header');
 ?>
 <div class="main">
 
 <h1>Jak přejít?</h1>
 
-<p>Vyměnit Internet Explorer za Firefox je jednoduché. Stačí
+<p>Vyměnit váš existující prohlížeč za Firefox je jednoduché. Stačí
 <a href="/stahnout/">stáhnout</a> a&nbsp;nainstalovat Firefox. Pak už jen
-zbývá přenést vaše oblíbené položky z&nbsp;Internet Exploreru. Následujte
-našeho jednoduchého průvodce.</p>
+zbývá přenést vaše oblíbené položky (záložky). Následující text vám poví, jak na to.</p>
 
 
 <h2>Import Oblíbených položek z&nbsp;Internet Exploreru</h2>
@@ -21,15 +20,24 @@ našeho jednoduchého průvodce.</p>
 spuštění se Firefox zeptá, odkud chcete importovat data. Vyberte
 &quot;Microsoft Internet Explorer&quot;. A&nbsp;je to! Všechny oblíbené položky
 jsou v&nbsp;záložkách Firefoxu. Můžete je spravovat pomocí <strong>Knihovny stránek</strong>, 
-kterou najdete v&nbsp;hlavní nabídce Záložky.</p>
+kterou najdete v&nbsp;nabídce Záložky.</p>
 
 <p>Všechna nastavení ukládá Firefox na váš disk do adresáře s&nbsp;profilem.
 Více informací o profilech se dozvíte na serveru
-<a href="http://support.mozilla.com/cs/kb/Profily" title="Co je to profil a kde ho najdu">Podpory Firefoxu</a>.
+<a href="http://support.mozilla.com/cs/kb/Profily" title="Co je to profil a kde ho najdu">Podpora Firefoxu</a>.
 </p>
 
 <p><strong>Nemáte své oblíbené položky?</strong> Báječné, tím bude přechod
 ještě jednodušší! Jen nainstalujte a&nbsp;máte hotovo.</p>
+
+<h2>Import záložek z&nbsp;Google Chrome</h2>
+
+<p>Používáte Google Chrome, chcete přejít na Firefox a&nbsp;nevíte, jak přenést své záložky? 
+Nebudeme vás napínat, je to snadné! Vyexportujte si z&nbsp;Chrome záložky do HTML souboru,
+a ten následně importujte do Firefoxu. Zdá se vám to složité? Přečtěte si
+<a href="https://support.mozilla.com/cs/kb/import-zalozek-z-google-chrome">podrobný návod</a>. 
+
+</p>
 
 <h2>Získejte více informací, jak začít</h2>
 
@@ -72,7 +80,7 @@ Firefoxem.</p>
 		<li><a href="http://support.mozilla.com/cs/kb/Instalace+Firefoxu+ve+Windows">Instalace</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Pou%C5%BE%C3%ADv%C3%A1me+Firefox">Používáme Firefox</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Prohl%C3%AD%C5%BEen%C3%AD+v+panelech">Prohlížení v panelech</a></li>
-		<li><a href="http://support.mozilla.com/cs/kb/P%C5%99izp%C5%AFsoben%C3%AD+Firefoxu">Přizpůsobení Firefoxu</a></li>
+		<li><a href="https://support.mozilla.com/cs/kb/jak-si-upravim-listy-firefoxu">Přizpůsobení Firefoxu</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Okno+Spr%C3%A1vce+stahov%C3%A1n%C3%AD">Stahování souborů</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Z%C3%A1lo%C5%BEky">Záložky (Oblíbené)</a></li>
 		<li><a href="http://support.mozilla.com/cs/kb/Pr%C3%A1ce+s+cookies">Práce s cookies</a></li>

@@ -41,13 +41,12 @@ Zde jsou odkazy ke stažení těch nejpopulárnějších:</p>
 	<hr />
 	<h2>Zajímavý software</h2>
 
-	<h3 class="first">Tapety s Firefoxem</h3>
-
-	<p><img src="/img/w/w-1-tbtw-prev.jpg" id="wallpromo" alt="" />
-	Pokud se vám logo Firefoxu líbí tak jako nám, můžete si vybrat
-	<a href="./tapety/">tapetu na svoji plochu</a>.</p>
-
-	<h3>Oblíbená rozšíření</h3>
+	<h3 class="first">Rozšíření</h3>
+	
+	<p>Víte, že si můžete rozšířit funkce Firefoxu pomocí 
+		<a href="http://www.mozilla.cz/doplnky/rozsireni/">rozšíření</a>? V nabídce jich je 
+		několik tisíc.</p>
+	
 	<dl>
 		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/1865" lang="en">Adblock Plus</a></dt>
 		<dd>Snadné blokování reklam ve stránkách.</dd>
@@ -57,41 +56,29 @@ Zde jsou odkazy ke stažení těch nejpopulárnějších:</p>
 
 		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/12" lang="en">All-in-One Gestures</a></dt>
 		<dd>Ovládání prohlížeče pomocí gest myši.</dd>
-
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/4578" lang="en">Brief</a></dt>
-		<dd>Jednoduchá čtečka <abbr title="Really Simple Syndication" lang="en">RSS</abbr> a&nbsp;ATOM dokumentů.</dd>
-
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/60" lang="en">Web Developer</a></dt>
-		<dd>Lišta s&nbsp;pomocnými nástroji pro tvorbu webu.</dd>
 	</dl>
-
-	<p><strong>Další zdroje rozšíření:</strong></p>
-	<ul>
-		<li><a href="https://addons.mozilla.org/cs/firefox/">Doplňky Mozilly</a></li>
-	</ul>
+	
+	<p><strong><a href="https://addons.mozilla.org/cs/firefox/">Další rozšíření...</a></strong></p>
 
 	<h3>Motivy vzhledu</h3>
-	<dl>
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/56117">Aquatint Black</a></dt>
-		<dd>Hezký motiv kombinující šedivou barvu s&nbsp;modrou.</dd>
+	
+	<p>Ozdobte si Firefox pomocí vzhledů <a href="https://addons.mozilla.org/cs/firefox/personas/">Personas</a>,
+	  které dodají vašemu Firefoxu svěží vzhled.</p>
+	  
+  <p><a href="https://addons.mozilla.org/cs/firefox/addon/sunset-over-water/">
+		<img src="/img/personas3.jpg" alt="Náhled vzhledu Personas" /></a></p>	  
+	  
+  <p><a href="https://addons.mozilla.org/cs/firefox/addon/japanese-tattoo/">
+		<img src="/img/personas1.jpg" alt="Náhled vzhledu Personas" /></a></p>
 
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/1106">iFox</a></dt>
-		<dd>Elegantní styl v&nbsp;šedých barvách.</dd>
-
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/72">Noia 2.0 (eXtreme)</a></dt>
-		<dd>Pestrý motiv založený na ikonách Noia.</dd>
-
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/7379">Phoenity Next</a></dt>
-		<dd>Hezky barevný motiv s&nbsp;možností nastavování.</dd>
-
-		<dt><a href="https://addons.mozilla.org/cs/firefox/addon/10674">Chromifox Extreme</a></dt>
-		<dd>Motiv nabodobují vzhled prohlížeče Google Chrome.</dd>
-	</dl>
-
-	<p><strong>Další zdroje motivů:</strong></p>
-	<ul>
-		<li><a href="https://addons.mozilla.org/cs/firefox/browse/type:2/">Doplňky Mozilly</a></li>
-	</ul>
+  <p><a href="https://addons.mozilla.org/cs/firefox/addon/red-ladybug/">
+		<img src="/img/personas2.jpg" alt="Náhled vzhledu Personas" /></a></p>
+		
+	<p><strong><a href="https://addons.mozilla.org/cs/firefox/personas/">Procházet galerii...</a></strong></p>
+	
+	<p>Chcete kompletní proměnu Firefoxu? Vyzkoušejte některý z 
+		<a href="https://addons.mozilla.org/cs/firefox/themes/">motivů vzhledů</a>, který vás zaujme.
+	</p>
 
 	<h3>Další aplikace</h3>
 
@@ -99,10 +86,6 @@ Zde jsou odkazy ke stažení těch nejpopulárnějších:</p>
 		<dt><a href="http://thunderbird.mozilla.cz/"
 			 lang="en">Mozilla Thunderbird</a></dt>
 		<dd>Samostatný poštovní klient, skvělý doplněk Firefoxu.</dd>
-
-		<dt><a href="http://www.mozilla.cz/produkty/kompozer/"
-			 lang="en">KompoZer</a></dt>
-		<dd>Samostatný editor webových stránek.</dd>
 
 		<dt><a href="http://www.mozilla.cz/produkty/seamonkey/"
 			 lang="en">SeaMonkey</a></dt>
