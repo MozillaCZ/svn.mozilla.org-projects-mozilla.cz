@@ -44,6 +44,7 @@
 			<p class="news-footer">
 				Přidáno: <?php the_time('d. m. Y'); ?> | 		
 				<a href="/o-nas/" title="Více informací o autorovi"><?php the_author(); ?></a> |
+				<a href="<?php the_permalink() ?>?komentare"><?php comments_number('Komentáře (0)','Komentáře (1)','Komentáře (%)'); ?></a> |
 				<?php the_category(', '); ?>
 				
 				<?php edit_post_link('Upravit', '| ', ''); ?>
