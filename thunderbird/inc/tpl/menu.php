@@ -1,7 +1,7 @@
 	<ul>
 		<li class="head-dn"><a href="/"
 			title="Návrat na titulní stranu">Začátek</a></li>
-		<li><a href="/proc-pouzivat/"
+		<li><a href="http://www.mozilla.org/cs/thunderbird/features/"
 			title="Dobré důvody proč používat pošťák Thunderbird">Proč používat?</a></li>
 		<li><a href="/otazky/"
 			title="Nejčastější otázky o používání">Otázky</a></li>

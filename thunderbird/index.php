@@ -40,16 +40,16 @@ pošty a&nbsp;diskusních skupin,</strong> který vám umožní mít vše pod
 kontrolou? Thunderbird je řešení právě pro vás &ndash;
 <a href="/stahnout/" title="Udělejte první krok k novému poštovnímu klientu">stáhněte si</a>
 jeho aktuální verzi a&nbsp;objevte
-<a href="/proc-pouzivat/" title="Dobré důvody proč používat pošťák Thunderbird">řadu funkcí</a>,
+<a href="http://www.mozilla.org/cs/thunderbird/features/" title="Dobré důvody proč používat pošťák Thunderbird">řadu funkcí</a>,
 které Thunderbird nabízí.</p>
 
 <div class="index">
-<h2><a href="/proc-pouzivat/" title="Dobré důvody proč používat pošťák Thunderbird">Proč používat Mozilla Thunderbird?</a></h2>
+<h2><a href="http://www.mozilla.org/cs/thunderbird/features/" title="Dobré důvody proč používat pošťák Thunderbird">Proč používat Mozilla Thunderbird?</a></h2>
 
 <p>Díky Thunderbirdu můžete snadno dělat věci, o&nbsp;kterých uživatelé
 ostatních e-mailových klientů jen sní. Přečtěte si několik důvodů, proč byste
 měli Thunderbird začít používat.<br />
-<a href="/proc-pouzivat/" title="Dobré důvody proč používat pošťák Thunderbird">Proč Thunderbird...</a></p>
+<a href="http://www.mozilla.org/cs/thunderbird/features/" title="Dobré důvody proč používat pošťák Thunderbird">Proč Thunderbird...</a></p>
 
 
 <h2><a href="/otazky/" title="Nejčastější otázky o používání">Nebojte se zeptat, poradíme vám</a></h2>

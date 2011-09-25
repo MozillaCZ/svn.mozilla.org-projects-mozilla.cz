@@ -4,6 +4,10 @@
 	
 	if (strpos($_SERVER['REQUEST_URI'], "/otazky/klavesove-zkratky") === 0) {
 		$redirectUrl = "https://support.mozillamessaging.com/cs/kb/klavesove-zkratky";
+	}
+	
+	if (strpos($_SERVER['REQUEST_URI'], "/proc-pouzivat") === 0) {
+		$redirectUrl = "http://www.mozilla.org/cs/thunderbird/features/";
 	}	
 
 	if ($redirectUrl != "")
