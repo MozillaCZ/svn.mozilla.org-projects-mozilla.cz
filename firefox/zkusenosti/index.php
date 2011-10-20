@@ -57,8 +57,6 @@ testování stránek.</p>
 		hreflang="sk" lang="sk">Pred Mozillou a&nbsp;s&nbsp;Firefoxom</a></li>
 	<li>Vojtěch Borek:
 		<a href="./vojtech-borek/">Firefox mě nadchnul</a></li>
-	<li>Otakar Prokeš:
-		<a href="./otakar-prokes/">Od teď jsem novým uživatelem Firefoxu</a></li>
 	<li>Lukáš Mačí:
 		<a href="./lukas-maci/">Firefox mi poskytuje maximální pohodlí</a></li>
 	<li>... i&nbsp;řadu
