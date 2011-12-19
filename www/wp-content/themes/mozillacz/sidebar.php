@@ -88,21 +88,21 @@
 		    
 		<div class="sidebar-box">
 			<div class="sidebar-box-title">Mozilla ve světě</div>
-			<div class="sidebar-item-title"><strong><a href="http://www.mozilla-europe.org/cs/">Mozilla Europe</a></strong></div>
+			<div class="sidebar-item-title"><strong><a href="http://www.mozilla.org/cs/">Mozilla.org</a></strong></div>
 			<div class="sidebar-item-text">
-				Vývoj a podpora produktů Mozilla v Evropě.
+				Domovská stránka Firefoxu a Thunderbirdu. 
 			</div>					
-			<div class="sidebar-item-title"><strong><a href="https://addons.mozilla.org/cs/">Mozilla Add-ons</a></strong></div>
+			<div class="sidebar-item-title"><strong><a href="https://addons.mozilla.org/cs/">Doplňky Mozilly</a></strong></div>
 			<div class="sidebar-item-text">
 				Oficiální server s doplňky pro aplikace Mozilla.
 			</div>
-			<div class="sidebar-item-title"><strong><a href="http://support.mozilla.com/cs/kb/">Firefox Support</a></strong></div>
+			<div class="sidebar-item-title"><strong><a href="http://support.mozilla.com/cs/kb/">Podpora Firefoxu</a></strong></div>
 			<div class="sidebar-item-text">
 				Oficiální stránky podpory Firefoxu.
 			</div>
-			<div class="sidebar-item-title"><strong><a href="http://intlstore.mozilla.org/" hreflang="en">Mozilla Store</a></strong></div>
+			<div class="sidebar-item-title"><strong><a href="https://affiliates.mozilla.org/cs/">Mozilla Affiliates</a></strong></div>
 			<div class="sidebar-item-text">
-				Obchod s propagačními předměty Mozilly.
+				Partnerský program Firefoxu.
 			</div>							
 		</div>
 		

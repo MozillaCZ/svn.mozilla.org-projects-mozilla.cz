@@ -50,21 +50,6 @@
 				<?php edit_post_link('Upravit', '| ', ''); ?>
 			</p>
 			
-			<?php if (is_single()) { ?>		
-				<iframe src="http://www.facebook.com/plugins/like.php?href=<?php the_permalink() ?>&amp;layout=standard&amp;show_faces=false&amp;width=450&amp;action=recommend&amp;colorscheme=light&amp;height=35" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:35px;" allowTransparency="true"></iframe>
-				
-				<table id="social-box"><tr><td>
-					<a name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php?u=<?php the_permalink() ?>&amp;t=<?php the_title(); ?>">Sdílet</a><script src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></td>
-					<td>&nbsp;
-						<a href="<?php echo getTextForTwitter(get_the_title(), get_permalink()) ?>" title="Přidá odkaz na Twitter">
-						<img src="<?php bloginfo('template_directory'); ?>/images/twitter.png" alt="" style="padding-top: 2px;"/></a>
-					</td><td>
-						<a href="<?php echo getTextForTwitter(get_the_title(), get_permalink()) ?>" title="Přidá odkaz na Twitter">
-						Twitter</a>
-					</td>
-				</tr></table>
-			<?php } ?>
-			
 			<?php if (is_single()) { ?>
 				<div class="souvisejici-prispevky">Přečtěte si také</div>
 			<?php									
